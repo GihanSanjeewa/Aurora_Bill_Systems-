@@ -49,25 +49,25 @@
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.txt_complain1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_complain2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_complain3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_complain4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_diagonosis1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_diagonosis2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_diagonosis3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_diagonosis4 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_diagonosis5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_decision2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_decision3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_decision1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_decision4 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_decision5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_complain4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_complain3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_complain2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_complain1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.txt_diagonosis5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_diagonosis4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_diagonosis1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_diagonosis3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_diagonosis2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.txt_decision5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_decision4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_decision2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_decision1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_decision3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txt_remarks = new Guna.UI2.WinForms.Guna2TextBox();
@@ -379,92 +379,24 @@
             this.guna2Panel1.Size = new System.Drawing.Size(306, 271);
             this.guna2Panel1.TabIndex = 4;
             // 
-            // guna2Panel2
+            // txt_complain5
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
-            this.guna2Panel2.Controls.Add(this.txt_diagonosis5);
-            this.guna2Panel2.Controls.Add(this.txt_diagonosis4);
-            this.guna2Panel2.Controls.Add(this.txt_diagonosis1);
-            this.guna2Panel2.Controls.Add(this.txt_diagonosis3);
-            this.guna2Panel2.Controls.Add(this.txt_diagonosis2);
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel11);
-            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(519, 232);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(306, 271);
-            this.guna2Panel2.TabIndex = 5;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
-            this.guna2Panel3.Controls.Add(this.txt_decision5);
-            this.guna2Panel3.Controls.Add(this.txt_decision4);
-            this.guna2Panel3.Controls.Add(this.txt_decision2);
-            this.guna2Panel3.Controls.Add(this.txt_decision1);
-            this.guna2Panel3.Controls.Add(this.txt_decision3);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(929, 232);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(306, 272);
-            this.guna2Panel3.TabIndex = 6;
-            // 
-            // txt_complain1
-            // 
-            this.txt_complain1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_complain1.DefaultText = "";
-            this.txt_complain1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_complain1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_complain1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_complain1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain1.Location = new System.Drawing.Point(4, 51);
-            this.txt_complain1.Name = "txt_complain1";
-            this.txt_complain1.PasswordChar = '\0';
-            this.txt_complain1.PlaceholderText = "";
-            this.txt_complain1.SelectedText = "";
-            this.txt_complain1.Size = new System.Drawing.Size(299, 28);
-            this.txt_complain1.TabIndex = 0;
-            // 
-            // txt_complain2
-            // 
-            this.txt_complain2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_complain2.DefaultText = "";
-            this.txt_complain2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_complain2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_complain2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_complain2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain2.Location = new System.Drawing.Point(4, 94);
-            this.txt_complain2.Name = "txt_complain2";
-            this.txt_complain2.PasswordChar = '\0';
-            this.txt_complain2.PlaceholderText = "";
-            this.txt_complain2.SelectedText = "";
-            this.txt_complain2.Size = new System.Drawing.Size(299, 30);
-            this.txt_complain2.TabIndex = 0;
-            // 
-            // txt_complain3
-            // 
-            this.txt_complain3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_complain3.DefaultText = "";
-            this.txt_complain3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_complain3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_complain3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_complain3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain3.Location = new System.Drawing.Point(4, 140);
-            this.txt_complain3.Name = "txt_complain3";
-            this.txt_complain3.PasswordChar = '\0';
-            this.txt_complain3.PlaceholderText = "";
-            this.txt_complain3.SelectedText = "";
-            this.txt_complain3.Size = new System.Drawing.Size(299, 26);
-            this.txt_complain3.TabIndex = 0;
+            this.txt_complain5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_complain5.DefaultText = "";
+            this.txt_complain5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_complain5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_complain5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain5.Location = new System.Drawing.Point(4, 228);
+            this.txt_complain5.Name = "txt_complain5";
+            this.txt_complain5.PasswordChar = '\0';
+            this.txt_complain5.PlaceholderText = "";
+            this.txt_complain5.SelectedText = "";
+            this.txt_complain5.Size = new System.Drawing.Size(299, 30);
+            this.txt_complain5.TabIndex = 0;
             // 
             // txt_complain4
             // 
@@ -485,100 +417,87 @@
             this.txt_complain4.Size = new System.Drawing.Size(299, 27);
             this.txt_complain4.TabIndex = 0;
             // 
-            // txt_complain5
+            // txt_complain3
             // 
-            this.txt_complain5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_complain5.DefaultText = "";
-            this.txt_complain5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_complain5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_complain5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_complain5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain5.Location = new System.Drawing.Point(4, 228);
-            this.txt_complain5.Name = "txt_complain5";
-            this.txt_complain5.PasswordChar = '\0';
-            this.txt_complain5.PlaceholderText = "";
-            this.txt_complain5.SelectedText = "";
-            this.txt_complain5.Size = new System.Drawing.Size(299, 30);
-            this.txt_complain5.TabIndex = 0;
+            this.txt_complain3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_complain3.DefaultText = "";
+            this.txt_complain3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_complain3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_complain3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain3.Location = new System.Drawing.Point(4, 140);
+            this.txt_complain3.Name = "txt_complain3";
+            this.txt_complain3.PasswordChar = '\0';
+            this.txt_complain3.PlaceholderText = "";
+            this.txt_complain3.SelectedText = "";
+            this.txt_complain3.Size = new System.Drawing.Size(299, 26);
+            this.txt_complain3.TabIndex = 0;
             // 
-            // txt_diagonosis1
+            // txt_complain2
             // 
-            this.txt_diagonosis1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_diagonosis1.DefaultText = "";
-            this.txt_diagonosis1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_diagonosis1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_diagonosis1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_diagonosis1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis1.Location = new System.Drawing.Point(3, 50);
-            this.txt_diagonosis1.Name = "txt_diagonosis1";
-            this.txt_diagonosis1.PasswordChar = '\0';
-            this.txt_diagonosis1.PlaceholderText = "";
-            this.txt_diagonosis1.SelectedText = "";
-            this.txt_diagonosis1.Size = new System.Drawing.Size(300, 28);
-            this.txt_diagonosis1.TabIndex = 0;
+            this.txt_complain2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_complain2.DefaultText = "";
+            this.txt_complain2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_complain2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_complain2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain2.Location = new System.Drawing.Point(4, 94);
+            this.txt_complain2.Name = "txt_complain2";
+            this.txt_complain2.PasswordChar = '\0';
+            this.txt_complain2.PlaceholderText = "";
+            this.txt_complain2.SelectedText = "";
+            this.txt_complain2.Size = new System.Drawing.Size(299, 30);
+            this.txt_complain2.TabIndex = 0;
             // 
-            // txt_diagonosis2
+            // txt_complain1
             // 
-            this.txt_diagonosis2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_diagonosis2.DefaultText = "";
-            this.txt_diagonosis2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_diagonosis2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_diagonosis2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_diagonosis2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis2.Location = new System.Drawing.Point(3, 93);
-            this.txt_diagonosis2.Name = "txt_diagonosis2";
-            this.txt_diagonosis2.PasswordChar = '\0';
-            this.txt_diagonosis2.PlaceholderText = "";
-            this.txt_diagonosis2.SelectedText = "";
-            this.txt_diagonosis2.Size = new System.Drawing.Size(300, 30);
-            this.txt_diagonosis2.TabIndex = 0;
+            this.txt_complain1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_complain1.DefaultText = "";
+            this.txt_complain1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_complain1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_complain1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_complain1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_complain1.Location = new System.Drawing.Point(4, 51);
+            this.txt_complain1.Name = "txt_complain1";
+            this.txt_complain1.PasswordChar = '\0';
+            this.txt_complain1.PlaceholderText = "";
+            this.txt_complain1.SelectedText = "";
+            this.txt_complain1.Size = new System.Drawing.Size(299, 28);
+            this.txt_complain1.TabIndex = 0;
             // 
-            // txt_diagonosis3
+            // guna2HtmlLabel10
             // 
-            this.txt_diagonosis3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_diagonosis3.DefaultText = "";
-            this.txt_diagonosis3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_diagonosis3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_diagonosis3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_diagonosis3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis3.Location = new System.Drawing.Point(3, 139);
-            this.txt_diagonosis3.Name = "txt_diagonosis3";
-            this.txt_diagonosis3.PasswordChar = '\0';
-            this.txt_diagonosis3.PlaceholderText = "";
-            this.txt_diagonosis3.SelectedText = "";
-            this.txt_diagonosis3.Size = new System.Drawing.Size(300, 26);
-            this.txt_diagonosis3.TabIndex = 0;
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(54, 4);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(173, 41);
+            this.guna2HtmlLabel10.TabIndex = 0;
+            this.guna2HtmlLabel10.Text = "Complaints";
             // 
-            // txt_diagonosis4
+            // guna2Panel2
             // 
-            this.txt_diagonosis4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_diagonosis4.DefaultText = "";
-            this.txt_diagonosis4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_diagonosis4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_diagonosis4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_diagonosis4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_diagonosis4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_diagonosis4.Location = new System.Drawing.Point(3, 184);
-            this.txt_diagonosis4.Name = "txt_diagonosis4";
-            this.txt_diagonosis4.PasswordChar = '\0';
-            this.txt_diagonosis4.PlaceholderText = "";
-            this.txt_diagonosis4.SelectedText = "";
-            this.txt_diagonosis4.Size = new System.Drawing.Size(300, 27);
-            this.txt_diagonosis4.TabIndex = 0;
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel2.Controls.Add(this.txt_diagonosis5);
+            this.guna2Panel2.Controls.Add(this.txt_diagonosis4);
+            this.guna2Panel2.Controls.Add(this.txt_diagonosis1);
+            this.guna2Panel2.Controls.Add(this.txt_diagonosis3);
+            this.guna2Panel2.Controls.Add(this.txt_diagonosis2);
+            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel11);
+            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
+            this.guna2Panel2.Location = new System.Drawing.Point(519, 232);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(306, 271);
+            this.guna2Panel2.TabIndex = 5;
             // 
             // txt_diagonosis5
             // 
@@ -599,81 +518,106 @@
             this.txt_diagonosis5.Size = new System.Drawing.Size(300, 30);
             this.txt_diagonosis5.TabIndex = 0;
             // 
-            // txt_decision2
+            // txt_diagonosis4
             // 
-            this.txt_decision2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_decision2.DefaultText = "";
-            this.txt_decision2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_decision2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_decision2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_decision2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision2.Location = new System.Drawing.Point(3, 93);
-            this.txt_decision2.Name = "txt_decision2";
-            this.txt_decision2.PasswordChar = '\0';
-            this.txt_decision2.PlaceholderText = "";
-            this.txt_decision2.SelectedText = "";
-            this.txt_decision2.Size = new System.Drawing.Size(300, 30);
-            this.txt_decision2.TabIndex = 0;
+            this.txt_diagonosis4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_diagonosis4.DefaultText = "";
+            this.txt_diagonosis4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_diagonosis4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_diagonosis4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_diagonosis4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis4.Location = new System.Drawing.Point(3, 184);
+            this.txt_diagonosis4.Name = "txt_diagonosis4";
+            this.txt_diagonosis4.PasswordChar = '\0';
+            this.txt_diagonosis4.PlaceholderText = "";
+            this.txt_diagonosis4.SelectedText = "";
+            this.txt_diagonosis4.Size = new System.Drawing.Size(300, 27);
+            this.txt_diagonosis4.TabIndex = 0;
             // 
-            // txt_decision3
+            // txt_diagonosis1
             // 
-            this.txt_decision3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_decision3.DefaultText = "";
-            this.txt_decision3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_decision3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_decision3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_decision3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision3.Location = new System.Drawing.Point(3, 139);
-            this.txt_decision3.Name = "txt_decision3";
-            this.txt_decision3.PasswordChar = '\0';
-            this.txt_decision3.PlaceholderText = "";
-            this.txt_decision3.SelectedText = "";
-            this.txt_decision3.Size = new System.Drawing.Size(300, 26);
-            this.txt_decision3.TabIndex = 0;
+            this.txt_diagonosis1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_diagonosis1.DefaultText = "";
+            this.txt_diagonosis1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_diagonosis1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_diagonosis1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_diagonosis1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis1.Location = new System.Drawing.Point(3, 50);
+            this.txt_diagonosis1.Name = "txt_diagonosis1";
+            this.txt_diagonosis1.PasswordChar = '\0';
+            this.txt_diagonosis1.PlaceholderText = "";
+            this.txt_diagonosis1.SelectedText = "";
+            this.txt_diagonosis1.Size = new System.Drawing.Size(300, 28);
+            this.txt_diagonosis1.TabIndex = 0;
             // 
-            // txt_decision1
+            // txt_diagonosis3
             // 
-            this.txt_decision1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_decision1.DefaultText = "";
-            this.txt_decision1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_decision1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_decision1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_decision1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision1.Location = new System.Drawing.Point(3, 50);
-            this.txt_decision1.Name = "txt_decision1";
-            this.txt_decision1.PasswordChar = '\0';
-            this.txt_decision1.PlaceholderText = "";
-            this.txt_decision1.SelectedText = "";
-            this.txt_decision1.Size = new System.Drawing.Size(300, 28);
-            this.txt_decision1.TabIndex = 0;
+            this.txt_diagonosis3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_diagonosis3.DefaultText = "";
+            this.txt_diagonosis3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_diagonosis3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_diagonosis3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_diagonosis3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis3.Location = new System.Drawing.Point(3, 139);
+            this.txt_diagonosis3.Name = "txt_diagonosis3";
+            this.txt_diagonosis3.PasswordChar = '\0';
+            this.txt_diagonosis3.PlaceholderText = "";
+            this.txt_diagonosis3.SelectedText = "";
+            this.txt_diagonosis3.Size = new System.Drawing.Size(300, 26);
+            this.txt_diagonosis3.TabIndex = 0;
             // 
-            // txt_decision4
+            // txt_diagonosis2
             // 
-            this.txt_decision4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_decision4.DefaultText = "";
-            this.txt_decision4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_decision4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_decision4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_decision4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision4.Location = new System.Drawing.Point(3, 184);
-            this.txt_decision4.Name = "txt_decision4";
-            this.txt_decision4.PasswordChar = '\0';
-            this.txt_decision4.PlaceholderText = "";
-            this.txt_decision4.SelectedText = "";
-            this.txt_decision4.Size = new System.Drawing.Size(300, 27);
-            this.txt_decision4.TabIndex = 0;
+            this.txt_diagonosis2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_diagonosis2.DefaultText = "";
+            this.txt_diagonosis2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_diagonosis2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_diagonosis2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_diagonosis2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_diagonosis2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_diagonosis2.Location = new System.Drawing.Point(3, 93);
+            this.txt_diagonosis2.Name = "txt_diagonosis2";
+            this.txt_diagonosis2.PasswordChar = '\0';
+            this.txt_diagonosis2.PlaceholderText = "";
+            this.txt_diagonosis2.SelectedText = "";
+            this.txt_diagonosis2.Size = new System.Drawing.Size(300, 30);
+            this.txt_diagonosis2.TabIndex = 0;
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(59, 3);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(156, 41);
+            this.guna2HtmlLabel11.TabIndex = 0;
+            this.guna2HtmlLabel11.Text = "Diagnosis";
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel3.Controls.Add(this.txt_decision5);
+            this.guna2Panel3.Controls.Add(this.txt_decision4);
+            this.guna2Panel3.Controls.Add(this.txt_decision2);
+            this.guna2Panel3.Controls.Add(this.txt_decision1);
+            this.guna2Panel3.Controls.Add(this.txt_decision3);
+            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel12);
+            this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
+            this.guna2Panel3.Location = new System.Drawing.Point(929, 232);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(306, 272);
+            this.guna2Panel3.TabIndex = 6;
             // 
             // txt_decision5
             // 
@@ -694,25 +638,81 @@
             this.txt_decision5.Size = new System.Drawing.Size(300, 30);
             this.txt_decision5.TabIndex = 0;
             // 
-            // guna2HtmlLabel10
+            // txt_decision4
             // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(54, 4);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(173, 41);
-            this.guna2HtmlLabel10.TabIndex = 0;
-            this.guna2HtmlLabel10.Text = "Complaints";
+            this.txt_decision4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_decision4.DefaultText = "";
+            this.txt_decision4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_decision4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_decision4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision4.Location = new System.Drawing.Point(3, 184);
+            this.txt_decision4.Name = "txt_decision4";
+            this.txt_decision4.PasswordChar = '\0';
+            this.txt_decision4.PlaceholderText = "";
+            this.txt_decision4.SelectedText = "";
+            this.txt_decision4.Size = new System.Drawing.Size(300, 27);
+            this.txt_decision4.TabIndex = 0;
             // 
-            // guna2HtmlLabel11
+            // txt_decision2
             // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(59, 3);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(156, 41);
-            this.guna2HtmlLabel11.TabIndex = 0;
-            this.guna2HtmlLabel11.Text = "Diagnosis";
+            this.txt_decision2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_decision2.DefaultText = "";
+            this.txt_decision2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_decision2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_decision2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision2.Location = new System.Drawing.Point(3, 93);
+            this.txt_decision2.Name = "txt_decision2";
+            this.txt_decision2.PasswordChar = '\0';
+            this.txt_decision2.PlaceholderText = "";
+            this.txt_decision2.SelectedText = "";
+            this.txt_decision2.Size = new System.Drawing.Size(300, 30);
+            this.txt_decision2.TabIndex = 0;
+            // 
+            // txt_decision1
+            // 
+            this.txt_decision1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_decision1.DefaultText = "";
+            this.txt_decision1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_decision1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_decision1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision1.Location = new System.Drawing.Point(3, 50);
+            this.txt_decision1.Name = "txt_decision1";
+            this.txt_decision1.PasswordChar = '\0';
+            this.txt_decision1.PlaceholderText = "";
+            this.txt_decision1.SelectedText = "";
+            this.txt_decision1.Size = new System.Drawing.Size(300, 28);
+            this.txt_decision1.TabIndex = 0;
+            // 
+            // txt_decision3
+            // 
+            this.txt_decision3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_decision3.DefaultText = "";
+            this.txt_decision3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_decision3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_decision3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_decision3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_decision3.Location = new System.Drawing.Point(3, 139);
+            this.txt_decision3.Name = "txt_decision3";
+            this.txt_decision3.PasswordChar = '\0';
+            this.txt_decision3.PlaceholderText = "";
+            this.txt_decision3.SelectedText = "";
+            this.txt_decision3.Size = new System.Drawing.Size(300, 26);
+            this.txt_decision3.TabIndex = 0;
             // 
             // guna2HtmlLabel12
             // 
@@ -851,6 +851,7 @@
             this.btn_process.Size = new System.Drawing.Size(255, 62);
             this.btn_process.TabIndex = 14;
             this.btn_process.Text = "Process";
+            this.btn_process.Click += new System.EventHandler(this.btn_process_Click);
             // 
             // frm_motoBicycle
             // 
