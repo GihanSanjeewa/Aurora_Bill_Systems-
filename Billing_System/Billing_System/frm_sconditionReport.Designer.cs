@@ -44,78 +44,78 @@ namespace Billing_System
             this.label8 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.rbtn_engineoilGood = new System.Windows.Forms.RadioButton();
-            this.rbtn_engineoilBad = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.radioButton15 = new System.Windows.Forms.RadioButton();
-            this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.radioButton17 = new System.Windows.Forms.RadioButton();
-            this.radioButton18 = new System.Windows.Forms.RadioButton();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.radioButton19 = new System.Windows.Forms.RadioButton();
-            this.radioButton20 = new System.Windows.Forms.RadioButton();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.radioButton21 = new System.Windows.Forms.RadioButton();
-            this.radioButton22 = new System.Windows.Forms.RadioButton();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.radioButton23 = new System.Windows.Forms.RadioButton();
-            this.radioButton24 = new System.Windows.Forms.RadioButton();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.radioButton25 = new System.Windows.Forms.RadioButton();
-            this.radioButton26 = new System.Windows.Forms.RadioButton();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.radioButton27 = new System.Windows.Forms.RadioButton();
-            this.radioButton28 = new System.Windows.Forms.RadioButton();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.radioButton29 = new System.Windows.Forms.RadioButton();
-            this.radioButton30 = new System.Windows.Forms.RadioButton();
-            this.label36 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.radioButton30 = new System.Windows.Forms.RadioButton();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.radioButton28 = new System.Windows.Forms.RadioButton();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.radioButton26 = new System.Windows.Forms.RadioButton();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.radioButton24 = new System.Windows.Forms.RadioButton();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.radioButton22 = new System.Windows.Forms.RadioButton();
+            this.radioButton29 = new System.Windows.Forms.RadioButton();
+            this.radioButton20 = new System.Windows.Forms.RadioButton();
+            this.radioButton27 = new System.Windows.Forms.RadioButton();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
+            this.radioButton25 = new System.Windows.Forms.RadioButton();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.radioButton23 = new System.Windows.Forms.RadioButton();
+            this.radioButton16 = new System.Windows.Forms.RadioButton();
+            this.radioButton21 = new System.Windows.Forms.RadioButton();
+            this.radioButton19 = new System.Windows.Forms.RadioButton();
+            this.radioButton17 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton15 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label35 = new System.Windows.Forms.Label();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label33 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label31 = new System.Windows.Forms.Label();
+            this.rbtn_engineoilBad = new System.Windows.Forms.RadioButton();
+            this.label29 = new System.Windows.Forms.Label();
+            this.rbtn_engineoilGood = new System.Windows.Forms.RadioButton();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
@@ -132,6 +132,7 @@ namespace Billing_System
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_process = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2GradientPanel3.SuspendLayout();
@@ -148,7 +149,7 @@ namespace Billing_System
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(94, 77);
+            this.guna2TextBox1.Location = new System.Drawing.Point(99, 52);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -168,7 +169,7 @@ namespace Billing_System
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(94, 193);
+            this.guna2TextBox2.Location = new System.Drawing.Point(99, 168);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
@@ -188,7 +189,7 @@ namespace Billing_System
             this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(94, 291);
+            this.guna2TextBox3.Location = new System.Drawing.Point(99, 266);
             this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
@@ -208,7 +209,7 @@ namespace Billing_System
             this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(94, 411);
+            this.guna2TextBox4.Location = new System.Drawing.Point(99, 386);
             this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PasswordChar = '\0';
@@ -221,7 +222,7 @@ namespace Billing_System
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(89, 46);
+            this.label1.Location = new System.Drawing.Point(94, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(228, 27);
             this.label1.TabIndex = 1;
@@ -231,7 +232,7 @@ namespace Billing_System
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(83, 152);
+            this.label2.Location = new System.Drawing.Point(88, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(228, 27);
             this.label2.TabIndex = 1;
@@ -241,7 +242,7 @@ namespace Billing_System
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(89, 260);
+            this.label3.Location = new System.Drawing.Point(94, 235);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(228, 27);
             this.label3.TabIndex = 1;
@@ -251,7 +252,7 @@ namespace Billing_System
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(89, 380);
+            this.label4.Location = new System.Drawing.Point(94, 355);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(228, 27);
             this.label4.TabIndex = 1;
@@ -261,7 +262,7 @@ namespace Billing_System
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(83, 500);
+            this.label5.Location = new System.Drawing.Point(88, 475);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(228, 27);
             this.label5.TabIndex = 1;
@@ -271,7 +272,7 @@ namespace Billing_System
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(83, 635);
+            this.label6.Location = new System.Drawing.Point(94, 582);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(228, 27);
             this.label6.TabIndex = 1;
@@ -287,7 +288,7 @@ namespace Billing_System
             this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(88, 546);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(93, 521);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(229, 36);
             this.guna2ComboBox1.TabIndex = 2;
@@ -310,7 +311,7 @@ namespace Billing_System
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label8.Location = new System.Drawing.Point(88, 680);
+            this.label8.Location = new System.Drawing.Point(92, 612);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(230, 29);
             this.label8.TabIndex = 4;
@@ -329,6 +330,7 @@ namespace Billing_System
             // guna2GradientPanel2
             // 
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.guna2GradientPanel2.Controls.Add(this.btn_process);
             this.guna2GradientPanel2.Controls.Add(this.guna2GradientPanel4);
             this.guna2GradientPanel2.Controls.Add(this.guna2TextBox1);
             this.guna2GradientPanel2.Controls.Add(this.guna2TextBox2);
@@ -346,6 +348,14 @@ namespace Billing_System
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.Size = new System.Drawing.Size(442, 817);
             this.guna2GradientPanel2.TabIndex = 6;
+            // 
+            // guna2GradientPanel4
+            // 
+            this.guna2GradientPanel4.BackColor = System.Drawing.Color.White;
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(92, 645);
+            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(229, 2);
+            this.guna2GradientPanel4.TabIndex = 0;
             // 
             // guna2GradientPanel3
             // 
@@ -441,340 +451,21 @@ namespace Billing_System
             this.guna2GradientPanel3.Size = new System.Drawing.Size(1421, 858);
             this.guna2GradientPanel3.TabIndex = 7;
             // 
-            // guna2GradientPanel4
-            // 
-            this.guna2GradientPanel4.BackColor = System.Drawing.Color.White;
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(88, 710);
-            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(229, 2);
-            this.guna2GradientPanel4.TabIndex = 0;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(121, 30);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(132, 27);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Engine Oil";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(120, 125);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(108, 27);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Gear Oil";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(120, 214);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(120, 27);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Break Oil";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(123, 487);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(108, 27);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Radiator";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(124, 696);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(132, 27);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Air Filter";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(119, 309);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(132, 27);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "A/C Filter";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(120, 382);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(120, 27);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Break Pad";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(50, 532);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(0, 27);
-            this.label16.TabIndex = 1;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(112, 587);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(192, 27);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "Front and Rear ";
-            // 
-            // rbtn_engineoilGood
-            // 
-            this.rbtn_engineoilGood.AutoSize = true;
-            this.rbtn_engineoilGood.Location = new System.Drawing.Point(302, 125);
-            this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
-            this.rbtn_engineoilGood.Size = new System.Drawing.Size(64, 21);
-            this.rbtn_engineoilGood.TabIndex = 2;
-            this.rbtn_engineoilGood.TabStop = true;
-            this.rbtn_engineoilGood.Text = "Good";
-            this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
-            // 
-            // rbtn_engineoilBad
-            // 
-            this.rbtn_engineoilBad.AutoSize = true;
-            this.rbtn_engineoilBad.Location = new System.Drawing.Point(404, 125);
-            this.rbtn_engineoilBad.Name = "rbtn_engineoilBad";
-            this.rbtn_engineoilBad.Size = new System.Drawing.Size(54, 21);
-            this.rbtn_engineoilBad.TabIndex = 2;
-            this.rbtn_engineoilBad.TabStop = true;
-            this.rbtn_engineoilBad.Text = "Bad";
-            this.rbtn_engineoilBad.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(302, 37);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 21);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Good";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(404, 37);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(54, 21);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Bad";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(302, 220);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(64, 21);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Good";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(404, 220);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(54, 21);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Bad";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(303, 702);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(64, 21);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Good";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(404, 703);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(54, 21);
-            this.radioButton6.TabIndex = 2;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Bad";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(302, 315);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(64, 21);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Good";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(404, 316);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(54, 21);
-            this.radioButton8.TabIndex = 2;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Bad";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(310, 507);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(64, 21);
-            this.radioButton9.TabIndex = 2;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Good";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(404, 507);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(54, 21);
-            this.radioButton10.TabIndex = 2;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Bad";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(303, 411);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(64, 21);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Good";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(404, 411);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(54, 21);
-            this.radioButton12.TabIndex = 2;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Bad";
-            this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.White;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 1);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel1.TabIndex = 3;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.White;
-            this.guna2Panel2.Location = new System.Drawing.Point(3, 89);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel2.TabIndex = 4;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.White;
-            this.guna2Panel3.Location = new System.Drawing.Point(3, 177);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel3.TabIndex = 5;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.White;
-            this.guna2Panel4.Location = new System.Drawing.Point(2, 269);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel4.TabIndex = 6;
-            // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.White;
-            this.guna2Panel5.Location = new System.Drawing.Point(3, 468);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel5.TabIndex = 7;
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.BackColor = System.Drawing.Color.White;
-            this.guna2Panel6.Location = new System.Drawing.Point(7, 564);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel6.TabIndex = 8;
-            // 
-            // guna2Panel7
-            // 
-            this.guna2Panel7.BackColor = System.Drawing.Color.White;
-            this.guna2Panel7.Location = new System.Drawing.Point(1, 661);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel7.TabIndex = 9;
-            // 
-            // guna2Panel8
-            // 
-            this.guna2Panel8.BackColor = System.Drawing.Color.White;
-            this.guna2Panel8.Location = new System.Drawing.Point(8, 364);
-            this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel8.TabIndex = 10;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(105, 418);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(192, 27);
-            this.label18.TabIndex = 11;
-            this.label18.Text = " and Break Shoe";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(102, 619);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(168, 27);
-            this.label19.TabIndex = 12;
-            this.label19.Text = " Socket Sober";
+            // guna2Panel10
+            // 
+            this.guna2Panel10.BackColor = System.Drawing.Color.White;
+            this.guna2Panel10.Location = new System.Drawing.Point(539, 4);
+            this.guna2Panel10.Name = "guna2Panel10";
+            this.guna2Panel10.Size = new System.Drawing.Size(3, 753);
+            this.guna2Panel10.TabIndex = 15;
+            // 
+            // guna2Panel9
+            // 
+            this.guna2Panel9.BackColor = System.Drawing.Color.White;
+            this.guna2Panel9.Location = new System.Drawing.Point(0, 754);
+            this.guna2Panel9.Name = "guna2Panel9";
+            this.guna2Panel9.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel9.TabIndex = 14;
             // 
             // label20
             // 
@@ -786,319 +477,25 @@ namespace Billing_System
             this.label20.TabIndex = 13;
             this.label20.Text = "Cooling Water";
             // 
-            // radioButton13
+            // label19
             // 
-            this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(310, 612);
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(64, 21);
-            this.radioButton13.TabIndex = 2;
-            this.radioButton13.TabStop = true;
-            this.radioButton13.Text = "Good";
-            this.radioButton13.UseVisualStyleBackColor = true;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(102, 619);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(168, 27);
+            this.label19.TabIndex = 12;
+            this.label19.Text = " Socket Sober";
             // 
-            // radioButton14
+            // label36
             // 
-            this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(404, 612);
-            this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(54, 21);
-            this.radioButton14.TabIndex = 2;
-            this.radioButton14.TabStop = true;
-            this.radioButton14.Text = "Bad";
-            this.radioButton14.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel9
-            // 
-            this.guna2Panel9.BackColor = System.Drawing.Color.White;
-            this.guna2Panel9.Location = new System.Drawing.Point(0, 754);
-            this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel9.TabIndex = 14;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(693, 10);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(108, 27);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "Tire rod";
-            // 
-            // radioButton15
-            // 
-            this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(893, 37);
-            this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(64, 21);
-            this.radioButton15.TabIndex = 2;
-            this.radioButton15.TabStop = true;
-            this.radioButton15.Text = "Good";
-            this.radioButton15.UseVisualStyleBackColor = true;
-            // 
-            // radioButton16
-            // 
-            this.radioButton16.AutoSize = true;
-            this.radioButton16.Location = new System.Drawing.Point(990, 37);
-            this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(54, 21);
-            this.radioButton16.TabIndex = 2;
-            this.radioButton16.TabStop = true;
-            this.radioButton16.Text = "Bad";
-            this.radioButton16.UseVisualStyleBackColor = true;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(694, 46);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(156, 27);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "and Rack end";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(693, 100);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(96, 27);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Low arm";
-            // 
-            // radioButton17
-            // 
-            this.radioButton17.AutoSize = true;
-            this.radioButton17.Location = new System.Drawing.Point(893, 125);
-            this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(64, 21);
-            this.radioButton17.TabIndex = 2;
-            this.radioButton17.TabStop = true;
-            this.radioButton17.Text = "Good";
-            this.radioButton17.UseVisualStyleBackColor = true;
-            // 
-            // radioButton18
-            // 
-            this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(990, 125);
-            this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(54, 21);
-            this.radioButton18.TabIndex = 2;
-            this.radioButton18.TabStop = true;
-            this.radioButton18.Text = "Bad";
-            this.radioButton18.UseVisualStyleBackColor = true;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(670, 143);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(240, 27);
-            this.label24.TabIndex = 11;
-            this.label24.Text = "/Bush small and Big";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(693, 189);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(132, 27);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "Upper arm/";
-            // 
-            // radioButton19
-            // 
-            this.radioButton19.AutoSize = true;
-            this.radioButton19.Location = new System.Drawing.Point(893, 214);
-            this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(64, 21);
-            this.radioButton19.TabIndex = 2;
-            this.radioButton19.TabStop = true;
-            this.radioButton19.Text = "Good";
-            this.radioButton19.UseVisualStyleBackColor = true;
-            // 
-            // radioButton20
-            // 
-            this.radioButton20.AutoSize = true;
-            this.radioButton20.Location = new System.Drawing.Point(990, 214);
-            this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(54, 21);
-            this.radioButton20.TabIndex = 2;
-            this.radioButton20.TabStop = true;
-            this.radioButton20.Text = "Bad";
-            this.radioButton20.UseVisualStyleBackColor = true;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(693, 225);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(60, 27);
-            this.label26.TabIndex = 11;
-            this.label26.Text = "Bush";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(693, 291);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(120, 27);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Break Pad";
-            // 
-            // radioButton21
-            // 
-            this.radioButton21.AutoSize = true;
-            this.radioButton21.Location = new System.Drawing.Point(893, 309);
-            this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(64, 21);
-            this.radioButton21.TabIndex = 2;
-            this.radioButton21.TabStop = true;
-            this.radioButton21.Text = "Good";
-            this.radioButton21.UseVisualStyleBackColor = true;
-            // 
-            // radioButton22
-            // 
-            this.radioButton22.AutoSize = true;
-            this.radioButton22.Location = new System.Drawing.Point(990, 309);
-            this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(54, 21);
-            this.radioButton22.TabIndex = 2;
-            this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "Bad";
-            this.radioButton22.UseVisualStyleBackColor = true;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(678, 327);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(192, 27);
-            this.label28.TabIndex = 11;
-            this.label28.Text = " and Break Shoe";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(693, 382);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(120, 27);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "Break Pad";
-            // 
-            // radioButton23
-            // 
-            this.radioButton23.AutoSize = true;
-            this.radioButton23.Location = new System.Drawing.Point(893, 411);
-            this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(64, 21);
-            this.radioButton23.TabIndex = 2;
-            this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "Good";
-            this.radioButton23.UseVisualStyleBackColor = true;
-            // 
-            // radioButton24
-            // 
-            this.radioButton24.AutoSize = true;
-            this.radioButton24.Location = new System.Drawing.Point(990, 411);
-            this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(54, 21);
-            this.radioButton24.TabIndex = 2;
-            this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "Bad";
-            this.radioButton24.UseVisualStyleBackColor = true;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(678, 418);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(192, 27);
-            this.label30.TabIndex = 11;
-            this.label30.Text = " and Break Shoe";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(693, 481);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(120, 27);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "Break Pad";
-            // 
-            // radioButton25
-            // 
-            this.radioButton25.AutoSize = true;
-            this.radioButton25.Location = new System.Drawing.Point(893, 507);
-            this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(64, 21);
-            this.radioButton25.TabIndex = 2;
-            this.radioButton25.TabStop = true;
-            this.radioButton25.Text = "Good";
-            this.radioButton25.UseVisualStyleBackColor = true;
-            // 
-            // radioButton26
-            // 
-            this.radioButton26.AutoSize = true;
-            this.radioButton26.Location = new System.Drawing.Point(990, 507);
-            this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(54, 21);
-            this.radioButton26.TabIndex = 2;
-            this.radioButton26.TabStop = true;
-            this.radioButton26.Text = "Bad";
-            this.radioButton26.UseVisualStyleBackColor = true;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(678, 517);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(192, 27);
-            this.label32.TabIndex = 11;
-            this.label32.Text = " and Break Shoe";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(693, 583);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(120, 27);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "Break Pad";
-            // 
-            // radioButton27
-            // 
-            this.radioButton27.AutoSize = true;
-            this.radioButton27.Location = new System.Drawing.Point(893, 612);
-            this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(64, 21);
-            this.radioButton27.TabIndex = 2;
-            this.radioButton27.TabStop = true;
-            this.radioButton27.Text = "Good";
-            this.radioButton27.UseVisualStyleBackColor = true;
-            // 
-            // radioButton28
-            // 
-            this.radioButton28.AutoSize = true;
-            this.radioButton28.Location = new System.Drawing.Point(990, 612);
-            this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(54, 21);
-            this.radioButton28.TabIndex = 2;
-            this.radioButton28.TabStop = true;
-            this.radioButton28.Text = "Bad";
-            this.radioButton28.UseVisualStyleBackColor = true;
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(678, 710);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(192, 27);
+            this.label36.TabIndex = 11;
+            this.label36.Text = " and Break Shoe";
             // 
             // label34
             // 
@@ -1110,26 +507,99 @@ namespace Billing_System
             this.label34.TabIndex = 11;
             this.label34.Text = " and Break Shoe";
             // 
-            // label35
+            // label32
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(693, 674);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(120, 27);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "Break Pad";
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(678, 517);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(192, 27);
+            this.label32.TabIndex = 11;
+            this.label32.Text = " and Break Shoe";
             // 
-            // radioButton29
+            // label30
             // 
-            this.radioButton29.AutoSize = true;
-            this.radioButton29.Location = new System.Drawing.Point(893, 703);
-            this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(64, 21);
-            this.radioButton29.TabIndex = 2;
-            this.radioButton29.TabStop = true;
-            this.radioButton29.Text = "Good";
-            this.radioButton29.UseVisualStyleBackColor = true;
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(678, 418);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(192, 27);
+            this.label30.TabIndex = 11;
+            this.label30.Text = " and Break Shoe";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(678, 327);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(192, 27);
+            this.label28.TabIndex = 11;
+            this.label28.Text = " and Break Shoe";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(693, 225);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(60, 27);
+            this.label26.TabIndex = 11;
+            this.label26.Text = "Bush";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(670, 143);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(240, 27);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "/Bush small and Big";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(694, 46);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(156, 27);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "and Rack end";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(105, 418);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(192, 27);
+            this.label18.TabIndex = 11;
+            this.label18.Text = " and Break Shoe";
+            // 
+            // guna2Panel8
+            // 
+            this.guna2Panel8.BackColor = System.Drawing.Color.White;
+            this.guna2Panel8.Location = new System.Drawing.Point(8, 364);
+            this.guna2Panel8.Name = "guna2Panel8";
+            this.guna2Panel8.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel8.TabIndex = 10;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.White;
+            this.guna2Panel7.Location = new System.Drawing.Point(1, 661);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel7.TabIndex = 9;
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.White;
+            this.guna2Panel6.Location = new System.Drawing.Point(7, 564);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel6.TabIndex = 8;
             // 
             // radioButton30
             // 
@@ -1142,23 +612,555 @@ namespace Billing_System
             this.radioButton30.Text = "Bad";
             this.radioButton30.UseVisualStyleBackColor = true;
             // 
-            // label36
+            // guna2Panel5
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(678, 710);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(192, 27);
-            this.label36.TabIndex = 11;
-            this.label36.Text = " and Break Shoe";
+            this.guna2Panel5.BackColor = System.Drawing.Color.White;
+            this.guna2Panel5.Location = new System.Drawing.Point(3, 468);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel5.TabIndex = 7;
             // 
-            // guna2Panel10
+            // radioButton28
             // 
-            this.guna2Panel10.BackColor = System.Drawing.Color.White;
-            this.guna2Panel10.Location = new System.Drawing.Point(539, 4);
-            this.guna2Panel10.Name = "guna2Panel10";
-            this.guna2Panel10.Size = new System.Drawing.Size(3, 753);
-            this.guna2Panel10.TabIndex = 15;
+            this.radioButton28.AutoSize = true;
+            this.radioButton28.Location = new System.Drawing.Point(990, 612);
+            this.radioButton28.Name = "radioButton28";
+            this.radioButton28.Size = new System.Drawing.Size(54, 21);
+            this.radioButton28.TabIndex = 2;
+            this.radioButton28.TabStop = true;
+            this.radioButton28.Text = "Bad";
+            this.radioButton28.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.White;
+            this.guna2Panel4.Location = new System.Drawing.Point(2, 269);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel4.TabIndex = 6;
+            // 
+            // radioButton26
+            // 
+            this.radioButton26.AutoSize = true;
+            this.radioButton26.Location = new System.Drawing.Point(990, 507);
+            this.radioButton26.Name = "radioButton26";
+            this.radioButton26.Size = new System.Drawing.Size(54, 21);
+            this.radioButton26.TabIndex = 2;
+            this.radioButton26.TabStop = true;
+            this.radioButton26.Text = "Bad";
+            this.radioButton26.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.White;
+            this.guna2Panel3.Location = new System.Drawing.Point(3, 177);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel3.TabIndex = 5;
+            // 
+            // radioButton24
+            // 
+            this.radioButton24.AutoSize = true;
+            this.radioButton24.Location = new System.Drawing.Point(990, 411);
+            this.radioButton24.Name = "radioButton24";
+            this.radioButton24.Size = new System.Drawing.Size(54, 21);
+            this.radioButton24.TabIndex = 2;
+            this.radioButton24.TabStop = true;
+            this.radioButton24.Text = "Bad";
+            this.radioButton24.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.White;
+            this.guna2Panel2.Location = new System.Drawing.Point(3, 89);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel2.TabIndex = 4;
+            // 
+            // radioButton22
+            // 
+            this.radioButton22.AutoSize = true;
+            this.radioButton22.Location = new System.Drawing.Point(990, 309);
+            this.radioButton22.Name = "radioButton22";
+            this.radioButton22.Size = new System.Drawing.Size(54, 21);
+            this.radioButton22.TabIndex = 2;
+            this.radioButton22.TabStop = true;
+            this.radioButton22.Text = "Bad";
+            this.radioButton22.UseVisualStyleBackColor = true;
+            // 
+            // radioButton29
+            // 
+            this.radioButton29.AutoSize = true;
+            this.radioButton29.Location = new System.Drawing.Point(893, 703);
+            this.radioButton29.Name = "radioButton29";
+            this.radioButton29.Size = new System.Drawing.Size(64, 21);
+            this.radioButton29.TabIndex = 2;
+            this.radioButton29.TabStop = true;
+            this.radioButton29.Text = "Good";
+            this.radioButton29.UseVisualStyleBackColor = true;
+            // 
+            // radioButton20
+            // 
+            this.radioButton20.AutoSize = true;
+            this.radioButton20.Location = new System.Drawing.Point(990, 214);
+            this.radioButton20.Name = "radioButton20";
+            this.radioButton20.Size = new System.Drawing.Size(54, 21);
+            this.radioButton20.TabIndex = 2;
+            this.radioButton20.TabStop = true;
+            this.radioButton20.Text = "Bad";
+            this.radioButton20.UseVisualStyleBackColor = true;
+            // 
+            // radioButton27
+            // 
+            this.radioButton27.AutoSize = true;
+            this.radioButton27.Location = new System.Drawing.Point(893, 612);
+            this.radioButton27.Name = "radioButton27";
+            this.radioButton27.Size = new System.Drawing.Size(64, 21);
+            this.radioButton27.TabIndex = 2;
+            this.radioButton27.TabStop = true;
+            this.radioButton27.Text = "Good";
+            this.radioButton27.UseVisualStyleBackColor = true;
+            // 
+            // radioButton18
+            // 
+            this.radioButton18.AutoSize = true;
+            this.radioButton18.Location = new System.Drawing.Point(990, 125);
+            this.radioButton18.Name = "radioButton18";
+            this.radioButton18.Size = new System.Drawing.Size(54, 21);
+            this.radioButton18.TabIndex = 2;
+            this.radioButton18.TabStop = true;
+            this.radioButton18.Text = "Bad";
+            this.radioButton18.UseVisualStyleBackColor = true;
+            // 
+            // radioButton25
+            // 
+            this.radioButton25.AutoSize = true;
+            this.radioButton25.Location = new System.Drawing.Point(893, 507);
+            this.radioButton25.Name = "radioButton25";
+            this.radioButton25.Size = new System.Drawing.Size(64, 21);
+            this.radioButton25.TabIndex = 2;
+            this.radioButton25.TabStop = true;
+            this.radioButton25.Text = "Good";
+            this.radioButton25.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.White;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 1);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel1.TabIndex = 3;
+            // 
+            // radioButton23
+            // 
+            this.radioButton23.AutoSize = true;
+            this.radioButton23.Location = new System.Drawing.Point(893, 411);
+            this.radioButton23.Name = "radioButton23";
+            this.radioButton23.Size = new System.Drawing.Size(64, 21);
+            this.radioButton23.TabIndex = 2;
+            this.radioButton23.TabStop = true;
+            this.radioButton23.Text = "Good";
+            this.radioButton23.UseVisualStyleBackColor = true;
+            // 
+            // radioButton16
+            // 
+            this.radioButton16.AutoSize = true;
+            this.radioButton16.Location = new System.Drawing.Point(990, 37);
+            this.radioButton16.Name = "radioButton16";
+            this.radioButton16.Size = new System.Drawing.Size(54, 21);
+            this.radioButton16.TabIndex = 2;
+            this.radioButton16.TabStop = true;
+            this.radioButton16.Text = "Bad";
+            this.radioButton16.UseVisualStyleBackColor = true;
+            // 
+            // radioButton21
+            // 
+            this.radioButton21.AutoSize = true;
+            this.radioButton21.Location = new System.Drawing.Point(893, 309);
+            this.radioButton21.Name = "radioButton21";
+            this.radioButton21.Size = new System.Drawing.Size(64, 21);
+            this.radioButton21.TabIndex = 2;
+            this.radioButton21.TabStop = true;
+            this.radioButton21.Text = "Good";
+            this.radioButton21.UseVisualStyleBackColor = true;
+            // 
+            // radioButton19
+            // 
+            this.radioButton19.AutoSize = true;
+            this.radioButton19.Location = new System.Drawing.Point(893, 214);
+            this.radioButton19.Name = "radioButton19";
+            this.radioButton19.Size = new System.Drawing.Size(64, 21);
+            this.radioButton19.TabIndex = 2;
+            this.radioButton19.TabStop = true;
+            this.radioButton19.Text = "Good";
+            this.radioButton19.UseVisualStyleBackColor = true;
+            // 
+            // radioButton17
+            // 
+            this.radioButton17.AutoSize = true;
+            this.radioButton17.Location = new System.Drawing.Point(893, 125);
+            this.radioButton17.Name = "radioButton17";
+            this.radioButton17.Size = new System.Drawing.Size(64, 21);
+            this.radioButton17.TabIndex = 2;
+            this.radioButton17.TabStop = true;
+            this.radioButton17.Text = "Good";
+            this.radioButton17.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(404, 411);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(54, 21);
+            this.radioButton12.TabIndex = 2;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "Bad";
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton15
+            // 
+            this.radioButton15.AutoSize = true;
+            this.radioButton15.Location = new System.Drawing.Point(893, 37);
+            this.radioButton15.Name = "radioButton15";
+            this.radioButton15.Size = new System.Drawing.Size(64, 21);
+            this.radioButton15.TabIndex = 2;
+            this.radioButton15.TabStop = true;
+            this.radioButton15.Text = "Good";
+            this.radioButton15.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(303, 411);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(64, 21);
+            this.radioButton11.TabIndex = 2;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "Good";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton14
+            // 
+            this.radioButton14.AutoSize = true;
+            this.radioButton14.Location = new System.Drawing.Point(404, 612);
+            this.radioButton14.Name = "radioButton14";
+            this.radioButton14.Size = new System.Drawing.Size(54, 21);
+            this.radioButton14.TabIndex = 2;
+            this.radioButton14.TabStop = true;
+            this.radioButton14.Text = "Bad";
+            this.radioButton14.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(404, 507);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(54, 21);
+            this.radioButton10.TabIndex = 2;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "Bad";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton13
+            // 
+            this.radioButton13.AutoSize = true;
+            this.radioButton13.Location = new System.Drawing.Point(310, 612);
+            this.radioButton13.Name = "radioButton13";
+            this.radioButton13.Size = new System.Drawing.Size(64, 21);
+            this.radioButton13.TabIndex = 2;
+            this.radioButton13.TabStop = true;
+            this.radioButton13.Text = "Good";
+            this.radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(310, 507);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(64, 21);
+            this.radioButton9.TabIndex = 2;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "Good";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(404, 316);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(54, 21);
+            this.radioButton8.TabIndex = 2;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "Bad";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(302, 315);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(64, 21);
+            this.radioButton7.TabIndex = 2;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "Good";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(404, 703);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(54, 21);
+            this.radioButton6.TabIndex = 2;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Bad";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(303, 702);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(64, 21);
+            this.radioButton5.TabIndex = 2;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Good";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(404, 220);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(54, 21);
+            this.radioButton4.TabIndex = 2;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Bad";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(302, 220);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(64, 21);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Good";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(693, 674);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(120, 27);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "Break Pad";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(404, 37);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(54, 21);
+            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Bad";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(693, 583);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(120, 27);
+            this.label33.TabIndex = 1;
+            this.label33.Text = "Break Pad";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(302, 37);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(64, 21);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Good";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(693, 481);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(120, 27);
+            this.label31.TabIndex = 1;
+            this.label31.Text = "Break Pad";
+            // 
+            // rbtn_engineoilBad
+            // 
+            this.rbtn_engineoilBad.AutoSize = true;
+            this.rbtn_engineoilBad.Location = new System.Drawing.Point(404, 125);
+            this.rbtn_engineoilBad.Name = "rbtn_engineoilBad";
+            this.rbtn_engineoilBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_engineoilBad.TabIndex = 2;
+            this.rbtn_engineoilBad.TabStop = true;
+            this.rbtn_engineoilBad.Text = "Bad";
+            this.rbtn_engineoilBad.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(693, 382);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(120, 27);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "Break Pad";
+            // 
+            // rbtn_engineoilGood
+            // 
+            this.rbtn_engineoilGood.AutoSize = true;
+            this.rbtn_engineoilGood.Location = new System.Drawing.Point(302, 125);
+            this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
+            this.rbtn_engineoilGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_engineoilGood.TabIndex = 2;
+            this.rbtn_engineoilGood.TabStop = true;
+            this.rbtn_engineoilGood.Text = "Good";
+            this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(693, 291);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(120, 27);
+            this.label27.TabIndex = 1;
+            this.label27.Text = "Break Pad";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(693, 189);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(132, 27);
+            this.label25.TabIndex = 1;
+            this.label25.Text = "Upper arm/";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(693, 100);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(96, 27);
+            this.label23.TabIndex = 1;
+            this.label23.Text = "Low arm";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(50, 532);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(0, 27);
+            this.label16.TabIndex = 1;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(693, 10);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(108, 27);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Tire rod";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(120, 382);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(120, 27);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Break Pad";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(119, 309);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(132, 27);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "A/C Filter";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(124, 696);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(132, 27);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Air Filter";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(112, 587);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(192, 27);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "Front and Rear ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(123, 487);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(108, 27);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Radiator";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(120, 214);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 27);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Break Oil";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(120, 125);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(108, 27);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Gear Oil";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(121, 30);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(132, 27);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Engine Oil";
             // 
             // guna2Button3
             // 
@@ -1428,7 +1430,7 @@ namespace Billing_System
             // 
             // guna2Button9
             // 
-            this.guna2Button9.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button9.BackgroundImage = global::Billing_System.Properties.Resources.car;
             this.guna2Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button9.BorderRadius = 10;
             this.guna2Button9.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1440,9 +1442,9 @@ namespace Billing_System
             this.guna2Button9.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button9.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button9.Location = new System.Drawing.Point(568, 10);
+            this.guna2Button9.Location = new System.Drawing.Point(580, 10);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button9.Size = new System.Drawing.Size(81, 73);
             this.guna2Button9.TabIndex = 16;
             // 
             // guna2Button1
@@ -1463,6 +1465,23 @@ namespace Billing_System
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(76, 73);
             this.guna2Button1.TabIndex = 16;
+            // 
+            // btn_process
+            // 
+            this.btn_process.BorderRadius = 10;
+            this.btn_process.BorderThickness = 2;
+            this.btn_process.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_process.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
+            this.btn_process.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_process.ForeColor = System.Drawing.Color.Black;
+            this.btn_process.Location = new System.Drawing.Point(88, 679);
+            this.btn_process.Name = "btn_process";
+            this.btn_process.Size = new System.Drawing.Size(240, 64);
+            this.btn_process.TabIndex = 5;
+            this.btn_process.Text = "Process";
             // 
             // frm_sconditionReport
             // 
@@ -1591,5 +1610,6 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2Button guna2Button11;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
+        private Guna.UI2.WinForms.Guna2Button btn_process;
     }
 }
