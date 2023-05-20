@@ -1,6 +1,6 @@
 ﻿namespace Billing_System
 {
-    partial class frm_dashboard
+    partial class frm_dashbord
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frm_dashboard";
+            this.Text = "frm_dashbord";
         }
 
         #endregion
