@@ -822,9 +822,9 @@ namespace Billing_System
             this.label21.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(693, 10);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(120, 27);
+            this.label21.Size = new System.Drawing.Size(108, 27);
             this.label21.TabIndex = 1;
-            this.label21.Text = "Break Pad";
+            this.label21.Text = "Tire rod";
             // 
             // radioButton15
             // 
@@ -852,11 +852,11 @@ namespace Billing_System
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(678, 46);
+            this.label22.Location = new System.Drawing.Point(694, 46);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(192, 27);
+            this.label22.Size = new System.Drawing.Size(156, 27);
             this.label22.TabIndex = 11;
-            this.label22.Text = " and Break Shoe";
+            this.label22.Text = "and Rack end";
             // 
             // label23
             // 
@@ -864,9 +864,9 @@ namespace Billing_System
             this.label23.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(693, 100);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(120, 27);
+            this.label23.Size = new System.Drawing.Size(96, 27);
             this.label23.TabIndex = 1;
-            this.label23.Text = "Break Pad";
+            this.label23.Text = "Low arm";
             // 
             // radioButton17
             // 
@@ -894,11 +894,11 @@ namespace Billing_System
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(678, 136);
+            this.label24.Location = new System.Drawing.Point(670, 143);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(192, 27);
+            this.label24.Size = new System.Drawing.Size(240, 27);
             this.label24.TabIndex = 11;
-            this.label24.Text = " and Break Shoe";
+            this.label24.Text = "/Bush small and Big";
             // 
             // label25
             // 
@@ -906,9 +906,9 @@ namespace Billing_System
             this.label25.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(693, 189);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(120, 27);
+            this.label25.Size = new System.Drawing.Size(132, 27);
             this.label25.TabIndex = 1;
-            this.label25.Text = "Break Pad";
+            this.label25.Text = "Upper arm/";
             // 
             // radioButton19
             // 
@@ -936,11 +936,11 @@ namespace Billing_System
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(678, 225);
+            this.label26.Location = new System.Drawing.Point(693, 225);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(192, 27);
+            this.label26.Size = new System.Drawing.Size(60, 27);
             this.label26.TabIndex = 11;
-            this.label26.Text = " and Break Shoe";
+            this.label26.Text = "Bush";
             // 
             // label27
             // 
