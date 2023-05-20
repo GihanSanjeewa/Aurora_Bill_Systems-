@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Billing_System
 {
-    public partial class frm_dashboard : Form
+    public partial class frm_dashbord : Form
     {
-        public frm_dashboard()
+        public frm_dashbord()
         {
             InitializeComponent();
         }
