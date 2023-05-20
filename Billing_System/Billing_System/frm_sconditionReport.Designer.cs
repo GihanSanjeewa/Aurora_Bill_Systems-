@@ -531,11 +531,11 @@ namespace Billing_System
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(678, 327);
+            this.label28.Location = new System.Drawing.Point(694, 327);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(192, 27);
+            this.label28.Size = new System.Drawing.Size(60, 27);
             this.label28.TabIndex = 11;
-            this.label28.Text = " and Break Shoe";
+            this.label28.Text = "Bush";
             // 
             // label26
             // 
@@ -1039,9 +1039,9 @@ namespace Billing_System
             this.label27.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(693, 291);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(120, 27);
+            this.label27.Size = new System.Drawing.Size(168, 27);
             this.label27.TabIndex = 1;
-            this.label27.Text = "Break Pad";
+            this.label27.Text = "Control Arm /";
             // 
             // label25
             // 
