@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_motoBicycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_motoBicycle.Designer.cs">
+      <DependentUpon>frm_motoBicycle.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_sconditionReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_motoBicycle.resx">
+      <DependentUpon>frm_motoBicycle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_sconditionReport.resx">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
     </EmbeddedResource>
