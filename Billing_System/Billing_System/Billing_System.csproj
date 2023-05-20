@@ -86,6 +86,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -100,6 +101,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jerrycan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engine-oil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oil-barrel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breaks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc-tower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed-bump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air-purifier.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
