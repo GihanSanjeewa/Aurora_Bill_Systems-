@@ -374,7 +374,7 @@
             this.guna2Panel1.Controls.Add(this.txt_complain1);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel10);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(111, 231);
+            this.guna2Panel1.Location = new System.Drawing.Point(74, 232);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(306, 271);
             this.guna2Panel1.TabIndex = 4;
@@ -614,7 +614,7 @@
             this.guna2Panel3.Controls.Add(this.txt_decision3);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel12);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(929, 232);
+            this.guna2Panel3.Location = new System.Drawing.Point(968, 232);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(306, 272);
             this.guna2Panel3.TabIndex = 6;
@@ -728,7 +728,7 @@
             // 
             this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel13.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(111, 528);
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(92, 528);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
             this.guna2HtmlLabel13.Size = new System.Drawing.Size(156, 41);
             this.guna2HtmlLabel13.TabIndex = 0;
@@ -746,7 +746,7 @@
             this.txt_remarks.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_remarks.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_remarks.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_remarks.Location = new System.Drawing.Point(111, 565);
+            this.txt_remarks.Location = new System.Drawing.Point(92, 565);
             this.txt_remarks.Name = "txt_remarks";
             this.txt_remarks.PasswordChar = '\0';
             this.txt_remarks.PlaceholderText = "";
