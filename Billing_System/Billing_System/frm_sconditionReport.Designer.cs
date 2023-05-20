@@ -29,23 +29,26 @@ namespace Billing_System
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_vehicleNmber = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_vehicleModel = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_km = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmb_mName = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_date = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btn_process = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.label20 = new System.Windows.Forms.Label();
@@ -53,7 +56,6 @@ namespace Billing_System
             this.label36 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -96,13 +98,13 @@ namespace Billing_System
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.label35 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.btn_engineoilBad = new System.Windows.Forms.RadioButton();
             this.label33 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label31 = new System.Windows.Forms.Label();
-            this.rbtn_engineoilBad = new System.Windows.Forms.RadioButton();
-            this.label29 = new System.Windows.Forms.Label();
             this.rbtn_engineoilGood = new System.Windows.Forms.RadioButton();
+            this.label31 = new System.Windows.Forms.Label();
+            this.rbtn_gearoilBad = new System.Windows.Forms.RadioButton();
+            this.label29 = new System.Windows.Forms.Label();
+            this.rbtn_gearoilGood = new System.Windows.Forms.RadioButton();
             this.label27 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -116,6 +118,7 @@ namespace Billing_System
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.cmb_fuelType = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
@@ -132,91 +135,70 @@ namespace Billing_System
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_process = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2GradientPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2TextBox1
+            // txt_vehicleNmber
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(99, 52);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(229, 36);
-            this.guna2TextBox1.TabIndex = 0;
+            this.txt_vehicleNmber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_vehicleNmber.DefaultText = "";
+            this.txt_vehicleNmber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_vehicleNmber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_vehicleNmber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_vehicleNmber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_vehicleNmber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_vehicleNmber.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_vehicleNmber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_vehicleNmber.Location = new System.Drawing.Point(99, 52);
+            this.txt_vehicleNmber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_vehicleNmber.Name = "txt_vehicleNmber";
+            this.txt_vehicleNmber.PasswordChar = '\0';
+            this.txt_vehicleNmber.PlaceholderText = "";
+            this.txt_vehicleNmber.SelectedText = "";
+            this.txt_vehicleNmber.Size = new System.Drawing.Size(229, 36);
+            this.txt_vehicleNmber.TabIndex = 0;
             // 
-            // guna2TextBox2
+            // txt_vehicleModel
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(99, 168);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(229, 36);
-            this.guna2TextBox2.TabIndex = 0;
+            this.txt_vehicleModel.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_vehicleModel.DefaultText = "";
+            this.txt_vehicleModel.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_vehicleModel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_vehicleModel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_vehicleModel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_vehicleModel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_vehicleModel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_vehicleModel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_vehicleModel.Location = new System.Drawing.Point(99, 168);
+            this.txt_vehicleModel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_vehicleModel.Name = "txt_vehicleModel";
+            this.txt_vehicleModel.PasswordChar = '\0';
+            this.txt_vehicleModel.PlaceholderText = "";
+            this.txt_vehicleModel.SelectedText = "";
+            this.txt_vehicleModel.Size = new System.Drawing.Size(229, 36);
+            this.txt_vehicleModel.TabIndex = 0;
             // 
-            // guna2TextBox3
+            // txt_km
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(99, 266);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(229, 36);
-            this.guna2TextBox3.TabIndex = 0;
-            // 
-            // guna2TextBox4
-            // 
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(99, 386);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(229, 36);
-            this.guna2TextBox4.TabIndex = 0;
+            this.txt_km.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_km.DefaultText = "";
+            this.txt_km.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_km.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_km.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_km.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_km.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_km.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_km.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_km.Location = new System.Drawing.Point(99, 386);
+            this.txt_km.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_km.Name = "txt_km";
+            this.txt_km.PasswordChar = '\0';
+            this.txt_km.PlaceholderText = "";
+            this.txt_km.SelectedText = "";
+            this.txt_km.Size = new System.Drawing.Size(229, 36);
+            this.txt_km.TabIndex = 0;
             // 
             // label1
             // 
@@ -244,9 +226,9 @@ namespace Billing_System
             this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(94, 235);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 27);
+            this.label3.Size = new System.Drawing.Size(192, 27);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Fuel              ";
+            this.label3.Text = "Fuel type      ";
             // 
             // label4
             // 
@@ -278,20 +260,20 @@ namespace Billing_System
             this.label6.TabIndex = 1;
             this.label6.Text = "Date              ";
             // 
-            // guna2ComboBox1
+            // cmb_mName
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(93, 521);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(229, 36);
-            this.guna2ComboBox1.TabIndex = 2;
+            this.cmb_mName.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_mName.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_mName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_mName.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_mName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_mName.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_mName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_mName.ItemHeight = 30;
+            this.cmb_mName.Location = new System.Drawing.Point(93, 521);
+            this.cmb_mName.Name = "cmb_mName";
+            this.cmb_mName.Size = new System.Drawing.Size(229, 36);
+            this.cmb_mName.TabIndex = 2;
             // 
             // label7
             // 
@@ -304,19 +286,19 @@ namespace Billing_System
             this.label7.TabIndex = 3;
             this.label7.Text = "Suspension Condition Report";
             // 
-            // label8
+            // lbl_date
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label8.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label8.Location = new System.Drawing.Point(92, 612);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(230, 29);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "   Date is here   ";
-            this.label8.Visible = false;
+            this.lbl_date.AutoSize = true;
+            this.lbl_date.BackColor = System.Drawing.Color.White;
+            this.lbl_date.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl_date.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_date.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl_date.Location = new System.Drawing.Point(92, 612);
+            this.lbl_date.Name = "lbl_date";
+            this.lbl_date.Size = new System.Drawing.Size(230, 29);
+            this.lbl_date.TabIndex = 4;
+            this.lbl_date.Text = "   Date is here   ";
+            this.lbl_date.Visible = false;
             // 
             // guna2GradientPanel1
             // 
@@ -330,14 +312,14 @@ namespace Billing_System
             // guna2GradientPanel2
             // 
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.guna2GradientPanel2.Controls.Add(this.cmb_fuelType);
             this.guna2GradientPanel2.Controls.Add(this.btn_process);
             this.guna2GradientPanel2.Controls.Add(this.guna2GradientPanel4);
-            this.guna2GradientPanel2.Controls.Add(this.guna2TextBox1);
-            this.guna2GradientPanel2.Controls.Add(this.guna2TextBox2);
-            this.guna2GradientPanel2.Controls.Add(this.label8);
-            this.guna2GradientPanel2.Controls.Add(this.guna2TextBox3);
-            this.guna2GradientPanel2.Controls.Add(this.guna2ComboBox1);
-            this.guna2GradientPanel2.Controls.Add(this.guna2TextBox4);
+            this.guna2GradientPanel2.Controls.Add(this.txt_vehicleNmber);
+            this.guna2GradientPanel2.Controls.Add(this.txt_vehicleModel);
+            this.guna2GradientPanel2.Controls.Add(this.lbl_date);
+            this.guna2GradientPanel2.Controls.Add(this.cmb_mName);
+            this.guna2GradientPanel2.Controls.Add(this.txt_km);
             this.guna2GradientPanel2.Controls.Add(this.label6);
             this.guna2GradientPanel2.Controls.Add(this.label1);
             this.guna2GradientPanel2.Controls.Add(this.label5);
@@ -348,6 +330,23 @@ namespace Billing_System
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.Size = new System.Drawing.Size(442, 817);
             this.guna2GradientPanel2.TabIndex = 6;
+            // 
+            // btn_process
+            // 
+            this.btn_process.BorderRadius = 10;
+            this.btn_process.BorderThickness = 2;
+            this.btn_process.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_process.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
+            this.btn_process.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_process.ForeColor = System.Drawing.Color.Black;
+            this.btn_process.Location = new System.Drawing.Point(88, 679);
+            this.btn_process.Name = "btn_process";
+            this.btn_process.Size = new System.Drawing.Size(240, 64);
+            this.btn_process.TabIndex = 5;
+            this.btn_process.Text = "Process";
             // 
             // guna2GradientPanel4
             // 
@@ -360,6 +359,9 @@ namespace Billing_System
             // guna2GradientPanel3
             // 
             this.guna2GradientPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2GradientPanel3.Controls.Add(this.label38);
+            this.guna2GradientPanel3.Controls.Add(this.label37);
+            this.guna2GradientPanel3.Controls.Add(this.label30);
             this.guna2GradientPanel3.Controls.Add(this.guna2Button3);
             this.guna2GradientPanel3.Controls.Add(this.guna2Button7);
             this.guna2GradientPanel3.Controls.Add(this.guna2Button8);
@@ -383,7 +385,6 @@ namespace Billing_System
             this.guna2GradientPanel3.Controls.Add(this.label36);
             this.guna2GradientPanel3.Controls.Add(this.label34);
             this.guna2GradientPanel3.Controls.Add(this.label32);
-            this.guna2GradientPanel3.Controls.Add(this.label30);
             this.guna2GradientPanel3.Controls.Add(this.label28);
             this.guna2GradientPanel3.Controls.Add(this.label26);
             this.guna2GradientPanel3.Controls.Add(this.label24);
@@ -426,13 +427,13 @@ namespace Billing_System
             this.guna2GradientPanel3.Controls.Add(this.radioButton4);
             this.guna2GradientPanel3.Controls.Add(this.radioButton3);
             this.guna2GradientPanel3.Controls.Add(this.label35);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton2);
+            this.guna2GradientPanel3.Controls.Add(this.btn_engineoilBad);
             this.guna2GradientPanel3.Controls.Add(this.label33);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton1);
-            this.guna2GradientPanel3.Controls.Add(this.label31);
-            this.guna2GradientPanel3.Controls.Add(this.rbtn_engineoilBad);
-            this.guna2GradientPanel3.Controls.Add(this.label29);
             this.guna2GradientPanel3.Controls.Add(this.rbtn_engineoilGood);
+            this.guna2GradientPanel3.Controls.Add(this.label31);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_gearoilBad);
+            this.guna2GradientPanel3.Controls.Add(this.label29);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_gearoilGood);
             this.guna2GradientPanel3.Controls.Add(this.label27);
             this.guna2GradientPanel3.Controls.Add(this.label25);
             this.guna2GradientPanel3.Controls.Add(this.label23);
@@ -450,6 +451,36 @@ namespace Billing_System
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.Size = new System.Drawing.Size(1421, 858);
             this.guna2GradientPanel3.TabIndex = 7;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(690, 727);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(192, 18);
+            this.label38.TabIndex = 19;
+            this.label38.Text = "Stearin rack oil leak /";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(690, 707);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(192, 18);
+            this.label37.TabIndex = 18;
+            this.label37.Text = "Differential oil leak /";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(693, 632);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(108, 20);
+            this.label30.TabIndex = 17;
+            this.label30.Text = "Gear mount ";
             // 
             // guna2Panel10
             // 
@@ -490,42 +521,32 @@ namespace Billing_System
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(678, 710);
+            this.label36.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(690, 688);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(192, 27);
+            this.label36.Size = new System.Drawing.Size(192, 18);
             this.label36.TabIndex = 11;
-            this.label36.Text = " and Break Shoe";
+            this.label36.Text = "Transmission oil leak /";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(678, 619);
+            this.label34.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(693, 607);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(192, 27);
+            this.label34.Size = new System.Drawing.Size(117, 20);
             this.label34.TabIndex = 11;
-            this.label34.Text = " and Break Shoe";
+            this.label34.Text = "Gear mount ,";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(678, 517);
+            this.label32.Location = new System.Drawing.Point(693, 521);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(192, 27);
+            this.label32.Size = new System.Drawing.Size(156, 27);
             this.label32.TabIndex = 11;
-            this.label32.Text = " and Break Shoe";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(678, 418);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(192, 27);
-            this.label30.TabIndex = 11;
-            this.label30.Text = " and Break Shoe";
+            this.label32.Text = "and CV joint";
             // 
             // label28
             // 
@@ -952,44 +973,44 @@ namespace Billing_System
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(693, 674);
+            this.label35.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(690, 670);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(120, 27);
+            this.label35.Size = new System.Drawing.Size(144, 18);
             this.label35.TabIndex = 1;
-            this.label35.Text = "Break Pad";
+            this.label35.Text = "Engine oil leak /";
             // 
-            // radioButton2
+            // btn_engineoilBad
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(404, 37);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(54, 21);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Bad";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.btn_engineoilBad.AutoSize = true;
+            this.btn_engineoilBad.Location = new System.Drawing.Point(403, 37);
+            this.btn_engineoilBad.Name = "btn_engineoilBad";
+            this.btn_engineoilBad.Size = new System.Drawing.Size(54, 21);
+            this.btn_engineoilBad.TabIndex = 2;
+            this.btn_engineoilBad.TabStop = true;
+            this.btn_engineoilBad.Text = "Bad";
+            this.btn_engineoilBad.UseVisualStyleBackColor = true;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(693, 583);
+            this.label33.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(693, 581);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(120, 27);
+            this.label33.Size = new System.Drawing.Size(135, 20);
             this.label33.TabIndex = 1;
-            this.label33.Text = "Break Pad";
+            this.label33.Text = "Engine mount ,";
             // 
-            // radioButton1
+            // rbtn_engineoilGood
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(302, 37);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 21);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Good";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbtn_engineoilGood.AutoSize = true;
+            this.rbtn_engineoilGood.Location = new System.Drawing.Point(302, 37);
+            this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
+            this.rbtn_engineoilGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_engineoilGood.TabIndex = 2;
+            this.rbtn_engineoilGood.TabStop = true;
+            this.rbtn_engineoilGood.Text = "Good";
+            this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
             // 
             // label31
             // 
@@ -997,41 +1018,41 @@ namespace Billing_System
             this.label31.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(693, 481);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(120, 27);
+            this.label31.Size = new System.Drawing.Size(204, 27);
             this.label31.TabIndex = 1;
-            this.label31.Text = "Break Pad";
+            this.label31.Text = "Axel (Axel boot)";
             // 
-            // rbtn_engineoilBad
+            // rbtn_gearoilBad
             // 
-            this.rbtn_engineoilBad.AutoSize = true;
-            this.rbtn_engineoilBad.Location = new System.Drawing.Point(404, 125);
-            this.rbtn_engineoilBad.Name = "rbtn_engineoilBad";
-            this.rbtn_engineoilBad.Size = new System.Drawing.Size(54, 21);
-            this.rbtn_engineoilBad.TabIndex = 2;
-            this.rbtn_engineoilBad.TabStop = true;
-            this.rbtn_engineoilBad.Text = "Bad";
-            this.rbtn_engineoilBad.UseVisualStyleBackColor = true;
+            this.rbtn_gearoilBad.AutoSize = true;
+            this.rbtn_gearoilBad.Location = new System.Drawing.Point(404, 125);
+            this.rbtn_gearoilBad.Name = "rbtn_gearoilBad";
+            this.rbtn_gearoilBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_gearoilBad.TabIndex = 2;
+            this.rbtn_gearoilBad.TabStop = true;
+            this.rbtn_gearoilBad.Text = "Bad";
+            this.rbtn_gearoilBad.UseVisualStyleBackColor = true;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(693, 382);
+            this.label29.Location = new System.Drawing.Point(693, 404);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(120, 27);
+            this.label29.Size = new System.Drawing.Size(144, 27);
             this.label29.TabIndex = 1;
-            this.label29.Text = "Break Pad";
+            this.label29.Text = "Engine belt";
             // 
-            // rbtn_engineoilGood
+            // rbtn_gearoilGood
             // 
-            this.rbtn_engineoilGood.AutoSize = true;
-            this.rbtn_engineoilGood.Location = new System.Drawing.Point(302, 125);
-            this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
-            this.rbtn_engineoilGood.Size = new System.Drawing.Size(64, 21);
-            this.rbtn_engineoilGood.TabIndex = 2;
-            this.rbtn_engineoilGood.TabStop = true;
-            this.rbtn_engineoilGood.Text = "Good";
-            this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
+            this.rbtn_gearoilGood.AutoSize = true;
+            this.rbtn_gearoilGood.Location = new System.Drawing.Point(302, 125);
+            this.rbtn_gearoilGood.Name = "rbtn_gearoilGood";
+            this.rbtn_gearoilGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_gearoilGood.TabIndex = 2;
+            this.rbtn_gearoilGood.TabStop = true;
+            this.rbtn_gearoilGood.Text = "Good";
+            this.rbtn_gearoilGood.UseVisualStyleBackColor = true;
             // 
             // label27
             // 
@@ -1161,6 +1182,21 @@ namespace Billing_System
             this.label9.Size = new System.Drawing.Size(132, 27);
             this.label9.TabIndex = 1;
             this.label9.Text = "Engine Oil";
+            // 
+            // cmb_fuelType
+            // 
+            this.cmb_fuelType.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_fuelType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_fuelType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_fuelType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_fuelType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_fuelType.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_fuelType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_fuelType.ItemHeight = 30;
+            this.cmb_fuelType.Location = new System.Drawing.Point(99, 269);
+            this.cmb_fuelType.Name = "cmb_fuelType";
+            this.cmb_fuelType.Size = new System.Drawing.Size(229, 36);
+            this.cmb_fuelType.TabIndex = 6;
             // 
             // guna2Button3
             // 
@@ -1297,7 +1333,7 @@ namespace Billing_System
             // 
             // guna2Button16
             // 
-            this.guna2Button16.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button16.BackgroundImage = global::Billing_System.Properties.Resources.oil_spill;
             this.guna2Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button16.BorderRadius = 10;
             this.guna2Button16.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1309,14 +1345,14 @@ namespace Billing_System
             this.guna2Button16.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button16.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button16.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button16.Location = new System.Drawing.Point(568, 670);
+            this.guna2Button16.Location = new System.Drawing.Point(580, 670);
             this.guna2Button16.Name = "guna2Button16";
-            this.guna2Button16.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button16.Size = new System.Drawing.Size(81, 73);
             this.guna2Button16.TabIndex = 16;
             // 
             // guna2Button15
             // 
-            this.guna2Button15.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button15.BackgroundImage = global::Billing_System.Properties.Resources.engine;
             this.guna2Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button15.BorderRadius = 10;
             this.guna2Button15.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1328,14 +1364,14 @@ namespace Billing_System
             this.guna2Button15.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button15.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button15.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button15.Location = new System.Drawing.Point(568, 582);
+            this.guna2Button15.Location = new System.Drawing.Point(580, 582);
             this.guna2Button15.Name = "guna2Button15";
-            this.guna2Button15.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button15.Size = new System.Drawing.Size(81, 73);
             this.guna2Button15.TabIndex = 16;
             // 
             // guna2Button14
             // 
-            this.guna2Button14.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button14.BackgroundImage = global::Billing_System.Properties.Resources.axle;
             this.guna2Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button14.BorderRadius = 10;
             this.guna2Button14.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1347,14 +1383,14 @@ namespace Billing_System
             this.guna2Button14.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button14.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button14.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button14.Location = new System.Drawing.Point(568, 481);
+            this.guna2Button14.Location = new System.Drawing.Point(580, 481);
             this.guna2Button14.Name = "guna2Button14";
-            this.guna2Button14.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button14.Size = new System.Drawing.Size(81, 73);
             this.guna2Button14.TabIndex = 16;
             // 
             // guna2Button13
             // 
-            this.guna2Button13.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button13.BackgroundImage = global::Billing_System.Properties.Resources.engineering;
             this.guna2Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button13.BorderRadius = 10;
             this.guna2Button13.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1366,14 +1402,14 @@ namespace Billing_System
             this.guna2Button13.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button13.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button13.Location = new System.Drawing.Point(568, 380);
+            this.guna2Button13.Location = new System.Drawing.Point(580, 380);
             this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button13.Size = new System.Drawing.Size(81, 73);
             this.guna2Button13.TabIndex = 16;
             // 
             // guna2Button12
             // 
-            this.guna2Button12.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button12.BackgroundImage = global::Billing_System.Properties.Resources.damper;
             this.guna2Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button12.BorderRadius = 10;
             this.guna2Button12.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1385,14 +1421,14 @@ namespace Billing_System
             this.guna2Button12.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button12.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button12.Location = new System.Drawing.Point(568, 285);
+            this.guna2Button12.Location = new System.Drawing.Point(580, 285);
             this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button12.Size = new System.Drawing.Size(81, 73);
             this.guna2Button12.TabIndex = 16;
             // 
             // guna2Button11
             // 
-            this.guna2Button11.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button11.BackgroundImage = global::Billing_System.Properties.Resources.spare_parts;
             this.guna2Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button11.BorderRadius = 10;
             this.guna2Button11.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1404,14 +1440,14 @@ namespace Billing_System
             this.guna2Button11.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button11.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button11.Location = new System.Drawing.Point(568, 189);
+            this.guna2Button11.Location = new System.Drawing.Point(580, 189);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button11.Size = new System.Drawing.Size(81, 73);
             this.guna2Button11.TabIndex = 16;
             // 
             // guna2Button10
             // 
-            this.guna2Button10.BackgroundImage = global::Billing_System.Properties.Resources.jerrycan;
+            this.guna2Button10.BackgroundImage = global::Billing_System.Properties.Resources.brake;
             this.guna2Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Button10.BorderRadius = 10;
             this.guna2Button10.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
@@ -1423,9 +1459,9 @@ namespace Billing_System
             this.guna2Button10.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button10.ForeColor = System.Drawing.SystemColors.Window;
-            this.guna2Button10.Location = new System.Drawing.Point(568, 98);
+            this.guna2Button10.Location = new System.Drawing.Point(580, 98);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(93, 73);
+            this.guna2Button10.Size = new System.Drawing.Size(81, 73);
             this.guna2Button10.TabIndex = 16;
             // 
             // guna2Button9
@@ -1466,23 +1502,6 @@ namespace Billing_System
             this.guna2Button1.Size = new System.Drawing.Size(76, 73);
             this.guna2Button1.TabIndex = 16;
             // 
-            // btn_process
-            // 
-            this.btn_process.BorderRadius = 10;
-            this.btn_process.BorderThickness = 2;
-            this.btn_process.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_process.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
-            this.btn_process.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_process.ForeColor = System.Drawing.Color.Black;
-            this.btn_process.Location = new System.Drawing.Point(88, 679);
-            this.btn_process.Name = "btn_process";
-            this.btn_process.Size = new System.Drawing.Size(240, 64);
-            this.btn_process.TabIndex = 5;
-            this.btn_process.Text = "Process";
-            // 
             // frm_sconditionReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1507,19 +1526,18 @@ namespace Billing_System
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox txt_vehicleNmber;
+        private Guna.UI2.WinForms.Guna2TextBox txt_vehicleModel;
+        private Guna.UI2.WinForms.Guna2TextBox txt_km;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox cmb_mName;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lbl_date;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel3;
@@ -1533,10 +1551,10 @@ namespace Billing_System
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.RadioButton rbtn_engineoilBad;
+        private System.Windows.Forms.RadioButton rbtn_gearoilBad;
+        private System.Windows.Forms.RadioButton rbtn_gearoilGood;
+        private System.Windows.Forms.RadioButton btn_engineoilBad;
         private System.Windows.Forms.RadioButton rbtn_engineoilGood;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.RadioButton radioButton10;
@@ -1564,7 +1582,6 @@ namespace Billing_System
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label24;
@@ -1611,5 +1628,9 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button btn_process;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label30;
+        private Guna.UI2.WinForms.Guna2ComboBox cmb_fuelType;
     }
 }

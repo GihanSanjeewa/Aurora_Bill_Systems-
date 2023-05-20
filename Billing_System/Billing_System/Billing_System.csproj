@@ -132,5 +132,26 @@
   <ItemGroup>
     <None Include="Resources\car.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brake1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spare-parts1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\damper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineering1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oil-spill1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
