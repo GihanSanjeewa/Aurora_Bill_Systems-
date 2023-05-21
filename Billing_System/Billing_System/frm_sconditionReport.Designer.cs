@@ -341,6 +341,9 @@ namespace Billing_System
             this.cmb_fuelType.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmb_fuelType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmb_fuelType.ItemHeight = 30;
+            this.cmb_fuelType.Items.AddRange(new object[] {
+            "Petrol",
+            "Deisel"});
             this.cmb_fuelType.Location = new System.Drawing.Point(99, 269);
             this.cmb_fuelType.Name = "cmb_fuelType";
             this.cmb_fuelType.Size = new System.Drawing.Size(229, 36);
