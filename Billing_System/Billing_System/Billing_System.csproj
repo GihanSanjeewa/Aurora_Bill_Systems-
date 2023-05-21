@@ -58,6 +58,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_dashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dashbord.Designer.cs">
+      <DependentUpon>frm_dashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_motoBicycle.cs">
       <SubType>Form</SubType>
     </Compile>
