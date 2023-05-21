@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Billing_System
 {
-    public partial class frm_motoBicycle : Form
+    public partial class frm_addItem : Form
     {
-        public frm_motoBicycle()
+        public frm_addItem()
         {
             InitializeComponent();
-        }
-
-        private void btn_process_Click(object sender, EventArgs e)
-        {
-            frm_invoice inv = new frm_invoice();
-            this.Hide();
-            inv.Show();
-
         }
     }
 }
