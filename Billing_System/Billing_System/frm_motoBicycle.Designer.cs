@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_customerName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txt_cutomerName = new Guna.UI2.WinForms.Guna2TextBox();
             this.drp_vehicleType = new Guna.UI2.WinForms.Guna2ComboBox();
             this.date_Received = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -39,60 +38,53 @@
             this.txt_chasisNo = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_company = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_phoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.txt_complain5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.txt_diagonosis5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.txt_decision5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txt_remarks = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lbl_estimateCost = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btn_process = new Guna.UI2.WinForms.Guna2Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
+            this.guna2Panel4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lbl_customerName
-            // 
-            this.lbl_customerName.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_customerName.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_customerName.Location = new System.Drawing.Point(123, 33);
-            this.lbl_customerName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lbl_customerName.Name = "lbl_customerName";
-            this.lbl_customerName.Size = new System.Drawing.Size(147, 29);
-            this.lbl_customerName.TabIndex = 0;
-            this.lbl_customerName.Text = "Cutomer Name";
             // 
             // txt_cutomerName
             // 
@@ -105,13 +97,13 @@
             this.txt_cutomerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_cutomerName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_cutomerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_cutomerName.Location = new System.Drawing.Point(99, 59);
+            this.txt_cutomerName.Location = new System.Drawing.Point(17, 126);
             this.txt_cutomerName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_cutomerName.Name = "txt_cutomerName";
             this.txt_cutomerName.PasswordChar = '\0';
             this.txt_cutomerName.PlaceholderText = "";
             this.txt_cutomerName.SelectedText = "";
-            this.txt_cutomerName.Size = new System.Drawing.Size(267, 44);
+            this.txt_cutomerName.Size = new System.Drawing.Size(265, 36);
             this.txt_cutomerName.TabIndex = 1;
             // 
             // drp_vehicleType
@@ -124,8 +116,8 @@
             this.drp_vehicleType.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.drp_vehicleType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.drp_vehicleType.ItemHeight = 30;
-            this.drp_vehicleType.Location = new System.Drawing.Point(443, 59);
-            this.drp_vehicleType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.drp_vehicleType.Location = new System.Drawing.Point(324, 127);
+            this.drp_vehicleType.Margin = new System.Windows.Forms.Padding(4);
             this.drp_vehicleType.Name = "drp_vehicleType";
             this.drp_vehicleType.Size = new System.Drawing.Size(265, 36);
             this.drp_vehicleType.TabIndex = 2;
@@ -136,8 +128,8 @@
             this.date_Received.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
             this.date_Received.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.date_Received.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.date_Received.Location = new System.Drawing.Point(771, 59);
-            this.date_Received.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.date_Received.Location = new System.Drawing.Point(631, 128);
+            this.date_Received.Margin = new System.Windows.Forms.Padding(4);
             this.date_Received.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date_Received.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date_Received.Name = "date_Received";
@@ -156,13 +148,13 @@
             this.txt_fuel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_fuel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_fuel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_fuel.Location = new System.Drawing.Point(1115, 59);
+            this.txt_fuel.Location = new System.Drawing.Point(945, 128);
             this.txt_fuel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_fuel.Name = "txt_fuel";
             this.txt_fuel.PasswordChar = '\0';
             this.txt_fuel.PlaceholderText = "";
             this.txt_fuel.SelectedText = "";
-            this.txt_fuel.Size = new System.Drawing.Size(267, 44);
+            this.txt_fuel.Size = new System.Drawing.Size(265, 36);
             this.txt_fuel.TabIndex = 1;
             // 
             // txt_address
@@ -176,13 +168,13 @@
             this.txt_address.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_address.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_address.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_address.Location = new System.Drawing.Point(1432, 59);
+            this.txt_address.Location = new System.Drawing.Point(1257, 128);
             this.txt_address.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_address.Name = "txt_address";
             this.txt_address.PasswordChar = '\0';
             this.txt_address.PlaceholderText = "";
             this.txt_address.SelectedText = "";
-            this.txt_address.Size = new System.Drawing.Size(267, 44);
+            this.txt_address.Size = new System.Drawing.Size(265, 36);
             this.txt_address.TabIndex = 1;
             // 
             // txt_regNo
@@ -196,13 +188,13 @@
             this.txt_regNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_regNo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_regNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_regNo.Location = new System.Drawing.Point(99, 170);
+            this.txt_regNo.Location = new System.Drawing.Point(17, 207);
             this.txt_regNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_regNo.Name = "txt_regNo";
             this.txt_regNo.PasswordChar = '\0';
             this.txt_regNo.PlaceholderText = "";
             this.txt_regNo.SelectedText = "";
-            this.txt_regNo.Size = new System.Drawing.Size(267, 44);
+            this.txt_regNo.Size = new System.Drawing.Size(265, 36);
             this.txt_regNo.TabIndex = 1;
             // 
             // txt_odoMeter
@@ -216,13 +208,13 @@
             this.txt_odoMeter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_odoMeter.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_odoMeter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_odoMeter.Location = new System.Drawing.Point(443, 170);
+            this.txt_odoMeter.Location = new System.Drawing.Point(322, 207);
             this.txt_odoMeter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_odoMeter.Name = "txt_odoMeter";
             this.txt_odoMeter.PasswordChar = '\0';
             this.txt_odoMeter.PlaceholderText = "";
             this.txt_odoMeter.SelectedText = "";
-            this.txt_odoMeter.Size = new System.Drawing.Size(267, 44);
+            this.txt_odoMeter.Size = new System.Drawing.Size(265, 36);
             this.txt_odoMeter.TabIndex = 1;
             // 
             // txt_chasisNo
@@ -236,13 +228,13 @@
             this.txt_chasisNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_chasisNo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_chasisNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_chasisNo.Location = new System.Drawing.Point(771, 170);
+            this.txt_chasisNo.Location = new System.Drawing.Point(632, 205);
             this.txt_chasisNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_chasisNo.Name = "txt_chasisNo";
             this.txt_chasisNo.PasswordChar = '\0';
             this.txt_chasisNo.PlaceholderText = "";
             this.txt_chasisNo.SelectedText = "";
-            this.txt_chasisNo.Size = new System.Drawing.Size(267, 44);
+            this.txt_chasisNo.Size = new System.Drawing.Size(265, 36);
             this.txt_chasisNo.TabIndex = 1;
             // 
             // txt_company
@@ -256,13 +248,13 @@
             this.txt_company.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_company.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_company.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_company.Location = new System.Drawing.Point(1115, 170);
+            this.txt_company.Location = new System.Drawing.Point(948, 205);
             this.txt_company.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_company.Name = "txt_company";
             this.txt_company.PasswordChar = '\0';
             this.txt_company.PlaceholderText = "";
             this.txt_company.SelectedText = "";
-            this.txt_company.Size = new System.Drawing.Size(267, 44);
+            this.txt_company.Size = new System.Drawing.Size(265, 36);
             this.txt_company.TabIndex = 1;
             // 
             // txt_phoneNumber
@@ -276,128 +268,29 @@
             this.txt_phoneNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_phoneNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_phoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_phoneNumber.Location = new System.Drawing.Point(1432, 170);
+            this.txt_phoneNumber.Location = new System.Drawing.Point(1257, 205);
             this.txt_phoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_phoneNumber.Name = "txt_phoneNumber";
             this.txt_phoneNumber.PasswordChar = '\0';
             this.txt_phoneNumber.PlaceholderText = "";
             this.txt_phoneNumber.SelectedText = "";
-            this.txt_phoneNumber.Size = new System.Drawing.Size(267, 44);
+            this.txt_phoneNumber.Size = new System.Drawing.Size(265, 36);
             this.txt_phoneNumber.TabIndex = 1;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(456, 33);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(219, 29);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Vehicle Type/Model";
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(789, 33);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(195, 29);
-            this.guna2HtmlLabel2.TabIndex = 0;
-            this.guna2HtmlLabel2.Text = "Date Of Received";
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(1216, 33);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(51, 29);
-            this.guna2HtmlLabel3.TabIndex = 0;
-            this.guna2HtmlLabel3.Text = "Fuel";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(1523, 33);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(87, 29);
-            this.guna2HtmlLabel4.TabIndex = 0;
-            this.guna2HtmlLabel4.Text = "Address";
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(123, 140);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(75, 29);
-            this.guna2HtmlLabel5.TabIndex = 0;
-            this.guna2HtmlLabel5.Text = "REG NO";
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(480, 140);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(207, 29);
-            this.guna2HtmlLabel6.TabIndex = 0;
-            this.guna2HtmlLabel6.Text = "ODO Meter Reading";
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(807, 140);
-            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(111, 29);
-            this.guna2HtmlLabel7.TabIndex = 0;
-            this.guna2HtmlLabel7.Text = "Chasis NO";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(1195, 140);
-            this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 29);
-            this.guna2HtmlLabel8.TabIndex = 0;
-            this.guna2HtmlLabel8.Text = "Company";
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(1497, 140);
-            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(147, 29);
-            this.guna2HtmlLabel9.TabIndex = 0;
-            this.guna2HtmlLabel9.Text = "Phone Number";
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel1.Controls.Add(this.label12);
             this.guna2Panel1.Controls.Add(this.txt_complain5);
             this.guna2Panel1.Controls.Add(this.txt_complain4);
             this.guna2Panel1.Controls.Add(this.txt_complain3);
             this.guna2Panel1.Controls.Add(this.txt_complain2);
             this.guna2Panel1.Controls.Add(this.txt_complain1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel10);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(99, 286);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Location = new System.Drawing.Point(37, 291);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(408, 334);
+            this.guna2Panel1.Size = new System.Drawing.Size(391, 261);
             this.guna2Panel1.TabIndex = 4;
             // 
             // txt_complain5
@@ -500,31 +393,20 @@
             this.txt_complain1.Size = new System.Drawing.Size(399, 34);
             this.txt_complain1.TabIndex = 0;
             // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(72, 5);
-            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(213, 49);
-            this.guna2HtmlLabel10.TabIndex = 0;
-            this.guna2HtmlLabel10.Text = "Complaints";
-            // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel2.Controls.Add(this.label13);
             this.guna2Panel2.Controls.Add(this.txt_diagonosis5);
             this.guna2Panel2.Controls.Add(this.txt_diagonosis4);
             this.guna2Panel2.Controls.Add(this.txt_diagonosis1);
             this.guna2Panel2.Controls.Add(this.txt_diagonosis3);
             this.guna2Panel2.Controls.Add(this.txt_diagonosis2);
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel11);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(692, 286);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel2.Location = new System.Drawing.Point(593, 291);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(408, 334);
+            this.guna2Panel2.Size = new System.Drawing.Size(391, 261);
             this.guna2Panel2.TabIndex = 5;
             // 
             // txt_diagonosis5
@@ -627,31 +509,20 @@
             this.txt_diagonosis2.Size = new System.Drawing.Size(400, 37);
             this.txt_diagonosis2.TabIndex = 0;
             // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(79, 4);
-            this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(192, 49);
-            this.guna2HtmlLabel11.TabIndex = 0;
-            this.guna2HtmlLabel11.Text = "Diagnosis";
-            // 
             // guna2Panel3
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel3.Controls.Add(this.label14);
             this.guna2Panel3.Controls.Add(this.txt_decision5);
             this.guna2Panel3.Controls.Add(this.txt_decision4);
             this.guna2Panel3.Controls.Add(this.txt_decision2);
             this.guna2Panel3.Controls.Add(this.txt_decision1);
             this.guna2Panel3.Controls.Add(this.txt_decision3);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel12);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(1291, 286);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel3.Location = new System.Drawing.Point(1116, 290);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(408, 335);
+            this.guna2Panel3.Size = new System.Drawing.Size(391, 262);
             this.guna2Panel3.TabIndex = 6;
             // 
             // txt_decision5
@@ -754,25 +625,14 @@
             this.txt_decision3.Size = new System.Drawing.Size(400, 32);
             this.txt_decision3.TabIndex = 0;
             // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(81, 4);
-            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(171, 49);
-            this.guna2HtmlLabel12.TabIndex = 0;
-            this.guna2HtmlLabel12.Text = "Decision";
-            // 
             // guna2HtmlLabel13
             // 
             this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(99, 637);
-            this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(42, 560);
+            this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(192, 49);
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(165, 42);
             this.guna2HtmlLabel13.TabIndex = 0;
             this.guna2HtmlLabel13.Text = "Remarks :";
             // 
@@ -788,13 +648,13 @@
             this.txt_remarks.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_remarks.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_remarks.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_remarks.Location = new System.Drawing.Point(98, 695);
+            this.txt_remarks.Location = new System.Drawing.Point(37, 611);
             this.txt_remarks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_remarks.Name = "txt_remarks";
             this.txt_remarks.PasswordChar = '\0';
             this.txt_remarks.PlaceholderText = "";
             this.txt_remarks.SelectedText = "";
-            this.txt_remarks.Size = new System.Drawing.Size(380, 207);
+            this.txt_remarks.Size = new System.Drawing.Size(786, 207);
             this.txt_remarks.TabIndex = 7;
             // 
             // guna2DateTimePicker1
@@ -803,12 +663,12 @@
             this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1320, 708);
-            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(888, 776);
+            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(267, 44);
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(303, 44);
             this.guna2DateTimePicker1.TabIndex = 13;
             this.guna2DateTimePicker1.Value = new System.DateTime(2023, 5, 21, 0, 31, 37, 356);
             // 
@@ -822,10 +682,10 @@
             this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(957, 708);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(888, 697);
+            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(265, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(303, 36);
             this.guna2ComboBox1.TabIndex = 12;
             // 
             // guna2TextBox1
@@ -839,83 +699,241 @@
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(595, 708);
+            this.guna2TextBox1.Location = new System.Drawing.Point(888, 623);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(267, 44);
+            this.guna2TextBox1.Size = new System.Drawing.Size(303, 36);
             this.guna2TextBox1.TabIndex = 11;
-            // 
-            // guna2HtmlLabel14
-            // 
-            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(957, 672);
-            this.guna2HtmlLabel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
-            this.guna2HtmlLabel14.Size = new System.Drawing.Size(243, 29);
-            this.guna2HtmlLabel14.TabIndex = 8;
-            this.guna2HtmlLabel14.Text = "Customer Informed On";
-            // 
-            // guna2HtmlLabel15
-            // 
-            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(1299, 672);
-            this.guna2HtmlLabel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
-            this.guna2HtmlLabel15.Size = new System.Drawing.Size(303, 29);
-            this.guna2HtmlLabel15.TabIndex = 9;
-            this.guna2HtmlLabel15.Text = "Proposed Date of Delivery";
-            // 
-            // lbl_estimateCost
-            // 
-            this.lbl_estimateCost.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_estimateCost.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estimateCost.Location = new System.Drawing.Point(619, 672);
-            this.lbl_estimateCost.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lbl_estimateCost.Name = "lbl_estimateCost";
-            this.lbl_estimateCost.Size = new System.Drawing.Size(171, 29);
-            this.lbl_estimateCost.TabIndex = 10;
-            this.lbl_estimateCost.Text = "Estimated Cost";
             // 
             // btn_process
             // 
-            this.btn_process.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(91)))), ((int)(((byte)(39)))));
-            this.btn_process.BorderRadius = 5;
+            this.btn_process.BackColor = System.Drawing.Color.Transparent;
+            this.btn_process.BorderRadius = 10;
             this.btn_process.BorderThickness = 1;
-            this.btn_process.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(91)))), ((int)(((byte)(39)))));
+            this.btn_process.CustomBorderColor = System.Drawing.Color.Black;
             this.btn_process.CustomBorderThickness = new System.Windows.Forms.Padding(2);
             this.btn_process.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_process.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(91)))), ((int)(((byte)(39)))));
-            this.btn_process.Font = new System.Drawing.Font("Cascadia Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_process.ForeColor = System.Drawing.Color.White;
-            this.btn_process.Location = new System.Drawing.Point(928, 826);
-            this.btn_process.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
+            this.btn_process.Font = new System.Drawing.Font("Cascadia Mono", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_process.ForeColor = System.Drawing.Color.Black;
+            this.btn_process.Location = new System.Drawing.Point(1229, 623);
+            this.btn_process.Margin = new System.Windows.Forms.Padding(4);
             this.btn_process.Name = "btn_process";
-            this.btn_process.Size = new System.Drawing.Size(340, 76);
+            this.btn_process.Size = new System.Drawing.Size(285, 191);
             this.btn_process.TabIndex = 14;
             this.btn_process.Text = "Process";
             this.btn_process.Click += new System.EventHandler(this.btn_process_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(12, 90);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(156, 27);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Cutomer Name";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(322, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(228, 27);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Vehicle Type/Model";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(630, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(204, 27);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Date Of Received";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1263, 174);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 27);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Phone Number";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 175);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(84, 27);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "REG NO";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(943, 173);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(96, 27);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Company";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(320, 175);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(216, 27);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "ODO Meter Reading";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(635, 174);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(120, 27);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Chasis NO";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(947, 93);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(60, 27);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "Fuel";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(1260, 90);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(96, 27);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "Address";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.label11.Location = new System.Drawing.Point(557, 12);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(484, 50);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "Job Card Moto vehicle";
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel4.Controls.Add(this.label11);
+            this.guna2Panel4.Location = new System.Drawing.Point(-1, -3);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(1828, 90);
+            this.guna2Panel4.TabIndex = 17;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(93, 11);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(197, 40);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Complaints";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
+            this.label13.Location = new System.Drawing.Point(104, 11);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(179, 40);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "Diagnosis";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
+            this.label14.Location = new System.Drawing.Point(105, 12);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(161, 40);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "Decision";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(883, 582);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(180, 27);
+            this.label15.TabIndex = 18;
+            this.label15.Text = "Estimated Cost";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(883, 666);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(252, 27);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "Customer Informed On";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(883, 745);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(312, 27);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "Proposed Date of Delivery";
             // 
             // frm_motoBicycle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
-            this.ClientSize = new System.Drawing.Size(1821, 917);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.ClientSize = new System.Drawing.Size(1578, 849);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.guna2Panel4);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_process);
             this.Controls.Add(this.guna2DateTimePicker1);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.guna2TextBox1);
-            this.Controls.Add(this.guna2HtmlLabel14);
-            this.Controls.Add(this.guna2HtmlLabel15);
-            this.Controls.Add(this.lbl_estimateCost);
             this.Controls.Add(this.txt_remarks);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
@@ -931,18 +949,8 @@
             this.Controls.Add(this.txt_odoMeter);
             this.Controls.Add(this.txt_regNo);
             this.Controls.Add(this.txt_cutomerName);
-            this.Controls.Add(this.guna2HtmlLabel4);
-            this.Controls.Add(this.guna2HtmlLabel3);
-            this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2HtmlLabel1);
-            this.Controls.Add(this.guna2HtmlLabel9);
-            this.Controls.Add(this.guna2HtmlLabel8);
-            this.Controls.Add(this.guna2HtmlLabel7);
-            this.Controls.Add(this.guna2HtmlLabel6);
-            this.Controls.Add(this.guna2HtmlLabel5);
-            this.Controls.Add(this.lbl_customerName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_motoBicycle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_motoBicycle";
@@ -952,14 +960,14 @@
             this.guna2Panel2.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2HtmlLabel lbl_customerName;
         private Guna.UI2.WinForms.Guna2TextBox txt_cutomerName;
         private Guna.UI2.WinForms.Guna2ComboBox drp_vehicleType;
         private Guna.UI2.WinForms.Guna2DateTimePicker date_Received;
@@ -970,44 +978,47 @@
         private Guna.UI2.WinForms.Guna2TextBox txt_chasisNo;
         private Guna.UI2.WinForms.Guna2TextBox txt_company;
         private Guna.UI2.WinForms.Guna2TextBox txt_phoneNumber;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain5;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain4;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain3;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain2;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2TextBox txt_diagonosis5;
         private Guna.UI2.WinForms.Guna2TextBox txt_diagonosis4;
         private Guna.UI2.WinForms.Guna2TextBox txt_diagonosis1;
         private Guna.UI2.WinForms.Guna2TextBox txt_diagonosis3;
         private Guna.UI2.WinForms.Guna2TextBox txt_diagonosis2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision5;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision4;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision2;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision1;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private Guna.UI2.WinForms.Guna2TextBox txt_remarks;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lbl_estimateCost;
         private Guna.UI2.WinForms.Guna2Button btn_process;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
     }
 }

@@ -25,3 +25,18 @@ C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Bil
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
 C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoBicycle.resources
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe.config
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.pdb
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Guna.UI2.dll
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.AssemblyReference.cache
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_invoice.resources
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoBicycle.resources
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_sconditionReport.resources
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.Properties.Resources.resources
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.GenerateResource.cache
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CoreCompileInputs.cache
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
+C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb

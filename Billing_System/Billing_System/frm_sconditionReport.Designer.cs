@@ -43,12 +43,29 @@ namespace Billing_System
             this.lbl_date = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.cmb_fuelType = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btn_process = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.label20 = new System.Windows.Forms.Label();
@@ -64,39 +81,39 @@ namespace Billing_System
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.radioButton30 = new System.Windows.Forms.RadioButton();
+            this.rbtn_oilLeakBad = new System.Windows.Forms.RadioButton();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.radioButton28 = new System.Windows.Forms.RadioButton();
+            this.rbtn_mountBad = new System.Windows.Forms.RadioButton();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.radioButton26 = new System.Windows.Forms.RadioButton();
+            this.rbtn_axelBad = new System.Windows.Forms.RadioButton();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.radioButton24 = new System.Windows.Forms.RadioButton();
+            this.rbtn_ebeltBad = new System.Windows.Forms.RadioButton();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.radioButton22 = new System.Windows.Forms.RadioButton();
-            this.radioButton29 = new System.Windows.Forms.RadioButton();
-            this.radioButton20 = new System.Windows.Forms.RadioButton();
-            this.radioButton27 = new System.Windows.Forms.RadioButton();
-            this.radioButton18 = new System.Windows.Forms.RadioButton();
-            this.radioButton25 = new System.Windows.Forms.RadioButton();
+            this.rbtn_carmBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_oilLeakGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_upperarmBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_mountGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_lowarmBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_axelGood = new System.Windows.Forms.RadioButton();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.radioButton23 = new System.Windows.Forms.RadioButton();
-            this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.radioButton21 = new System.Windows.Forms.RadioButton();
-            this.radioButton19 = new System.Windows.Forms.RadioButton();
-            this.radioButton17 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton15 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rbtn_ebeltGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_tireBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_carmGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_upperarmGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_lowarmGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_breakBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_tireGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_breakGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_socketBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_radiatorBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_socketGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_radiatorGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_acfilterBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_acfilterGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_airfilterBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_airfilterGood = new System.Windows.Forms.RadioButton();
+            this.rbtn_breakoilBad = new System.Windows.Forms.RadioButton();
+            this.rbtn_breakoilGood = new System.Windows.Forms.RadioButton();
             this.label35 = new System.Windows.Forms.Label();
             this.btn_engineoilBad = new System.Windows.Forms.RadioButton();
             this.label33 = new System.Windows.Forms.Label();
@@ -118,23 +135,6 @@ namespace Billing_System
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.cmb_fuelType = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2GradientPanel3.SuspendLayout();
@@ -331,6 +331,24 @@ namespace Billing_System
             this.guna2GradientPanel2.Size = new System.Drawing.Size(442, 817);
             this.guna2GradientPanel2.TabIndex = 6;
             // 
+            // cmb_fuelType
+            // 
+            this.cmb_fuelType.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_fuelType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_fuelType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_fuelType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_fuelType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_fuelType.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_fuelType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_fuelType.ItemHeight = 30;
+            this.cmb_fuelType.Items.AddRange(new object[] {
+            "Petrol",
+            "Deisel"});
+            this.cmb_fuelType.Location = new System.Drawing.Point(99, 269);
+            this.cmb_fuelType.Name = "cmb_fuelType";
+            this.cmb_fuelType.Size = new System.Drawing.Size(229, 36);
+            this.cmb_fuelType.TabIndex = 6;
+            // 
             // btn_process
             // 
             this.btn_process.BorderRadius = 10;
@@ -393,39 +411,39 @@ namespace Billing_System
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel8);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel7);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel6);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton30);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_oilLeakBad);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel5);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton28);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_mountBad);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel4);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton26);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_axelBad);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel3);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton24);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_ebeltBad);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel2);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton22);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton29);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton20);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton27);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton18);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton25);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_carmBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_oilLeakGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_upperarmBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_mountGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_lowarmBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_axelGood);
             this.guna2GradientPanel3.Controls.Add(this.guna2Panel1);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton23);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton16);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton21);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton19);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton17);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton12);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton15);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton11);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton14);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton10);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton13);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton9);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton8);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton7);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton6);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton5);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton4);
-            this.guna2GradientPanel3.Controls.Add(this.radioButton3);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_ebeltGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_tireBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_carmGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_upperarmGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_lowarmGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_breakBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_tireGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_breakGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_socketBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_radiatorBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_socketGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_radiatorGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_acfilterBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_acfilterGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_airfilterBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_airfilterGood);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_breakoilBad);
+            this.guna2GradientPanel3.Controls.Add(this.rbtn_breakoilGood);
             this.guna2GradientPanel3.Controls.Add(this.label35);
             this.guna2GradientPanel3.Controls.Add(this.btn_engineoilBad);
             this.guna2GradientPanel3.Controls.Add(this.label33);
@@ -481,722 +499,6 @@ namespace Billing_System
             this.label30.Size = new System.Drawing.Size(108, 20);
             this.label30.TabIndex = 17;
             this.label30.Text = "Gear mount ";
-            // 
-            // guna2Panel10
-            // 
-            this.guna2Panel10.BackColor = System.Drawing.Color.White;
-            this.guna2Panel10.Location = new System.Drawing.Point(539, 4);
-            this.guna2Panel10.Name = "guna2Panel10";
-            this.guna2Panel10.Size = new System.Drawing.Size(3, 753);
-            this.guna2Panel10.TabIndex = 15;
-            // 
-            // guna2Panel9
-            // 
-            this.guna2Panel9.BackColor = System.Drawing.Color.White;
-            this.guna2Panel9.Location = new System.Drawing.Point(0, 754);
-            this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel9.TabIndex = 14;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(122, 522);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(168, 27);
-            this.label20.TabIndex = 13;
-            this.label20.Text = "Cooling Water";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(102, 619);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(168, 27);
-            this.label19.TabIndex = 12;
-            this.label19.Text = " Socket Sober";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(690, 688);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(192, 18);
-            this.label36.TabIndex = 11;
-            this.label36.Text = "Transmission oil leak /";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(693, 607);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(117, 20);
-            this.label34.TabIndex = 11;
-            this.label34.Text = "Gear mount ,";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(693, 521);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(156, 27);
-            this.label32.TabIndex = 11;
-            this.label32.Text = "and CV joint";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(694, 327);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(60, 27);
-            this.label28.TabIndex = 11;
-            this.label28.Text = "Bush";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(693, 225);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(60, 27);
-            this.label26.TabIndex = 11;
-            this.label26.Text = "Bush";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(670, 143);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(240, 27);
-            this.label24.TabIndex = 11;
-            this.label24.Text = "/Bush small and Big";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(694, 46);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(156, 27);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "and Rack end";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(105, 418);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(192, 27);
-            this.label18.TabIndex = 11;
-            this.label18.Text = " and Break Shoe";
-            // 
-            // guna2Panel8
-            // 
-            this.guna2Panel8.BackColor = System.Drawing.Color.White;
-            this.guna2Panel8.Location = new System.Drawing.Point(8, 364);
-            this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel8.TabIndex = 10;
-            // 
-            // guna2Panel7
-            // 
-            this.guna2Panel7.BackColor = System.Drawing.Color.White;
-            this.guna2Panel7.Location = new System.Drawing.Point(1, 661);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel7.TabIndex = 9;
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.BackColor = System.Drawing.Color.White;
-            this.guna2Panel6.Location = new System.Drawing.Point(7, 564);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel6.TabIndex = 8;
-            // 
-            // radioButton30
-            // 
-            this.radioButton30.AutoSize = true;
-            this.radioButton30.Location = new System.Drawing.Point(990, 703);
-            this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(54, 21);
-            this.radioButton30.TabIndex = 2;
-            this.radioButton30.TabStop = true;
-            this.radioButton30.Text = "Bad";
-            this.radioButton30.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.White;
-            this.guna2Panel5.Location = new System.Drawing.Point(3, 468);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel5.TabIndex = 7;
-            // 
-            // radioButton28
-            // 
-            this.radioButton28.AutoSize = true;
-            this.radioButton28.Location = new System.Drawing.Point(990, 612);
-            this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(54, 21);
-            this.radioButton28.TabIndex = 2;
-            this.radioButton28.TabStop = true;
-            this.radioButton28.Text = "Bad";
-            this.radioButton28.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.White;
-            this.guna2Panel4.Location = new System.Drawing.Point(2, 269);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel4.TabIndex = 6;
-            // 
-            // radioButton26
-            // 
-            this.radioButton26.AutoSize = true;
-            this.radioButton26.Location = new System.Drawing.Point(990, 507);
-            this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(54, 21);
-            this.radioButton26.TabIndex = 2;
-            this.radioButton26.TabStop = true;
-            this.radioButton26.Text = "Bad";
-            this.radioButton26.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.White;
-            this.guna2Panel3.Location = new System.Drawing.Point(3, 177);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel3.TabIndex = 5;
-            // 
-            // radioButton24
-            // 
-            this.radioButton24.AutoSize = true;
-            this.radioButton24.Location = new System.Drawing.Point(990, 411);
-            this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(54, 21);
-            this.radioButton24.TabIndex = 2;
-            this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "Bad";
-            this.radioButton24.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.White;
-            this.guna2Panel2.Location = new System.Drawing.Point(3, 89);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel2.TabIndex = 4;
-            // 
-            // radioButton22
-            // 
-            this.radioButton22.AutoSize = true;
-            this.radioButton22.Location = new System.Drawing.Point(990, 309);
-            this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(54, 21);
-            this.radioButton22.TabIndex = 2;
-            this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "Bad";
-            this.radioButton22.UseVisualStyleBackColor = true;
-            // 
-            // radioButton29
-            // 
-            this.radioButton29.AutoSize = true;
-            this.radioButton29.Location = new System.Drawing.Point(893, 703);
-            this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(64, 21);
-            this.radioButton29.TabIndex = 2;
-            this.radioButton29.TabStop = true;
-            this.radioButton29.Text = "Good";
-            this.radioButton29.UseVisualStyleBackColor = true;
-            // 
-            // radioButton20
-            // 
-            this.radioButton20.AutoSize = true;
-            this.radioButton20.Location = new System.Drawing.Point(990, 214);
-            this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(54, 21);
-            this.radioButton20.TabIndex = 2;
-            this.radioButton20.TabStop = true;
-            this.radioButton20.Text = "Bad";
-            this.radioButton20.UseVisualStyleBackColor = true;
-            // 
-            // radioButton27
-            // 
-            this.radioButton27.AutoSize = true;
-            this.radioButton27.Location = new System.Drawing.Point(893, 612);
-            this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(64, 21);
-            this.radioButton27.TabIndex = 2;
-            this.radioButton27.TabStop = true;
-            this.radioButton27.Text = "Good";
-            this.radioButton27.UseVisualStyleBackColor = true;
-            // 
-            // radioButton18
-            // 
-            this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(990, 125);
-            this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(54, 21);
-            this.radioButton18.TabIndex = 2;
-            this.radioButton18.TabStop = true;
-            this.radioButton18.Text = "Bad";
-            this.radioButton18.UseVisualStyleBackColor = true;
-            // 
-            // radioButton25
-            // 
-            this.radioButton25.AutoSize = true;
-            this.radioButton25.Location = new System.Drawing.Point(893, 507);
-            this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(64, 21);
-            this.radioButton25.TabIndex = 2;
-            this.radioButton25.TabStop = true;
-            this.radioButton25.Text = "Good";
-            this.radioButton25.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.White;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 1);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel1.TabIndex = 3;
-            // 
-            // radioButton23
-            // 
-            this.radioButton23.AutoSize = true;
-            this.radioButton23.Location = new System.Drawing.Point(893, 411);
-            this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(64, 21);
-            this.radioButton23.TabIndex = 2;
-            this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "Good";
-            this.radioButton23.UseVisualStyleBackColor = true;
-            // 
-            // radioButton16
-            // 
-            this.radioButton16.AutoSize = true;
-            this.radioButton16.Location = new System.Drawing.Point(990, 37);
-            this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(54, 21);
-            this.radioButton16.TabIndex = 2;
-            this.radioButton16.TabStop = true;
-            this.radioButton16.Text = "Bad";
-            this.radioButton16.UseVisualStyleBackColor = true;
-            // 
-            // radioButton21
-            // 
-            this.radioButton21.AutoSize = true;
-            this.radioButton21.Location = new System.Drawing.Point(893, 309);
-            this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(64, 21);
-            this.radioButton21.TabIndex = 2;
-            this.radioButton21.TabStop = true;
-            this.radioButton21.Text = "Good";
-            this.radioButton21.UseVisualStyleBackColor = true;
-            // 
-            // radioButton19
-            // 
-            this.radioButton19.AutoSize = true;
-            this.radioButton19.Location = new System.Drawing.Point(893, 214);
-            this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(64, 21);
-            this.radioButton19.TabIndex = 2;
-            this.radioButton19.TabStop = true;
-            this.radioButton19.Text = "Good";
-            this.radioButton19.UseVisualStyleBackColor = true;
-            // 
-            // radioButton17
-            // 
-            this.radioButton17.AutoSize = true;
-            this.radioButton17.Location = new System.Drawing.Point(893, 125);
-            this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(64, 21);
-            this.radioButton17.TabIndex = 2;
-            this.radioButton17.TabStop = true;
-            this.radioButton17.Text = "Good";
-            this.radioButton17.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(404, 411);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(54, 21);
-            this.radioButton12.TabIndex = 2;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Bad";
-            this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // radioButton15
-            // 
-            this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(893, 37);
-            this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(64, 21);
-            this.radioButton15.TabIndex = 2;
-            this.radioButton15.TabStop = true;
-            this.radioButton15.Text = "Good";
-            this.radioButton15.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(303, 411);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(64, 21);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Good";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton14
-            // 
-            this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(404, 612);
-            this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(54, 21);
-            this.radioButton14.TabIndex = 2;
-            this.radioButton14.TabStop = true;
-            this.radioButton14.Text = "Bad";
-            this.radioButton14.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(404, 507);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(54, 21);
-            this.radioButton10.TabIndex = 2;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Bad";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton13
-            // 
-            this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(310, 612);
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(64, 21);
-            this.radioButton13.TabIndex = 2;
-            this.radioButton13.TabStop = true;
-            this.radioButton13.Text = "Good";
-            this.radioButton13.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(310, 507);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(64, 21);
-            this.radioButton9.TabIndex = 2;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Good";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(404, 316);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(54, 21);
-            this.radioButton8.TabIndex = 2;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Bad";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(302, 315);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(64, 21);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Good";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(404, 703);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(54, 21);
-            this.radioButton6.TabIndex = 2;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Bad";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(303, 702);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(64, 21);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Good";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(404, 220);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(54, 21);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Bad";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(302, 220);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(64, 21);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Good";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(690, 670);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(144, 18);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "Engine oil leak /";
-            // 
-            // btn_engineoilBad
-            // 
-            this.btn_engineoilBad.AutoSize = true;
-            this.btn_engineoilBad.Location = new System.Drawing.Point(403, 37);
-            this.btn_engineoilBad.Name = "btn_engineoilBad";
-            this.btn_engineoilBad.Size = new System.Drawing.Size(54, 21);
-            this.btn_engineoilBad.TabIndex = 2;
-            this.btn_engineoilBad.TabStop = true;
-            this.btn_engineoilBad.Text = "Bad";
-            this.btn_engineoilBad.UseVisualStyleBackColor = true;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(693, 581);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(135, 20);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "Engine mount ,";
-            // 
-            // rbtn_engineoilGood
-            // 
-            this.rbtn_engineoilGood.AutoSize = true;
-            this.rbtn_engineoilGood.Location = new System.Drawing.Point(302, 37);
-            this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
-            this.rbtn_engineoilGood.Size = new System.Drawing.Size(64, 21);
-            this.rbtn_engineoilGood.TabIndex = 2;
-            this.rbtn_engineoilGood.TabStop = true;
-            this.rbtn_engineoilGood.Text = "Good";
-            this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(693, 481);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(204, 27);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "Axel (Axel boot)";
-            // 
-            // rbtn_gearoilBad
-            // 
-            this.rbtn_gearoilBad.AutoSize = true;
-            this.rbtn_gearoilBad.Location = new System.Drawing.Point(404, 125);
-            this.rbtn_gearoilBad.Name = "rbtn_gearoilBad";
-            this.rbtn_gearoilBad.Size = new System.Drawing.Size(54, 21);
-            this.rbtn_gearoilBad.TabIndex = 2;
-            this.rbtn_gearoilBad.TabStop = true;
-            this.rbtn_gearoilBad.Text = "Bad";
-            this.rbtn_gearoilBad.UseVisualStyleBackColor = true;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(693, 404);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(144, 27);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "Engine belt";
-            // 
-            // rbtn_gearoilGood
-            // 
-            this.rbtn_gearoilGood.AutoSize = true;
-            this.rbtn_gearoilGood.Location = new System.Drawing.Point(302, 125);
-            this.rbtn_gearoilGood.Name = "rbtn_gearoilGood";
-            this.rbtn_gearoilGood.Size = new System.Drawing.Size(64, 21);
-            this.rbtn_gearoilGood.TabIndex = 2;
-            this.rbtn_gearoilGood.TabStop = true;
-            this.rbtn_gearoilGood.Text = "Good";
-            this.rbtn_gearoilGood.UseVisualStyleBackColor = true;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(693, 291);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(168, 27);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Control Arm /";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(693, 189);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(132, 27);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "Upper arm/";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(693, 100);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(96, 27);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Low arm";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(50, 532);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(0, 27);
-            this.label16.TabIndex = 1;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(693, 10);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(108, 27);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "Tire rod";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(120, 382);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(120, 27);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Break Pad";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(119, 309);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(132, 27);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "A/C Filter";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(124, 696);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(132, 27);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Air Filter";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(112, 587);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(192, 27);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "Front and Rear ";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(123, 487);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(108, 27);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Radiator";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(120, 214);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(120, 27);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Break Oil";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(120, 125);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(108, 27);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Gear Oil";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(121, 30);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(132, 27);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Engine Oil";
-            // 
-            // cmb_fuelType
-            // 
-            this.cmb_fuelType.BackColor = System.Drawing.Color.Transparent;
-            this.cmb_fuelType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmb_fuelType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmb_fuelType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_fuelType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_fuelType.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmb_fuelType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmb_fuelType.ItemHeight = 30;
-            this.cmb_fuelType.Location = new System.Drawing.Point(99, 269);
-            this.cmb_fuelType.Name = "cmb_fuelType";
-            this.cmb_fuelType.Size = new System.Drawing.Size(229, 36);
-            this.cmb_fuelType.TabIndex = 6;
             // 
             // guna2Button3
             // 
@@ -1502,11 +804,712 @@ namespace Billing_System
             this.guna2Button1.Size = new System.Drawing.Size(76, 73);
             this.guna2Button1.TabIndex = 16;
             // 
+            // guna2Panel10
+            // 
+            this.guna2Panel10.BackColor = System.Drawing.Color.White;
+            this.guna2Panel10.Location = new System.Drawing.Point(539, 4);
+            this.guna2Panel10.Name = "guna2Panel10";
+            this.guna2Panel10.Size = new System.Drawing.Size(3, 753);
+            this.guna2Panel10.TabIndex = 15;
+            // 
+            // guna2Panel9
+            // 
+            this.guna2Panel9.BackColor = System.Drawing.Color.White;
+            this.guna2Panel9.Location = new System.Drawing.Point(0, 754);
+            this.guna2Panel9.Name = "guna2Panel9";
+            this.guna2Panel9.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel9.TabIndex = 14;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(122, 522);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(168, 27);
+            this.label20.TabIndex = 13;
+            this.label20.Text = "Cooling Water";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(102, 619);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(168, 27);
+            this.label19.TabIndex = 12;
+            this.label19.Text = " Socket Sober";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(690, 688);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(192, 18);
+            this.label36.TabIndex = 11;
+            this.label36.Text = "Transmission oil leak /";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(693, 607);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(117, 20);
+            this.label34.TabIndex = 11;
+            this.label34.Text = "Gear mount ,";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(693, 521);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(156, 27);
+            this.label32.TabIndex = 11;
+            this.label32.Text = "and CV joint";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(694, 327);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(60, 27);
+            this.label28.TabIndex = 11;
+            this.label28.Text = "Bush";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(693, 225);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(60, 27);
+            this.label26.TabIndex = 11;
+            this.label26.Text = "Bush";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(670, 143);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(240, 27);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "/Bush small and Big";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(694, 46);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(156, 27);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "and Rack end";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(105, 418);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(192, 27);
+            this.label18.TabIndex = 11;
+            this.label18.Text = " and Break Shoe";
+            // 
+            // guna2Panel8
+            // 
+            this.guna2Panel8.BackColor = System.Drawing.Color.White;
+            this.guna2Panel8.Location = new System.Drawing.Point(8, 364);
+            this.guna2Panel8.Name = "guna2Panel8";
+            this.guna2Panel8.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel8.TabIndex = 10;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.White;
+            this.guna2Panel7.Location = new System.Drawing.Point(1, 661);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel7.TabIndex = 9;
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.White;
+            this.guna2Panel6.Location = new System.Drawing.Point(7, 564);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel6.TabIndex = 8;
+            // 
+            // rbtn_oilLeakBad
+            // 
+            this.rbtn_oilLeakBad.AutoSize = true;
+            this.rbtn_oilLeakBad.Location = new System.Drawing.Point(990, 703);
+            this.rbtn_oilLeakBad.Name = "rbtn_oilLeakBad";
+            this.rbtn_oilLeakBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_oilLeakBad.TabIndex = 2;
+            this.rbtn_oilLeakBad.TabStop = true;
+            this.rbtn_oilLeakBad.Text = "Bad";
+            this.rbtn_oilLeakBad.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BackColor = System.Drawing.Color.White;
+            this.guna2Panel5.Location = new System.Drawing.Point(3, 468);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel5.TabIndex = 7;
+            // 
+            // rbtn_mountBad
+            // 
+            this.rbtn_mountBad.AutoSize = true;
+            this.rbtn_mountBad.Location = new System.Drawing.Point(990, 612);
+            this.rbtn_mountBad.Name = "rbtn_mountBad";
+            this.rbtn_mountBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_mountBad.TabIndex = 2;
+            this.rbtn_mountBad.TabStop = true;
+            this.rbtn_mountBad.Text = "Bad";
+            this.rbtn_mountBad.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.White;
+            this.guna2Panel4.Location = new System.Drawing.Point(2, 269);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel4.TabIndex = 6;
+            // 
+            // rbtn_axelBad
+            // 
+            this.rbtn_axelBad.AutoSize = true;
+            this.rbtn_axelBad.Location = new System.Drawing.Point(990, 507);
+            this.rbtn_axelBad.Name = "rbtn_axelBad";
+            this.rbtn_axelBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_axelBad.TabIndex = 2;
+            this.rbtn_axelBad.TabStop = true;
+            this.rbtn_axelBad.Text = "Bad";
+            this.rbtn_axelBad.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.White;
+            this.guna2Panel3.Location = new System.Drawing.Point(3, 177);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel3.TabIndex = 5;
+            // 
+            // rbtn_ebeltBad
+            // 
+            this.rbtn_ebeltBad.AutoSize = true;
+            this.rbtn_ebeltBad.Location = new System.Drawing.Point(990, 411);
+            this.rbtn_ebeltBad.Name = "rbtn_ebeltBad";
+            this.rbtn_ebeltBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_ebeltBad.TabIndex = 2;
+            this.rbtn_ebeltBad.TabStop = true;
+            this.rbtn_ebeltBad.Text = "Bad";
+            this.rbtn_ebeltBad.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.White;
+            this.guna2Panel2.Location = new System.Drawing.Point(3, 89);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel2.TabIndex = 4;
+            // 
+            // rbtn_carmBad
+            // 
+            this.rbtn_carmBad.AutoSize = true;
+            this.rbtn_carmBad.Location = new System.Drawing.Point(990, 309);
+            this.rbtn_carmBad.Name = "rbtn_carmBad";
+            this.rbtn_carmBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_carmBad.TabIndex = 2;
+            this.rbtn_carmBad.TabStop = true;
+            this.rbtn_carmBad.Text = "Bad";
+            this.rbtn_carmBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_oilLeakGood
+            // 
+            this.rbtn_oilLeakGood.AutoSize = true;
+            this.rbtn_oilLeakGood.Location = new System.Drawing.Point(893, 703);
+            this.rbtn_oilLeakGood.Name = "rbtn_oilLeakGood";
+            this.rbtn_oilLeakGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_oilLeakGood.TabIndex = 2;
+            this.rbtn_oilLeakGood.TabStop = true;
+            this.rbtn_oilLeakGood.Text = "Good";
+            this.rbtn_oilLeakGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_upperarmBad
+            // 
+            this.rbtn_upperarmBad.AutoSize = true;
+            this.rbtn_upperarmBad.Location = new System.Drawing.Point(990, 214);
+            this.rbtn_upperarmBad.Name = "rbtn_upperarmBad";
+            this.rbtn_upperarmBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_upperarmBad.TabIndex = 2;
+            this.rbtn_upperarmBad.TabStop = true;
+            this.rbtn_upperarmBad.Text = "Bad";
+            this.rbtn_upperarmBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_mountGood
+            // 
+            this.rbtn_mountGood.AutoSize = true;
+            this.rbtn_mountGood.Location = new System.Drawing.Point(893, 612);
+            this.rbtn_mountGood.Name = "rbtn_mountGood";
+            this.rbtn_mountGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_mountGood.TabIndex = 2;
+            this.rbtn_mountGood.TabStop = true;
+            this.rbtn_mountGood.Text = "Good";
+            this.rbtn_mountGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_lowarmBad
+            // 
+            this.rbtn_lowarmBad.AutoSize = true;
+            this.rbtn_lowarmBad.Location = new System.Drawing.Point(990, 125);
+            this.rbtn_lowarmBad.Name = "rbtn_lowarmBad";
+            this.rbtn_lowarmBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_lowarmBad.TabIndex = 2;
+            this.rbtn_lowarmBad.TabStop = true;
+            this.rbtn_lowarmBad.Text = "Bad";
+            this.rbtn_lowarmBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_axelGood
+            // 
+            this.rbtn_axelGood.AutoSize = true;
+            this.rbtn_axelGood.Location = new System.Drawing.Point(893, 507);
+            this.rbtn_axelGood.Name = "rbtn_axelGood";
+            this.rbtn_axelGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_axelGood.TabIndex = 2;
+            this.rbtn_axelGood.TabStop = true;
+            this.rbtn_axelGood.Text = "Good";
+            this.rbtn_axelGood.UseVisualStyleBackColor = true;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.White;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 1);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel1.TabIndex = 3;
+            // 
+            // rbtn_ebeltGood
+            // 
+            this.rbtn_ebeltGood.AutoSize = true;
+            this.rbtn_ebeltGood.Location = new System.Drawing.Point(893, 411);
+            this.rbtn_ebeltGood.Name = "rbtn_ebeltGood";
+            this.rbtn_ebeltGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_ebeltGood.TabIndex = 2;
+            this.rbtn_ebeltGood.TabStop = true;
+            this.rbtn_ebeltGood.Text = "Good";
+            this.rbtn_ebeltGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_tireBad
+            // 
+            this.rbtn_tireBad.AutoSize = true;
+            this.rbtn_tireBad.Location = new System.Drawing.Point(990, 37);
+            this.rbtn_tireBad.Name = "rbtn_tireBad";
+            this.rbtn_tireBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_tireBad.TabIndex = 2;
+            this.rbtn_tireBad.TabStop = true;
+            this.rbtn_tireBad.Text = "Bad";
+            this.rbtn_tireBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_carmGood
+            // 
+            this.rbtn_carmGood.AutoSize = true;
+            this.rbtn_carmGood.Location = new System.Drawing.Point(893, 309);
+            this.rbtn_carmGood.Name = "rbtn_carmGood";
+            this.rbtn_carmGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_carmGood.TabIndex = 2;
+            this.rbtn_carmGood.TabStop = true;
+            this.rbtn_carmGood.Text = "Good";
+            this.rbtn_carmGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_upperarmGood
+            // 
+            this.rbtn_upperarmGood.AutoSize = true;
+            this.rbtn_upperarmGood.Location = new System.Drawing.Point(893, 214);
+            this.rbtn_upperarmGood.Name = "rbtn_upperarmGood";
+            this.rbtn_upperarmGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_upperarmGood.TabIndex = 2;
+            this.rbtn_upperarmGood.TabStop = true;
+            this.rbtn_upperarmGood.Text = "Good";
+            this.rbtn_upperarmGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_lowarmGood
+            // 
+            this.rbtn_lowarmGood.AutoSize = true;
+            this.rbtn_lowarmGood.Location = new System.Drawing.Point(893, 125);
+            this.rbtn_lowarmGood.Name = "rbtn_lowarmGood";
+            this.rbtn_lowarmGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_lowarmGood.TabIndex = 2;
+            this.rbtn_lowarmGood.TabStop = true;
+            this.rbtn_lowarmGood.Text = "Good";
+            this.rbtn_lowarmGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_breakBad
+            // 
+            this.rbtn_breakBad.AutoSize = true;
+            this.rbtn_breakBad.Location = new System.Drawing.Point(404, 411);
+            this.rbtn_breakBad.Name = "rbtn_breakBad";
+            this.rbtn_breakBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_breakBad.TabIndex = 2;
+            this.rbtn_breakBad.TabStop = true;
+            this.rbtn_breakBad.Text = "Bad";
+            this.rbtn_breakBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_tireGood
+            // 
+            this.rbtn_tireGood.AutoSize = true;
+            this.rbtn_tireGood.Location = new System.Drawing.Point(893, 37);
+            this.rbtn_tireGood.Name = "rbtn_tireGood";
+            this.rbtn_tireGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_tireGood.TabIndex = 2;
+            this.rbtn_tireGood.TabStop = true;
+            this.rbtn_tireGood.Text = "Good";
+            this.rbtn_tireGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_breakGood
+            // 
+            this.rbtn_breakGood.AutoSize = true;
+            this.rbtn_breakGood.Location = new System.Drawing.Point(303, 411);
+            this.rbtn_breakGood.Name = "rbtn_breakGood";
+            this.rbtn_breakGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_breakGood.TabIndex = 2;
+            this.rbtn_breakGood.TabStop = true;
+            this.rbtn_breakGood.Text = "Good";
+            this.rbtn_breakGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_socketBad
+            // 
+            this.rbtn_socketBad.AutoSize = true;
+            this.rbtn_socketBad.Location = new System.Drawing.Point(404, 612);
+            this.rbtn_socketBad.Name = "rbtn_socketBad";
+            this.rbtn_socketBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_socketBad.TabIndex = 2;
+            this.rbtn_socketBad.TabStop = true;
+            this.rbtn_socketBad.Text = "Bad";
+            this.rbtn_socketBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_radiatorBad
+            // 
+            this.rbtn_radiatorBad.AutoSize = true;
+            this.rbtn_radiatorBad.Location = new System.Drawing.Point(404, 507);
+            this.rbtn_radiatorBad.Name = "rbtn_radiatorBad";
+            this.rbtn_radiatorBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_radiatorBad.TabIndex = 2;
+            this.rbtn_radiatorBad.TabStop = true;
+            this.rbtn_radiatorBad.Text = "Bad";
+            this.rbtn_radiatorBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_socketGood
+            // 
+            this.rbtn_socketGood.AutoSize = true;
+            this.rbtn_socketGood.Location = new System.Drawing.Point(310, 612);
+            this.rbtn_socketGood.Name = "rbtn_socketGood";
+            this.rbtn_socketGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_socketGood.TabIndex = 2;
+            this.rbtn_socketGood.TabStop = true;
+            this.rbtn_socketGood.Text = "Good";
+            this.rbtn_socketGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_radiatorGood
+            // 
+            this.rbtn_radiatorGood.AutoSize = true;
+            this.rbtn_radiatorGood.Location = new System.Drawing.Point(310, 507);
+            this.rbtn_radiatorGood.Name = "rbtn_radiatorGood";
+            this.rbtn_radiatorGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_radiatorGood.TabIndex = 2;
+            this.rbtn_radiatorGood.TabStop = true;
+            this.rbtn_radiatorGood.Text = "Good";
+            this.rbtn_radiatorGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_acfilterBad
+            // 
+            this.rbtn_acfilterBad.AutoSize = true;
+            this.rbtn_acfilterBad.Location = new System.Drawing.Point(404, 316);
+            this.rbtn_acfilterBad.Name = "rbtn_acfilterBad";
+            this.rbtn_acfilterBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_acfilterBad.TabIndex = 2;
+            this.rbtn_acfilterBad.TabStop = true;
+            this.rbtn_acfilterBad.Text = "Bad";
+            this.rbtn_acfilterBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_acfilterGood
+            // 
+            this.rbtn_acfilterGood.AutoSize = true;
+            this.rbtn_acfilterGood.Location = new System.Drawing.Point(302, 315);
+            this.rbtn_acfilterGood.Name = "rbtn_acfilterGood";
+            this.rbtn_acfilterGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_acfilterGood.TabIndex = 2;
+            this.rbtn_acfilterGood.TabStop = true;
+            this.rbtn_acfilterGood.Text = "Good";
+            this.rbtn_acfilterGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_airfilterBad
+            // 
+            this.rbtn_airfilterBad.AutoSize = true;
+            this.rbtn_airfilterBad.Location = new System.Drawing.Point(404, 703);
+            this.rbtn_airfilterBad.Name = "rbtn_airfilterBad";
+            this.rbtn_airfilterBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_airfilterBad.TabIndex = 2;
+            this.rbtn_airfilterBad.TabStop = true;
+            this.rbtn_airfilterBad.Text = "Bad";
+            this.rbtn_airfilterBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_airfilterGood
+            // 
+            this.rbtn_airfilterGood.AutoSize = true;
+            this.rbtn_airfilterGood.Location = new System.Drawing.Point(303, 702);
+            this.rbtn_airfilterGood.Name = "rbtn_airfilterGood";
+            this.rbtn_airfilterGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_airfilterGood.TabIndex = 2;
+            this.rbtn_airfilterGood.TabStop = true;
+            this.rbtn_airfilterGood.Text = "Good";
+            this.rbtn_airfilterGood.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_breakoilBad
+            // 
+            this.rbtn_breakoilBad.AutoSize = true;
+            this.rbtn_breakoilBad.Location = new System.Drawing.Point(404, 220);
+            this.rbtn_breakoilBad.Name = "rbtn_breakoilBad";
+            this.rbtn_breakoilBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_breakoilBad.TabIndex = 2;
+            this.rbtn_breakoilBad.TabStop = true;
+            this.rbtn_breakoilBad.Text = "Bad";
+            this.rbtn_breakoilBad.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_breakoilGood
+            // 
+            this.rbtn_breakoilGood.AutoSize = true;
+            this.rbtn_breakoilGood.Location = new System.Drawing.Point(302, 220);
+            this.rbtn_breakoilGood.Name = "rbtn_breakoilGood";
+            this.rbtn_breakoilGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_breakoilGood.TabIndex = 2;
+            this.rbtn_breakoilGood.TabStop = true;
+            this.rbtn_breakoilGood.Text = "Good";
+            this.rbtn_breakoilGood.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(690, 670);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(144, 18);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "Engine oil leak /";
+            // 
+            // btn_engineoilBad
+            // 
+            this.btn_engineoilBad.AutoSize = true;
+            this.btn_engineoilBad.Location = new System.Drawing.Point(403, 37);
+            this.btn_engineoilBad.Name = "btn_engineoilBad";
+            this.btn_engineoilBad.Size = new System.Drawing.Size(54, 21);
+            this.btn_engineoilBad.TabIndex = 2;
+            this.btn_engineoilBad.TabStop = true;
+            this.btn_engineoilBad.Text = "Bad";
+            this.btn_engineoilBad.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(693, 581);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(135, 20);
+            this.label33.TabIndex = 1;
+            this.label33.Text = "Engine mount ,";
+            // 
+            // rbtn_engineoilGood
+            // 
+            this.rbtn_engineoilGood.AutoSize = true;
+            this.rbtn_engineoilGood.Location = new System.Drawing.Point(302, 37);
+            this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
+            this.rbtn_engineoilGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_engineoilGood.TabIndex = 2;
+            this.rbtn_engineoilGood.TabStop = true;
+            this.rbtn_engineoilGood.Text = "Good";
+            this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(693, 481);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(204, 27);
+            this.label31.TabIndex = 1;
+            this.label31.Text = "Axel (Axel boot)";
+            // 
+            // rbtn_gearoilBad
+            // 
+            this.rbtn_gearoilBad.AutoSize = true;
+            this.rbtn_gearoilBad.Location = new System.Drawing.Point(404, 125);
+            this.rbtn_gearoilBad.Name = "rbtn_gearoilBad";
+            this.rbtn_gearoilBad.Size = new System.Drawing.Size(54, 21);
+            this.rbtn_gearoilBad.TabIndex = 2;
+            this.rbtn_gearoilBad.TabStop = true;
+            this.rbtn_gearoilBad.Text = "Bad";
+            this.rbtn_gearoilBad.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(693, 404);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(144, 27);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "Engine belt";
+            // 
+            // rbtn_gearoilGood
+            // 
+            this.rbtn_gearoilGood.AutoSize = true;
+            this.rbtn_gearoilGood.Location = new System.Drawing.Point(302, 125);
+            this.rbtn_gearoilGood.Name = "rbtn_gearoilGood";
+            this.rbtn_gearoilGood.Size = new System.Drawing.Size(64, 21);
+            this.rbtn_gearoilGood.TabIndex = 2;
+            this.rbtn_gearoilGood.TabStop = true;
+            this.rbtn_gearoilGood.Text = "Good";
+            this.rbtn_gearoilGood.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(693, 291);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(168, 27);
+            this.label27.TabIndex = 1;
+            this.label27.Text = "Control Arm /";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(693, 189);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(132, 27);
+            this.label25.TabIndex = 1;
+            this.label25.Text = "Upper arm/";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(693, 100);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(96, 27);
+            this.label23.TabIndex = 1;
+            this.label23.Text = "Low arm";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(50, 532);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(0, 27);
+            this.label16.TabIndex = 1;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(693, 10);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(108, 27);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Tire rod";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(120, 382);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(120, 27);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Break Pad";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(119, 309);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(132, 27);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "A/C Filter";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(124, 696);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(132, 27);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Air Filter";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(112, 587);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(192, 27);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "Front and Rear ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(123, 487);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(108, 27);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Radiator";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(120, 214);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 27);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Break Oil";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(120, 125);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(108, 27);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Gear Oil";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(121, 30);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(132, 27);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Engine Oil";
+            // 
             // frm_sconditionReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1828, 899);
+            this.ClientSize = new System.Drawing.Size(1578, 849);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
@@ -1555,16 +1558,16 @@ namespace Billing_System
         private System.Windows.Forms.RadioButton rbtn_gearoilGood;
         private System.Windows.Forms.RadioButton btn_engineoilBad;
         private System.Windows.Forms.RadioButton rbtn_engineoilGood;
-        private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton rbtn_breakBad;
+        private System.Windows.Forms.RadioButton rbtn_breakGood;
+        private System.Windows.Forms.RadioButton rbtn_radiatorBad;
+        private System.Windows.Forms.RadioButton rbtn_radiatorGood;
+        private System.Windows.Forms.RadioButton rbtn_acfilterBad;
+        private System.Windows.Forms.RadioButton rbtn_acfilterGood;
+        private System.Windows.Forms.RadioButton rbtn_airfilterBad;
+        private System.Windows.Forms.RadioButton rbtn_airfilterGood;
+        private System.Windows.Forms.RadioButton rbtn_breakoilBad;
+        private System.Windows.Forms.RadioButton rbtn_breakoilGood;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
@@ -1576,8 +1579,8 @@ namespace Billing_System
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.RadioButton radioButton14;
-        private System.Windows.Forms.RadioButton radioButton13;
+        private System.Windows.Forms.RadioButton rbtn_socketBad;
+        private System.Windows.Forms.RadioButton rbtn_socketGood;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label34;
@@ -1586,22 +1589,22 @@ namespace Billing_System
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.RadioButton radioButton30;
-        private System.Windows.Forms.RadioButton radioButton28;
-        private System.Windows.Forms.RadioButton radioButton26;
-        private System.Windows.Forms.RadioButton radioButton24;
-        private System.Windows.Forms.RadioButton radioButton22;
-        private System.Windows.Forms.RadioButton radioButton29;
-        private System.Windows.Forms.RadioButton radioButton20;
-        private System.Windows.Forms.RadioButton radioButton27;
-        private System.Windows.Forms.RadioButton radioButton18;
-        private System.Windows.Forms.RadioButton radioButton25;
-        private System.Windows.Forms.RadioButton radioButton23;
-        private System.Windows.Forms.RadioButton radioButton16;
-        private System.Windows.Forms.RadioButton radioButton21;
-        private System.Windows.Forms.RadioButton radioButton19;
-        private System.Windows.Forms.RadioButton radioButton17;
-        private System.Windows.Forms.RadioButton radioButton15;
+        private System.Windows.Forms.RadioButton rbtn_oilLeakBad;
+        private System.Windows.Forms.RadioButton rbtn_mountBad;
+        private System.Windows.Forms.RadioButton rbtn_axelBad;
+        private System.Windows.Forms.RadioButton rbtn_ebeltBad;
+        private System.Windows.Forms.RadioButton rbtn_carmBad;
+        private System.Windows.Forms.RadioButton rbtn_oilLeakGood;
+        private System.Windows.Forms.RadioButton rbtn_upperarmBad;
+        private System.Windows.Forms.RadioButton rbtn_mountGood;
+        private System.Windows.Forms.RadioButton rbtn_lowarmBad;
+        private System.Windows.Forms.RadioButton rbtn_axelGood;
+        private System.Windows.Forms.RadioButton rbtn_ebeltGood;
+        private System.Windows.Forms.RadioButton rbtn_tireBad;
+        private System.Windows.Forms.RadioButton rbtn_carmGood;
+        private System.Windows.Forms.RadioButton rbtn_upperarmGood;
+        private System.Windows.Forms.RadioButton rbtn_lowarmGood;
+        private System.Windows.Forms.RadioButton rbtn_tireGood;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label31;
