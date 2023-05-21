@@ -61,7 +61,7 @@
             this.txt_vehicleNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_vehicleNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_vehicleNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_vehicleNumber.Location = new System.Drawing.Point(210, 199);
+            this.txt_vehicleNumber.Location = new System.Drawing.Point(52, 174);
             this.txt_vehicleNumber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_vehicleNumber.Name = "txt_vehicleNumber";
             this.txt_vehicleNumber.PasswordChar = '\0';
@@ -81,7 +81,7 @@
             this.txt_vehicleModle.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_vehicleModle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_vehicleModle.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_vehicleModle.Location = new System.Drawing.Point(538, 199);
+            this.txt_vehicleModle.Location = new System.Drawing.Point(317, 174);
             this.txt_vehicleModle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_vehicleModle.Name = "txt_vehicleModle";
             this.txt_vehicleModle.PasswordChar = '\0';
@@ -101,7 +101,7 @@
             this.txt_km.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_km.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_km.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_km.Location = new System.Drawing.Point(210, 285);
+            this.txt_km.Location = new System.Drawing.Point(52, 260);
             this.txt_km.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_km.Name = "txt_km";
             this.txt_km.PasswordChar = '\0';
@@ -121,7 +121,7 @@
             this.txt_discount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_discount.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_discount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_discount.Location = new System.Drawing.Point(538, 385);
+            this.txt_discount.Location = new System.Drawing.Point(317, 352);
             this.txt_discount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_discount.Name = "txt_discount";
             this.txt_discount.PasswordChar = '\0';
@@ -134,7 +134,7 @@
             // 
             this.lbl_vehicle_number.AutoSize = true;
             this.lbl_vehicle_number.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vehicle_number.Location = new System.Drawing.Point(207, 168);
+            this.lbl_vehicle_number.Location = new System.Drawing.Point(49, 143);
             this.lbl_vehicle_number.Name = "lbl_vehicle_number";
             this.lbl_vehicle_number.Size = new System.Drawing.Size(136, 21);
             this.lbl_vehicle_number.TabIndex = 11;
@@ -144,7 +144,7 @@
             // 
             this.lbl_vehicle_model.AutoSize = true;
             this.lbl_vehicle_model.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vehicle_model.Location = new System.Drawing.Point(535, 168);
+            this.lbl_vehicle_model.Location = new System.Drawing.Point(314, 143);
             this.lbl_vehicle_model.Name = "lbl_vehicle_model";
             this.lbl_vehicle_model.Size = new System.Drawing.Size(127, 21);
             this.lbl_vehicle_model.TabIndex = 12;
@@ -154,7 +154,7 @@
             // 
             this.lbl_fuel.AutoSize = true;
             this.lbl_fuel.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fuel.Location = new System.Drawing.Point(857, 168);
+            this.lbl_fuel.Location = new System.Drawing.Point(576, 143);
             this.lbl_fuel.Name = "lbl_fuel";
             this.lbl_fuel.Size = new System.Drawing.Size(46, 21);
             this.lbl_fuel.TabIndex = 13;
@@ -164,7 +164,7 @@
             // 
             this.lbl_km.AutoSize = true;
             this.lbl_km.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_km.Location = new System.Drawing.Point(207, 255);
+            this.lbl_km.Location = new System.Drawing.Point(49, 230);
             this.lbl_km.Name = "lbl_km";
             this.lbl_km.Size = new System.Drawing.Size(28, 21);
             this.lbl_km.TabIndex = 14;
@@ -174,7 +174,7 @@
             // 
             this.lbl_name_of_the_machanic.AutoSize = true;
             this.lbl_name_of_the_machanic.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name_of_the_machanic.Location = new System.Drawing.Point(535, 255);
+            this.lbl_name_of_the_machanic.Location = new System.Drawing.Point(314, 230);
             this.lbl_name_of_the_machanic.Name = "lbl_name_of_the_machanic";
             this.lbl_name_of_the_machanic.Size = new System.Drawing.Size(190, 21);
             this.lbl_name_of_the_machanic.TabIndex = 15;
@@ -184,7 +184,7 @@
             // 
             this.lbl_job.AutoSize = true;
             this.lbl_job.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_job.Location = new System.Drawing.Point(207, 361);
+            this.lbl_job.Location = new System.Drawing.Point(49, 314);
             this.lbl_job.Name = "lbl_job";
             this.lbl_job.Size = new System.Drawing.Size(37, 21);
             this.lbl_job.TabIndex = 16;
@@ -194,7 +194,7 @@
             // 
             this.lbl_discount.AutoSize = true;
             this.lbl_discount.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_discount.Location = new System.Drawing.Point(541, 360);
+            this.lbl_discount.Location = new System.Drawing.Point(314, 314);
             this.lbl_discount.Name = "lbl_discount";
             this.lbl_discount.Size = new System.Drawing.Size(82, 21);
             this.lbl_discount.TabIndex = 17;
@@ -204,7 +204,7 @@
             // 
             this.lbl_date.AutoSize = true;
             this.lbl_date.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
-            this.lbl_date.Location = new System.Drawing.Point(858, 301);
+            this.lbl_date.Location = new System.Drawing.Point(577, 276);
             this.lbl_date.Name = "lbl_date";
             this.lbl_date.Size = new System.Drawing.Size(82, 21);
             this.lbl_date.TabIndex = 19;
@@ -214,7 +214,7 @@
             // 
             this.lbl_price.AutoSize = true;
             this.lbl_price.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
-            this.lbl_price.Location = new System.Drawing.Point(858, 377);
+            this.lbl_price.Location = new System.Drawing.Point(577, 352);
             this.lbl_price.Name = "lbl_price";
             this.lbl_price.Size = new System.Drawing.Size(82, 21);
             this.lbl_price.TabIndex = 20;
@@ -229,7 +229,7 @@
             "Super Diesel",
             "Petrol 92",
             "Petrol 95"});
-            this.drp_fuelType.Location = new System.Drawing.Point(847, 205);
+            this.drp_fuelType.Location = new System.Drawing.Point(579, 182);
             this.drp_fuelType.Name = "drp_fuelType";
             this.drp_fuelType.Size = new System.Drawing.Size(199, 23);
             this.drp_fuelType.TabIndex = 21;
@@ -243,7 +243,7 @@
             "Super Diesel",
             "Petrol 92",
             "Petrol 95"});
-            this.drp_machanicNam.Location = new System.Drawing.Point(538, 285);
+            this.drp_machanicNam.Location = new System.Drawing.Point(317, 268);
             this.drp_machanicNam.Name = "drp_machanicNam";
             this.drp_machanicNam.Size = new System.Drawing.Size(199, 23);
             this.drp_machanicNam.TabIndex = 22;
@@ -257,7 +257,7 @@
             "Super Diesel",
             "Petrol 92",
             "Petrol 95"});
-            this.drp_job.Location = new System.Drawing.Point(211, 385);
+            this.drp_job.Location = new System.Drawing.Point(53, 360);
             this.drp_job.Name = "drp_job";
             this.drp_job.Size = new System.Drawing.Size(198, 23);
             this.drp_job.TabIndex = 23;
@@ -273,10 +273,10 @@
             this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
             this.btn_process.Font = new System.Drawing.Font("Cascadia Mono", 13.8F, System.Drawing.FontStyle.Bold);
             this.btn_process.ForeColor = System.Drawing.Color.Black;
-            this.btn_process.Location = new System.Drawing.Point(505, 522);
+            this.btn_process.Location = new System.Drawing.Point(324, 431);
             this.btn_process.Margin = new System.Windows.Forms.Padding(2);
             this.btn_process.Name = "btn_process";
-            this.btn_process.Size = new System.Drawing.Size(269, 74);
+            this.btn_process.Size = new System.Drawing.Size(180, 58);
             this.btn_process.TabIndex = 25;
             this.btn_process.Text = "Process";
             // 
@@ -307,7 +307,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1584, 861);
             this.Controls.Add(this.guna2Panel4);
             this.Controls.Add(this.btn_process);
             this.Controls.Add(this.drp_job);

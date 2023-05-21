@@ -19,10 +19,9 @@ namespace Billing_System
 
         private void btn_process_Click(object sender, EventArgs e)
         {
-            frm_invoice inv = new frm_invoice();
+            frm_sconditionReport sc =   new frm_sconditionReport();
             this.Hide();
-            inv.Show();
-
+            sc.Show();
         }
     }
 }
