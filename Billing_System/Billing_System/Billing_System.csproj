@@ -181,13 +181,7 @@
     <None Include="Resources\oil-spill1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\check-out.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\9-Top-Social-Media-Tips-for-Auto-Repair-Companies.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\abstract-geometric-white-gray-color-elegant-background-vector-illustration_249611-5953.jpg" />
+    <None Include="Resources\hide.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
