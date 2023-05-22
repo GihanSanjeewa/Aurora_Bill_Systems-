@@ -57,3 +57,6 @@ C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_S
 C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
 C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
 C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashbord.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_invoice.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_login.resources
