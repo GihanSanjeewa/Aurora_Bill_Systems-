@@ -63,27 +63,6 @@ namespace Billing_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _9_Top_Social_Media_Tips_for_Auto_Repair_Companies {
-            get {
-                object obj = ResourceManager.GetObject("9-Top-Social-Media-Tips-for-Auto-Repair-Companies", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap abstract_geometric_white_gray_color_elegant_background_vector_illustration_249611_5953 {
-            get {
-                object obj = ResourceManager.GetObject("abstract-geometric-white-gray-color-elegant-background-vector-illustration_249611" +
-                        "-5953", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap air_purifier {
             get {
                 object obj = ResourceManager.GetObject("air-purifier", resourceCulture);
@@ -97,6 +76,16 @@ namespace Billing_System.Properties {
         internal static System.Drawing.Bitmap axle {
             get {
                 object obj = ResourceManager.GetObject("axle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,7 +125,7 @@ namespace Billing_System.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap check_out {
             get {
-                object obj = ResourceManager.GetObject("check-out", resourceCulture);
+                object obj = ResourceManager.GetObject("check_out", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

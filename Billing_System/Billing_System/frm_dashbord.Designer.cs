@@ -150,7 +150,7 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
             this.label7.Location = new System.Drawing.Point(688, 19);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(616, 50);
+            this.label7.Size = new System.Drawing.Size(616, 49);
             this.label7.TabIndex = 3;
             this.label7.Text = "Suspension Condition Report";
             // 
@@ -179,7 +179,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
             this.label1.Location = new System.Drawing.Point(283, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 50);
+            this.label1.Size = new System.Drawing.Size(616, 49);
             this.label1.TabIndex = 3;
             this.label1.Text = "Suspension Condition Report";
             // 
@@ -361,7 +361,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Billing_System.Properties.Resources.abstract_geometric_white_gray_color_elegant_background_vector_illustration_249611_5953;
+            this.BackgroundImage = global::Billing_System.Properties.Resources.back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1898, 1029);
             this.Controls.Add(this.guna2GradientPanel2);
