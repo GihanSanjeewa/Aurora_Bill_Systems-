@@ -45,7 +45,7 @@
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.Color.White;
+            this.btn_login.BackColor = System.Drawing.Color.Transparent;
             this.btn_login.BorderRadius = 5;
             this.btn_login.BorderThickness = 2;
             this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
