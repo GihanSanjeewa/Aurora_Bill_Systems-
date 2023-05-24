@@ -196,8 +196,10 @@
             // 
             // btn_logOut
             // 
+            this.btn_logOut.BackColor = System.Drawing.Color.Transparent;
             this.btn_logOut.BackgroundImage = global::Billing_System.Properties.Resources.check_out;
             this.btn_logOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_logOut.BorderColor = System.Drawing.Color.Transparent;
             this.btn_logOut.BorderRadius = 10;
             this.btn_logOut.BorderThickness = 2;
             this.btn_logOut.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -215,8 +217,10 @@
             // 
             // btn_addItem
             // 
+            this.btn_addItem.BackColor = System.Drawing.Color.Transparent;
             this.btn_addItem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addItem.BackgroundImage")));
             this.btn_addItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_addItem.BorderColor = System.Drawing.Color.Transparent;
             this.btn_addItem.BorderRadius = 10;
             this.btn_addItem.BorderThickness = 2;
             this.btn_addItem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -234,8 +238,10 @@
             // 
             // btn_jobcardMotorcar
             // 
+            this.btn_jobcardMotorcar.BackColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorcar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_jobcardMotorcar.BackgroundImage")));
             this.btn_jobcardMotorcar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_jobcardMotorcar.BorderColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorcar.BorderRadius = 10;
             this.btn_jobcardMotorcar.BorderThickness = 2;
             this.btn_jobcardMotorcar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -253,8 +259,10 @@
             // 
             // btn_backup
             // 
+            this.btn_backup.BackColor = System.Drawing.Color.Transparent;
             this.btn_backup.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_backup.BackgroundImage")));
             this.btn_backup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backup.BorderColor = System.Drawing.Color.Transparent;
             this.btn_backup.BorderRadius = 10;
             this.btn_backup.BorderThickness = 2;
             this.btn_backup.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -271,8 +279,10 @@
             // 
             // btn_inventory
             // 
+            this.btn_inventory.BackColor = System.Drawing.Color.Transparent;
             this.btn_inventory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_inventory.BackgroundImage")));
             this.btn_inventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_inventory.BorderColor = System.Drawing.Color.Transparent;
             this.btn_inventory.BorderRadius = 10;
             this.btn_inventory.BorderThickness = 2;
             this.btn_inventory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -290,8 +300,10 @@
             // 
             // btn_sales
             // 
+            this.btn_sales.BackColor = System.Drawing.Color.Transparent;
             this.btn_sales.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sales.BackgroundImage")));
             this.btn_sales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_sales.BorderColor = System.Drawing.Color.Transparent;
             this.btn_sales.BorderRadius = 10;
             this.btn_sales.BorderThickness = 2;
             this.btn_sales.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -309,8 +321,10 @@
             // 
             // btn_suspensionCondition
             // 
+            this.btn_suspensionCondition.BackColor = System.Drawing.Color.Transparent;
             this.btn_suspensionCondition.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_suspensionCondition.BackgroundImage")));
             this.btn_suspensionCondition.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_suspensionCondition.BorderColor = System.Drawing.Color.Transparent;
             this.btn_suspensionCondition.BorderRadius = 10;
             this.btn_suspensionCondition.BorderThickness = 2;
             this.btn_suspensionCondition.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -328,8 +342,10 @@
             // 
             // btn_invoice
             // 
+            this.btn_invoice.BackColor = System.Drawing.Color.Transparent;
             this.btn_invoice.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_invoice.BackgroundImage")));
             this.btn_invoice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_invoice.BorderColor = System.Drawing.Color.Transparent;
             this.btn_invoice.BorderRadius = 10;
             this.btn_invoice.BorderThickness = 2;
             this.btn_invoice.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -347,8 +363,10 @@
             // 
             // btn_jobcardMotorbike
             // 
+            this.btn_jobcardMotorbike.BackColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorbike.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_jobcardMotorbike.BackgroundImage")));
             this.btn_jobcardMotorbike.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_jobcardMotorbike.BorderColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorbike.BorderRadius = 10;
             this.btn_jobcardMotorbike.BorderThickness = 2;
             this.btn_jobcardMotorbike.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
