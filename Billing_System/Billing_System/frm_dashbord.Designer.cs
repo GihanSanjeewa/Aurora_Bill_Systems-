@@ -150,7 +150,7 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
             this.label7.Location = new System.Drawing.Point(688, 19);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(616, 49);
+            this.label7.Size = new System.Drawing.Size(616, 50);
             this.label7.TabIndex = 3;
             this.label7.Text = "Suspension Condition Report";
             // 
@@ -177,11 +177,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
-            this.label1.Location = new System.Drawing.Point(283, 19);
+            this.label1.Location = new System.Drawing.Point(516, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 49);
+            this.label1.Size = new System.Drawing.Size(220, 50);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Suspension Condition Report";
+            this.label1.Text = "Dashboard";
             // 
             // lbl_logout
             // 
@@ -211,6 +211,7 @@
             this.btn_logOut.Name = "btn_logOut";
             this.btn_logOut.Size = new System.Drawing.Size(160, 150);
             this.btn_logOut.TabIndex = 7;
+            this.btn_logOut.Click += new System.EventHandler(this.btn_logOut_Click);
             // 
             // btn_addItem
             // 
@@ -229,6 +230,7 @@
             this.btn_addItem.Name = "btn_addItem";
             this.btn_addItem.Size = new System.Drawing.Size(160, 150);
             this.btn_addItem.TabIndex = 0;
+            this.btn_addItem.Click += new System.EventHandler(this.btn_addItem_Click);
             // 
             // btn_jobcardMotorcar
             // 
@@ -247,6 +249,7 @@
             this.btn_jobcardMotorcar.Name = "btn_jobcardMotorcar";
             this.btn_jobcardMotorcar.Size = new System.Drawing.Size(160, 150);
             this.btn_jobcardMotorcar.TabIndex = 0;
+            this.btn_jobcardMotorcar.Click += new System.EventHandler(this.btn_jobcardMotorcar_Click);
             // 
             // btn_backup
             // 
@@ -283,6 +286,7 @@
             this.btn_inventory.Name = "btn_inventory";
             this.btn_inventory.Size = new System.Drawing.Size(160, 150);
             this.btn_inventory.TabIndex = 0;
+            this.btn_inventory.Click += new System.EventHandler(this.btn_inventory_Click);
             // 
             // btn_sales
             // 
@@ -301,6 +305,7 @@
             this.btn_sales.Name = "btn_sales";
             this.btn_sales.Size = new System.Drawing.Size(160, 150);
             this.btn_sales.TabIndex = 0;
+            this.btn_sales.Click += new System.EventHandler(this.btn_sales_Click);
             // 
             // btn_suspensionCondition
             // 
@@ -319,6 +324,7 @@
             this.btn_suspensionCondition.Name = "btn_suspensionCondition";
             this.btn_suspensionCondition.Size = new System.Drawing.Size(160, 150);
             this.btn_suspensionCondition.TabIndex = 0;
+            this.btn_suspensionCondition.Click += new System.EventHandler(this.btn_suspensionCondition_Click);
             // 
             // btn_invoice
             // 
@@ -337,6 +343,7 @@
             this.btn_invoice.Name = "btn_invoice";
             this.btn_invoice.Size = new System.Drawing.Size(160, 150);
             this.btn_invoice.TabIndex = 0;
+            this.btn_invoice.Click += new System.EventHandler(this.btn_invoice_Click);
             // 
             // btn_jobcardMotorbike
             // 
@@ -356,6 +363,7 @@
             this.btn_jobcardMotorbike.Padding = new System.Windows.Forms.Padding(5);
             this.btn_jobcardMotorbike.Size = new System.Drawing.Size(160, 150);
             this.btn_jobcardMotorbike.TabIndex = 0;
+            this.btn_jobcardMotorbike.Click += new System.EventHandler(this.btn_jobcardMotorbike_Click);
             // 
             // frm_dashbord
             // 

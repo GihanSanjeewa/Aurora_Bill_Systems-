@@ -4,10 +4,6 @@
     "\\Billing_System",
     "\\Billing_System\\Billing_System"
   ],
-<<<<<<< Updated upstream
-  "SelectedNode": "\\Billing_System\\Billing_System\\frm_invoice.cs",
-=======
-  "SelectedNode": "\\Billing_System\\Billing_System\\frm_login.cs",
->>>>>>> Stashed changes
+  "SelectedNode": "\\Billing_System\\Billing_System\\frm_addItem.cs",
   "PreviewInSolutionExplorer": false
 }

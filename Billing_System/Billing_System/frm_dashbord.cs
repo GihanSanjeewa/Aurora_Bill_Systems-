@@ -16,5 +16,54 @@ namespace Billing_System
         {
             InitializeComponent();
         }
+
+        private void btn_jobcardMotorbike_Click(object sender, EventArgs e)
+        {
+            frm_motoBicycle motoBike = new frm_motoBicycle();
+            motoBike.Show();
+        }
+
+        private void btn_invoice_Click(object sender, EventArgs e)
+        {
+            frm_invoice invoice = new frm_invoice();
+            invoice.Show();
+        }
+
+        private void btn_jobcardMotorcar_Click(object sender, EventArgs e)
+        {
+            frm_motoCar motoCar = new frm_motoCar();
+            motoCar.Show();
+        }
+
+        private void btn_suspensionCondition_Click(object sender, EventArgs e)
+        {
+            frm_sconditionReport sconditionReport = new frm_sconditionReport();
+            sconditionReport.Show();
+        }
+
+        private void btn_sales_Click(object sender, EventArgs e)
+        {
+            frm_salesReport salesReport = new frm_salesReport();
+            salesReport.Show();
+        }
+
+        private void btn_addItem_Click(object sender, EventArgs e)
+        {
+            frm_addItem addItem = new frm_addItem();
+            addItem.Show();
+        }
+
+        private void btn_inventory_Click(object sender, EventArgs e)
+        {
+            frm_inventory inventory = new frm_inventory();
+            inventory.Show();
+        }
+
+        private void btn_logOut_Click(object sender, EventArgs e)
+        {
+            frm_login login = new frm_login();
+            this.Hide();
+            login.Show(); 
+        }
     }
 }

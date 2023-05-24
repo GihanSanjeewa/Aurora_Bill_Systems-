@@ -45,7 +45,7 @@
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.Color.White;
+            this.btn_login.BackColor = System.Drawing.Color.Transparent;
             this.btn_login.BorderRadius = 5;
             this.btn_login.BorderThickness = 2;
             this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -96,7 +96,6 @@
             this.txt_username.SelectedText = "";
             this.txt_username.Size = new System.Drawing.Size(297, 48);
             this.txt_username.TabIndex = 4;
-            this.txt_username.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // txt_password
             // 
@@ -214,7 +213,6 @@
             this.Name = "frm_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_login";
-            this.Load += new System.EventHandler(this.frm_login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

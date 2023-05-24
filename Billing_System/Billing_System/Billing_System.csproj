@@ -36,6 +36,9 @@
     <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="mysql.data">
+      <HintPath>..\..\..\..\..\..\Downloads\v461\mysql.data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -52,11 +55,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="connection_class.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editItem.Designer.cs">
+      <DependentUpon>frm_editItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_salesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_salesReport.Designer.cs">
+      <DependentUpon>frm_salesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_inventory.Designer.cs">
+      <DependentUpon>frm_inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_addItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_addItem.Designer.cs">
+      <DependentUpon>frm_addItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_motoCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_motoCar.Designer.cs">
+      <DependentUpon>frm_motoCar.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_dashbord.cs">
       <SubType>Form</SubType>
@@ -90,6 +124,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_addItem.resx">
+      <DependentUpon>frm_addItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editItem.resx">
+      <DependentUpon>frm_editItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_inventory.resx">
+      <DependentUpon>frm_inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_motoCar.resx">
+      <DependentUpon>frm_motoCar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_dashbord.resx">
       <DependentUpon>frm_dashbord.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_motoBicycle.resx">
       <DependentUpon>frm_motoBicycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_salesReport.resx">
+      <DependentUpon>frm_salesReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_sconditionReport.resx">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
@@ -182,6 +231,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

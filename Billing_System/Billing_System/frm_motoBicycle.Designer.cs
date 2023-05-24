@@ -39,18 +39,21 @@
             this.txt_company = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_phoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label12 = new System.Windows.Forms.Label();
             this.txt_complain5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label13 = new System.Windows.Forms.Label();
             this.txt_diagonosis5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_diagonosis2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label14 = new System.Windows.Forms.Label();
             this.txt_decision5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision2 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -74,9 +77,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -293,6 +293,16 @@
             this.guna2Panel1.Size = new System.Drawing.Size(391, 261);
             this.guna2Panel1.TabIndex = 4;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(93, 11);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(197, 40);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Complaints";
+            // 
             // txt_complain5
             // 
             this.txt_complain5.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -409,6 +419,16 @@
             this.guna2Panel2.Size = new System.Drawing.Size(391, 261);
             this.guna2Panel2.TabIndex = 5;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
+            this.label13.Location = new System.Drawing.Point(104, 11);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(179, 40);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "Diagnosis";
+            // 
             // txt_diagonosis5
             // 
             this.txt_diagonosis5.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -524,6 +544,16 @@
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(391, 262);
             this.guna2Panel3.TabIndex = 6;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
+            this.label14.Location = new System.Drawing.Point(105, 12);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(161, 40);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "Decision";
             // 
             // txt_decision5
             // 
@@ -837,9 +867,9 @@
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
             this.label11.Location = new System.Drawing.Point(557, 12);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(484, 50);
+            this.label11.Size = new System.Drawing.Size(418, 50);
             this.label11.TabIndex = 16;
-            this.label11.Text = "Job Card Moto vehicle";
+            this.label11.Text = "Job Card Moto Bike";
             // 
             // guna2Panel4
             // 
@@ -849,36 +879,6 @@
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(1828, 90);
             this.guna2Panel4.TabIndex = 17;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(93, 11);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(197, 40);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "Complaints";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(104, 11);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(179, 40);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Diagnosis";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(105, 12);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(161, 40);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "Decision";
             // 
             // label15
             // 
