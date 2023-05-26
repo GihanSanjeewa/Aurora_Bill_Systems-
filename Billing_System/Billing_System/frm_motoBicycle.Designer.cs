@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.txt_cutomerName = new Guna.UI2.WinForms.Guna2TextBox();
-            this.drp_vehicleType = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmb_vehicleModel = new Guna.UI2.WinForms.Guna2ComboBox();
             this.date_Received = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.txt_fuel = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_address = new Guna.UI2.WinForms.Guna2TextBox();
@@ -80,6 +80,9 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txt_search = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_search = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -106,21 +109,26 @@
             this.txt_cutomerName.Size = new System.Drawing.Size(265, 36);
             this.txt_cutomerName.TabIndex = 1;
             // 
-            // drp_vehicleType
+            // cmb_vehicleModel
             // 
-            this.drp_vehicleType.BackColor = System.Drawing.Color.Transparent;
-            this.drp_vehicleType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.drp_vehicleType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.drp_vehicleType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.drp_vehicleType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.drp_vehicleType.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.drp_vehicleType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.drp_vehicleType.ItemHeight = 30;
-            this.drp_vehicleType.Location = new System.Drawing.Point(324, 127);
-            this.drp_vehicleType.Margin = new System.Windows.Forms.Padding(4);
-            this.drp_vehicleType.Name = "drp_vehicleType";
-            this.drp_vehicleType.Size = new System.Drawing.Size(265, 36);
-            this.drp_vehicleType.TabIndex = 2;
+            this.cmb_vehicleModel.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_vehicleModel.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_vehicleModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_vehicleModel.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_vehicleModel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_vehicleModel.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_vehicleModel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_vehicleModel.ItemHeight = 30;
+            this.cmb_vehicleModel.Items.AddRange(new object[] {
+            "Car",
+            "Van",
+            "Mini-Van",
+            "Bike"});
+            this.cmb_vehicleModel.Location = new System.Drawing.Point(324, 127);
+            this.cmb_vehicleModel.Margin = new System.Windows.Forms.Padding(4);
+            this.cmb_vehicleModel.Name = "cmb_vehicleModel";
+            this.cmb_vehicleModel.Size = new System.Drawing.Size(265, 36);
+            this.cmb_vehicleModel.TabIndex = 2;
             // 
             // date_Received
             // 
@@ -883,7 +891,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label11.Location = new System.Drawing.Point(557, 12);
+            this.label11.Location = new System.Drawing.Point(727, 18);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(418, 50);
             this.label11.TabIndex = 16;
@@ -892,6 +900,9 @@
             // guna2Panel4
             // 
             this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
+            this.guna2Panel4.Controls.Add(this.btn_search);
+            this.guna2Panel4.Controls.Add(this.label18);
+            this.guna2Panel4.Controls.Add(this.txt_search);
             this.guna2Panel4.Controls.Add(this.label11);
             this.guna2Panel4.Location = new System.Drawing.Point(-1, -3);
             this.guna2Panel4.Name = "guna2Panel4";
@@ -931,6 +942,58 @@
             this.label17.TabIndex = 18;
             this.label17.Text = "Proposed Date of Delivery";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(13, 12);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(84, 27);
+            this.label18.TabIndex = 18;
+            this.label18.Text = "REG NO";
+            // 
+            // txt_search
+            // 
+            this.txt_search.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_search.DefaultText = "";
+            this.txt_search.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_search.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_search.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_search.Location = new System.Drawing.Point(18, 44);
+            this.txt_search.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_search.Name = "txt_search";
+            this.txt_search.PasswordChar = '\0';
+            this.txt_search.PlaceholderText = "";
+            this.txt_search.SelectedText = "";
+            this.txt_search.Size = new System.Drawing.Size(265, 36);
+            this.txt_search.TabIndex = 17;
+            // 
+            // btn_search
+            // 
+            this.btn_search.BackgroundImage = global::Billing_System.Properties.Resources.search;
+            this.btn_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_search.BorderColor = System.Drawing.Color.Transparent;
+            this.btn_search.BorderRadius = 10;
+            this.btn_search.BorderThickness = 1;
+            this.btn_search.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_search.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_search.FillColor = System.Drawing.Color.Empty;
+            this.btn_search.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_search.ForeColor = System.Drawing.Color.Black;
+            this.btn_search.Location = new System.Drawing.Point(303, 35);
+            this.btn_search.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(54, 50);
+            this.btn_search.TabIndex = 44;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
+            // 
             // frm_motoBicycle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -960,7 +1023,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.date_Received);
-            this.Controls.Add(this.drp_vehicleType);
+            this.Controls.Add(this.cmb_vehicleModel);
             this.Controls.Add(this.guna2HtmlLabel13);
             this.Controls.Add(this.txt_address);
             this.Controls.Add(this.txt_fuel);
@@ -991,7 +1054,7 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2TextBox txt_cutomerName;
-        private Guna.UI2.WinForms.Guna2ComboBox drp_vehicleType;
+        private Guna.UI2.WinForms.Guna2ComboBox cmb_vehicleModel;
         private Guna.UI2.WinForms.Guna2DateTimePicker date_Received;
         private Guna.UI2.WinForms.Guna2TextBox txt_fuel;
         private Guna.UI2.WinForms.Guna2TextBox txt_address;
@@ -1042,5 +1105,8 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private Guna.UI2.WinForms.Guna2TextBox txt_search;
+        private Guna.UI2.WinForms.Guna2Button btn_search;
     }
 }

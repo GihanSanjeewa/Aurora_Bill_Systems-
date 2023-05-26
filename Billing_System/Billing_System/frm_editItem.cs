@@ -55,7 +55,7 @@ namespace Billing_System
         {
             connection_class.open_connection();
             MySqlCommand cmd1 = new MySqlCommand("SELECT `itemId`, `itemName`, `itemPrice`, `itemQuantity`, `itemBrandName` FROM `item` WHERE itemName =@itemId", connection_class.con);
-            cmd1.Parameters.AddWithValue("itemId", txt_searchItem.Text);
+            cmd1.Parameters.AddWithValue("itemId", txt_search.Text);
 
             MySqlDataReader reader1;
             reader1 = cmd1.ExecuteReader();
