@@ -22,7 +22,7 @@ namespace Billing_System
         {
             connection_class.open_connection();
 
-            string MysqlQry = "update item set itemName =('" + txt_itemName.Text + "'),itemBrandName =('" + txt_itemBrandName.Text + "'),itemPrice=(" + txt_itemPrice.Text + "),itemQuantity=(" + txt_itemQuantity.Text + ") where itemId = (" + txt_itemId.Text + ")";
+            string MysqlQry = "update item set itemName =('" + txt_itemName.Text + "'),itemBrandName =('" + txt_itemBrandName.Text + "'),itemPrice=('" + txt_itemPrice.Text + "'),itemQuantity=('" + txt_itemQuantity.Text + "') where itemId = ('" + txt_itemId.Text + "')";
 
             MySqlCommand cmd = new MySqlCommand(MysqlQry, connection_class.con);
 
@@ -51,51 +51,6 @@ namespace Billing_System
             fndataLoad();
         }
 
-
-        private void btn_save_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btn_delete_Click(object sender, EventArgs e)
-        {
-            connection_class.open_connection();
-
-            string MysqlQry = "delete from item where itemId =(" + txt_itemId.Text + ")";
-
-            MySqlCommand cmd = new MySqlCommand(MysqlQry, connection_class.con);
-
-            cmd.ExecuteNonQuery();
-
-            MessageBox.Show("Done!!");
-
-            connection_class.close_connection();
-
-
-            fndataLoad();
-        }
-
-      
-
-        private void dgv_item_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void dgv_item_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex != -1)
-            {
-                DataGridViewRow dgvrow = dgv_item.Rows[e.RowIndex];
-                txt_itemId.Text = dgvrow.Cells[0].Value.ToString();
-                txt_itemName.Text = dgvrow.Cells[1].Value.ToString();
-                txt_itemQuantity.Text = dgvrow.Cells[3].Value.ToString();
-                txt_itemPrice.Text = dgvrow.Cells[2].Value.ToString();
-                txt_itemBrandName.Text = dgvrow.Cells[4].Value.ToString();
-
-            }
-        }
-
         private void btn_search_Click(object sender, EventArgs e)
         {
             connection_class.open_connection();
@@ -119,6 +74,38 @@ namespace Billing_System
                 MessageBox.Show("No data found");
             }
             connection_class.close_connection();
+        }
+
+        private void btn_delete_Click_1(object sender, EventArgs e)
+        {
+            connection_class.open_connection();
+
+            string MysqlQry = "delete from item where itemId =('" + txt_itemId.Text + "')";
+
+            MySqlCommand cmd = new MySqlCommand(MysqlQry, connection_class.con);
+
+            cmd.ExecuteNonQuery();
+
+            MessageBox.Show("Done!!");
+
+            connection_class.close_connection();
+
+
+            fndataLoad();
+        }
+
+        private void dgv_item_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1)
+            {
+                DataGridViewRow dgvrow = dgv_item.Rows[e.RowIndex];
+                txt_itemId.Text = dgvrow.Cells[0].Value.ToString();
+                txt_itemName.Text = dgvrow.Cells[1].Value.ToString();
+                txt_itemQuantity.Text = dgvrow.Cells[3].Value.ToString();
+                txt_itemPrice.Text = dgvrow.Cells[2].Value.ToString();
+                txt_itemBrandName.Text = dgvrow.Cells[4].Value.ToString();
+
+            }
         }
     }
 }

@@ -47,10 +47,10 @@ namespace Billing_System
             salesReport.Show();
         }
 
-        private void btn_addItem_Click(object sender, EventArgs e)
+        private void btn_add_Click(object sender, EventArgs e)
         {
-            frm_addItem addItem = new frm_addItem();
-            addItem.Show();
+            frm_add add = new frm_add();
+            add.Show();
         }
 
         private void btn_inventory_Click(object sender, EventArgs e)
@@ -64,6 +64,21 @@ namespace Billing_System
             frm_login login = new frm_login();
             this.Hide();
             login.Show(); 
+        }
+
+        private void lbl_jcCar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_invoice_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_jcBike_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -53,7 +53,7 @@ namespace Billing_System
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.label11.Location = new System.Drawing.Point(777, 18);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(286, 50);
@@ -62,7 +62,7 @@ namespace Billing_System
             // 
             // guna2GradientPanel1
             // 
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2GradientPanel1.Controls.Add(this.label11);
             this.guna2GradientPanel1.Location = new System.Drawing.Point(-123, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
@@ -73,7 +73,7 @@ namespace Billing_System
             // 
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
             this.dgv_item.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgv_item.BackgroundColor = System.Drawing.Color.Gray;
+            this.dgv_item.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -105,7 +105,7 @@ namespace Billing_System
             this.dgv_item.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgv_item.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgv_item.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgv_item.ThemeStyle.BackColor = System.Drawing.Color.Gray;
+            this.dgv_item.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.dgv_item.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgv_item.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dgv_item.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -126,6 +126,7 @@ namespace Billing_System
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(1169, 160);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(168, 27);
@@ -156,6 +157,7 @@ namespace Billing_System
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(1169, 286);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 27);
@@ -166,6 +168,7 @@ namespace Billing_System
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(1167, 436);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 27);
@@ -180,9 +183,9 @@ namespace Billing_System
             this.btn_filter.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_filter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_filter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_filter.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
+            this.btn_filter.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_filter.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_filter.ForeColor = System.Drawing.Color.Black;
+            this.btn_filter.ForeColor = System.Drawing.Color.White;
             this.btn_filter.Location = new System.Drawing.Point(1174, 710);
             this.btn_filter.Margin = new System.Windows.Forms.Padding(4);
             this.btn_filter.Name = "btn_filter";
@@ -194,8 +197,9 @@ namespace Billing_System
             // dtp_dateEnd
             // 
             this.dtp_dateEnd.Checked = true;
-            this.dtp_dateEnd.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.dtp_dateEnd.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.dtp_dateEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtp_dateEnd.ForeColor = System.Drawing.Color.White;
             this.dtp_dateEnd.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtp_dateEnd.Location = new System.Drawing.Point(1172, 504);
             this.dtp_dateEnd.Margin = new System.Windows.Forms.Padding(4);
@@ -209,8 +213,9 @@ namespace Billing_System
             // dtp_dateStart
             // 
             this.dtp_dateStart.Checked = true;
-            this.dtp_dateStart.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.dtp_dateStart.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.dtp_dateStart.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtp_dateStart.ForeColor = System.Drawing.Color.White;
             this.dtp_dateStart.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtp_dateStart.Location = new System.Drawing.Point(1174, 351);
             this.dtp_dateStart.Margin = new System.Windows.Forms.Padding(4);
@@ -225,6 +230,7 @@ namespace Billing_System
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(1166, 613);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(204, 27);
@@ -235,6 +241,7 @@ namespace Billing_System
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_total.ForeColor = System.Drawing.Color.White;
             this.lbl_total.Location = new System.Drawing.Point(1376, 614);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(60, 27);
@@ -245,7 +252,7 @@ namespace Billing_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1582, 853);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.label3);

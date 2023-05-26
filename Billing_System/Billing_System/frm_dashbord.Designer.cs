@@ -43,7 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_logout = new System.Windows.Forms.Label();
             this.btn_logOut = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_addItem = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_add = new Guna.UI2.WinForms.Guna2Button();
             this.btn_jobcardMotorcar = new Guna.UI2.WinForms.Guna2Button();
             this.btn_backup = new Guna.UI2.WinForms.Guna2Button();
             this.btn_inventory = new Guna.UI2.WinForms.Guna2Button();
@@ -60,39 +60,46 @@
             this.lbl_jcBike.AutoSize = true;
             this.lbl_jcBike.BackColor = System.Drawing.Color.Transparent;
             this.lbl_jcBike.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_jcBike.ForeColor = System.Drawing.Color.White;
             this.lbl_jcBike.Location = new System.Drawing.Point(506, 349);
             this.lbl_jcBike.Name = "lbl_jcBike";
             this.lbl_jcBike.Size = new System.Drawing.Size(180, 27);
             this.lbl_jcBike.TabIndex = 1;
             this.lbl_jcBike.Text = "Job Card  Bike";
+            this.lbl_jcBike.Click += new System.EventHandler(this.lbl_jcBike_Click);
             // 
             // lbl_invoice
             // 
             this.lbl_invoice.AutoSize = true;
             this.lbl_invoice.BackColor = System.Drawing.Color.Transparent;
             this.lbl_invoice.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_invoice.ForeColor = System.Drawing.Color.White;
             this.lbl_invoice.Location = new System.Drawing.Point(998, 349);
             this.lbl_invoice.Name = "lbl_invoice";
             this.lbl_invoice.Size = new System.Drawing.Size(96, 27);
             this.lbl_invoice.TabIndex = 1;
             this.lbl_invoice.Text = "Invoice";
+            this.lbl_invoice.Click += new System.EventHandler(this.lbl_invoice_Click);
             // 
             // lbl_jcCar
             // 
             this.lbl_jcCar.AutoSize = true;
             this.lbl_jcCar.BackColor = System.Drawing.Color.Transparent;
             this.lbl_jcCar.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_jcCar.ForeColor = System.Drawing.Color.White;
             this.lbl_jcCar.Location = new System.Drawing.Point(1378, 349);
             this.lbl_jcCar.Name = "lbl_jcCar";
             this.lbl_jcCar.Size = new System.Drawing.Size(156, 27);
             this.lbl_jcCar.TabIndex = 1;
             this.lbl_jcCar.Text = "Job Card Car";
+            this.lbl_jcCar.Click += new System.EventHandler(this.lbl_jcCar_Click);
             // 
             // lbl_suspensionConditionRepair
             // 
             this.lbl_suspensionConditionRepair.AutoSize = true;
             this.lbl_suspensionConditionRepair.BackColor = System.Drawing.Color.Transparent;
             this.lbl_suspensionConditionRepair.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_suspensionConditionRepair.ForeColor = System.Drawing.Color.White;
             this.lbl_suspensionConditionRepair.Location = new System.Drawing.Point(437, 617);
             this.lbl_suspensionConditionRepair.Name = "lbl_suspensionConditionRepair";
             this.lbl_suspensionConditionRepair.Size = new System.Drawing.Size(336, 27);
@@ -104,6 +111,7 @@
             this.lbl_sales.AutoSize = true;
             this.lbl_sales.BackColor = System.Drawing.Color.Transparent;
             this.lbl_sales.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sales.ForeColor = System.Drawing.Color.White;
             this.lbl_sales.Location = new System.Drawing.Point(1010, 617);
             this.lbl_sales.Name = "lbl_sales";
             this.lbl_sales.Size = new System.Drawing.Size(72, 27);
@@ -115,17 +123,19 @@
             this.lbl_addItem.AutoSize = true;
             this.lbl_addItem.BackColor = System.Drawing.Color.Transparent;
             this.lbl_addItem.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_addItem.Location = new System.Drawing.Point(1408, 617);
+            this.lbl_addItem.ForeColor = System.Drawing.Color.White;
+            this.lbl_addItem.Location = new System.Drawing.Point(1437, 617);
             this.lbl_addItem.Name = "lbl_addItem";
-            this.lbl_addItem.Size = new System.Drawing.Size(108, 27);
+            this.lbl_addItem.Size = new System.Drawing.Size(48, 27);
             this.lbl_addItem.TabIndex = 1;
-            this.lbl_addItem.Text = "Add Item";
+            this.lbl_addItem.Text = "Add";
             // 
             // lbl_inventory
             // 
             this.lbl_inventory.AutoSize = true;
             this.lbl_inventory.BackColor = System.Drawing.Color.Transparent;
             this.lbl_inventory.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_inventory.ForeColor = System.Drawing.Color.White;
             this.lbl_inventory.Location = new System.Drawing.Point(546, 879);
             this.lbl_inventory.Name = "lbl_inventory";
             this.lbl_inventory.Size = new System.Drawing.Size(120, 27);
@@ -137,6 +147,7 @@
             this.lbl_backup.AutoSize = true;
             this.lbl_backup.BackColor = System.Drawing.Color.Transparent;
             this.lbl_backup.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_backup.ForeColor = System.Drawing.Color.White;
             this.lbl_backup.Location = new System.Drawing.Point(998, 879);
             this.lbl_backup.Name = "lbl_backup";
             this.lbl_backup.Size = new System.Drawing.Size(84, 27);
@@ -156,7 +167,7 @@
             // 
             // guna2GradientPanel1
             // 
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.guna2GradientPanel1.Controls.Add(this.label7);
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
@@ -165,7 +176,7 @@
             // 
             // guna2GradientPanel2
             // 
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(209)))), ((int)(((byte)(225)))));
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.guna2GradientPanel2.Controls.Add(this.label1);
             this.guna2GradientPanel2.Location = new System.Drawing.Point(417, 0);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
@@ -176,7 +187,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.label1.Location = new System.Drawing.Point(516, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(220, 50);
@@ -188,6 +199,7 @@
             this.lbl_logout.AutoSize = true;
             this.lbl_logout.BackColor = System.Drawing.Color.Transparent;
             this.lbl_logout.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_logout.ForeColor = System.Drawing.Color.White;
             this.lbl_logout.Location = new System.Drawing.Point(1421, 879);
             this.lbl_logout.Name = "lbl_logout";
             this.lbl_logout.Size = new System.Drawing.Size(84, 27);
@@ -196,8 +208,10 @@
             // 
             // btn_logOut
             // 
+            this.btn_logOut.BackColor = System.Drawing.Color.Transparent;
             this.btn_logOut.BackgroundImage = global::Billing_System.Properties.Resources.check_out;
             this.btn_logOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_logOut.BorderColor = System.Drawing.Color.Transparent;
             this.btn_logOut.BorderRadius = 10;
             this.btn_logOut.BorderThickness = 2;
             this.btn_logOut.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -213,29 +227,33 @@
             this.btn_logOut.TabIndex = 7;
             this.btn_logOut.Click += new System.EventHandler(this.btn_logOut_Click);
             // 
-            // btn_addItem
+            // btn_add
             // 
-            this.btn_addItem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addItem.BackgroundImage")));
-            this.btn_addItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_addItem.BorderRadius = 10;
-            this.btn_addItem.BorderThickness = 2;
-            this.btn_addItem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_addItem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_addItem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_addItem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_addItem.FillColor = System.Drawing.Color.Transparent;
-            this.btn_addItem.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_addItem.ForeColor = System.Drawing.Color.White;
-            this.btn_addItem.Location = new System.Drawing.Point(1384, 447);
-            this.btn_addItem.Name = "btn_addItem";
-            this.btn_addItem.Size = new System.Drawing.Size(160, 150);
-            this.btn_addItem.TabIndex = 0;
-            this.btn_addItem.Click += new System.EventHandler(this.btn_addItem_Click);
+            this.btn_add.BackColor = System.Drawing.Color.Transparent;
+            this.btn_add.BackgroundImage = global::Billing_System.Properties.Resources.add;
+            this.btn_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add.BorderColor = System.Drawing.Color.Transparent;
+            this.btn_add.BorderRadius = 10;
+            this.btn_add.BorderThickness = 2;
+            this.btn_add.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_add.FillColor = System.Drawing.Color.Transparent;
+            this.btn_add.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_add.ForeColor = System.Drawing.Color.White;
+            this.btn_add.Location = new System.Drawing.Point(1384, 447);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(160, 150);
+            this.btn_add.TabIndex = 0;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // btn_jobcardMotorcar
             // 
+            this.btn_jobcardMotorcar.BackColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorcar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_jobcardMotorcar.BackgroundImage")));
             this.btn_jobcardMotorcar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_jobcardMotorcar.BorderColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorcar.BorderRadius = 10;
             this.btn_jobcardMotorcar.BorderThickness = 2;
             this.btn_jobcardMotorcar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -253,8 +271,10 @@
             // 
             // btn_backup
             // 
+            this.btn_backup.BackColor = System.Drawing.Color.Transparent;
             this.btn_backup.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_backup.BackgroundImage")));
             this.btn_backup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backup.BorderColor = System.Drawing.Color.Transparent;
             this.btn_backup.BorderRadius = 10;
             this.btn_backup.BorderThickness = 2;
             this.btn_backup.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -271,8 +291,10 @@
             // 
             // btn_inventory
             // 
+            this.btn_inventory.BackColor = System.Drawing.Color.Transparent;
             this.btn_inventory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_inventory.BackgroundImage")));
             this.btn_inventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_inventory.BorderColor = System.Drawing.Color.Transparent;
             this.btn_inventory.BorderRadius = 10;
             this.btn_inventory.BorderThickness = 2;
             this.btn_inventory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -290,8 +312,10 @@
             // 
             // btn_sales
             // 
+            this.btn_sales.BackColor = System.Drawing.Color.Transparent;
             this.btn_sales.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sales.BackgroundImage")));
             this.btn_sales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_sales.BorderColor = System.Drawing.Color.Transparent;
             this.btn_sales.BorderRadius = 10;
             this.btn_sales.BorderThickness = 2;
             this.btn_sales.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -309,8 +333,10 @@
             // 
             // btn_suspensionCondition
             // 
+            this.btn_suspensionCondition.BackColor = System.Drawing.Color.Transparent;
             this.btn_suspensionCondition.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_suspensionCondition.BackgroundImage")));
             this.btn_suspensionCondition.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_suspensionCondition.BorderColor = System.Drawing.Color.Transparent;
             this.btn_suspensionCondition.BorderRadius = 10;
             this.btn_suspensionCondition.BorderThickness = 2;
             this.btn_suspensionCondition.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -328,8 +354,10 @@
             // 
             // btn_invoice
             // 
+            this.btn_invoice.BackColor = System.Drawing.Color.Transparent;
             this.btn_invoice.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_invoice.BackgroundImage")));
             this.btn_invoice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_invoice.BorderColor = System.Drawing.Color.Transparent;
             this.btn_invoice.BorderRadius = 10;
             this.btn_invoice.BorderThickness = 2;
             this.btn_invoice.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -347,8 +375,10 @@
             // 
             // btn_jobcardMotorbike
             // 
+            this.btn_jobcardMotorbike.BackColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorbike.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_jobcardMotorbike.BackgroundImage")));
             this.btn_jobcardMotorbike.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_jobcardMotorbike.BorderColor = System.Drawing.Color.Transparent;
             this.btn_jobcardMotorbike.BorderRadius = 10;
             this.btn_jobcardMotorbike.BorderThickness = 2;
             this.btn_jobcardMotorbike.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -369,7 +399,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Billing_System.Properties.Resources.back;
+            this.BackgroundImage = global::Billing_System.Properties.Resources._4qbm5J;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1898, 1029);
             this.Controls.Add(this.guna2GradientPanel2);
@@ -384,7 +414,7 @@
             this.Controls.Add(this.lbl_inventory);
             this.Controls.Add(this.lbl_suspensionConditionRepair);
             this.Controls.Add(this.lbl_jcBike);
-            this.Controls.Add(this.btn_addItem);
+            this.Controls.Add(this.btn_add);
             this.Controls.Add(this.btn_jobcardMotorcar);
             this.Controls.Add(this.btn_backup);
             this.Controls.Add(this.btn_inventory);
@@ -415,7 +445,7 @@
         private System.Windows.Forms.Label lbl_jcCar;
         private Guna.UI2.WinForms.Guna2Button btn_suspensionCondition;
         private Guna.UI2.WinForms.Guna2Button btn_sales;
-        private Guna.UI2.WinForms.Guna2Button btn_addItem;
+        private Guna.UI2.WinForms.Guna2Button btn_add;
         private System.Windows.Forms.Label lbl_suspensionConditionRepair;
         private System.Windows.Forms.Label lbl_sales;
         private System.Windows.Forms.Label lbl_addItem;
