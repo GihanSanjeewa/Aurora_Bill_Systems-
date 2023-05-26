@@ -48,6 +48,8 @@
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_invoice_page = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,6 +137,7 @@
             // 
             this.lbl_vehicle_number.AutoSize = true;
             this.lbl_vehicle_number.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_vehicle_number.ForeColor = System.Drawing.Color.White;
             this.lbl_vehicle_number.Location = new System.Drawing.Point(58, 155);
             this.lbl_vehicle_number.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_vehicle_number.Name = "lbl_vehicle_number";
@@ -146,6 +149,7 @@
             // 
             this.lbl_vehicle_model.AutoSize = true;
             this.lbl_vehicle_model.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_vehicle_model.ForeColor = System.Drawing.Color.White;
             this.lbl_vehicle_model.Location = new System.Drawing.Point(58, 262);
             this.lbl_vehicle_model.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_vehicle_model.Name = "lbl_vehicle_model";
@@ -157,6 +161,7 @@
             // 
             this.lbl_fuel.AutoSize = true;
             this.lbl_fuel.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fuel.ForeColor = System.Drawing.Color.White;
             this.lbl_fuel.Location = new System.Drawing.Point(391, 157);
             this.lbl_fuel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_fuel.Name = "lbl_fuel";
@@ -168,6 +173,7 @@
             // 
             this.lbl_km.AutoSize = true;
             this.lbl_km.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_km.ForeColor = System.Drawing.Color.White;
             this.lbl_km.Location = new System.Drawing.Point(57, 365);
             this.lbl_km.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_km.Name = "lbl_km";
@@ -190,6 +196,7 @@
             // 
             this.lbl_job.AutoSize = true;
             this.lbl_job.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job.ForeColor = System.Drawing.Color.White;
             this.lbl_job.Location = new System.Drawing.Point(58, 479);
             this.lbl_job.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_job.Name = "lbl_job";
@@ -201,6 +208,7 @@
             // 
             this.lbl_discount.AutoSize = true;
             this.lbl_discount.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_discount.ForeColor = System.Drawing.Color.White;
             this.lbl_discount.Location = new System.Drawing.Point(391, 262);
             this.lbl_discount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_discount.Name = "lbl_discount";
@@ -212,6 +220,7 @@
             // 
             this.lbl_date.AutoSize = true;
             this.lbl_date.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
+            this.lbl_date.ForeColor = System.Drawing.Color.White;
             this.lbl_date.Location = new System.Drawing.Point(392, 405);
             this.lbl_date.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_date.Name = "lbl_date";
@@ -223,6 +232,7 @@
             // 
             this.lbl_price.AutoSize = true;
             this.lbl_price.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
+            this.lbl_price.ForeColor = System.Drawing.Color.White;
             this.lbl_price.Location = new System.Drawing.Point(390, 534);
             this.lbl_price.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_price.Name = "lbl_price";
@@ -283,7 +293,7 @@
             this.btn_process.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(164)))), ((int)(((byte)(54)))));
+            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_process.Font = new System.Drawing.Font("Cascadia Mono", 13.8F, System.Drawing.FontStyle.Bold);
             this.btn_process.ForeColor = System.Drawing.Color.Black;
             this.btn_process.Location = new System.Drawing.Point(216, 661);
@@ -295,7 +305,7 @@
             // 
             // guna2Panel4
             // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(150)))), ((int)(((byte)(197)))));
+            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel4.Controls.Add(this.lbl_invoice_page);
             this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -307,7 +317,7 @@
             // 
             this.lbl_invoice_page.AutoSize = true;
             this.lbl_invoice_page.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_invoice_page.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.lbl_invoice_page.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.lbl_invoice_page.Location = new System.Drawing.Point(700, 15);
             this.lbl_invoice_page.Name = "lbl_invoice_page";
             this.lbl_invoice_page.Size = new System.Drawing.Size(176, 50);
@@ -317,17 +327,44 @@
             // guna2Panel11
             // 
             this.guna2Panel11.BackColor = System.Drawing.Color.LightGray;
+            this.guna2Panel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2Panel11.Location = new System.Drawing.Point(711, 88);
             this.guna2Panel11.Name = "guna2Panel11";
             this.guna2Panel11.Size = new System.Drawing.Size(905, 780);
             this.guna2Panel11.TabIndex = 36;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(392, 479);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(264, 27);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Price Before discount";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(390, 365);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 27);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Date";
+            // 
             // frm_invoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1582, 853);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Panel11);
             this.Controls.Add(this.guna2Panel4);
             this.Controls.Add(this.btn_process);
@@ -381,5 +418,7 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private System.Windows.Forms.Label lbl_invoice_page;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

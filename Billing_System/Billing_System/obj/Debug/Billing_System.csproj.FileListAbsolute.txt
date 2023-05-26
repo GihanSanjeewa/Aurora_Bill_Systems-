@@ -83,3 +83,9 @@ C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_
 C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
 C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\mysql.data.dll
 C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editItem.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_add.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addCustomer.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addJob.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editCustomer.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editJob.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources

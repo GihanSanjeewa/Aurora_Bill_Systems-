@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add.Designer.cs">
+      <DependentUpon>add.cs</DependentUpon>
+    </Compile>
     <Compile Include="connection_class.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -62,11 +68,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_addCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_addCustomer.Designer.cs">
+      <DependentUpon>frm_addCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_addJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_addJob.Designer.cs">
+      <DependentUpon>frm_addJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editCustomer.Designer.cs">
+      <DependentUpon>frm_editCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_editItem.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_editItem.Designer.cs">
       <DependentUpon>frm_editItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editJob.Designer.cs">
+      <DependentUpon>frm_editJob.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_salesReport.cs">
       <SubType>Form</SubType>
@@ -122,13 +152,34 @@
     <Compile Include="frm_sconditionReport.Designer.cs">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="motobicycleJobCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="motobicycleJobCard.Designer.cs">
+      <DependentUpon>motobicycleJobCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="add.resx">
+      <DependentUpon>add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_addCustomer.resx">
+      <DependentUpon>frm_addCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_addItem.resx">
       <DependentUpon>frm_addItem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_addJob.resx">
+      <DependentUpon>frm_addJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editCustomer.resx">
+      <DependentUpon>frm_editCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_editItem.resx">
       <DependentUpon>frm_editItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editJob.resx">
+      <DependentUpon>frm_editJob.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_inventory.resx">
       <DependentUpon>frm_inventory.cs</DependentUpon>
@@ -153,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_sconditionReport.resx">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="motobicycleJobCard.resx">
+      <DependentUpon>motobicycleJobCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -243,6 +297,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rating.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\job.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper2you_137177.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4qbm5J.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-05-26 at 17.21.35.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

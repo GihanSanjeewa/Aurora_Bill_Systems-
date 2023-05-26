@@ -19,9 +19,8 @@ namespace Billing_System
 
         private void btn_process_Click(object sender, EventArgs e)
         {
-            frm_sconditionReport sc =   new frm_sconditionReport();
-            this.Hide();
-            sc.Show();
+            motobicycleJobCard mbcard = new motobicycleJobCard();
+            mbcard.Show();
         }
     }
 }
