@@ -21,7 +21,7 @@ namespace Billing_System
         private void btn_search_Click(object sender, EventArgs e)
         {
             connection_class.open_connection();
-            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`, `km` FROM `customer` WHERE registerNumber =@registerNumber", connection_class.con);
+            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`, `km`, `address`, `phoneNumber`, `Company` FROM `customer` WHERE registerNumber =@registerNumber", connection_class.con);
             cmd1.Parameters.AddWithValue("registerNumber", txt_searchCustomer.Text);
 
             MySqlDataReader reader1;
@@ -35,7 +35,9 @@ namespace Billing_System
                 txt_chassisNo.Text = reader1["chassisNumber"].ToString();
                 cmb_fuelType.Text = reader1["fuelType"].ToString();
                 txt_km.Text = reader1["km"].ToString();
-
+                txt_address.Text = reader1["address"].ToString();
+                txt_phoneNumber.Text = reader1["phoneNumber"].ToString();
+                txt_company.Text = reader1["Company"].ToString();
             }
             else
             {
@@ -55,7 +57,7 @@ namespace Billing_System
         {
             connection_class.open_connection();
 
-            string MysqlQry = "update customer set registerNumber =('" + txt_registrationNo.Text + "'),vehicleModel=('" + cmb_vehicleModel.Text + "'),chassisNumber=('" + txt_chassisNo.Text + "'),fuelType =('" + cmb_fuelType.Text + "'),km =('" + txt_km.Text + "') where customerName = ('" + txt_customerName.Text + "')";
+            string MysqlQry = "update customer set registerNumber =('" + txt_registrationNo.Text + "'),vehicleModel=('" + cmb_vehicleModel.Text + "'),chassisNumber=('" + txt_chassisNo.Text + "'),fuelType =('" + cmb_fuelType.Text + "'),km =('" + txt_km.Text + "'),address =('" + txt_address.Text + "'),phoneNumber =('" + txt_phoneNumber.Text + "'),Company =('" + txt_company.Text + "') where customerName = ('" + txt_customerName.Text + "')";
 
             MySqlCommand cmd = new MySqlCommand(MysqlQry, connection_class.con);
 
@@ -107,6 +109,9 @@ namespace Billing_System
                 txt_chassisNo.Text = dgvrow.Cells[3].Value.ToString();
                 cmb_fuelType.Text = dgvrow.Cells[4].Value.ToString();
                 txt_km.Text = dgvrow.Cells[5].Value.ToString();
+                txt_address.Text = dgvrow.Cells[6].Value.ToString();
+                txt_phoneNumber.Text = dgvrow.Cells[7].Value.ToString();
+                txt_company.Text = dgvrow.Cells[8].Value.ToString();
 
             }
         }

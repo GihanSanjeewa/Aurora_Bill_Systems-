@@ -27,7 +27,7 @@ namespace Billing_System
         private void btn_search_Click(object sender, EventArgs e)
         {
             connection_class.open_connection();
-            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`,`km` FROM `customer` WHERE registerNumber =@registerNumber", connection_class.con);
+            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`,`km`,`address`,`phoneNumber`,`Company` FROM `customer` WHERE registerNumber =@registerNumber", connection_class.con);
             cmd1.Parameters.AddWithValue("registerNumber", txt_search.Text);
 
             MySqlDataReader reader1;
@@ -41,6 +41,9 @@ namespace Billing_System
                 txt_chasisNo.Text = reader1["chassisNumber"].ToString();
                 txt_fuel.Text = reader1["fuelType"].ToString();
                 txt_odoMeter.Text = reader1["km"].ToString();
+                txt_company.Text = reader1["Company"].ToString();
+                txt_address.Text = reader1["address"].ToString();
+                txt_phoneNumber.Text = reader1["phoneNumber"].ToString();
 
             }
             else

@@ -21,7 +21,7 @@ namespace Billing_System
         private void btn_addCustomer_Click(object sender, EventArgs e)
         {
             connection_class.open_connection();
-            MySqlCommand cmd = new MySqlCommand("INSERT INTO `customer`( `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`, `km`) VALUES( @txt_registrationNo, @txt_customerName, @cmb_vehicleModel, @txt_chassisNo, @cmb_fuelType, @txt_km )", connection_class.con);
+            MySqlCommand cmd = new MySqlCommand("INSERT INTO `customer`( `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`, `km`,`address`,`phoneNumber`,`Company`) VALUES( @txt_registrationNo, @txt_customerName, @cmb_vehicleModel, @txt_chassisNo, @cmb_fuelType, @txt_km, @txt_address, @txt_phoneNumber, @txt_company )", connection_class.con);
             cmd.Parameters.Clear();
 
             cmd.Parameters.AddWithValue("@txt_registrationNo", txt_registrationNo.Text);
@@ -30,6 +30,10 @@ namespace Billing_System
             cmd.Parameters.AddWithValue("@txt_chassisNo", txt_chassisNo.Text);
             cmd.Parameters.AddWithValue("@cmb_fuelType", cmb_fuelType.Text);
             cmd.Parameters.AddWithValue("@txt_km", txt_km.Text);
+            cmd.Parameters.AddWithValue("@txt_address", txt_address.Text);
+            cmd.Parameters.AddWithValue("@txt_company", txt_company.Text);
+            cmd.Parameters.AddWithValue("@txt_phoneNumber", txt_phoneNumber.Text);
+
 
 
             cmd.ExecuteNonQuery();
