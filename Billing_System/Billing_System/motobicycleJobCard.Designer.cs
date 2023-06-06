@@ -30,36 +30,30 @@ namespace Billing_System
         private void InitializeComponent()
         {
             this.lbl_customerName = new System.Windows.Forms.Label();
-            this.lbl_vType = new System.Windows.Forms.Label();
+            this.lbl_vehicleModel = new System.Windows.Forms.Label();
             this.lbl_dateReceived = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
+            this.lbl_odoMeter = new System.Windows.Forms.Label();
+            this.lbl_regNo = new System.Windows.Forms.Label();
+            this.lbl_address = new System.Windows.Forms.Label();
+            this.lbl_phoneNumber = new System.Windows.Forms.Label();
+            this.lbl_chassisNo = new System.Windows.Forms.Label();
+            this.lbl_cName = new System.Windows.Forms.Label();
+            this.lbl_complaints1 = new System.Windows.Forms.Label();
+            this.lbl_complaints2 = new System.Windows.Forms.Label();
+            this.lbl_complaints3 = new System.Windows.Forms.Label();
+            this.lbl_complaints4 = new System.Windows.Forms.Label();
+            this.lbl_decision2 = new System.Windows.Forms.Label();
+            this.lbl_decision3 = new System.Windows.Forms.Label();
+            this.lbl_remark1 = new System.Windows.Forms.Label();
+            this.lbl_decision1 = new System.Windows.Forms.Label();
+            this.lbl_time = new System.Windows.Forms.Label();
+            this.lbl_fuelType = new System.Windows.Forms.Label();
+            this.lbl_decision4 = new System.Windows.Forms.Label();
+            this.lbl_estimatedCost = new System.Windows.Forms.Label();
+            this.lbl_pDate = new System.Windows.Forms.Label();
+            this.lbl_cInform = new System.Windows.Forms.Label();
+            this.lbl_dtime = new System.Windows.Forms.Label();
+            this.lbl_nDate = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_customerName
@@ -69,20 +63,20 @@ namespace Billing_System
             this.lbl_customerName.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_customerName.Location = new System.Drawing.Point(100, 184);
             this.lbl_customerName.Name = "lbl_customerName";
-            this.lbl_customerName.Size = new System.Drawing.Size(127, 19);
+            this.lbl_customerName.Size = new System.Drawing.Size(15, 19);
             this.lbl_customerName.TabIndex = 0;
-            this.lbl_customerName.Text = "Udara Ekanayake";
+            this.lbl_customerName.Text = "_";
             // 
-            // lbl_vType
+            // lbl_vehicleModel
             // 
-            this.lbl_vType.AutoSize = true;
-            this.lbl_vType.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_vType.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vType.Location = new System.Drawing.Point(309, 184);
-            this.lbl_vType.Name = "lbl_vType";
-            this.lbl_vType.Size = new System.Drawing.Size(32, 19);
-            this.lbl_vType.TabIndex = 0;
-            this.lbl_vType.Text = "Car";
+            this.lbl_vehicleModel.AutoSize = true;
+            this.lbl_vehicleModel.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_vehicleModel.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_vehicleModel.Location = new System.Drawing.Point(309, 184);
+            this.lbl_vehicleModel.Name = "lbl_vehicleModel";
+            this.lbl_vehicleModel.Size = new System.Drawing.Size(15, 19);
+            this.lbl_vehicleModel.TabIndex = 0;
+            this.lbl_vehicleModel.Text = "-";
             // 
             // lbl_dateReceived
             // 
@@ -91,317 +85,251 @@ namespace Billing_System
             this.lbl_dateReceived.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_dateReceived.Location = new System.Drawing.Point(485, 190);
             this.lbl_dateReceived.Name = "lbl_dateReceived";
-            this.lbl_dateReceived.Size = new System.Drawing.Size(78, 17);
+            this.lbl_dateReceived.Size = new System.Drawing.Size(12, 15);
             this.lbl_dateReceived.TabIndex = 0;
-            this.lbl_dateReceived.Text = "2023.05.26";
+            this.lbl_dateReceived.Text = "-";
             // 
-            // label3
+            // lbl_odoMeter
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(527, 225);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 19);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "199345 km";
+            this.lbl_odoMeter.AutoSize = true;
+            this.lbl_odoMeter.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_odoMeter.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_odoMeter.Location = new System.Drawing.Point(527, 225);
+            this.lbl_odoMeter.Name = "lbl_odoMeter";
+            this.lbl_odoMeter.Size = new System.Drawing.Size(15, 19);
+            this.lbl_odoMeter.TabIndex = 0;
+            this.lbl_odoMeter.Text = "-";
             // 
-            // label4
+            // lbl_regNo
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(309, 225);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 19);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "KB-9705";
+            this.lbl_regNo.AutoSize = true;
+            this.lbl_regNo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_regNo.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_regNo.Location = new System.Drawing.Point(309, 225);
+            this.lbl_regNo.Name = "lbl_regNo";
+            this.lbl_regNo.Size = new System.Drawing.Size(15, 19);
+            this.lbl_regNo.TabIndex = 0;
+            this.lbl_regNo.Text = "-";
             // 
-            // label5
+            // lbl_address
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(72, 225);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(196, 19);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Kalahogedara , Kurunegala";
+            this.lbl_address.AutoSize = true;
+            this.lbl_address.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_address.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_address.Location = new System.Drawing.Point(72, 225);
+            this.lbl_address.Name = "lbl_address";
+            this.lbl_address.Size = new System.Drawing.Size(15, 19);
+            this.lbl_address.TabIndex = 0;
+            this.lbl_address.Text = "-";
             // 
-            // label6
+            // lbl_phoneNumber
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(115, 264);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 19);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "0769652995";
+            this.lbl_phoneNumber.AutoSize = true;
+            this.lbl_phoneNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_phoneNumber.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_phoneNumber.Location = new System.Drawing.Point(115, 264);
+            this.lbl_phoneNumber.Name = "lbl_phoneNumber";
+            this.lbl_phoneNumber.Size = new System.Drawing.Size(15, 19);
+            this.lbl_phoneNumber.TabIndex = 0;
+            this.lbl_phoneNumber.Text = "-";
             // 
-            // label7
+            // lbl_chassisNo
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(309, 264);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 19);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "53478364536KB";
+            this.lbl_chassisNo.AutoSize = true;
+            this.lbl_chassisNo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_chassisNo.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_chassisNo.Location = new System.Drawing.Point(309, 264);
+            this.lbl_chassisNo.Name = "lbl_chassisNo";
+            this.lbl_chassisNo.Size = new System.Drawing.Size(15, 19);
+            this.lbl_chassisNo.TabIndex = 0;
+            this.lbl_chassisNo.Text = "-";
             // 
-            // label8
+            // lbl_cName
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(539, 264);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 19);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "1mbee";
+            this.lbl_cName.AutoSize = true;
+            this.lbl_cName.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cName.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cName.Location = new System.Drawing.Point(539, 264);
+            this.lbl_cName.Name = "lbl_cName";
+            this.lbl_cName.Size = new System.Drawing.Size(15, 19);
+            this.lbl_cName.TabIndex = 0;
+            this.lbl_cName.Text = "-";
             // 
-            // label9
+            // lbl_complaints1
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(115, 325);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(124, 19);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "1.Break pads left";
+            this.lbl_complaints1.AutoSize = true;
+            this.lbl_complaints1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complaints1.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complaints1.Location = new System.Drawing.Point(115, 325);
+            this.lbl_complaints1.Name = "lbl_complaints1";
+            this.lbl_complaints1.Size = new System.Drawing.Size(15, 19);
+            this.lbl_complaints1.TabIndex = 0;
+            this.lbl_complaints1.Text = "-";
             // 
-            // label10
+            // lbl_complaints2
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(115, 358);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(111, 19);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "2.Engine down";
+            this.lbl_complaints2.AutoSize = true;
+            this.lbl_complaints2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complaints2.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complaints2.Location = new System.Drawing.Point(115, 358);
+            this.lbl_complaints2.Name = "lbl_complaints2";
+            this.lbl_complaints2.Size = new System.Drawing.Size(15, 19);
+            this.lbl_complaints2.TabIndex = 0;
+            this.lbl_complaints2.Text = "-";
             // 
-            // label11
+            // lbl_complaints3
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(115, 388);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 19);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "3.Tires kota uda";
+            this.lbl_complaints3.AutoSize = true;
+            this.lbl_complaints3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complaints3.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complaints3.Location = new System.Drawing.Point(115, 388);
+            this.lbl_complaints3.Name = "lbl_complaints3";
+            this.lbl_complaints3.Size = new System.Drawing.Size(15, 19);
+            this.lbl_complaints3.TabIndex = 0;
+            this.lbl_complaints3.Text = "-";
             // 
-            // label12
+            // lbl_complaints4
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(117, 421);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(158, 19);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "4.Gihan bakthi geetha";
+            this.lbl_complaints4.AutoSize = true;
+            this.lbl_complaints4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complaints4.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complaints4.Location = new System.Drawing.Point(117, 421);
+            this.lbl_complaints4.Name = "lbl_complaints4";
+            this.lbl_complaints4.Size = new System.Drawing.Size(15, 19);
+            this.lbl_complaints4.TabIndex = 0;
+            this.lbl_complaints4.Text = "-";
             // 
-            // label13
+            // lbl_decision2
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(527, 358);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(167, 19);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "2.Egine eka galawanna";
+            this.lbl_decision2.AutoSize = true;
+            this.lbl_decision2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision2.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision2.Location = new System.Drawing.Point(527, 358);
+            this.lbl_decision2.Name = "lbl_decision2";
+            this.lbl_decision2.Size = new System.Drawing.Size(15, 19);
+            this.lbl_decision2.TabIndex = 0;
+            this.lbl_decision2.Text = "-";
             // 
-            // label14
+            // lbl_decision3
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(527, 388);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(161, 19);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "3.Tire nathuwa yanna ";
+            this.lbl_decision3.AutoSize = true;
+            this.lbl_decision3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision3.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision3.Location = new System.Drawing.Point(527, 388);
+            this.lbl_decision3.Name = "lbl_decision3";
+            this.lbl_decision3.Size = new System.Drawing.Size(15, 19);
+            this.lbl_decision3.TabIndex = 0;
+            this.lbl_decision3.Text = "-";
             // 
-            // label15
+            // lbl_remark1
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(100, 665);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(336, 19);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "- Awlk na me tika kalama shape ke tika kalayak";
+            this.lbl_remark1.AutoSize = true;
+            this.lbl_remark1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_remark1.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_remark1.Location = new System.Drawing.Point(100, 665);
+            this.lbl_remark1.Name = "lbl_remark1";
+            this.lbl_remark1.Size = new System.Drawing.Size(15, 19);
+            this.lbl_remark1.TabIndex = 0;
+            this.lbl_remark1.Text = "-";
             // 
-            // label16
+            // lbl_decision1
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(527, 325);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(156, 19);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "1.Break pad daganna";
+            this.lbl_decision1.AutoSize = true;
+            this.lbl_decision1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision1.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision1.Location = new System.Drawing.Point(527, 325);
+            this.lbl_decision1.Name = "lbl_decision1";
+            this.lbl_decision1.Size = new System.Drawing.Size(15, 19);
+            this.lbl_decision1.TabIndex = 0;
+            this.lbl_decision1.Text = "-";
             // 
-            // label17
+            // lbl_time
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(309, 358);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(116, 19);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "2.Diagnosis two";
+            this.lbl_time.AutoSize = true;
+            this.lbl_time.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_time.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_time.Location = new System.Drawing.Point(595, 190);
+            this.lbl_time.Name = "lbl_time";
+            this.lbl_time.Size = new System.Drawing.Size(12, 15);
+            this.lbl_time.TabIndex = 0;
+            this.lbl_time.Text = "-";
             // 
-            // label18
+            // lbl_fuelType
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(309, 388);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(126, 19);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "3.Diagnosis three";
+            this.lbl_fuelType.AutoSize = true;
+            this.lbl_fuelType.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fuelType.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fuelType.Location = new System.Drawing.Point(684, 190);
+            this.lbl_fuelType.Name = "lbl_fuelType";
+            this.lbl_fuelType.Size = new System.Drawing.Size(12, 15);
+            this.lbl_fuelType.TabIndex = 0;
+            this.lbl_fuelType.Text = "-";
             // 
-            // label19
+            // lbl_decision4
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(309, 421);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(120, 19);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "4.Diagnosis four";
+            this.lbl_decision4.AutoSize = true;
+            this.lbl_decision4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision4.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision4.Location = new System.Drawing.Point(527, 421);
+            this.lbl_decision4.Name = "lbl_decision4";
+            this.lbl_decision4.Size = new System.Drawing.Size(15, 19);
+            this.lbl_decision4.TabIndex = 0;
+            this.lbl_decision4.Text = "-";
             // 
-            // label20
+            // lbl_estimatedCost
             // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(309, 325);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(117, 19);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "1.Diagnosis one";
+            this.lbl_estimatedCost.AutoSize = true;
+            this.lbl_estimatedCost.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_estimatedCost.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_estimatedCost.Location = new System.Drawing.Point(60, 838);
+            this.lbl_estimatedCost.Name = "lbl_estimatedCost";
+            this.lbl_estimatedCost.Size = new System.Drawing.Size(15, 19);
+            this.lbl_estimatedCost.TabIndex = 1;
+            this.lbl_estimatedCost.Text = "-";
             // 
-            // label1
+            // lbl_pDate
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(595, 190);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "17.35 PM";
+            this.lbl_pDate.AutoSize = true;
+            this.lbl_pDate.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_pDate.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_pDate.Location = new System.Drawing.Point(181, 840);
+            this.lbl_pDate.Name = "lbl_pDate";
+            this.lbl_pDate.Size = new System.Drawing.Size(12, 15);
+            this.lbl_pDate.TabIndex = 2;
+            this.lbl_pDate.Text = "-";
             // 
-            // label2
+            // lbl_cInform
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(684, 190);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Petrol";
+            this.lbl_cInform.AutoSize = true;
+            this.lbl_cInform.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cInform.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cInform.Location = new System.Drawing.Point(667, 840);
+            this.lbl_cInform.Name = "lbl_cInform";
+            this.lbl_cInform.Size = new System.Drawing.Size(12, 15);
+            this.lbl_cInform.TabIndex = 2;
+            this.lbl_cInform.Text = "-";
             // 
-            // label21
+            // lbl_dtime
             // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(100, 682);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(197, 19);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "  duwanna plwn shape eke.";
+            this.lbl_dtime.AutoSize = true;
+            this.lbl_dtime.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_dtime.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dtime.Location = new System.Drawing.Point(430, 839);
+            this.lbl_dtime.Name = "lbl_dtime";
+            this.lbl_dtime.Size = new System.Drawing.Size(12, 15);
+            this.lbl_dtime.TabIndex = 3;
+            this.lbl_dtime.Text = "-";
             // 
-            // label22
+            // lbl_nDate
             // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(527, 421);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(204, 19);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "4.Bakthi geetha nokiya inna ";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(60, 838);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(68, 19);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Rs.10000";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(181, 840);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(78, 17);
-            this.label24.TabIndex = 2;
-            this.label24.Text = "2023.05.26";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(667, 840);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(78, 17);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "2023.05.26";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(401, 839);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(69, 17);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "17.35 PM";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(511, 837);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(83, 19);
-            this.label27.TabIndex = 4;
-            this.label27.Text = "199345 km";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(605, 957);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(78, 17);
-            this.label28.TabIndex = 2;
-            this.label28.Text = "2023.05.26";
+            this.lbl_nDate.AutoSize = true;
+            this.lbl_nDate.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_nDate.Font = new System.Drawing.Font("Malgun Gothic", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nDate.Location = new System.Drawing.Point(605, 957);
+            this.lbl_nDate.Name = "lbl_nDate";
+            this.lbl_nDate.Size = new System.Drawing.Size(12, 15);
+            this.lbl_nDate.TabIndex = 2;
+            this.lbl_nDate.Text = "-";
             // 
             // motobicycleJobCard
             // 
@@ -410,41 +338,36 @@ namespace Billing_System
             this.BackgroundImage = global::Billing_System.Properties.Resources.Screenshot_2023_05_26_at_17_21_35;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(819, 1053);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_dtime);
+            this.Controls.Add(this.lbl_nDate);
+            this.Controls.Add(this.lbl_cInform);
+            this.Controls.Add(this.lbl_pDate);
+            this.Controls.Add(this.lbl_estimatedCost);
+            this.Controls.Add(this.lbl_decision1);
+            this.Controls.Add(this.lbl_complaints1);
+            this.Controls.Add(this.lbl_remark1);
+            this.Controls.Add(this.lbl_complaints4);
+            this.Controls.Add(this.lbl_decision4);
+            this.Controls.Add(this.lbl_decision3);
+            this.Controls.Add(this.lbl_complaints3);
+            this.Controls.Add(this.lbl_decision2);
+            this.Controls.Add(this.lbl_complaints2);
+            this.Controls.Add(this.lbl_cName);
+            this.Controls.Add(this.lbl_chassisNo);
+            this.Controls.Add(this.lbl_phoneNumber);
+            this.Controls.Add(this.lbl_address);
+            this.Controls.Add(this.lbl_regNo);
+            this.Controls.Add(this.lbl_odoMeter);
+            this.Controls.Add(this.lbl_fuelType);
+            this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.lbl_dateReceived);
-            this.Controls.Add(this.lbl_vType);
+            this.Controls.Add(this.lbl_vehicleModel);
             this.Controls.Add(this.lbl_customerName);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.Name = "motobicycleJobCard";
             this.Text = "motobicycleJobCard";
+            this.Load += new System.EventHandler(this.motobicycleJobCard_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -453,35 +376,29 @@ namespace Billing_System
         #endregion
 
         private System.Windows.Forms.Label lbl_customerName;
-        private System.Windows.Forms.Label lbl_vType;
+        private System.Windows.Forms.Label lbl_vehicleModel;
         private System.Windows.Forms.Label lbl_dateReceived;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label lbl_odoMeter;
+        private System.Windows.Forms.Label lbl_regNo;
+        private System.Windows.Forms.Label lbl_address;
+        private System.Windows.Forms.Label lbl_phoneNumber;
+        private System.Windows.Forms.Label lbl_chassisNo;
+        private System.Windows.Forms.Label lbl_cName;
+        private System.Windows.Forms.Label lbl_complaints1;
+        private System.Windows.Forms.Label lbl_complaints2;
+        private System.Windows.Forms.Label lbl_complaints3;
+        private System.Windows.Forms.Label lbl_complaints4;
+        private System.Windows.Forms.Label lbl_decision2;
+        private System.Windows.Forms.Label lbl_decision3;
+        private System.Windows.Forms.Label lbl_remark1;
+        private System.Windows.Forms.Label lbl_decision1;
+        private System.Windows.Forms.Label lbl_time;
+        private System.Windows.Forms.Label lbl_fuelType;
+        private System.Windows.Forms.Label lbl_decision4;
+        private System.Windows.Forms.Label lbl_estimatedCost;
+        private System.Windows.Forms.Label lbl_pDate;
+        private System.Windows.Forms.Label lbl_cInform;
+        private System.Windows.Forms.Label lbl_dtime;
+        private System.Windows.Forms.Label lbl_nDate;
     }
 }
