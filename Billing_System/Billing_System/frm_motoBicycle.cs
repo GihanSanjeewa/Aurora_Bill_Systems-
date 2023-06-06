@@ -151,5 +151,10 @@ namespace Billing_System
             }
             connection_class.close_connection();
         }
+
+        private void txt_search_Validating_1(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

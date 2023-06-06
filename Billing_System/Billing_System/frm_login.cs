@@ -71,5 +71,20 @@ namespace Billing_System
         {
             txt_password.UseSystemPasswordChar = true;
         }
+
+        private void txt_password_Validating(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txt_password.Text))
+            {
+                e.Cancel = true;
+                txt_password.Focus();
+                errorProvider1.SetError(txt_password, "Password Should not be Blank!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(txt_password, "");
+            }
+        }
     }
 }
