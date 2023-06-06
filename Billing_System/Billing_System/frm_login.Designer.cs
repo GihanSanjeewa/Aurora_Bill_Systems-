@@ -101,6 +101,7 @@
             this.txt_username.SelectedText = "";
             this.txt_username.Size = new System.Drawing.Size(223, 39);
             this.txt_username.TabIndex = 4;
+            this.txt_username.Validating += new System.ComponentModel.CancelEventHandler(this.txt_username_Validating);
             // 
             // txt_password
             // 
