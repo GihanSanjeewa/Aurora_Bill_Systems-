@@ -158,6 +158,12 @@
     <Compile Include="motobicycleJobCard.Designer.cs">
       <DependentUpon>motobicycleJobCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="motocarJobCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="motocarJobCard.Designer.cs">
+      <DependentUpon>motocarJobCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="add.resx">
@@ -207,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="motobicycleJobCard.resx">
       <DependentUpon>motobicycleJobCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="motocarJobCard.resx">
+      <DependentUpon>motocarJobCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

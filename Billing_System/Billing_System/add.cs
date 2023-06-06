@@ -35,5 +35,10 @@ namespace Billing_System
             frm_addJob addJob = new frm_addJob();
             addJob.Show();
         }
+
+        private void btn_addMechanic_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -37,6 +37,8 @@ namespace Billing_System
             this.btn_addItem = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label7 = new System.Windows.Forms.Label();
+            this.btn_addMechanic = new Guna.UI2.WinForms.Guna2Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +60,7 @@ namespace Billing_System
             this.lbl_invoice.BackColor = System.Drawing.Color.Transparent;
             this.lbl_invoice.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_invoice.ForeColor = System.Drawing.Color.White;
-            this.lbl_invoice.Location = new System.Drawing.Point(716, 507);
+            this.lbl_invoice.Location = new System.Drawing.Point(563, 507);
             this.lbl_invoice.Name = "lbl_invoice";
             this.lbl_invoice.Size = new System.Drawing.Size(156, 27);
             this.lbl_invoice.TabIndex = 6;
@@ -112,7 +114,7 @@ namespace Billing_System
             this.btn_addCustomer.FillColor = System.Drawing.Color.Transparent;
             this.btn_addCustomer.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
             this.btn_addCustomer.ForeColor = System.Drawing.Color.White;
-            this.btn_addCustomer.Location = new System.Drawing.Point(710, 319);
+            this.btn_addCustomer.Location = new System.Drawing.Point(557, 319);
             this.btn_addCustomer.Name = "btn_addCustomer";
             this.btn_addCustomer.Size = new System.Drawing.Size(160, 150);
             this.btn_addCustomer.TabIndex = 3;
@@ -160,6 +162,39 @@ namespace Billing_System
             this.label7.TabIndex = 3;
             this.label7.Text = "Add";
             // 
+            // btn_addMechanic
+            // 
+            this.btn_addMechanic.BackColor = System.Drawing.Color.Transparent;
+            this.btn_addMechanic.BackgroundImage = global::Billing_System.Properties.Resources.job;
+            this.btn_addMechanic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_addMechanic.BorderColor = System.Drawing.Color.Transparent;
+            this.btn_addMechanic.BorderRadius = 10;
+            this.btn_addMechanic.BorderThickness = 2;
+            this.btn_addMechanic.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_addMechanic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_addMechanic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_addMechanic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_addMechanic.FillColor = System.Drawing.Color.Transparent;
+            this.btn_addMechanic.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_addMechanic.ForeColor = System.Drawing.Color.White;
+            this.btn_addMechanic.Location = new System.Drawing.Point(843, 322);
+            this.btn_addMechanic.Name = "btn_addMechanic";
+            this.btn_addMechanic.Size = new System.Drawing.Size(160, 150);
+            this.btn_addMechanic.TabIndex = 2;
+            this.btn_addMechanic.Click += new System.EventHandler(this.btn_addMechanic_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(844, 507);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 27);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Add mechanic";
+            // 
             // frm_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -167,9 +202,11 @@ namespace Billing_System
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1582, 853);
             this.Controls.Add(this.guna2GradientPanel1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_jcCar);
             this.Controls.Add(this.lbl_invoice);
             this.Controls.Add(this.lbl_jcBike);
+            this.Controls.Add(this.btn_addMechanic);
             this.Controls.Add(this.btn_addJob);
             this.Controls.Add(this.btn_addCustomer);
             this.Controls.Add(this.btn_addItem);
@@ -193,5 +230,7 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2Button btn_addItem;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2Button btn_addMechanic;
+        private System.Windows.Forms.Label label1;
     }
 }
