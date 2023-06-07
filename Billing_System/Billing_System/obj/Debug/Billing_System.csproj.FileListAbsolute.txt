@@ -162,3 +162,5 @@ D:\project\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_
 D:\project\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
 D:\project\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
 D:\project\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.addMechanic.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editMechanic.resources

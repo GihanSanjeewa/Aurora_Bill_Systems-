@@ -61,6 +61,12 @@
     <Compile Include="add.Designer.cs">
       <DependentUpon>add.cs</DependentUpon>
     </Compile>
+    <Compile Include="addMechanic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMechanic.Designer.cs">
+      <DependentUpon>addMechanic.cs</DependentUpon>
+    </Compile>
     <Compile Include="connection_class.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -97,6 +103,12 @@
     </Compile>
     <Compile Include="frm_editJob.Designer.cs">
       <DependentUpon>frm_editJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editMechanic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editMechanic.Designer.cs">
+      <DependentUpon>frm_editMechanic.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_salesReport.cs">
       <SubType>Form</SubType>
@@ -169,6 +181,9 @@
     <EmbeddedResource Include="add.resx">
       <DependentUpon>add.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="addMechanic.resx">
+      <DependentUpon>addMechanic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_addCustomer.resx">
       <DependentUpon>frm_addCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_editJob.resx">
       <DependentUpon>frm_editJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editMechanic.resx">
+      <DependentUpon>frm_editMechanic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_inventory.resx">
       <DependentUpon>frm_inventory.cs</DependentUpon>
@@ -327,6 +345,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2023-05-26 at 17.21.35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mechanic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
