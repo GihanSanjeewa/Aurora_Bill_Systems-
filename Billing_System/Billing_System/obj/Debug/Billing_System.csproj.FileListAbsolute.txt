@@ -105,3 +105,32 @@ C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Bil
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motocarJobCard.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe.config
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.pdb
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Guna.UI2.dll
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.AssemblyReference.cache
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_add.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addCustomer.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addItem.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addJob.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editCustomer.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editItem.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editJob.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_inventory.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoCar.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashbord.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_invoice.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_login.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoBicycle.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_sconditionReport.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motocarJobCard.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.Properties.Resources.resources
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.GenerateResource.cache
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CoreCompileInputs.cache
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
+C:\Users\gayat\Source\Repos\GihanSanjeewa\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
