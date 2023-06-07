@@ -101,5 +101,10 @@ namespace Billing_System
                 errorProvider1.SetError(txt_username, "");
             }
         }
+
+        private void txt_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
