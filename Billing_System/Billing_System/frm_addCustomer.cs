@@ -79,7 +79,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty( txt_registrationNo.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                txt_registrationNo.Focus();
                 errorProvider1.SetError(txt_registrationNo , "Username Should not be Blank!");
             }
             else
@@ -94,7 +94,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(cmb_vehicleModel.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                cmb_vehicleModel.Focus();
                 errorProvider1.SetError( cmb_vehicleModel, "Username Should not be Blank!");
             }
             else
@@ -109,7 +109,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_chassisNo.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                txt_chassisNo.Focus();
                 errorProvider1.SetError(txt_chassisNo, "Username Should not be Blank!");
             }
             else
@@ -124,7 +124,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(cmb_fuelType.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                cmb_fuelType.Focus();
                 errorProvider1.SetError(cmb_fuelType, "Username Should not be Blank!");
             }
             else
@@ -139,7 +139,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_km.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                txt_km.Focus();
                 errorProvider1.SetError(txt_km, "Username Should not be Blank!");
             }
             else
@@ -154,7 +154,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_address.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                txt_address.Focus();
                 errorProvider1.SetError(txt_address, "Username Should not be Blank!");
             }
             else
@@ -170,7 +170,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_company.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                txt_company.Focus();
                 errorProvider1.SetError(txt_company, "Username Should not be Blank!");
             }
             else
@@ -185,7 +185,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_phoneNumber.Text))
             {
                 e.Cancel = true;
-                txt_customerName.Focus();
+                txt_phoneNumber.Focus();
                 errorProvider1.SetError(txt_phoneNumber, "Username Should not be Blank!");
             }
             else

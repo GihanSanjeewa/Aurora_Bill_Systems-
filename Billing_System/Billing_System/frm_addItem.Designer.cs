@@ -29,6 +29,7 @@ namespace Billing_System
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -48,8 +49,10 @@ namespace Billing_System
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_editItem = new Guna.UI2.WinForms.Guna2Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_item)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dgv_item
@@ -143,6 +146,7 @@ namespace Billing_System
             this.txt_itemBrandName.SelectedText = "";
             this.txt_itemBrandName.Size = new System.Drawing.Size(267, 44);
             this.txt_itemBrandName.TabIndex = 26;
+            this.txt_itemBrandName.Validating += new System.ComponentModel.CancelEventHandler(this.txt_itemBrandName_Validating);
             // 
             // txt_itemQuantity
             // 
@@ -163,6 +167,7 @@ namespace Billing_System
             this.txt_itemQuantity.SelectedText = "";
             this.txt_itemQuantity.Size = new System.Drawing.Size(267, 44);
             this.txt_itemQuantity.TabIndex = 27;
+            this.txt_itemQuantity.Validating += new System.ComponentModel.CancelEventHandler(this.txt_itemQuantity_Validating);
             // 
             // txt_itemPrice
             // 
@@ -183,6 +188,7 @@ namespace Billing_System
             this.txt_itemPrice.SelectedText = "";
             this.txt_itemPrice.Size = new System.Drawing.Size(267, 44);
             this.txt_itemPrice.TabIndex = 28;
+            this.txt_itemPrice.Validating += new System.ComponentModel.CancelEventHandler(this.txt_itemPrice_Validating);
             // 
             // txt_itemName
             // 
@@ -203,6 +209,7 @@ namespace Billing_System
             this.txt_itemName.SelectedText = "";
             this.txt_itemName.Size = new System.Drawing.Size(267, 44);
             this.txt_itemName.TabIndex = 29;
+            this.txt_itemName.Validating += new System.ComponentModel.CancelEventHandler(this.txt_itemName_Validating);
             // 
             // label4
             // 
@@ -322,6 +329,10 @@ namespace Billing_System
             this.btn_editItem.TabIndex = 34;
             this.btn_editItem.Click += new System.EventHandler(this.btn_editItem_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // frm_addItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -349,6 +360,7 @@ namespace Billing_System
             ((System.ComponentModel.ISupportInitialize)(this.dgv_item)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -372,5 +384,6 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
         private Guna.UI2.WinForms.Guna2Button btn_editItem;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
