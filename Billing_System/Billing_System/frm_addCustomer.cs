@@ -58,5 +58,20 @@ namespace Billing_System
             editCustomer.Show();
 
         }
+
+        private void txt_customerName_Validating(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrEmpty(txt_customerName.Text))
+            {
+                e.Cancel = true;
+                txt_customerName.Focus();
+                errorProvider1.SetError(txt_customerName, "Username Should not be Blank!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(txt_customerName, "");
+            }
+        }
     }
 }

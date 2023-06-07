@@ -29,9 +29,10 @@ namespace Billing_System
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_customer = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btn_addCustomer = new Guna.UI2.WinForms.Guna2Button();
             this.txt_chassisNo = new Guna.UI2.WinForms.Guna2TextBox();
@@ -58,40 +59,41 @@ namespace Billing_System
             this.txt_phoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_company = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_address = new Guna.UI2.WinForms.Guna2TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_customer)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dgv_customer
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dgv_customer.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgv_customer.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_customer.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_customer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_customer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_customer.ColumnHeadersHeight = 4;
             this.dgv_customer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_customer.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_customer.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_customer.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgv_customer.Location = new System.Drawing.Point(373, 89);
-            this.dgv_customer.Margin = new System.Windows.Forms.Padding(4);
+            this.dgv_customer.Location = new System.Drawing.Point(280, 72);
             this.dgv_customer.Name = "dgv_customer";
             this.dgv_customer.RowHeadersVisible = false;
             this.dgv_customer.RowHeadersWidth = 51;
-            this.dgv_customer.Size = new System.Drawing.Size(1209, 765);
+            this.dgv_customer.Size = new System.Drawing.Size(907, 622);
             this.dgv_customer.TabIndex = 45;
             this.dgv_customer.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgv_customer.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -126,10 +128,9 @@ namespace Billing_System
             this.btn_addCustomer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_addCustomer.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addCustomer.ForeColor = System.Drawing.Color.White;
-            this.btn_addCustomer.Location = new System.Drawing.Point(47, 763);
-            this.btn_addCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_addCustomer.Location = new System.Drawing.Point(35, 620);
             this.btn_addCustomer.Name = "btn_addCustomer";
-            this.btn_addCustomer.Size = new System.Drawing.Size(267, 70);
+            this.btn_addCustomer.Size = new System.Drawing.Size(200, 57);
             this.btn_addCustomer.TabIndex = 44;
             this.btn_addCustomer.Text = "Add Customer";
             this.btn_addCustomer.Click += new System.EventHandler(this.btn_addCustomer_Click);
@@ -145,13 +146,13 @@ namespace Billing_System
             this.txt_chassisNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_chassisNo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_chassisNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_chassisNo.Location = new System.Drawing.Point(47, 289);
-            this.txt_chassisNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_chassisNo.Location = new System.Drawing.Point(35, 235);
+            this.txt_chassisNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_chassisNo.Name = "txt_chassisNo";
             this.txt_chassisNo.PasswordChar = '\0';
             this.txt_chassisNo.PlaceholderText = "";
             this.txt_chassisNo.SelectedText = "";
-            this.txt_chassisNo.Size = new System.Drawing.Size(267, 39);
+            this.txt_chassisNo.Size = new System.Drawing.Size(200, 32);
             this.txt_chassisNo.TabIndex = 40;
             // 
             // txt_registrationNo
@@ -165,13 +166,13 @@ namespace Billing_System
             this.txt_registrationNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_registrationNo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_registrationNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_registrationNo.Location = new System.Drawing.Point(47, 123);
-            this.txt_registrationNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_registrationNo.Location = new System.Drawing.Point(35, 100);
+            this.txt_registrationNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_registrationNo.Name = "txt_registrationNo";
             this.txt_registrationNo.PasswordChar = '\0';
             this.txt_registrationNo.PlaceholderText = "";
             this.txt_registrationNo.SelectedText = "";
-            this.txt_registrationNo.Size = new System.Drawing.Size(267, 39);
+            this.txt_registrationNo.Size = new System.Drawing.Size(200, 32);
             this.txt_registrationNo.TabIndex = 42;
             // 
             // txt_customerName
@@ -185,24 +186,24 @@ namespace Billing_System
             this.txt_customerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_customerName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_customerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_customerName.Location = new System.Drawing.Point(47, 41);
-            this.txt_customerName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_customerName.Location = new System.Drawing.Point(35, 33);
+            this.txt_customerName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_customerName.Name = "txt_customerName";
             this.txt_customerName.PasswordChar = '\0';
             this.txt_customerName.PlaceholderText = "";
             this.txt_customerName.SelectedText = "";
-            this.txt_customerName.Size = new System.Drawing.Size(267, 39);
+            this.txt_customerName.Size = new System.Drawing.Size(200, 32);
             this.txt_customerName.TabIndex = 43;
+            this.txt_customerName.Validating += new System.ComponentModel.CancelEventHandler(this.txt_customerName_Validating);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(42, 252);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(32, 205);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(204, 27);
+            this.label4.Size = new System.Drawing.Size(154, 21);
             this.label4.TabIndex = 36;
             this.label4.Text = "Chassis Number :";
             // 
@@ -211,10 +212,9 @@ namespace Billing_System
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(45, 171);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(34, 139);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 27);
+            this.label3.Size = new System.Drawing.Size(145, 21);
             this.label3.TabIndex = 37;
             this.label3.Text = "Vehicle Model :";
             // 
@@ -223,10 +223,9 @@ namespace Billing_System
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(42, 88);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(32, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 27);
+            this.label2.Size = new System.Drawing.Size(199, 21);
             this.label2.TabIndex = 38;
             this.label2.Text = "Registration Number :";
             // 
@@ -235,10 +234,9 @@ namespace Billing_System
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(42, 8);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(32, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 27);
+            this.label1.Size = new System.Drawing.Size(145, 21);
             this.label1.TabIndex = 39;
             this.label1.Text = "Customer Name :";
             // 
@@ -248,9 +246,10 @@ namespace Billing_System
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label11.Location = new System.Drawing.Point(466, 19);
+            this.label11.Location = new System.Drawing.Point(350, 15);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(286, 50);
+            this.label11.Size = new System.Drawing.Size(233, 40);
             this.label11.TabIndex = 17;
             this.label11.Text = "Add Customer";
             // 
@@ -259,17 +258,19 @@ namespace Billing_System
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel1.Controls.Add(this.label11);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(373, -1);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(280, -1);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1470, 90);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1102, 73);
             this.guna2GradientPanel1.TabIndex = 46;
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel1.Location = new System.Drawing.Point(556, 87);
+            this.guna2Panel1.Location = new System.Drawing.Point(417, 71);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel1.Size = new System.Drawing.Size(1076, 2);
             this.guna2Panel1.TabIndex = 22;
             // 
             // label5
@@ -277,19 +278,19 @@ namespace Billing_System
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(315, 813);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(236, 661);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 27);
+            this.label5.Size = new System.Drawing.Size(55, 21);
             this.label5.TabIndex = 49;
             this.label5.Text = "Edit ";
             // 
             // guna2Panel11
             // 
             this.guna2Panel11.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel11.Location = new System.Drawing.Point(433, 90);
+            this.guna2Panel11.Location = new System.Drawing.Point(325, 73);
+            this.guna2Panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.Size = new System.Drawing.Size(3, 753);
+            this.guna2Panel11.Size = new System.Drawing.Size(2, 612);
             this.guna2Panel11.TabIndex = 47;
             // 
             // label6
@@ -297,10 +298,9 @@ namespace Billing_System
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(42, 338);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(32, 275);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 27);
+            this.label6.Size = new System.Drawing.Size(109, 21);
             this.label6.TabIndex = 50;
             this.label6.Text = "Fuel type :";
             // 
@@ -318,10 +318,9 @@ namespace Billing_System
             "Petrol",
             "Deisel",
             "Hybrid"});
-            this.cmb_fuelType.Location = new System.Drawing.Point(47, 376);
-            this.cmb_fuelType.Margin = new System.Windows.Forms.Padding(4);
+            this.cmb_fuelType.Location = new System.Drawing.Point(35, 306);
             this.cmb_fuelType.Name = "cmb_fuelType";
-            this.cmb_fuelType.Size = new System.Drawing.Size(265, 36);
+            this.cmb_fuelType.Size = new System.Drawing.Size(200, 36);
             this.cmb_fuelType.TabIndex = 51;
             // 
             // txt_km
@@ -335,13 +334,13 @@ namespace Billing_System
             this.txt_km.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_km.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_km.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_km.Location = new System.Drawing.Point(47, 458);
-            this.txt_km.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_km.Location = new System.Drawing.Point(35, 372);
+            this.txt_km.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_km.Name = "txt_km";
             this.txt_km.PasswordChar = '\0';
             this.txt_km.PlaceholderText = "";
             this.txt_km.SelectedText = "";
-            this.txt_km.Size = new System.Drawing.Size(267, 39);
+            this.txt_km.Size = new System.Drawing.Size(200, 32);
             this.txt_km.TabIndex = 53;
             // 
             // label7
@@ -350,10 +349,9 @@ namespace Billing_System
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(44, 423);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(33, 344);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 27);
+            this.label7.Size = new System.Drawing.Size(46, 21);
             this.label7.TabIndex = 52;
             this.label7.Text = "Km :";
             // 
@@ -373,10 +371,9 @@ namespace Billing_System
             "Mini-Van",
             "Bike",
             "Lorry"});
-            this.cmb_vehicleModel.Location = new System.Drawing.Point(49, 208);
-            this.cmb_vehicleModel.Margin = new System.Windows.Forms.Padding(4);
+            this.cmb_vehicleModel.Location = new System.Drawing.Point(37, 169);
             this.cmb_vehicleModel.Name = "cmb_vehicleModel";
-            this.cmb_vehicleModel.Size = new System.Drawing.Size(265, 36);
+            this.cmb_vehicleModel.Size = new System.Drawing.Size(200, 36);
             this.cmb_vehicleModel.TabIndex = 54;
             // 
             // btn_editCustomer
@@ -393,10 +390,11 @@ namespace Billing_System
             this.btn_editCustomer.FillColor = System.Drawing.Color.Transparent;
             this.btn_editCustomer.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
             this.btn_editCustomer.ForeColor = System.Drawing.Color.White;
-            this.btn_editCustomer.Location = new System.Drawing.Point(317, 763);
+            this.btn_editCustomer.Location = new System.Drawing.Point(238, 620);
+            this.btn_editCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_editCustomer.Name = "btn_editCustomer";
-            this.btn_editCustomer.Padding = new System.Windows.Forms.Padding(5);
-            this.btn_editCustomer.Size = new System.Drawing.Size(54, 50);
+            this.btn_editCustomer.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_editCustomer.Size = new System.Drawing.Size(40, 41);
             this.btn_editCustomer.TabIndex = 48;
             this.btn_editCustomer.Click += new System.EventHandler(this.btn_editCustomer_Click);
             // 
@@ -405,10 +403,9 @@ namespace Billing_System
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(47, 671);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(35, 545);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(180, 27);
+            this.label12.Size = new System.Drawing.Size(136, 21);
             this.label12.TabIndex = 96;
             this.label12.Text = "Phone Number :";
             // 
@@ -417,10 +414,9 @@ namespace Billing_System
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(47, 586);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(35, 476);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(120, 27);
+            this.label10.Size = new System.Drawing.Size(91, 21);
             this.label10.TabIndex = 97;
             this.label10.Text = "Company :";
             // 
@@ -429,10 +425,9 @@ namespace Billing_System
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(45, 503);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(34, 409);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 27);
+            this.label9.Size = new System.Drawing.Size(91, 21);
             this.label9.TabIndex = 98;
             this.label9.Text = "Address :";
             // 
@@ -447,13 +442,13 @@ namespace Billing_System
             this.txt_phoneNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_phoneNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_phoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_phoneNumber.Location = new System.Drawing.Point(51, 709);
-            this.txt_phoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_phoneNumber.Location = new System.Drawing.Point(38, 576);
+            this.txt_phoneNumber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_phoneNumber.Name = "txt_phoneNumber";
             this.txt_phoneNumber.PasswordChar = '\0';
             this.txt_phoneNumber.PlaceholderText = "";
             this.txt_phoneNumber.SelectedText = "";
-            this.txt_phoneNumber.Size = new System.Drawing.Size(267, 39);
+            this.txt_phoneNumber.Size = new System.Drawing.Size(200, 32);
             this.txt_phoneNumber.TabIndex = 93;
             // 
             // txt_company
@@ -467,13 +462,13 @@ namespace Billing_System
             this.txt_company.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_company.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_company.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_company.Location = new System.Drawing.Point(52, 624);
-            this.txt_company.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_company.Location = new System.Drawing.Point(39, 507);
+            this.txt_company.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_company.Name = "txt_company";
             this.txt_company.PasswordChar = '\0';
             this.txt_company.PlaceholderText = "";
             this.txt_company.SelectedText = "";
-            this.txt_company.Size = new System.Drawing.Size(267, 39);
+            this.txt_company.Size = new System.Drawing.Size(200, 32);
             this.txt_company.TabIndex = 94;
             // 
             // txt_address
@@ -487,21 +482,25 @@ namespace Billing_System
             this.txt_address.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_address.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_address.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_address.Location = new System.Drawing.Point(50, 542);
-            this.txt_address.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_address.Location = new System.Drawing.Point(38, 440);
+            this.txt_address.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_address.Name = "txt_address";
             this.txt_address.PasswordChar = '\0';
             this.txt_address.PlaceholderText = "";
             this.txt_address.SelectedText = "";
-            this.txt_address.Size = new System.Drawing.Size(267, 39);
+            this.txt_address.Size = new System.Drawing.Size(200, 32);
             this.txt_address.TabIndex = 95;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frm_addCustomer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1582, 853);
+            this.ClientSize = new System.Drawing.Size(1028, 609);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -526,12 +525,14 @@ namespace Billing_System
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_editCustomer);
             this.Controls.Add(this.guna2Panel11);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frm_addCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_addCustomer";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_customer)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -565,5 +566,6 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2TextBox txt_phoneNumber;
         private Guna.UI2.WinForms.Guna2TextBox txt_company;
         private Guna.UI2.WinForms.Guna2TextBox txt_address;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
