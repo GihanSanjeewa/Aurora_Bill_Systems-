@@ -110,6 +110,12 @@
     <Compile Include="frm_editMechanic.Designer.cs">
       <DependentUpon>frm_editMechanic.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_purchase.Designer.cs">
+      <DependentUpon>frm_purchase.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_salesReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_motoBicycle.resx">
       <DependentUpon>frm_motoBicycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_purchase.resx">
+      <DependentUpon>frm_purchase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_salesReport.resx">
       <DependentUpon>frm_salesReport.cs</DependentUpon>
