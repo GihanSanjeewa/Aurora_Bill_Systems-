@@ -45,5 +45,20 @@ namespace Billing_System
 
             colTot();
         }
+
+        private void txt_searchItem_Validating(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrEmpty(txt_searchItem.Text))
+            {
+                e.Cancel = true;
+                txt_searchItem.Focus();
+                errorProvider1.SetError(txt_searchItem, "Search Item Should not be Blank!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(txt_searchItem, "");
+            }
+        }
     }
 }

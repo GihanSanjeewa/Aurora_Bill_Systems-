@@ -86,5 +86,25 @@ namespace Billing_System
                 errorProvider1.SetError(txt_password, "");
             }
         }
+
+        private void txt_username_Validating(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrEmpty(txt_username.Text))
+            {
+                e.Cancel = true;
+                txt_username.Focus();
+                errorProvider1.SetError(txt_username, "Username Should not be Blank!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(txt_username, "");
+            }
+        }
+
+        private void txt_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

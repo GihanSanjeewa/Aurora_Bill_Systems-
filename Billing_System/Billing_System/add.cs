@@ -38,7 +38,8 @@ namespace Billing_System
 
         private void btn_addMechanic_Click(object sender, EventArgs e)
         {
-
+            addMechanic addMechanic = new addMechanic();
+            addMechanic.Show();
         }
     }
 }

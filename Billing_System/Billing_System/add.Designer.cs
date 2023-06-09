@@ -165,7 +165,7 @@ namespace Billing_System
             // btn_addMechanic
             // 
             this.btn_addMechanic.BackColor = System.Drawing.Color.Transparent;
-            this.btn_addMechanic.BackgroundImage = global::Billing_System.Properties.Resources.job;
+            this.btn_addMechanic.BackgroundImage = global::Billing_System.Properties.Resources.mechanic;
             this.btn_addMechanic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addMechanic.BorderColor = System.Drawing.Color.Transparent;
             this.btn_addMechanic.BorderRadius = 10;
