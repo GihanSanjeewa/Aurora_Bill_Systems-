@@ -133,3 +133,6 @@ C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Bil
 C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
 C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources
 C:\Users\damit\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motocarJobCard.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.addMechanic.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editMechanic.resources
+C:\Users\Udara Ekanayake\OneDrive\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashboard.resources
