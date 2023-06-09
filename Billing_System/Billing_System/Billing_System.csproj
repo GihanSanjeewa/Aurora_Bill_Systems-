@@ -349,5 +349,8 @@
   <ItemGroup>
     <None Include="Resources\mechanic.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st%40gmail.com www.Aurora autocare.facebook.com.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
