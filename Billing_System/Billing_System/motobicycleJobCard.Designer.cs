@@ -35,10 +35,41 @@ namespace Billing_System
             this.lbl_cInform = new System.Windows.Forms.Label();
             this.lbl_dtime = new System.Windows.Forms.Label();
             this.lbl_nDate = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btn_print = new Guna.UI2.WinForms.Guna2Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lbl_customerName = new System.Windows.Forms.Label();
+            this.lbl_vehicleModel = new System.Windows.Forms.Label();
+            this.lbl_dateReceived = new System.Windows.Forms.Label();
+            this.lbl_time = new System.Windows.Forms.Label();
+            this.lbl_fuelType = new System.Windows.Forms.Label();
+            this.lbl_address = new System.Windows.Forms.Label();
+            this.lbl_regNo = new System.Windows.Forms.Label();
+            this.lbl_odoMeter = new System.Windows.Forms.Label();
+            this.lbl_phoneNumber = new System.Windows.Forms.Label();
+            this.lbl_chassisNo = new System.Windows.Forms.Label();
+            this.lbl_cName = new System.Windows.Forms.Label();
+            this.lbl_complain1 = new System.Windows.Forms.Label();
+            this.lbl_complain2 = new System.Windows.Forms.Label();
+            this.lbl_complain3 = new System.Windows.Forms.Label();
+            this.lbl_complain4 = new System.Windows.Forms.Label();
+            this.lbl_complain5 = new System.Windows.Forms.Label();
+            this.lbl_complain6 = new System.Windows.Forms.Label();
+            this.lbl_decision1 = new System.Windows.Forms.Label();
+            this.lbl_decision2 = new System.Windows.Forms.Label();
+            this.lbl_decision3 = new System.Windows.Forms.Label();
+            this.lbl_decision4 = new System.Windows.Forms.Label();
+            this.lbl_decision5 = new System.Windows.Forms.Label();
+            this.lbl_decision6 = new System.Windows.Forms.Label();
+            this.lbl_remarks = new System.Windows.Forms.Label();
+            this.lbl_estimatedCost1 = new System.Windows.Forms.Label();
+            this.lbl_dateOfDelivery = new System.Windows.Forms.Label();
+            this.lbl_time1 = new System.Windows.Forms.Label();
+            this.lbl_cutomerInforemd = new System.Windows.Forms.Label();
+            this.lbl_odoMeter1 = new System.Windows.Forms.Label();
+            this.lbl_proposedDate = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_estimatedCost
@@ -101,15 +132,6 @@ namespace Billing_System
             this.lbl_nDate.TabIndex = 2;
             this.lbl_nDate.Text = "-";
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::Billing_System.Properties.Resources.Screenshot_2023_05_26_at_17_21_35;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(2, 48);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(616, 604);
-            this.panel1.TabIndex = 4;
-            // 
             // btn_print
             // 
             this.btn_print.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -139,6 +161,375 @@ namespace Billing_System
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::Billing_System.Properties.Resources.No_10__Galapitamulla__Hindagolla_076_1558383_auroraautocare1st_gmail_com_www_Aurora_autocare_facebook_com;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.lbl_cName);
+            this.panel1.Controls.Add(this.lbl_odoMeter);
+            this.panel1.Controls.Add(this.lbl_fuelType);
+            this.panel1.Controls.Add(this.lbl_time);
+            this.panel1.Controls.Add(this.lbl_dateReceived);
+            this.panel1.Controls.Add(this.lbl_phoneNumber);
+            this.panel1.Controls.Add(this.lbl_address);
+            this.panel1.Controls.Add(this.lbl_decision6);
+            this.panel1.Controls.Add(this.lbl_decision5);
+            this.panel1.Controls.Add(this.lbl_odoMeter1);
+            this.panel1.Controls.Add(this.lbl_cutomerInforemd);
+            this.panel1.Controls.Add(this.lbl_time1);
+            this.panel1.Controls.Add(this.lbl_proposedDate);
+            this.panel1.Controls.Add(this.lbl_dateOfDelivery);
+            this.panel1.Controls.Add(this.lbl_estimatedCost1);
+            this.panel1.Controls.Add(this.lbl_remarks);
+            this.panel1.Controls.Add(this.lbl_complain6);
+            this.panel1.Controls.Add(this.lbl_decision4);
+            this.panel1.Controls.Add(this.lbl_complain5);
+            this.panel1.Controls.Add(this.lbl_decision3);
+            this.panel1.Controls.Add(this.lbl_complain4);
+            this.panel1.Controls.Add(this.lbl_decision2);
+            this.panel1.Controls.Add(this.lbl_complain3);
+            this.panel1.Controls.Add(this.lbl_decision1);
+            this.panel1.Controls.Add(this.lbl_complain2);
+            this.panel1.Controls.Add(this.lbl_complain1);
+            this.panel1.Controls.Add(this.lbl_chassisNo);
+            this.panel1.Controls.Add(this.lbl_regNo);
+            this.panel1.Controls.Add(this.lbl_vehicleModel);
+            this.panel1.Controls.Add(this.lbl_customerName);
+            this.panel1.Location = new System.Drawing.Point(2, 48);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(616, 604);
+            this.panel1.TabIndex = 4;
+            // 
+            // lbl_customerName
+            // 
+            this.lbl_customerName.AutoSize = true;
+            this.lbl_customerName.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_customerName.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_customerName.Location = new System.Drawing.Point(53, 113);
+            this.lbl_customerName.Name = "lbl_customerName";
+            this.lbl_customerName.Size = new System.Drawing.Size(11, 14);
+            this.lbl_customerName.TabIndex = 0;
+            this.lbl_customerName.Text = "-";
+            // 
+            // lbl_vehicleModel
+            // 
+            this.lbl_vehicleModel.AutoSize = true;
+            this.lbl_vehicleModel.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_vehicleModel.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_vehicleModel.Location = new System.Drawing.Point(212, 113);
+            this.lbl_vehicleModel.Name = "lbl_vehicleModel";
+            this.lbl_vehicleModel.Size = new System.Drawing.Size(11, 14);
+            this.lbl_vehicleModel.TabIndex = 1;
+            this.lbl_vehicleModel.Text = "-";
+            // 
+            // lbl_dateReceived
+            // 
+            this.lbl_dateReceived.AutoSize = true;
+            this.lbl_dateReceived.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_dateReceived.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dateReceived.Location = new System.Drawing.Point(387, 116);
+            this.lbl_dateReceived.Name = "lbl_dateReceived";
+            this.lbl_dateReceived.Size = new System.Drawing.Size(11, 14);
+            this.lbl_dateReceived.TabIndex = 2;
+            this.lbl_dateReceived.Text = "-";
+            // 
+            // lbl_time
+            // 
+            this.lbl_time.AutoSize = true;
+            this.lbl_time.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_time.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_time.Location = new System.Drawing.Point(466, 113);
+            this.lbl_time.Name = "lbl_time";
+            this.lbl_time.Size = new System.Drawing.Size(11, 14);
+            this.lbl_time.TabIndex = 2;
+            this.lbl_time.Text = "-";
+            // 
+            // lbl_fuelType
+            // 
+            this.lbl_fuelType.AutoSize = true;
+            this.lbl_fuelType.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fuelType.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fuelType.Location = new System.Drawing.Point(524, 113);
+            this.lbl_fuelType.Name = "lbl_fuelType";
+            this.lbl_fuelType.Size = new System.Drawing.Size(11, 14);
+            this.lbl_fuelType.TabIndex = 2;
+            this.lbl_fuelType.Text = "-";
+            // 
+            // lbl_address
+            // 
+            this.lbl_address.AutoSize = true;
+            this.lbl_address.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_address.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_address.Location = new System.Drawing.Point(53, 142);
+            this.lbl_address.Name = "lbl_address";
+            this.lbl_address.Size = new System.Drawing.Size(11, 14);
+            this.lbl_address.TabIndex = 0;
+            this.lbl_address.Text = "-";
+            // 
+            // lbl_regNo
+            // 
+            this.lbl_regNo.AutoSize = true;
+            this.lbl_regNo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_regNo.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_regNo.Location = new System.Drawing.Point(212, 142);
+            this.lbl_regNo.Name = "lbl_regNo";
+            this.lbl_regNo.Size = new System.Drawing.Size(11, 14);
+            this.lbl_regNo.TabIndex = 1;
+            this.lbl_regNo.Text = "-";
+            // 
+            // lbl_odoMeter
+            // 
+            this.lbl_odoMeter.AutoSize = true;
+            this.lbl_odoMeter.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_odoMeter.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_odoMeter.Location = new System.Drawing.Point(387, 142);
+            this.lbl_odoMeter.Name = "lbl_odoMeter";
+            this.lbl_odoMeter.Size = new System.Drawing.Size(11, 14);
+            this.lbl_odoMeter.TabIndex = 2;
+            this.lbl_odoMeter.Text = "-";
+            // 
+            // lbl_phoneNumber
+            // 
+            this.lbl_phoneNumber.AutoSize = true;
+            this.lbl_phoneNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_phoneNumber.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_phoneNumber.Location = new System.Drawing.Point(53, 173);
+            this.lbl_phoneNumber.Name = "lbl_phoneNumber";
+            this.lbl_phoneNumber.Size = new System.Drawing.Size(11, 14);
+            this.lbl_phoneNumber.TabIndex = 0;
+            this.lbl_phoneNumber.Text = "-";
+            // 
+            // lbl_chassisNo
+            // 
+            this.lbl_chassisNo.AutoSize = true;
+            this.lbl_chassisNo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_chassisNo.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_chassisNo.Location = new System.Drawing.Point(212, 173);
+            this.lbl_chassisNo.Name = "lbl_chassisNo";
+            this.lbl_chassisNo.Size = new System.Drawing.Size(11, 14);
+            this.lbl_chassisNo.TabIndex = 1;
+            this.lbl_chassisNo.Text = "-";
+            // 
+            // lbl_cName
+            // 
+            this.lbl_cName.AutoSize = true;
+            this.lbl_cName.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cName.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cName.Location = new System.Drawing.Point(387, 173);
+            this.lbl_cName.Name = "lbl_cName";
+            this.lbl_cName.Size = new System.Drawing.Size(11, 14);
+            this.lbl_cName.TabIndex = 2;
+            this.lbl_cName.Text = "-";
+            // 
+            // lbl_complain1
+            // 
+            this.lbl_complain1.AutoSize = true;
+            this.lbl_complain1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complain1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complain1.Location = new System.Drawing.Point(97, 220);
+            this.lbl_complain1.Name = "lbl_complain1";
+            this.lbl_complain1.Size = new System.Drawing.Size(11, 14);
+            this.lbl_complain1.TabIndex = 1;
+            this.lbl_complain1.Text = "-";
+            // 
+            // lbl_complain2
+            // 
+            this.lbl_complain2.AutoSize = true;
+            this.lbl_complain2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complain2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complain2.Location = new System.Drawing.Point(97, 252);
+            this.lbl_complain2.Name = "lbl_complain2";
+            this.lbl_complain2.Size = new System.Drawing.Size(11, 14);
+            this.lbl_complain2.TabIndex = 1;
+            this.lbl_complain2.Text = "-";
+            // 
+            // lbl_complain3
+            // 
+            this.lbl_complain3.AutoSize = true;
+            this.lbl_complain3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complain3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complain3.Location = new System.Drawing.Point(97, 284);
+            this.lbl_complain3.Name = "lbl_complain3";
+            this.lbl_complain3.Size = new System.Drawing.Size(11, 14);
+            this.lbl_complain3.TabIndex = 1;
+            this.lbl_complain3.Text = "-";
+            // 
+            // lbl_complain4
+            // 
+            this.lbl_complain4.AutoSize = true;
+            this.lbl_complain4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complain4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complain4.Location = new System.Drawing.Point(97, 315);
+            this.lbl_complain4.Name = "lbl_complain4";
+            this.lbl_complain4.Size = new System.Drawing.Size(11, 14);
+            this.lbl_complain4.TabIndex = 1;
+            this.lbl_complain4.Text = "-";
+            // 
+            // lbl_complain5
+            // 
+            this.lbl_complain5.AutoSize = true;
+            this.lbl_complain5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complain5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complain5.Location = new System.Drawing.Point(97, 347);
+            this.lbl_complain5.Name = "lbl_complain5";
+            this.lbl_complain5.Size = new System.Drawing.Size(11, 14);
+            this.lbl_complain5.TabIndex = 1;
+            this.lbl_complain5.Text = "-";
+            // 
+            // lbl_complain6
+            // 
+            this.lbl_complain6.AutoSize = true;
+            this.lbl_complain6.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_complain6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_complain6.Location = new System.Drawing.Point(97, 377);
+            this.lbl_complain6.Name = "lbl_complain6";
+            this.lbl_complain6.Size = new System.Drawing.Size(11, 14);
+            this.lbl_complain6.TabIndex = 1;
+            this.lbl_complain6.Text = "-";
+            // 
+            // lbl_decision1
+            // 
+            this.lbl_decision1.AutoSize = true;
+            this.lbl_decision1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision1.Location = new System.Drawing.Point(347, 220);
+            this.lbl_decision1.Name = "lbl_decision1";
+            this.lbl_decision1.Size = new System.Drawing.Size(11, 14);
+            this.lbl_decision1.TabIndex = 1;
+            this.lbl_decision1.Text = "-";
+            // 
+            // lbl_decision2
+            // 
+            this.lbl_decision2.AutoSize = true;
+            this.lbl_decision2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision2.Location = new System.Drawing.Point(347, 252);
+            this.lbl_decision2.Name = "lbl_decision2";
+            this.lbl_decision2.Size = new System.Drawing.Size(11, 14);
+            this.lbl_decision2.TabIndex = 1;
+            this.lbl_decision2.Text = "-";
+            // 
+            // lbl_decision3
+            // 
+            this.lbl_decision3.AutoSize = true;
+            this.lbl_decision3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision3.Location = new System.Drawing.Point(347, 284);
+            this.lbl_decision3.Name = "lbl_decision3";
+            this.lbl_decision3.Size = new System.Drawing.Size(11, 14);
+            this.lbl_decision3.TabIndex = 1;
+            this.lbl_decision3.Text = "-";
+            // 
+            // lbl_decision4
+            // 
+            this.lbl_decision4.AutoSize = true;
+            this.lbl_decision4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision4.Location = new System.Drawing.Point(347, 315);
+            this.lbl_decision4.Name = "lbl_decision4";
+            this.lbl_decision4.Size = new System.Drawing.Size(11, 14);
+            this.lbl_decision4.TabIndex = 1;
+            this.lbl_decision4.Text = "-";
+            // 
+            // lbl_decision5
+            // 
+            this.lbl_decision5.AutoSize = true;
+            this.lbl_decision5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision5.Location = new System.Drawing.Point(347, 347);
+            this.lbl_decision5.Name = "lbl_decision5";
+            this.lbl_decision5.Size = new System.Drawing.Size(11, 14);
+            this.lbl_decision5.TabIndex = 1;
+            this.lbl_decision5.Text = "-";
+            // 
+            // lbl_decision6
+            // 
+            this.lbl_decision6.AutoSize = true;
+            this.lbl_decision6.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_decision6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_decision6.Location = new System.Drawing.Point(347, 377);
+            this.lbl_decision6.Name = "lbl_decision6";
+            this.lbl_decision6.Size = new System.Drawing.Size(11, 14);
+            this.lbl_decision6.TabIndex = 1;
+            this.lbl_decision6.Text = "-";
+            // 
+            // lbl_remarks
+            // 
+            this.lbl_remarks.AutoSize = true;
+            this.lbl_remarks.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_remarks.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_remarks.Location = new System.Drawing.Point(97, 418);
+            this.lbl_remarks.Name = "lbl_remarks";
+            this.lbl_remarks.Size = new System.Drawing.Size(11, 14);
+            this.lbl_remarks.TabIndex = 1;
+            this.lbl_remarks.Text = "-";
+            // 
+            // lbl_estimatedCost1
+            // 
+            this.lbl_estimatedCost1.AutoSize = true;
+            this.lbl_estimatedCost1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_estimatedCost1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_estimatedCost1.Location = new System.Drawing.Point(43, 493);
+            this.lbl_estimatedCost1.Name = "lbl_estimatedCost1";
+            this.lbl_estimatedCost1.Size = new System.Drawing.Size(11, 14);
+            this.lbl_estimatedCost1.TabIndex = 1;
+            this.lbl_estimatedCost1.Text = "-";
+            // 
+            // lbl_dateOfDelivery
+            // 
+            this.lbl_dateOfDelivery.AutoSize = true;
+            this.lbl_dateOfDelivery.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_dateOfDelivery.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dateOfDelivery.Location = new System.Drawing.Point(222, 493);
+            this.lbl_dateOfDelivery.Name = "lbl_dateOfDelivery";
+            this.lbl_dateOfDelivery.Size = new System.Drawing.Size(11, 14);
+            this.lbl_dateOfDelivery.TabIndex = 1;
+            this.lbl_dateOfDelivery.Text = "-";
+            // 
+            // lbl_time1
+            // 
+            this.lbl_time1.AutoSize = true;
+            this.lbl_time1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_time1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_time1.Location = new System.Drawing.Point(286, 493);
+            this.lbl_time1.Name = "lbl_time1";
+            this.lbl_time1.Size = new System.Drawing.Size(11, 14);
+            this.lbl_time1.TabIndex = 1;
+            this.lbl_time1.Text = "-";
+            // 
+            // lbl_cutomerInforemd
+            // 
+            this.lbl_cutomerInforemd.AutoSize = true;
+            this.lbl_cutomerInforemd.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cutomerInforemd.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cutomerInforemd.Location = new System.Drawing.Point(486, 493);
+            this.lbl_cutomerInforemd.Name = "lbl_cutomerInforemd";
+            this.lbl_cutomerInforemd.Size = new System.Drawing.Size(11, 14);
+            this.lbl_cutomerInforemd.TabIndex = 1;
+            this.lbl_cutomerInforemd.Text = "-";
+            // 
+            // lbl_odoMeter1
+            // 
+            this.lbl_odoMeter1.AutoSize = true;
+            this.lbl_odoMeter1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_odoMeter1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_odoMeter1.Location = new System.Drawing.Point(360, 493);
+            this.lbl_odoMeter1.Name = "lbl_odoMeter1";
+            this.lbl_odoMeter1.Size = new System.Drawing.Size(11, 14);
+            this.lbl_odoMeter1.TabIndex = 1;
+            this.lbl_odoMeter1.Text = "-";
+            // 
+            // lbl_proposedDate
+            // 
+            this.lbl_proposedDate.AutoSize = true;
+            this.lbl_proposedDate.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_proposedDate.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_proposedDate.Location = new System.Drawing.Point(127, 493);
+            this.lbl_proposedDate.Name = "lbl_proposedDate";
+            this.lbl_proposedDate.Size = new System.Drawing.Size(11, 14);
+            this.lbl_proposedDate.TabIndex = 1;
+            this.lbl_proposedDate.Text = "-";
+            // 
             // motobicycleJobCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,11 +544,13 @@ namespace Billing_System
             this.Controls.Add(this.lbl_pDate);
             this.Controls.Add(this.lbl_estimatedCost);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "motobicycleJobCard";
             this.Text = "motobicycleJobCard";
             this.Load += new System.EventHandler(this.motobicycleJobCard_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +566,35 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2Button btn_print;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Label lbl_cName;
+        private System.Windows.Forms.Label lbl_odoMeter;
+        private System.Windows.Forms.Label lbl_fuelType;
+        private System.Windows.Forms.Label lbl_time;
+        private System.Windows.Forms.Label lbl_dateReceived;
+        private System.Windows.Forms.Label lbl_phoneNumber;
+        private System.Windows.Forms.Label lbl_address;
+        private System.Windows.Forms.Label lbl_decision6;
+        private System.Windows.Forms.Label lbl_decision5;
+        private System.Windows.Forms.Label lbl_odoMeter1;
+        private System.Windows.Forms.Label lbl_cutomerInforemd;
+        private System.Windows.Forms.Label lbl_time1;
+        private System.Windows.Forms.Label lbl_dateOfDelivery;
+        private System.Windows.Forms.Label lbl_estimatedCost1;
+        private System.Windows.Forms.Label lbl_remarks;
+        private System.Windows.Forms.Label lbl_complain6;
+        private System.Windows.Forms.Label lbl_decision4;
+        private System.Windows.Forms.Label lbl_complain5;
+        private System.Windows.Forms.Label lbl_decision3;
+        private System.Windows.Forms.Label lbl_complain4;
+        private System.Windows.Forms.Label lbl_decision2;
+        private System.Windows.Forms.Label lbl_complain3;
+        private System.Windows.Forms.Label lbl_decision1;
+        private System.Windows.Forms.Label lbl_complain2;
+        private System.Windows.Forms.Label lbl_complain1;
+        private System.Windows.Forms.Label lbl_chassisNo;
+        private System.Windows.Forms.Label lbl_regNo;
+        private System.Windows.Forms.Label lbl_vehicleModel;
+        private System.Windows.Forms.Label lbl_customerName;
+        private System.Windows.Forms.Label lbl_proposedDate;
     }
 }
