@@ -27,7 +27,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_vehicleNumber.Text))
             {
                 e.Cancel = true;
-                txt_vehicleNumber.Focus();
+                //txt_vehicleNumber.Focus();
                 errorProvider1.SetError(txt_vehicleNumber, "Vehicle Number Should not be Blank!");
             }
             else
@@ -42,7 +42,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(drp_fuelType.Text))
             {
                 e.Cancel = true;
-                drp_fuelType.Focus();
+                //drp_fuelType.Focus();
                 errorProvider1.SetError(drp_fuelType, "Fuel Type Should not be Blank!");
             }
             else
@@ -57,7 +57,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_vehicleModle.Text))
             {
                 e.Cancel = true;
-                txt_vehicleModle.Focus();
+                //txt_vehicleModle.Focus();
                 errorProvider1.SetError(txt_vehicleModle, "Vehicle Modle Should not be Blank!");
             }
             else
@@ -72,7 +72,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_discount.Text))
             {
                 e.Cancel = true;
-                txt_discount.Focus();
+                //txt_discount.Focus();
                 errorProvider1.SetError(txt_discount, "Discount Should not be Blank!");
             }
             else
@@ -87,7 +87,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(txt_km.Text))
             {
                 e.Cancel = true;
-                txt_km.Focus();
+                //txt_km.Focus();
                 errorProvider1.SetError(txt_km, "Mileage Should not be Blank!");
             }
             else
@@ -102,7 +102,7 @@ namespace Billing_System
             if (string.IsNullOrEmpty(drp_job.Text))
             {
                 e.Cancel = true;
-                drp_job.Focus();
+                //drp_job.Focus();
                 errorProvider1.SetError(drp_job, "Job Should not be Blank!");
             }
             else
