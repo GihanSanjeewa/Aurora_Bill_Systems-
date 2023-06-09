@@ -29,6 +29,7 @@ namespace Billing_System
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txt_complain1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -77,9 +78,11 @@ namespace Billing_System
             this.txt_odoMeter = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_regNo = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_customerName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_complain1
@@ -101,6 +104,7 @@ namespace Billing_System
             this.txt_complain1.SelectedText = "";
             this.txt_complain1.Size = new System.Drawing.Size(721, 34);
             this.txt_complain1.TabIndex = 0;
+            this.txt_complain1.Validating += new System.ComponentModel.CancelEventHandler(this.txt_complain1_Validating);
             // 
             // label16
             // 
@@ -184,6 +188,7 @@ namespace Billing_System
             this.txt_decision1.SelectedText = "";
             this.txt_decision1.Size = new System.Drawing.Size(721, 34);
             this.txt_decision1.TabIndex = 0;
+            this.txt_decision1.Validating += new System.ComponentModel.CancelEventHandler(this.txt_decision1_Validation);
             // 
             // txt_decision3
             // 
@@ -310,6 +315,7 @@ namespace Billing_System
             this.txt_search.SelectedText = "";
             this.txt_search.Size = new System.Drawing.Size(265, 36);
             this.txt_search.TabIndex = 45;
+            this.txt_search.Validating += new System.ComponentModel.CancelEventHandler(this.txt_regNo_Validating);
             // 
             // guna2Button1
             // 
@@ -520,6 +526,7 @@ namespace Billing_System
             this.txt_estimatedCost.SelectedText = "";
             this.txt_estimatedCost.Size = new System.Drawing.Size(303, 36);
             this.txt_estimatedCost.TabIndex = 34;
+            this.txt_estimatedCost.Validating += new System.ComponentModel.CancelEventHandler(this.txt_estimatedCost_Validating);
             // 
             // txt_complain2
             // 
@@ -563,6 +570,7 @@ namespace Billing_System
             this.txt_remarks.SelectedText = "";
             this.txt_remarks.Size = new System.Drawing.Size(786, 207);
             this.txt_remarks.TabIndex = 33;
+            this.txt_remarks.Validating += new System.ComponentModel.CancelEventHandler(this.txt_remarks_Validating);
             // 
             // guna2Panel3
             // 
@@ -701,6 +709,7 @@ namespace Billing_System
             this.cmb_vehicleModel.Name = "cmb_vehicleModel";
             this.cmb_vehicleModel.Size = new System.Drawing.Size(265, 36);
             this.cmb_vehicleModel.TabIndex = 28;
+            this.cmb_vehicleModel.SelectedIndexChanged += new System.EventHandler(this.cmb_vehicleModel_SelectedIndexChanged);
             // 
             // guna2HtmlLabel13
             // 
@@ -733,6 +742,7 @@ namespace Billing_System
             this.txt_address.SelectedText = "";
             this.txt_address.Size = new System.Drawing.Size(265, 36);
             this.txt_address.TabIndex = 26;
+            this.txt_address.Validating += new System.ComponentModel.CancelEventHandler(this.txt_address_Validating);
             // 
             // txt_fuel
             // 
@@ -753,6 +763,7 @@ namespace Billing_System
             this.txt_fuel.SelectedText = "";
             this.txt_fuel.Size = new System.Drawing.Size(265, 36);
             this.txt_fuel.TabIndex = 25;
+            this.txt_fuel.Validating += new System.ComponentModel.CancelEventHandler(this.txt_fuel_Validating);
             // 
             // txt_phoneNumber
             // 
@@ -773,6 +784,7 @@ namespace Billing_System
             this.txt_phoneNumber.SelectedText = "";
             this.txt_phoneNumber.Size = new System.Drawing.Size(265, 36);
             this.txt_phoneNumber.TabIndex = 24;
+            this.txt_phoneNumber.Validating += new System.ComponentModel.CancelEventHandler(this.txt_phoneNumber_Validating);
             // 
             // txt_company
             // 
@@ -793,6 +805,7 @@ namespace Billing_System
             this.txt_company.SelectedText = "";
             this.txt_company.Size = new System.Drawing.Size(265, 36);
             this.txt_company.TabIndex = 23;
+            this.txt_company.Validating += new System.ComponentModel.CancelEventHandler(this.txt_company_Validating);
             // 
             // txt_chassisNo
             // 
@@ -813,6 +826,7 @@ namespace Billing_System
             this.txt_chassisNo.SelectedText = "";
             this.txt_chassisNo.Size = new System.Drawing.Size(265, 36);
             this.txt_chassisNo.TabIndex = 22;
+            this.txt_chassisNo.Validating += new System.ComponentModel.CancelEventHandler(this.txt_chassisNo_Validating);
             // 
             // txt_odoMeter
             // 
@@ -833,6 +847,7 @@ namespace Billing_System
             this.txt_odoMeter.SelectedText = "";
             this.txt_odoMeter.Size = new System.Drawing.Size(265, 36);
             this.txt_odoMeter.TabIndex = 21;
+            this.txt_odoMeter.Validating += new System.ComponentModel.CancelEventHandler(this.txt_odoMeter_Validating);
             // 
             // txt_regNo
             // 
@@ -873,6 +888,11 @@ namespace Billing_System
             this.txt_customerName.SelectedText = "";
             this.txt_customerName.Size = new System.Drawing.Size(265, 36);
             this.txt_customerName.TabIndex = 20;
+            this.txt_customerName.Validating += new System.ComponentModel.CancelEventHandler(this.txt_CustomerName_Validating);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frm_motoCar
             // 
@@ -921,6 +941,7 @@ namespace Billing_System
             this.guna2Panel3.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -976,5 +997,6 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2Button btn_search;
         private System.Windows.Forms.Label label18;
         private Guna.UI2.WinForms.Guna2TextBox txt_search;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

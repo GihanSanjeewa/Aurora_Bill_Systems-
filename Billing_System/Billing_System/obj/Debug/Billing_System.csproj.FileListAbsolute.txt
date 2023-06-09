@@ -105,3 +105,15 @@ C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Bil
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motocarJobCard.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_add.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addCustomer.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addItem.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addJob.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editCustomer.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editItem.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editJob.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_inventory.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoCar.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources
+C:\Users\Gayathry\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motocarJobCard.resources

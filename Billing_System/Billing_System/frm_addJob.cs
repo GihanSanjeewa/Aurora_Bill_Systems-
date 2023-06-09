@@ -50,5 +50,38 @@ namespace Billing_System
             frm_editJob editJob = new frm_editJob();
             editJob.Show();
         }
+
+        private void txt_jobName_Validating(object sender, CancelEventArgs e)
+        {
+            if(string.IsNullOrWhiteSpace(txt_jobName.Text))
+            {
+                e.Cancel = true;
+                txt_jobName.Focus();
+                errorProvider1.SetError(txt_jobName, "Fill the Job Name ");
+
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(txt_jobName, "");
+            }
+        }
+
+        private void txt_jobPrice_Validating(object sender, CancelEventArgs e)
+        {
+
+            if (string.IsNullOrWhiteSpace(txt_jobPrice.Text))
+            {
+                e.Cancel = true;
+                txt_jobPrice.Focus();
+                errorProvider1.SetError(txt_jobPrice, "Enter the Job Price ");
+
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(txt_jobPrice, "");
+            }
+        }
     }
 }
