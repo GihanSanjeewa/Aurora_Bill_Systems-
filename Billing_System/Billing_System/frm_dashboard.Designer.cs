@@ -1,6 +1,6 @@
 ﻿namespace Billing_System
 {
-    partial class frm_dashbord
+    partial class frm_dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_dashbord));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_dashboard));
             this.lbl_jcBike = new System.Windows.Forms.Label();
             this.lbl_invoice = new System.Windows.Forms.Label();
             this.lbl_jcCar = new System.Windows.Forms.Label();

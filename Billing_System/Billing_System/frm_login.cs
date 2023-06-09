@@ -47,7 +47,7 @@ namespace Billing_System
                     username = txt_username.Text;
                     password = txt_password.Text;
 
-                    frm_dashbord db = new frm_dashbord();
+                    frm_dashboard db = new frm_dashboard();
                     this.Hide();
                     db.Show();
                 }
