@@ -19,7 +19,7 @@ namespace Billing_System.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -266,6 +266,17 @@ namespace Billing_System.Properties {
         internal static System.Drawing.Bitmap new_item {
             get {
                 object obj = ResourceManager.GetObject("new-item", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap No_10__Galapitamulla__Hindagolla_076_1558383_auroraautocare1st_gmail_com_www_Aurora_autocare_facebook_com {
+            get {
+                object obj = ResourceManager.GetObject("No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Auro" +
+                        "ra autocare.facebook.com", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

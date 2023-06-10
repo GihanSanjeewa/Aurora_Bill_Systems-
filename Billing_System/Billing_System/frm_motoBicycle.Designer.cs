@@ -40,14 +40,12 @@
             this.txt_phoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label12 = new System.Windows.Forms.Label();
-            this.txt_complain5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label14 = new System.Windows.Forms.Label();
-            this.txt_decision5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -90,7 +88,8 @@
             this.txt_customerName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_customerName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_customerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_customerName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_customerName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_customerName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_customerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_customerName.Location = new System.Drawing.Point(17, 126);
             this.txt_customerName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -109,8 +108,8 @@
             this.cmb_vehicleModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_vehicleModel.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmb_vehicleModel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_vehicleModel.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmb_vehicleModel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_vehicleModel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_vehicleModel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmb_vehicleModel.ItemHeight = 30;
             this.cmb_vehicleModel.Items.AddRange(new object[] {
             "Bike"});
@@ -146,7 +145,8 @@
             this.txt_fuel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_fuel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_fuel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_fuel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_fuel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fuel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_fuel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_fuel.Location = new System.Drawing.Point(945, 128);
             this.txt_fuel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -166,7 +166,8 @@
             this.txt_address.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_address.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_address.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_address.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_address.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_address.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_address.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_address.Location = new System.Drawing.Point(1257, 128);
             this.txt_address.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -186,7 +187,8 @@
             this.txt_regNo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_regNo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_regNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_regNo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_regNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_regNo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_regNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_regNo.Location = new System.Drawing.Point(17, 207);
             this.txt_regNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -207,7 +209,8 @@
             this.txt_odoMeter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_odoMeter.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_odoMeter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_odoMeter.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_odoMeter.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_odoMeter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_odoMeter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_odoMeter.Location = new System.Drawing.Point(323, 207);
             this.txt_odoMeter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -227,7 +230,8 @@
             this.txt_chassisNo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_chassisNo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_chassisNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_chassisNo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_chassisNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_chassisNo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_chassisNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_chassisNo.Location = new System.Drawing.Point(632, 206);
             this.txt_chassisNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -247,7 +251,8 @@
             this.txt_company.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_company.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_company.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_company.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_company.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_company.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_company.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_company.Location = new System.Drawing.Point(948, 206);
             this.txt_company.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -267,7 +272,8 @@
             this.txt_phoneNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_phoneNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_phoneNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_phoneNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_phoneNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_phoneNumber.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_phoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_phoneNumber.Location = new System.Drawing.Point(1257, 206);
             this.txt_phoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -282,16 +288,15 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel1.Controls.Add(this.label12);
-            this.guna2Panel1.Controls.Add(this.txt_complain5);
             this.guna2Panel1.Controls.Add(this.txt_complain4);
             this.guna2Panel1.Controls.Add(this.txt_complain3);
             this.guna2Panel1.Controls.Add(this.txt_complain2);
             this.guna2Panel1.Controls.Add(this.txt_complain1);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(23, 290);
+            this.guna2Panel1.Location = new System.Drawing.Point(23, 268);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(721, 261);
+            this.guna2Panel1.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel1.TabIndex = 4;
             // 
             // label12
@@ -300,31 +305,11 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(251, 11);
+            this.label12.Location = new System.Drawing.Point(251, 5);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(197, 40);
             this.label12.TabIndex = 18;
             this.label12.Text = "Complaints";
-            // 
-            // txt_complain5
-            // 
-            this.txt_complain5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_complain5.DefaultText = "";
-            this.txt_complain5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_complain5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_complain5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_complain5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain5.Location = new System.Drawing.Point(5, 281);
-            this.txt_complain5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_complain5.Name = "txt_complain5";
-            this.txt_complain5.PasswordChar = '\0';
-            this.txt_complain5.PlaceholderText = "";
-            this.txt_complain5.SelectedText = "";
-            this.txt_complain5.Size = new System.Drawing.Size(399, 37);
-            this.txt_complain5.TabIndex = 0;
             // 
             // txt_complain4
             // 
@@ -335,15 +320,17 @@
             this.txt_complain4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_complain4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain4.Location = new System.Drawing.Point(0, 228);
+            this.txt_complain4.Location = new System.Drawing.Point(0, 229);
             this.txt_complain4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_complain4.Multiline = true;
             this.txt_complain4.Name = "txt_complain4";
             this.txt_complain4.PasswordChar = '\0';
             this.txt_complain4.PlaceholderText = "";
             this.txt_complain4.SelectedText = "";
-            this.txt_complain4.Size = new System.Drawing.Size(721, 33);
+            this.txt_complain4.Size = new System.Drawing.Size(721, 49);
             this.txt_complain4.TabIndex = 0;
             // 
             // txt_complain3
@@ -355,15 +342,17 @@
             this.txt_complain3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_complain3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain3.Location = new System.Drawing.Point(0, 172);
+            this.txt_complain3.Location = new System.Drawing.Point(0, 173);
             this.txt_complain3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_complain3.Multiline = true;
             this.txt_complain3.Name = "txt_complain3";
             this.txt_complain3.PasswordChar = '\0';
             this.txt_complain3.PlaceholderText = "";
             this.txt_complain3.SelectedText = "";
-            this.txt_complain3.Size = new System.Drawing.Size(721, 32);
+            this.txt_complain3.Size = new System.Drawing.Size(721, 49);
             this.txt_complain3.TabIndex = 0;
             // 
             // txt_complain2
@@ -375,15 +364,17 @@
             this.txt_complain2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_complain2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_complain2.Location = new System.Drawing.Point(0, 116);
             this.txt_complain2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_complain2.Multiline = true;
             this.txt_complain2.Name = "txt_complain2";
             this.txt_complain2.PasswordChar = '\0';
             this.txt_complain2.PlaceholderText = "";
             this.txt_complain2.SelectedText = "";
-            this.txt_complain2.Size = new System.Drawing.Size(721, 37);
+            this.txt_complain2.Size = new System.Drawing.Size(721, 49);
             this.txt_complain2.TabIndex = 0;
             // 
             // txt_complain1
@@ -395,31 +386,32 @@
             this.txt_complain1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_complain1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_complain1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_complain1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain1.Location = new System.Drawing.Point(0, 63);
+            this.txt_complain1.Location = new System.Drawing.Point(0, 59);
             this.txt_complain1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_complain1.Multiline = true;
             this.txt_complain1.Name = "txt_complain1";
             this.txt_complain1.PasswordChar = '\0';
             this.txt_complain1.PlaceholderText = "";
             this.txt_complain1.SelectedText = "";
-            this.txt_complain1.Size = new System.Drawing.Size(721, 34);
+            this.txt_complain1.Size = new System.Drawing.Size(721, 49);
             this.txt_complain1.TabIndex = 0;
             // 
             // guna2Panel3
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel3.Controls.Add(this.label14);
-            this.guna2Panel3.Controls.Add(this.txt_decision5);
             this.guna2Panel3.Controls.Add(this.txt_decision4);
             this.guna2Panel3.Controls.Add(this.txt_decision2);
             this.guna2Panel3.Controls.Add(this.txt_decision1);
             this.guna2Panel3.Controls.Add(this.txt_decision3);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(799, 290);
+            this.guna2Panel3.Location = new System.Drawing.Point(799, 268);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(721, 261);
+            this.guna2Panel3.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel3.TabIndex = 6;
             // 
             // label14
@@ -428,31 +420,11 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(276, 12);
+            this.label14.Location = new System.Drawing.Point(276, 6);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(161, 40);
             this.label14.TabIndex = 19;
             this.label14.Text = "Decision";
-            // 
-            // txt_decision5
-            // 
-            this.txt_decision5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_decision5.DefaultText = "";
-            this.txt_decision5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_decision5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_decision5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_decision5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision5.Location = new System.Drawing.Point(4, 279);
-            this.txt_decision5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_decision5.Name = "txt_decision5";
-            this.txt_decision5.PasswordChar = '\0';
-            this.txt_decision5.PlaceholderText = "";
-            this.txt_decision5.SelectedText = "";
-            this.txt_decision5.Size = new System.Drawing.Size(400, 37);
-            this.txt_decision5.TabIndex = 0;
             // 
             // txt_decision4
             // 
@@ -463,15 +435,17 @@
             this.txt_decision4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_decision4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision4.Location = new System.Drawing.Point(1, 226);
+            this.txt_decision4.Location = new System.Drawing.Point(1, 229);
             this.txt_decision4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_decision4.Multiline = true;
             this.txt_decision4.Name = "txt_decision4";
             this.txt_decision4.PasswordChar = '\0';
             this.txt_decision4.PlaceholderText = "";
             this.txt_decision4.SelectedText = "";
-            this.txt_decision4.Size = new System.Drawing.Size(719, 33);
+            this.txt_decision4.Size = new System.Drawing.Size(721, 49);
             this.txt_decision4.TabIndex = 0;
             // 
             // txt_decision2
@@ -483,15 +457,17 @@
             this.txt_decision2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_decision2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision2.Location = new System.Drawing.Point(1, 114);
+            this.txt_decision2.Location = new System.Drawing.Point(1, 117);
             this.txt_decision2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_decision2.Multiline = true;
             this.txt_decision2.Name = "txt_decision2";
             this.txt_decision2.PasswordChar = '\0';
             this.txt_decision2.PlaceholderText = "";
             this.txt_decision2.SelectedText = "";
-            this.txt_decision2.Size = new System.Drawing.Size(719, 37);
+            this.txt_decision2.Size = new System.Drawing.Size(721, 49);
             this.txt_decision2.TabIndex = 0;
             // 
             // txt_decision1
@@ -503,15 +479,17 @@
             this.txt_decision1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_decision1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision1.Location = new System.Drawing.Point(1, 62);
+            this.txt_decision1.Location = new System.Drawing.Point(1, 61);
             this.txt_decision1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_decision1.Multiline = true;
             this.txt_decision1.Name = "txt_decision1";
             this.txt_decision1.PasswordChar = '\0';
             this.txt_decision1.PlaceholderText = "";
             this.txt_decision1.SelectedText = "";
-            this.txt_decision1.Size = new System.Drawing.Size(719, 34);
+            this.txt_decision1.Size = new System.Drawing.Size(721, 49);
             this.txt_decision1.TabIndex = 0;
             // 
             // txt_decision3
@@ -523,15 +501,17 @@
             this.txt_decision3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_decision3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_decision3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_decision3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision3.Location = new System.Drawing.Point(1, 171);
+            this.txt_decision3.Location = new System.Drawing.Point(1, 173);
             this.txt_decision3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_decision3.Multiline = true;
             this.txt_decision3.Name = "txt_decision3";
             this.txt_decision3.PasswordChar = '\0';
             this.txt_decision3.PlaceholderText = "";
             this.txt_decision3.SelectedText = "";
-            this.txt_decision3.Size = new System.Drawing.Size(719, 32);
+            this.txt_decision3.Size = new System.Drawing.Size(721, 49);
             this.txt_decision3.TabIndex = 0;
             // 
             // guna2HtmlLabel13
@@ -556,16 +536,17 @@
             this.txt_remarks.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_remarks.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.txt_remarks.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_remarks.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_remarks.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.txt_remarks.ForeColor = System.Drawing.Color.White;
             this.txt_remarks.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_remarks.Location = new System.Drawing.Point(37, 610);
             this.txt_remarks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_remarks.Multiline = true;
             this.txt_remarks.Name = "txt_remarks";
             this.txt_remarks.PasswordChar = '\0';
             this.txt_remarks.PlaceholderText = "";
             this.txt_remarks.SelectedText = "";
-            this.txt_remarks.Size = new System.Drawing.Size(787, 207);
+            this.txt_remarks.Size = new System.Drawing.Size(434, 207);
             this.txt_remarks.TabIndex = 7;
             // 
             // date_Proposed
@@ -591,8 +572,8 @@
             this.cmb_cInform.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_cInform.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmb_cInform.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_cInform.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmb_cInform.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_cInform.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_cInform.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmb_cInform.ItemHeight = 30;
             this.cmb_cInform.Items.AddRange(new object[] {
             "Yes",
@@ -612,7 +593,8 @@
             this.txt_estimatedCost.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_estimatedCost.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_estimatedCost.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_estimatedCost.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_estimatedCost.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_estimatedCost.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_estimatedCost.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_estimatedCost.Location = new System.Drawing.Point(888, 623);
             this.txt_estimatedCost.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -835,7 +817,7 @@
             this.txt_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_search.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_search.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_search.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_search.Location = new System.Drawing.Point(19, 44);
             this.txt_search.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -947,13 +929,11 @@
         private Guna.UI2.WinForms.Guna2TextBox txt_company;
         private Guna.UI2.WinForms.Guna2TextBox txt_phoneNumber;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2TextBox txt_complain5;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain4;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain3;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain2;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2TextBox txt_decision5;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision4;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision2;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision1;

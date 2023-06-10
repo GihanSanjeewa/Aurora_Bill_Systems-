@@ -43,7 +43,7 @@ namespace Billing_System
         {
             if (string.IsNullOrEmpty(txt_vehicleNumber.Text))
             {
-                e.Cancel = true;
+                e.Cancel = false;
                 //txt_vehicleNumber.Focus();
                 errorProvider1.SetError(txt_vehicleNumber, "Vehicle Number Should not be Blank!");
             }
