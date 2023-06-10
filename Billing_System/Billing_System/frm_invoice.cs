@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,23 @@ namespace Billing_System
 
         private void frm_invoice_Load(object sender, EventArgs e)
         {
+           
+            MySqlDataAdapter da = new MySqlDataAdapter("select * from job", connection_class.con);
 
+            DataTable dt = new DataTable();
+
+            da.Fill(dt);
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+
+
+                drp_job.Items.Add(dt.Rows[i]["jobName"]);
+
+            }
+
+
+            connection_class.close_connection();
         }
 
         private void txt_vehicleNumber_Validating(object sender, CancelEventArgs e)
@@ -110,6 +127,35 @@ namespace Billing_System
                 e.Cancel = false;
                 errorProvider1.SetError(drp_job, "");
             }
+        }
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+            connection_class.open_connection();
+            MySqlCommand cmd1 = new MySqlCommand("SELECT * FROM `customer` WHERE `registerNumber` =@id", connection_class.con);
+            cmd1.Parameters.AddWithValue("id", txt_vehicleNumber.Text);
+
+            MySqlDataReader reader1;
+            reader1 = cmd1.ExecuteReader();
+
+            if (reader1.Read())
+            {
+                txt_vehicleModle.Text = reader1["vehicleModel"].ToString();
+                txt_km.Text = reader1["km"].ToString();
+                drp_fuelType.Text = reader1["fuelType"].ToString();
+             //   drp_job.Text = reader1["item_price"].ToString();
+
+
+
+
+            }
+            else
+            {
+                MessageBox.Show("No data found");
+            }
+            connection_class.close_connection();
+
+        
         }
     }
 }

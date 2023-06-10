@@ -80,5 +80,10 @@ namespace Billing_System
         {
 
         }
+
+        private void frm_dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
