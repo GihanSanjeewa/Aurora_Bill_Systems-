@@ -38,7 +38,6 @@ namespace Billing_System
             this.txt_decision1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_decision3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.txt_decision5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_search = new Guna.UI2.WinForms.Guna2Button();
@@ -63,7 +62,6 @@ namespace Billing_System
             this.txt_remarks = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label12 = new System.Windows.Forms.Label();
-            this.txt_complain5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_complain3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -96,13 +94,13 @@ namespace Billing_System
             this.txt_complain1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_complain1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_complain1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain1.Location = new System.Drawing.Point(0, 63);
+            this.txt_complain1.Location = new System.Drawing.Point(0, 53);
             this.txt_complain1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain1.Name = "txt_complain1";
             this.txt_complain1.PasswordChar = '\0';
             this.txt_complain1.PlaceholderText = "";
             this.txt_complain1.SelectedText = "";
-            this.txt_complain1.Size = new System.Drawing.Size(721, 34);
+            this.txt_complain1.Size = new System.Drawing.Size(721, 49);
             this.txt_complain1.TabIndex = 0;
             this.txt_complain1.Validating += new System.ComponentModel.CancelEventHandler(this.txt_complain1_Validating);
             // 
@@ -123,7 +121,7 @@ namespace Billing_System
             this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.label14.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(277, 11);
+            this.label14.Location = new System.Drawing.Point(277, 5);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(161, 40);
             this.label14.TabIndex = 19;
@@ -140,13 +138,13 @@ namespace Billing_System
             this.txt_decision4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_decision4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_decision4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision4.Location = new System.Drawing.Point(0, 226);
+            this.txt_decision4.Location = new System.Drawing.Point(0, 227);
             this.txt_decision4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision4.Name = "txt_decision4";
             this.txt_decision4.PasswordChar = '\0';
             this.txt_decision4.PlaceholderText = "";
             this.txt_decision4.SelectedText = "";
-            this.txt_decision4.Size = new System.Drawing.Size(721, 33);
+            this.txt_decision4.Size = new System.Drawing.Size(721, 49);
             this.txt_decision4.TabIndex = 0;
             // 
             // txt_decision2
@@ -160,13 +158,13 @@ namespace Billing_System
             this.txt_decision2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_decision2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_decision2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision2.Location = new System.Drawing.Point(0, 114);
+            this.txt_decision2.Location = new System.Drawing.Point(0, 112);
             this.txt_decision2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision2.Name = "txt_decision2";
             this.txt_decision2.PasswordChar = '\0';
             this.txt_decision2.PlaceholderText = "";
             this.txt_decision2.SelectedText = "";
-            this.txt_decision2.Size = new System.Drawing.Size(721, 37);
+            this.txt_decision2.Size = new System.Drawing.Size(721, 49);
             this.txt_decision2.TabIndex = 0;
             // 
             // txt_decision1
@@ -180,13 +178,13 @@ namespace Billing_System
             this.txt_decision1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_decision1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_decision1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision1.Location = new System.Drawing.Point(0, 62);
+            this.txt_decision1.Location = new System.Drawing.Point(0, 54);
             this.txt_decision1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision1.Name = "txt_decision1";
             this.txt_decision1.PasswordChar = '\0';
             this.txt_decision1.PlaceholderText = "";
             this.txt_decision1.SelectedText = "";
-            this.txt_decision1.Size = new System.Drawing.Size(721, 34);
+            this.txt_decision1.Size = new System.Drawing.Size(721, 49);
             this.txt_decision1.TabIndex = 0;
             this.txt_decision1.Validating += new System.ComponentModel.CancelEventHandler(this.txt_decision1_Validation);
             // 
@@ -201,13 +199,13 @@ namespace Billing_System
             this.txt_decision3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_decision3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_decision3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision3.Location = new System.Drawing.Point(0, 171);
+            this.txt_decision3.Location = new System.Drawing.Point(0, 170);
             this.txt_decision3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision3.Name = "txt_decision3";
             this.txt_decision3.PasswordChar = '\0';
             this.txt_decision3.PlaceholderText = "";
             this.txt_decision3.SelectedText = "";
-            this.txt_decision3.Size = new System.Drawing.Size(721, 32);
+            this.txt_decision3.Size = new System.Drawing.Size(721, 49);
             this.txt_decision3.TabIndex = 0;
             // 
             // label15
@@ -220,26 +218,6 @@ namespace Billing_System
             this.label15.Size = new System.Drawing.Size(180, 27);
             this.label15.TabIndex = 50;
             this.label15.Text = "Estimated Cost";
-            // 
-            // txt_decision5
-            // 
-            this.txt_decision5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_decision5.DefaultText = "";
-            this.txt_decision5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_decision5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_decision5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_decision5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_decision5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision5.Location = new System.Drawing.Point(4, 279);
-            this.txt_decision5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_decision5.Name = "txt_decision5";
-            this.txt_decision5.PasswordChar = '\0';
-            this.txt_decision5.PlaceholderText = "";
-            this.txt_decision5.SelectedText = "";
-            this.txt_decision5.Size = new System.Drawing.Size(400, 37);
-            this.txt_decision5.TabIndex = 0;
             // 
             // label17
             // 
@@ -539,13 +517,13 @@ namespace Billing_System
             this.txt_complain2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_complain2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_complain2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain2.Location = new System.Drawing.Point(0, 116);
+            this.txt_complain2.Location = new System.Drawing.Point(0, 111);
             this.txt_complain2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain2.Name = "txt_complain2";
             this.txt_complain2.PasswordChar = '\0';
             this.txt_complain2.PlaceholderText = "";
             this.txt_complain2.SelectedText = "";
-            this.txt_complain2.Size = new System.Drawing.Size(721, 37);
+            this.txt_complain2.Size = new System.Drawing.Size(721, 49);
             this.txt_complain2.TabIndex = 0;
             // 
             // txt_remarks
@@ -568,7 +546,7 @@ namespace Billing_System
             this.txt_remarks.PasswordChar = '\0';
             this.txt_remarks.PlaceholderText = "";
             this.txt_remarks.SelectedText = "";
-            this.txt_remarks.Size = new System.Drawing.Size(786, 207);
+            this.txt_remarks.Size = new System.Drawing.Size(434, 207);
             this.txt_remarks.TabIndex = 33;
             this.txt_remarks.Validating += new System.ComponentModel.CancelEventHandler(this.txt_remarks_Validating);
             // 
@@ -576,16 +554,15 @@ namespace Billing_System
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel3.Controls.Add(this.label14);
-            this.guna2Panel3.Controls.Add(this.txt_decision5);
             this.guna2Panel3.Controls.Add(this.txt_decision4);
             this.guna2Panel3.Controls.Add(this.txt_decision2);
             this.guna2Panel3.Controls.Add(this.txt_decision1);
             this.guna2Panel3.Controls.Add(this.txt_decision3);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(814, 292);
+            this.guna2Panel3.Location = new System.Drawing.Point(814, 276);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(721, 261);
+            this.guna2Panel3.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel3.TabIndex = 32;
             // 
             // label12
@@ -594,31 +571,11 @@ namespace Billing_System
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.label12.Font = new System.Drawing.Font("Cascadia Mono", 18F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(250, 11);
+            this.label12.Location = new System.Drawing.Point(250, 4);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(197, 40);
             this.label12.TabIndex = 18;
             this.label12.Text = "Complaints";
-            // 
-            // txt_complain5
-            // 
-            this.txt_complain5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_complain5.DefaultText = "";
-            this.txt_complain5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_complain5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_complain5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_complain5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_complain5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain5.Location = new System.Drawing.Point(5, 281);
-            this.txt_complain5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_complain5.Name = "txt_complain5";
-            this.txt_complain5.PasswordChar = '\0';
-            this.txt_complain5.PlaceholderText = "";
-            this.txt_complain5.SelectedText = "";
-            this.txt_complain5.Size = new System.Drawing.Size(399, 37);
-            this.txt_complain5.TabIndex = 0;
             // 
             // txt_complain4
             // 
@@ -637,7 +594,7 @@ namespace Billing_System
             this.txt_complain4.PasswordChar = '\0';
             this.txt_complain4.PlaceholderText = "";
             this.txt_complain4.SelectedText = "";
-            this.txt_complain4.Size = new System.Drawing.Size(721, 33);
+            this.txt_complain4.Size = new System.Drawing.Size(721, 49);
             this.txt_complain4.TabIndex = 0;
             // 
             // txt_complain3
@@ -651,29 +608,28 @@ namespace Billing_System
             this.txt_complain3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_complain3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_complain3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain3.Location = new System.Drawing.Point(0, 172);
+            this.txt_complain3.Location = new System.Drawing.Point(0, 169);
             this.txt_complain3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain3.Name = "txt_complain3";
             this.txt_complain3.PasswordChar = '\0';
             this.txt_complain3.PlaceholderText = "";
             this.txt_complain3.SelectedText = "";
-            this.txt_complain3.Size = new System.Drawing.Size(721, 32);
+            this.txt_complain3.Size = new System.Drawing.Size(721, 49);
             this.txt_complain3.TabIndex = 0;
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel1.Controls.Add(this.label12);
-            this.guna2Panel1.Controls.Add(this.txt_complain5);
             this.guna2Panel1.Controls.Add(this.txt_complain4);
             this.guna2Panel1.Controls.Add(this.txt_complain3);
             this.guna2Panel1.Controls.Add(this.txt_complain2);
             this.guna2Panel1.Controls.Add(this.txt_complain1);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(20, 292);
+            this.guna2Panel1.Location = new System.Drawing.Point(20, 273);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(721, 261);
+            this.guna2Panel1.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel1.TabIndex = 30;
             // 
             // date_Received
@@ -957,7 +913,6 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2TextBox txt_decision1;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision3;
         private System.Windows.Forms.Label label15;
-        private Guna.UI2.WinForms.Guna2TextBox txt_decision5;
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private System.Windows.Forms.Label label10;
@@ -978,7 +933,6 @@ namespace Billing_System
         private Guna.UI2.WinForms.Guna2TextBox txt_remarks;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private System.Windows.Forms.Label label12;
-        private Guna.UI2.WinForms.Guna2TextBox txt_complain5;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain4;
         private Guna.UI2.WinForms.Guna2TextBox txt_complain3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
