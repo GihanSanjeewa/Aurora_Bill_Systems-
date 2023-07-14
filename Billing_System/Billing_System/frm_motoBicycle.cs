@@ -79,8 +79,6 @@ namespace Billing_System
             cmd.Parameters.AddWithValue("@txt_estimatedCost", txt_estimatedCost.Text);
             cmd.Parameters.AddWithValue("@cmb_cInform", cmb_cInform.Text);
 
-            //cmd.Parameters.Add("@date_Received", SqlDbType.Date).Value = date_Received.Value.Date;
-            //cmd.Parameters.Add("@dtp_pDeliverDate", SqlDbType.Date).Value = dtp_pDeliverDate.Value.Date;
             cmd.Parameters.AddWithValue("@date_Received", date_Received.Text);
             cmd.Parameters.AddWithValue("@date_Proposed", date_Proposed.Text);
 
