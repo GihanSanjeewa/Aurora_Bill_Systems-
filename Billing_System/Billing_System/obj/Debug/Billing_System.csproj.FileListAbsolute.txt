@@ -198,9 +198,43 @@ C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
+<<<<<<< Updated upstream
 =======
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.addMechanic.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editMechanic.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashboard.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_purchase.resources
+>>>>>>> Stashed changes
+=======
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe.config
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.pdb
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Guna.UI2.dll
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.AssemblyReference.cache
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_add.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.addMechanic.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addCustomer.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addItem.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_addJob.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editCustomer.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editItem.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editJob.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editMechanic.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_inventory.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoCar.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashboard.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_invoice.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_login.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoBicycle.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_purchase.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_sconditionReport.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motobicycleJobCard.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.motocarJobCard.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.Properties.Resources.resources
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.GenerateResource.cache
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CoreCompileInputs.cache
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
+H:\Github\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
 >>>>>>> Stashed changes

@@ -46,12 +46,7 @@ namespace Billing_System
             this.lbl_dateReceived = new System.Windows.Forms.Label();
             this.lbl_phoneNumber = new System.Windows.Forms.Label();
             this.lbl_address = new System.Windows.Forms.Label();
-            this.lbl_odoMeter1 = new System.Windows.Forms.Label();
-            this.lbl_cutomerInforemd = new System.Windows.Forms.Label();
-            this.lbl_time1 = new System.Windows.Forms.Label();
-            this.lbl_proposedDate = new System.Windows.Forms.Label();
-            this.lbl_dateOfDelivery = new System.Windows.Forms.Label();
-            this.lbl_estimatedCost1 = new System.Windows.Forms.Label();
+            this.lbl_cInformb = new System.Windows.Forms.Label();
             this.lbl_remarks = new System.Windows.Forms.Label();
             this.lbl_decision4 = new System.Windows.Forms.Label();
             this.lbl_decision3 = new System.Windows.Forms.Label();
@@ -65,6 +60,11 @@ namespace Billing_System
             this.lbl_regNo = new System.Windows.Forms.Label();
             this.lbl_vehicleModel = new System.Windows.Forms.Label();
             this.lbl_customerName = new System.Windows.Forms.Label();
+            this.lbl_estimatedCostb = new System.Windows.Forms.Label();
+            this.lbl_pDateb = new System.Windows.Forms.Label();
+            this.lbl_odoMeterb = new System.Windows.Forms.Label();
+            this.lbl_nDateb = new System.Windows.Forms.Label();
+            this.lbl_dtimeb = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -161,6 +161,11 @@ namespace Billing_System
             // 
             this.panel1.BackgroundImage = global::Billing_System.Properties.Resources.No_10__Galapitamulla__Hindagolla_076_1558383_auroraautocare1st_gmail_com_www_Aurora_autocare_facebook_com;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.lbl_dtimeb);
+            this.panel1.Controls.Add(this.lbl_nDateb);
+            this.panel1.Controls.Add(this.lbl_odoMeterb);
+            this.panel1.Controls.Add(this.lbl_pDateb);
+            this.panel1.Controls.Add(this.lbl_estimatedCostb);
             this.panel1.Controls.Add(this.lbl_cName);
             this.panel1.Controls.Add(this.lbl_odoMeter);
             this.panel1.Controls.Add(this.lbl_fuelType);
@@ -168,12 +173,7 @@ namespace Billing_System
             this.panel1.Controls.Add(this.lbl_dateReceived);
             this.panel1.Controls.Add(this.lbl_phoneNumber);
             this.panel1.Controls.Add(this.lbl_address);
-            this.panel1.Controls.Add(this.lbl_odoMeter1);
-            this.panel1.Controls.Add(this.lbl_cutomerInforemd);
-            this.panel1.Controls.Add(this.lbl_time1);
-            this.panel1.Controls.Add(this.lbl_proposedDate);
-            this.panel1.Controls.Add(this.lbl_dateOfDelivery);
-            this.panel1.Controls.Add(this.lbl_estimatedCost1);
+            this.panel1.Controls.Add(this.lbl_cInformb);
             this.panel1.Controls.Add(this.lbl_remarks);
             this.panel1.Controls.Add(this.lbl_decision4);
             this.panel1.Controls.Add(this.lbl_decision3);
@@ -270,71 +270,16 @@ namespace Billing_System
             this.lbl_address.TabIndex = 0;
             this.lbl_address.Text = "-";
             // 
-            // lbl_odoMeter1
+            // lbl_cInformb
             // 
-            this.lbl_odoMeter1.AutoSize = true;
-            this.lbl_odoMeter1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_odoMeter1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_odoMeter1.Location = new System.Drawing.Point(360, 493);
-            this.lbl_odoMeter1.Name = "lbl_odoMeter1";
-            this.lbl_odoMeter1.Size = new System.Drawing.Size(11, 14);
-            this.lbl_odoMeter1.TabIndex = 1;
-            this.lbl_odoMeter1.Text = "-";
-            // 
-            // lbl_cutomerInforemd
-            // 
-            this.lbl_cutomerInforemd.AutoSize = true;
-            this.lbl_cutomerInforemd.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_cutomerInforemd.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cutomerInforemd.Location = new System.Drawing.Point(486, 493);
-            this.lbl_cutomerInforemd.Name = "lbl_cutomerInforemd";
-            this.lbl_cutomerInforemd.Size = new System.Drawing.Size(11, 14);
-            this.lbl_cutomerInforemd.TabIndex = 1;
-            this.lbl_cutomerInforemd.Text = "-";
-            // 
-            // lbl_time1
-            // 
-            this.lbl_time1.AutoSize = true;
-            this.lbl_time1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_time1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_time1.Location = new System.Drawing.Point(286, 493);
-            this.lbl_time1.Name = "lbl_time1";
-            this.lbl_time1.Size = new System.Drawing.Size(11, 14);
-            this.lbl_time1.TabIndex = 1;
-            this.lbl_time1.Text = "-";
-            // 
-            // lbl_proposedDate
-            // 
-            this.lbl_proposedDate.AutoSize = true;
-            this.lbl_proposedDate.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_proposedDate.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_proposedDate.Location = new System.Drawing.Point(127, 493);
-            this.lbl_proposedDate.Name = "lbl_proposedDate";
-            this.lbl_proposedDate.Size = new System.Drawing.Size(11, 14);
-            this.lbl_proposedDate.TabIndex = 1;
-            this.lbl_proposedDate.Text = "-";
-            // 
-            // lbl_dateOfDelivery
-            // 
-            this.lbl_dateOfDelivery.AutoSize = true;
-            this.lbl_dateOfDelivery.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_dateOfDelivery.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dateOfDelivery.Location = new System.Drawing.Point(222, 493);
-            this.lbl_dateOfDelivery.Name = "lbl_dateOfDelivery";
-            this.lbl_dateOfDelivery.Size = new System.Drawing.Size(11, 14);
-            this.lbl_dateOfDelivery.TabIndex = 1;
-            this.lbl_dateOfDelivery.Text = "-";
-            // 
-            // lbl_estimatedCost1
-            // 
-            this.lbl_estimatedCost1.AutoSize = true;
-            this.lbl_estimatedCost1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_estimatedCost1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estimatedCost1.Location = new System.Drawing.Point(43, 493);
-            this.lbl_estimatedCost1.Name = "lbl_estimatedCost1";
-            this.lbl_estimatedCost1.Size = new System.Drawing.Size(11, 14);
-            this.lbl_estimatedCost1.TabIndex = 1;
-            this.lbl_estimatedCost1.Text = "-";
+            this.lbl_cInformb.AutoSize = true;
+            this.lbl_cInformb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cInformb.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cInformb.Location = new System.Drawing.Point(486, 493);
+            this.lbl_cInformb.Name = "lbl_cInformb";
+            this.lbl_cInformb.Size = new System.Drawing.Size(11, 14);
+            this.lbl_cInformb.TabIndex = 1;
+            this.lbl_cInformb.Text = "-";
             // 
             // lbl_remarks
             // 
@@ -479,6 +424,56 @@ namespace Billing_System
             this.lbl_customerName.TabIndex = 0;
             this.lbl_customerName.Text = "-";
             // 
+            // lbl_estimatedCostb
+            // 
+            this.lbl_estimatedCostb.AutoSize = true;
+            this.lbl_estimatedCostb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_estimatedCostb.Location = new System.Drawing.Point(53, 494);
+            this.lbl_estimatedCostb.Name = "lbl_estimatedCostb";
+            this.lbl_estimatedCostb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_estimatedCostb.TabIndex = 3;
+            this.lbl_estimatedCostb.Text = "-";
+            // 
+            // lbl_pDateb
+            // 
+            this.lbl_pDateb.AutoSize = true;
+            this.lbl_pDateb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_pDateb.Location = new System.Drawing.Point(131, 493);
+            this.lbl_pDateb.Name = "lbl_pDateb";
+            this.lbl_pDateb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_pDateb.TabIndex = 4;
+            this.lbl_pDateb.Text = "-";
+            // 
+            // lbl_odoMeterb
+            // 
+            this.lbl_odoMeterb.AutoSize = true;
+            this.lbl_odoMeterb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_odoMeterb.Location = new System.Drawing.Point(347, 493);
+            this.lbl_odoMeterb.Name = "lbl_odoMeterb";
+            this.lbl_odoMeterb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_odoMeterb.TabIndex = 7;
+            this.lbl_odoMeterb.Text = "-";
+            // 
+            // lbl_nDateb
+            // 
+            this.lbl_nDateb.AutoSize = true;
+            this.lbl_nDateb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_nDateb.Location = new System.Drawing.Point(223, 493);
+            this.lbl_nDateb.Name = "lbl_nDateb";
+            this.lbl_nDateb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_nDateb.TabIndex = 8;
+            this.lbl_nDateb.Text = "-";
+            // 
+            // lbl_dtimeb
+            // 
+            this.lbl_dtimeb.AutoSize = true;
+            this.lbl_dtimeb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_dtimeb.Location = new System.Drawing.Point(287, 492);
+            this.lbl_dtimeb.Name = "lbl_dtimeb";
+            this.lbl_dtimeb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_dtimeb.TabIndex = 9;
+            this.lbl_dtimeb.Text = "-";
+            // 
             // motobicycleJobCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -522,11 +517,7 @@ namespace Billing_System
         private System.Windows.Forms.Label lbl_dateReceived;
         private System.Windows.Forms.Label lbl_phoneNumber;
         private System.Windows.Forms.Label lbl_address;
-        private System.Windows.Forms.Label lbl_odoMeter1;
-        private System.Windows.Forms.Label lbl_cutomerInforemd;
-        private System.Windows.Forms.Label lbl_time1;
-        private System.Windows.Forms.Label lbl_dateOfDelivery;
-        private System.Windows.Forms.Label lbl_estimatedCost1;
+        private System.Windows.Forms.Label lbl_cInformb;
         private System.Windows.Forms.Label lbl_remarks;
         private System.Windows.Forms.Label lbl_decision4;
         private System.Windows.Forms.Label lbl_decision3;
@@ -540,6 +531,10 @@ namespace Billing_System
         private System.Windows.Forms.Label lbl_regNo;
         private System.Windows.Forms.Label lbl_vehicleModel;
         private System.Windows.Forms.Label lbl_customerName;
-        private System.Windows.Forms.Label lbl_proposedDate;
+        private System.Windows.Forms.Label lbl_estimatedCostb;
+        private System.Windows.Forms.Label lbl_pDateb;
+        private System.Windows.Forms.Label lbl_odoMeterb;
+        private System.Windows.Forms.Label lbl_nDateb;
+        private System.Windows.Forms.Label lbl_dtimeb;
     }
 }
