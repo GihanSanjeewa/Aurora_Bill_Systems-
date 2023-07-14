@@ -483,7 +483,7 @@ namespace Billing_System
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(619, 652);
+            this.ClientSize = new System.Drawing.Size(619, 638);
             this.Controls.Add(this.btn_print);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_dtime);

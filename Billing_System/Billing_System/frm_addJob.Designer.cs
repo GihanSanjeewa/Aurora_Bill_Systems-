@@ -30,9 +30,9 @@ namespace Billing_System
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_job = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btn_addJob = new Guna.UI2.WinForms.Guna2Button();
             this.txt_jobName = new Guna.UI2.WinForms.Guna2TextBox();
@@ -53,34 +53,33 @@ namespace Billing_System
             // 
             // dgv_job
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dgv_job.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgv_job.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_job.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_job.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_job.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_job.ColumnHeadersHeight = 4;
             this.dgv_job.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_job.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_job.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_job.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgv_job.Location = new System.Drawing.Point(437, -1);
-            this.dgv_job.Margin = new System.Windows.Forms.Padding(4);
+            this.dgv_job.Location = new System.Drawing.Point(328, -1);
             this.dgv_job.Name = "dgv_job";
             this.dgv_job.RowHeadersVisible = false;
             this.dgv_job.RowHeadersWidth = 51;
-            this.dgv_job.Size = new System.Drawing.Size(1103, 765);
+            this.dgv_job.Size = new System.Drawing.Size(827, 622);
             this.dgv_job.TabIndex = 45;
             this.dgv_job.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgv_job.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -116,10 +115,9 @@ namespace Billing_System
             this.btn_addJob.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_addJob.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addJob.ForeColor = System.Drawing.Color.White;
-            this.btn_addJob.Location = new System.Drawing.Point(84, 437);
-            this.btn_addJob.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_addJob.Location = new System.Drawing.Point(63, 355);
             this.btn_addJob.Name = "btn_addJob";
-            this.btn_addJob.Size = new System.Drawing.Size(267, 70);
+            this.btn_addJob.Size = new System.Drawing.Size(200, 57);
             this.btn_addJob.TabIndex = 44;
             this.btn_addJob.Text = "Add Job";
             this.btn_addJob.Click += new System.EventHandler(this.btn_addJob_Click);
@@ -135,25 +133,25 @@ namespace Billing_System
             this.txt_jobName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_jobName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_jobName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_jobName.Location = new System.Drawing.Point(84, 178);
-            this.txt_jobName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_jobName.Location = new System.Drawing.Point(63, 145);
+            this.txt_jobName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_jobName.Name = "txt_jobName";
             this.txt_jobName.PasswordChar = '\0';
             this.txt_jobName.PlaceholderText = "";
             this.txt_jobName.SelectedText = "";
-            this.txt_jobName.Size = new System.Drawing.Size(267, 44);
+            this.txt_jobName.Size = new System.Drawing.Size(200, 36);
             this.txt_jobName.TabIndex = 42;
             this.txt_jobName.Validating += new System.ComponentModel.CancelEventHandler(this.txt_jobName_Validating);
+            this.txt_jobName.Validated += new System.EventHandler(this.txt_jobName_Validated);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(79, 125);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(59, 102);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 27);
+            this.label2.Size = new System.Drawing.Size(100, 21);
             this.label2.TabIndex = 38;
             this.label2.Text = "Job Name :";
             // 
@@ -163,9 +161,10 @@ namespace Billing_System
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label11.Location = new System.Drawing.Point(804, 19);
+            this.label11.Location = new System.Drawing.Point(603, 15);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(176, 49);
+            this.label11.Size = new System.Drawing.Size(143, 40);
             this.label11.TabIndex = 17;
             this.label11.Text = "Add Job";
             // 
@@ -174,27 +173,28 @@ namespace Billing_System
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel1.Controls.Add(this.label11);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(-123, -1);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(-92, -1);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1828, 90);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1371, 73);
             this.guna2GradientPanel1.TabIndex = 46;
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel1.Location = new System.Drawing.Point(556, 87);
+            this.guna2Panel1.Location = new System.Drawing.Point(417, 71);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel1.Size = new System.Drawing.Size(1076, 2);
             this.guna2Panel1.TabIndex = 22;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(359, 816);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(269, 663);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 27);
+            this.label5.Size = new System.Drawing.Size(55, 21);
             this.label5.TabIndex = 49;
             this.label5.Text = "Edit ";
             // 
@@ -212,19 +212,21 @@ namespace Billing_System
             this.btn_editItem.FillColor = System.Drawing.Color.Transparent;
             this.btn_editItem.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold);
             this.btn_editItem.ForeColor = System.Drawing.Color.White;
-            this.btn_editItem.Location = new System.Drawing.Point(362, 763);
+            this.btn_editItem.Location = new System.Drawing.Point(272, 620);
+            this.btn_editItem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_editItem.Name = "btn_editItem";
-            this.btn_editItem.Padding = new System.Windows.Forms.Padding(5);
-            this.btn_editItem.Size = new System.Drawing.Size(54, 50);
+            this.btn_editItem.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_editItem.Size = new System.Drawing.Size(40, 41);
             this.btn_editItem.TabIndex = 48;
             this.btn_editItem.Click += new System.EventHandler(this.btn_editItem_Click);
             // 
             // guna2Panel11
             // 
             this.guna2Panel11.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel11.Location = new System.Drawing.Point(433, 90);
+            this.guna2Panel11.Location = new System.Drawing.Point(325, 73);
+            this.guna2Panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.Size = new System.Drawing.Size(3, 753);
+            this.guna2Panel11.Size = new System.Drawing.Size(2, 612);
             this.guna2Panel11.TabIndex = 47;
             // 
             // label3
@@ -232,10 +234,9 @@ namespace Billing_System
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(79, 251);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(59, 204);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 27);
+            this.label3.Size = new System.Drawing.Size(109, 21);
             this.label3.TabIndex = 37;
             this.label3.Text = "Job Price :";
             // 
@@ -250,13 +251,13 @@ namespace Billing_System
             this.txt_jobPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_jobPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_jobPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_jobPrice.Location = new System.Drawing.Point(84, 311);
-            this.txt_jobPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_jobPrice.Location = new System.Drawing.Point(63, 253);
+            this.txt_jobPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_jobPrice.Name = "txt_jobPrice";
             this.txt_jobPrice.PasswordChar = '\0';
             this.txt_jobPrice.PlaceholderText = "";
             this.txt_jobPrice.SelectedText = "";
-            this.txt_jobPrice.Size = new System.Drawing.Size(267, 44);
+            this.txt_jobPrice.Size = new System.Drawing.Size(200, 36);
             this.txt_jobPrice.TabIndex = 41;
             this.txt_jobPrice.Validating += new System.ComponentModel.CancelEventHandler(this.txt_jobPrice_Validating);
             // 
@@ -266,10 +267,10 @@ namespace Billing_System
             // 
             // frm_addJob
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1582, 853);
+            this.ClientSize = new System.Drawing.Size(1028, 609);
             this.Controls.Add(this.dgv_job);
             this.Controls.Add(this.btn_addJob);
             this.Controls.Add(this.txt_jobPrice);
@@ -281,6 +282,7 @@ namespace Billing_System
             this.Controls.Add(this.btn_editItem);
             this.Controls.Add(this.guna2Panel11);
             this.ForeColor = System.Drawing.Color.White;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frm_addJob";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_addJob";

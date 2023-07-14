@@ -20,17 +20,16 @@ namespace Billing_System
 
         private void btn_addJob_Click(object sender, EventArgs e)
         {
-            connection_class.open_connection();
-            MySqlCommand cmd = new MySqlCommand("INSERT INTO `job`( `jobName`, `jobPrice`) VALUES( @txt_jobName, @txt_jobPrice)", connection_class.con);
-            cmd.Parameters.Clear();
+                connection_class.open_connection();
+                MySqlCommand cmd = new MySqlCommand("INSERT INTO `job`( `jobName`, `jobPrice`) VALUES( @txt_jobName, @txt_jobPrice)", connection_class.con);
+                cmd.Parameters.Clear();
 
-            cmd.Parameters.AddWithValue("@txt_jobName", txt_jobName.Text);
-            cmd.Parameters.AddWithValue("@txt_jobPrice", txt_jobPrice.Text);
-           
+                cmd.Parameters.AddWithValue("@txt_jobName", txt_jobName.Text);
+                cmd.Parameters.AddWithValue("@txt_jobPrice", txt_jobPrice.Text);
 
-
-            cmd.ExecuteNonQuery();
-            connection_class.close_connection();
+                cmd.ExecuteNonQuery();
+                connection_class.close_connection();    
+            //for check 
 
             MessageBox.Show("Job Added Successfully!");
             fndataLoad();
@@ -55,10 +54,8 @@ namespace Billing_System
         {
             if(string.IsNullOrWhiteSpace(txt_jobName.Text))
             {
-                e.Cancel = true;
-                txt_jobName.Focus();
+             
                 errorProvider1.SetError(txt_jobName, "Fill the Job Name ");
-
             }
             else
             {
@@ -72,8 +69,8 @@ namespace Billing_System
 
             if (string.IsNullOrWhiteSpace(txt_jobPrice.Text))
             {
-                e.Cancel = true;
-                txt_jobPrice.Focus();
+
+                
                 errorProvider1.SetError(txt_jobPrice, "Enter the Job Price ");
 
             }
@@ -82,6 +79,11 @@ namespace Billing_System
                 e.Cancel = false;
                 errorProvider1.SetError(txt_jobPrice, "");
             }
+        }
+
+        private void txt_jobName_Validated(object sender, EventArgs e)
+        {
+
         }
     }
 }

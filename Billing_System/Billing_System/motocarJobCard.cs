@@ -44,6 +44,7 @@ namespace Billing_System
             lbl_dtime.Text = frm_motoCar.setdtime;
             lbl_cInform.Text = frm_motoCar.setcInform;
             lbl_nDate.Text = DateTime.Now.ToShortDateString();
+            //nothing
         }
     }
 }

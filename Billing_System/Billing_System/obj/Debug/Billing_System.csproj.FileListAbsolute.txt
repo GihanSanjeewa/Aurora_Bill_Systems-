@@ -99,7 +99,6 @@ C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Bil
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editJob.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_inventory.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_motoCar.resources
-C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashbord.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_invoice.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_login.resources
 C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_salesReport.resources
@@ -166,6 +165,7 @@ C:\Users\wONd3r\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_Sys
 C:\Users\wONd3r\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
 C:\Users\wONd3r\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
 C:\Users\wONd3r\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
+<<<<<<< Updated upstream
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe.config
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.exe
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\bin\Debug\Billing_System.pdb
@@ -198,3 +198,9 @@ C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.csproj.CopyComplete
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.exe
 C:\Users\Instructor\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.pdb
+=======
+C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.addMechanic.resources
+C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_editMechanic.resources
+C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_dashboard.resources
+C:\Users\Gihan Sanjeewa\Documents\GitHub\Aurora_Bill_Systems-\Billing_System\Billing_System\obj\Debug\Billing_System.frm_purchase.resources
+>>>>>>> Stashed changes
