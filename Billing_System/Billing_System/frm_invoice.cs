@@ -86,17 +86,7 @@ namespace Billing_System
 
         private void txt_discount_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_discount.Text))
-            {
-                e.Cancel = true;
-                //txt_discount.Focus();
-                errorProvider1.SetError(txt_discount, "Discount Should not be Blank!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_discount, "");
-            }
+
         }
 
         private void txt_km_Validating(object sender, CancelEventArgs e)
@@ -121,6 +111,8 @@ namespace Billing_System
                 e.Cancel = true;
                 //drp_job.Focus();
                 errorProvider1.SetError(drp_job, "Job Should not be Blank!");
+
+                
             }
             else
             {
@@ -156,6 +148,42 @@ namespace Billing_System
             connection_class.close_connection();
 
         
+        }
+
+        private void drp_job_DropDown(object sender, EventArgs e)
+        {
+            if(drp_job.Text != null)
+            {
+                connection_class.open_connection();
+                MySqlCommand cmd1 = new MySqlCommand("SELECT `jobPrice` FROM `job` WHERE `jobName` =@jobName", connection_class.con);
+                cmd1.Parameters.AddWithValue("jobName", drp_job.Text);
+
+                MySqlDataReader reader1;
+                reader1 = cmd1.ExecuteReader();
+
+                if (reader1.Read())
+                {
+                    txt_price.Text = reader1["jobPrice"].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("No data found");
+                }
+                connection_class.close_connection();
+            }
+        }
+
+
+
+        private void txt_discount_TextChanged(object sender, EventArgs e)
+        {
+            int new_Price = Convert.ToInt32(txt_price.Text)-Convert.ToInt32(txt_discount.Text);
+            lbl_price.Text = new_Price.ToString();
+        }
+
+        private void btn_process_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
