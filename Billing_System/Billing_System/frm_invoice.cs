@@ -185,5 +185,126 @@ namespace Billing_System
         {
 
         }
+
+
+        //process start
+
+        private void process1()
+        {
+            lbl_job1.Text = drp_job.Text;
+            lbl_price1.Text = txt_price.Text;
+            lbl_discount1.Text = txt_discount.Text;
+            lbl_fprice1.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text));
+            lbl_total.Text = total.ToString();
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+        private void process2()
+        {
+            lbl_job2.Text = drp_job.Text;
+            lbl_price2.Text = txt_price.Text;
+            lbl_discount2.Text = txt_discount.Text;
+            lbl_fprice2.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text));
+            lbl_total.Text = total.ToString();
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+        private void process3()
+        {
+            lbl_job3.Text = drp_job.Text;
+            lbl_price3.Text = txt_price.Text;
+            lbl_discount3.Text = txt_discount.Text;
+            lbl_fprice3.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text));
+            lbl_total.Text = total.ToString();
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+        private void process4()
+        {
+            lbl_job4.Text = drp_job.Text;
+            lbl_price4.Text = txt_price.Text;
+            lbl_discount4.Text = txt_discount.Text;
+            lbl_fprice4.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text));
+            lbl_total.Text = total.ToString();
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+        private void process5()
+        {
+            lbl_job5.Text = drp_job.Text;
+            lbl_price5.Text = txt_price.Text;
+            lbl_discount5.Text = txt_discount.Text;
+            lbl_fprice5.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text)) + (Convert.ToInt32(lbl_fprice5.Text));
+            lbl_total.Text = total.ToString();
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+            if (drp_job.Text == "")
+            {
+                MessageBox.Show("Enter the job type !!!");
+            }
+            else
+            {
+                if (lbl_job1.Text == "")
+                {
+                    process1();
+                    btn_remove1.Visible = true;
+                }
+                else if (lbl_job2.Text == "")
+                {
+                    process2();
+                    btn_remove2.Visible = true;
+
+
+
+                }
+
+                else if (lbl_job3.Text == "")
+                {
+                    process3();
+                    btn_remove3.Visible = true;
+
+
+
+                }
+
+                else if (lbl_job4.Text == "")
+                {
+                    process4();
+                    btn_remove4.Visible = true;
+
+                }
+                else
+                {
+                    process5();
+                    btn_remove5.Visible = true;
+
+
+                }
+            }
+        }
     }
 }
