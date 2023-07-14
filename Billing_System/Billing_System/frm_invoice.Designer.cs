@@ -50,23 +50,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_invoice_page = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_Bkm = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.btn_add = new Guna.UI2.WinForms.Guna2Button();
             this.btn_search = new Guna.UI2.WinForms.Guna2Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lbl_BvehicleNumber = new System.Windows.Forms.Label();
-            this.lbl_BvehicleModel = new System.Windows.Forms.Label();
-            this.lbl_Bfuel = new System.Windows.Forms.Label();
-            this.lbl_Bkm = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txt_price = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -125,7 +124,7 @@
             this.txt_km.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_km.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_km.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_km.Location = new System.Drawing.Point(46, 380);
+            this.txt_km.Location = new System.Drawing.Point(47, 321);
             this.txt_km.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_km.Name = "txt_km";
             this.txt_km.PasswordChar = '\0';
@@ -146,15 +145,15 @@
             this.txt_discount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_discount.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_discount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_discount.Location = new System.Drawing.Point(282, 473);
+            this.txt_discount.Location = new System.Drawing.Point(291, 404);
             this.txt_discount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_discount.Name = "txt_discount";
             this.txt_discount.PasswordChar = '\0';
             this.txt_discount.PlaceholderText = "";
             this.txt_discount.SelectedText = "";
-            this.txt_discount.Size = new System.Drawing.Size(77, 23);
+            this.txt_discount.Size = new System.Drawing.Size(201, 23);
             this.txt_discount.TabIndex = 8;
-            this.txt_discount.Validating += new System.ComponentModel.CancelEventHandler(this.txt_discount_Validating);
+            this.txt_discount.TextChanged += new System.EventHandler(this.txt_discount_TextChanged);
             // 
             // lbl_vehicle_number
             // 
@@ -183,7 +182,7 @@
             this.lbl_fuel.AutoSize = true;
             this.lbl_fuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fuel.ForeColor = System.Drawing.Color.White;
-            this.lbl_fuel.Location = new System.Drawing.Point(45, 282);
+            this.lbl_fuel.Location = new System.Drawing.Point(290, 212);
             this.lbl_fuel.Name = "lbl_fuel";
             this.lbl_fuel.Size = new System.Drawing.Size(44, 20);
             this.lbl_fuel.TabIndex = 13;
@@ -194,7 +193,7 @@
             this.lbl_km.AutoSize = true;
             this.lbl_km.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_km.ForeColor = System.Drawing.Color.White;
-            this.lbl_km.Location = new System.Drawing.Point(43, 350);
+            this.lbl_km.Location = new System.Drawing.Point(44, 291);
             this.lbl_km.Name = "lbl_km";
             this.lbl_km.Size = new System.Drawing.Size(34, 20);
             this.lbl_km.TabIndex = 14;
@@ -215,7 +214,7 @@
             this.lbl_job.AutoSize = true;
             this.lbl_job.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_job.ForeColor = System.Drawing.Color.White;
-            this.lbl_job.Location = new System.Drawing.Point(46, 428);
+            this.lbl_job.Location = new System.Drawing.Point(289, 289);
             this.lbl_job.Name = "lbl_job";
             this.lbl_job.Size = new System.Drawing.Size(43, 20);
             this.lbl_job.TabIndex = 16;
@@ -226,7 +225,7 @@
             this.lbl_discount.AutoSize = true;
             this.lbl_discount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_discount.ForeColor = System.Drawing.Color.White;
-            this.lbl_discount.Location = new System.Drawing.Point(279, 428);
+            this.lbl_discount.Location = new System.Drawing.Point(289, 375);
             this.lbl_discount.Name = "lbl_discount";
             this.lbl_discount.Size = new System.Drawing.Size(80, 20);
             this.lbl_discount.TabIndex = 17;
@@ -248,7 +247,7 @@
             this.lbl_price.AutoSize = true;
             this.lbl_price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.lbl_price.ForeColor = System.Drawing.Color.White;
-            this.lbl_price.Location = new System.Drawing.Point(395, 476);
+            this.lbl_price.Location = new System.Drawing.Point(225, 501);
             this.lbl_price.Name = "lbl_price";
             this.lbl_price.Size = new System.Drawing.Size(65, 20);
             this.lbl_price.TabIndex = 20;
@@ -263,7 +262,7 @@
             "Super Diesel",
             "Petrol 92",
             "Petrol 95"});
-            this.drp_fuelType.Location = new System.Drawing.Point(46, 314);
+            this.drp_fuelType.Location = new System.Drawing.Point(291, 244);
             this.drp_fuelType.Name = "drp_fuelType";
             this.drp_fuelType.Size = new System.Drawing.Size(199, 23);
             this.drp_fuelType.TabIndex = 21;
@@ -287,10 +286,11 @@
             // 
             this.drp_job.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.drp_job.FormattingEnabled = true;
-            this.drp_job.Location = new System.Drawing.Point(49, 473);
+            this.drp_job.Location = new System.Drawing.Point(291, 322);
             this.drp_job.Name = "drp_job";
             this.drp_job.Size = new System.Drawing.Size(198, 23);
             this.drp_job.TabIndex = 23;
+            this.drp_job.DropDown += new System.EventHandler(this.drp_job_DropDown);
             this.drp_job.Validating += new System.ComponentModel.CancelEventHandler(this.drp_job_Validating);
             // 
             // btn_process
@@ -304,12 +304,13 @@
             this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_process.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btn_process.ForeColor = System.Drawing.Color.Black;
-            this.btn_process.Location = new System.Drawing.Point(161, 598);
+            this.btn_process.Location = new System.Drawing.Point(161, 585);
             this.btn_process.Margin = new System.Windows.Forms.Padding(2);
             this.btn_process.Name = "btn_process";
-            this.btn_process.Size = new System.Drawing.Size(198, 84);
+            this.btn_process.Size = new System.Drawing.Size(171, 63);
             this.btn_process.TabIndex = 25;
             this.btn_process.Text = "Process";
+            this.btn_process.Click += new System.EventHandler(this.btn_process_Click);
             // 
             // guna2Panel4
             // 
@@ -356,11 +357,8 @@
             this.guna2Panel11.Controls.Add(this.label7);
             this.guna2Panel11.Controls.Add(this.lbl_Bkm);
             this.guna2Panel11.Controls.Add(this.label6);
-            this.guna2Panel11.Controls.Add(this.lbl_Bfuel);
             this.guna2Panel11.Controls.Add(this.label5);
-            this.guna2Panel11.Controls.Add(this.lbl_BvehicleModel);
             this.guna2Panel11.Controls.Add(this.label4);
-            this.guna2Panel11.Controls.Add(this.lbl_BvehicleNumber);
             this.guna2Panel11.Controls.Add(this.label3);
             this.guna2Panel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2Panel11.Location = new System.Drawing.Point(533, 72);
@@ -369,16 +367,136 @@
             this.guna2Panel11.Size = new System.Drawing.Size(679, 634);
             this.guna2Panel11.TabIndex = 36;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(74, 336);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(64, 20);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "Job 5 -";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(74, 293);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(64, 20);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Job 4 -";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(74, 249);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(64, 20);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Job 3 -";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(74, 201);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(64, 20);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Job 2 -";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(74, 161);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 20);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Job 1 -";
+            // 
+            // lbl_Bkm
+            // 
+            this.lbl_Bkm.AutoSize = true;
+            this.lbl_Bkm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.lbl_Bkm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Bkm.ForeColor = System.Drawing.Color.White;
+            this.lbl_Bkm.Location = new System.Drawing.Point(542, 79);
+            this.lbl_Bkm.Name = "lbl_Bkm";
+            this.lbl_Bkm.Size = new System.Drawing.Size(34, 20);
+            this.lbl_Bkm.TabIndex = 11;
+            this.lbl_Bkm.Text = "KM";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(542, 47);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(34, 20);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "KM";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(443, 47);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 20);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Fuel";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(277, 47);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(121, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Vehicle Model";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(63, 47);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 20);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Vehicle Number";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(386, 428);
+            this.label1.Location = new System.Drawing.Point(108, 496);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 20);
+            this.label1.Size = new System.Drawing.Size(103, 20);
             this.label1.TabIndex = 37;
-            this.label1.Text = "New Price ";
+            this.label1.Text = "New Price  :";
             // 
             // errorProvider1
             // 
@@ -392,9 +510,9 @@
             this.btn_add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_add.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_add.ForeColor = System.Drawing.Color.White;
-            this.btn_add.Location = new System.Drawing.Point(464, 473);
+            this.btn_add.Location = new System.Drawing.Point(308, 495);
             this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(64, 23);
+            this.btn_add.Size = new System.Drawing.Size(68, 29);
             this.btn_add.TabIndex = 38;
             this.btn_add.Text = "Add";
             // 
@@ -413,161 +531,36 @@
             this.btn_search.Text = "Search";
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
-            // label3
+            // label12
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(63, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 20);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Vehicle Number";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(46, 376);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(49, 20);
+            this.label12.TabIndex = 41;
+            this.label12.Text = "Price";
             // 
-            // label5
+            // txt_price
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(443, 47);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 20);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Fuel";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(542, 47);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 20);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "KM";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(74, 161);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Job 1 -";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(74, 201);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 20);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Job 2 -";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(74, 249);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 20);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Job 3 -";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(74, 293);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(64, 20);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Job 4 -";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(74, 336);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 20);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "Job 5 -";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(277, 47);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 20);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Vehicle Model";
-            // 
-            // lbl_BvehicleNumber
-            // 
-            this.lbl_BvehicleNumber.AutoSize = true;
-            this.lbl_BvehicleNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.lbl_BvehicleNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_BvehicleNumber.ForeColor = System.Drawing.Color.White;
-            this.lbl_BvehicleNumber.Location = new System.Drawing.Point(63, 79);
-            this.lbl_BvehicleNumber.Name = "lbl_BvehicleNumber";
-            this.lbl_BvehicleNumber.Size = new System.Drawing.Size(135, 20);
-            this.lbl_BvehicleNumber.TabIndex = 11;
-            this.lbl_BvehicleNumber.Text = "Vehicle Number";
-            // 
-            // lbl_BvehicleModel
-            // 
-            this.lbl_BvehicleModel.AutoSize = true;
-            this.lbl_BvehicleModel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.lbl_BvehicleModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_BvehicleModel.ForeColor = System.Drawing.Color.White;
-            this.lbl_BvehicleModel.Location = new System.Drawing.Point(277, 79);
-            this.lbl_BvehicleModel.Name = "lbl_BvehicleModel";
-            this.lbl_BvehicleModel.Size = new System.Drawing.Size(121, 20);
-            this.lbl_BvehicleModel.TabIndex = 11;
-            this.lbl_BvehicleModel.Text = "Vehicle Model";
-            // 
-            // lbl_Bfuel
-            // 
-            this.lbl_Bfuel.AutoSize = true;
-            this.lbl_Bfuel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.lbl_Bfuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Bfuel.ForeColor = System.Drawing.Color.White;
-            this.lbl_Bfuel.Location = new System.Drawing.Point(443, 79);
-            this.lbl_Bfuel.Name = "lbl_Bfuel";
-            this.lbl_Bfuel.Size = new System.Drawing.Size(44, 20);
-            this.lbl_Bfuel.TabIndex = 11;
-            this.lbl_Bfuel.Text = "Fuel";
-            // 
-            // lbl_Bkm
-            // 
-            this.lbl_Bkm.AutoSize = true;
-            this.lbl_Bkm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.lbl_Bkm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Bkm.ForeColor = System.Drawing.Color.White;
-            this.lbl_Bkm.Location = new System.Drawing.Point(542, 79);
-            this.lbl_Bkm.Name = "lbl_Bkm";
-            this.lbl_Bkm.Size = new System.Drawing.Size(34, 20);
-            this.lbl_Bkm.TabIndex = 11;
-            this.lbl_Bkm.Text = "KM";
+            this.txt_price.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_price.DefaultText = "";
+            this.txt_price.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_price.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_price.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_price.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_price.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_price.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_price.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_price.Location = new System.Drawing.Point(48, 404);
+            this.txt_price.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_price.Name = "txt_price";
+            this.txt_price.PasswordChar = '\0';
+            this.txt_price.PlaceholderText = "";
+            this.txt_price.SelectedText = "";
+            this.txt_price.Size = new System.Drawing.Size(201, 23);
+            this.txt_price.TabIndex = 40;
             // 
             // frm_invoice
             // 
@@ -575,6 +568,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1186, 693);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.txt_price);
             this.Controls.Add(this.btn_search);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.label1);
@@ -645,10 +640,9 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lbl_Bkm;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label lbl_Bfuel;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lbl_BvehicleModel;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lbl_BvehicleNumber;
+        private System.Windows.Forms.Label label12;
+        private Guna.UI2.WinForms.Guna2TextBox txt_price;
     }
 }
