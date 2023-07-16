@@ -71,11 +71,6 @@
             this.lbl_job1 = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.btn_remove5 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove4 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove3 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove2 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove1 = new Guna.UI2.WinForms.Guna2Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -87,6 +82,11 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txt_price = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_discount = new System.Windows.Forms.ComboBox();
+            this.btn_remove1 = new System.Windows.Forms.Button();
+            this.btn_remove2 = new System.Windows.Forms.Button();
+            this.btn_remove3 = new System.Windows.Forms.Button();
+            this.btn_remove4 = new System.Windows.Forms.Button();
+            this.btn_remove5 = new System.Windows.Forms.Button();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -363,6 +363,11 @@
             // guna2Panel11
             // 
             this.guna2Panel11.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel11.Controls.Add(this.btn_remove5);
+            this.guna2Panel11.Controls.Add(this.btn_remove4);
+            this.guna2Panel11.Controls.Add(this.btn_remove3);
+            this.guna2Panel11.Controls.Add(this.btn_remove2);
+            this.guna2Panel11.Controls.Add(this.btn_remove1);
             this.guna2Panel11.Controls.Add(this.lbl_fprice5);
             this.guna2Panel11.Controls.Add(this.lbl_discount5);
             this.guna2Panel11.Controls.Add(this.lbl_price5);
@@ -386,11 +391,6 @@
             this.guna2Panel11.Controls.Add(this.lbl_job1);
             this.guna2Panel11.Controls.Add(this.lbl_total);
             this.guna2Panel11.Controls.Add(this.label13);
-            this.guna2Panel11.Controls.Add(this.btn_remove5);
-            this.guna2Panel11.Controls.Add(this.btn_remove4);
-            this.guna2Panel11.Controls.Add(this.btn_remove3);
-            this.guna2Panel11.Controls.Add(this.btn_remove2);
-            this.guna2Panel11.Controls.Add(this.btn_remove1);
             this.guna2Panel11.Controls.Add(this.label3);
             this.guna2Panel11.Controls.Add(this.label6);
             this.guna2Panel11.Controls.Add(this.label5);
@@ -668,91 +668,6 @@
             this.label13.TabIndex = 40;
             this.label13.Text = "Total Price : Rs.";
             // 
-            // btn_remove5
-            // 
-            this.btn_remove5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove5.FillColor = System.Drawing.Color.Red;
-            this.btn_remove5.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_remove5.ForeColor = System.Drawing.Color.White;
-            this.btn_remove5.Location = new System.Drawing.Point(761, 382);
-            this.btn_remove5.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove5.Name = "btn_remove5";
-            this.btn_remove5.Size = new System.Drawing.Size(10, 5);
-            this.btn_remove5.TabIndex = 39;
-            this.btn_remove5.Text = "-";
-            this.btn_remove5.Visible = false;
-            // 
-            // btn_remove4
-            // 
-            this.btn_remove4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove4.FillColor = System.Drawing.Color.Red;
-            this.btn_remove4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove4.ForeColor = System.Drawing.Color.White;
-            this.btn_remove4.Location = new System.Drawing.Point(761, 326);
-            this.btn_remove4.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove4.Name = "btn_remove4";
-            this.btn_remove4.Size = new System.Drawing.Size(10, 5);
-            this.btn_remove4.TabIndex = 39;
-            this.btn_remove4.Text = "-";
-            this.btn_remove4.Visible = false;
-            // 
-            // btn_remove3
-            // 
-            this.btn_remove3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove3.FillColor = System.Drawing.Color.Red;
-            this.btn_remove3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove3.ForeColor = System.Drawing.Color.White;
-            this.btn_remove3.Location = new System.Drawing.Point(761, 269);
-            this.btn_remove3.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove3.Name = "btn_remove3";
-            this.btn_remove3.Size = new System.Drawing.Size(10, 5);
-            this.btn_remove3.TabIndex = 39;
-            this.btn_remove3.Text = "-";
-            this.btn_remove3.Visible = false;
-            // 
-            // btn_remove2
-            // 
-            this.btn_remove2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove2.FillColor = System.Drawing.Color.Red;
-            this.btn_remove2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove2.ForeColor = System.Drawing.Color.Turquoise;
-            this.btn_remove2.Location = new System.Drawing.Point(761, 216);
-            this.btn_remove2.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove2.Name = "btn_remove2";
-            this.btn_remove2.Size = new System.Drawing.Size(10, 5);
-            this.btn_remove2.TabIndex = 39;
-            this.btn_remove2.Text = "-";
-            this.btn_remove2.Visible = false;
-            // 
-            // btn_remove1
-            // 
-            this.btn_remove1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove1.FillColor = System.Drawing.Color.Red;
-            this.btn_remove1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove1.ForeColor = System.Drawing.Color.White;
-            this.btn_remove1.Location = new System.Drawing.Point(761, 168);
-            this.btn_remove1.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove1.Name = "btn_remove1";
-            this.btn_remove1.Size = new System.Drawing.Size(10, 5);
-            this.btn_remove1.TabIndex = 39;
-            this.btn_remove1.Text = "-";
-            this.btn_remove1.Visible = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -903,6 +818,61 @@
             this.txt_discount.SelectedIndexChanged += new System.EventHandler(this.txt_discount_SelectedIndexChanged);
             this.txt_discount.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_discount_MouseClick);
             // 
+            // btn_remove1
+            // 
+            this.btn_remove1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_remove1.Location = new System.Drawing.Point(754, 145);
+            this.btn_remove1.Name = "btn_remove1";
+            this.btn_remove1.Size = new System.Drawing.Size(46, 41);
+            this.btn_remove1.TabIndex = 43;
+            this.btn_remove1.Text = "-";
+            this.btn_remove1.UseVisualStyleBackColor = true;
+            this.btn_remove1.Visible = false;
+            // 
+            // btn_remove2
+            // 
+            this.btn_remove2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_remove2.Location = new System.Drawing.Point(754, 201);
+            this.btn_remove2.Name = "btn_remove2";
+            this.btn_remove2.Size = new System.Drawing.Size(46, 41);
+            this.btn_remove2.TabIndex = 43;
+            this.btn_remove2.Text = "-";
+            this.btn_remove2.UseVisualStyleBackColor = true;
+            this.btn_remove2.Visible = false;
+            // 
+            // btn_remove3
+            // 
+            this.btn_remove3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_remove3.Location = new System.Drawing.Point(754, 255);
+            this.btn_remove3.Name = "btn_remove3";
+            this.btn_remove3.Size = new System.Drawing.Size(46, 41);
+            this.btn_remove3.TabIndex = 43;
+            this.btn_remove3.Text = "-";
+            this.btn_remove3.UseVisualStyleBackColor = true;
+            this.btn_remove3.Visible = false;
+            // 
+            // btn_remove4
+            // 
+            this.btn_remove4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_remove4.Location = new System.Drawing.Point(754, 310);
+            this.btn_remove4.Name = "btn_remove4";
+            this.btn_remove4.Size = new System.Drawing.Size(46, 41);
+            this.btn_remove4.TabIndex = 43;
+            this.btn_remove4.Text = "-";
+            this.btn_remove4.UseVisualStyleBackColor = true;
+            this.btn_remove4.Visible = false;
+            // 
+            // btn_remove5
+            // 
+            this.btn_remove5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_remove5.Location = new System.Drawing.Point(754, 366);
+            this.btn_remove5.Name = "btn_remove5";
+            this.btn_remove5.Size = new System.Drawing.Size(46, 41);
+            this.btn_remove5.TabIndex = 43;
+            this.btn_remove5.Text = "-";
+            this.btn_remove5.UseVisualStyleBackColor = true;
+            this.btn_remove5.Visible = false;
+            // 
             // frm_invoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -977,11 +947,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2TextBox txt_price;
-        private Guna.UI2.WinForms.Guna2Button btn_remove5;
-        private Guna.UI2.WinForms.Guna2Button btn_remove4;
-        private Guna.UI2.WinForms.Guna2Button btn_remove3;
-        private Guna.UI2.WinForms.Guna2Button btn_remove2;
-        private Guna.UI2.WinForms.Guna2Button btn_remove1;
         private System.Windows.Forms.Label lbl_discount5;
         private System.Windows.Forms.Label lbl_price5;
         private System.Windows.Forms.Label lbl_job5;
@@ -1006,5 +971,10 @@
         private System.Windows.Forms.Label lbl_fprice1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox txt_discount;
+        private System.Windows.Forms.Button btn_remove5;
+        private System.Windows.Forms.Button btn_remove4;
+        private System.Windows.Forms.Button btn_remove3;
+        private System.Windows.Forms.Button btn_remove2;
+        private System.Windows.Forms.Button btn_remove1;
     }
 }
