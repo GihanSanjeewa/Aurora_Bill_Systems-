@@ -302,7 +302,7 @@
             this.drp_job.Name = "drp_job";
             this.drp_job.Size = new System.Drawing.Size(263, 28);
             this.drp_job.TabIndex = 23;
-            this.drp_job.DropDown += new System.EventHandler(this.drp_job_DropDown);
+            this.drp_job.SelectedIndexChanged += new System.EventHandler(this.drp_job_SelectedIndexChanged);
             this.drp_job.Validating += new System.ComponentModel.CancelEventHandler(this.drp_job_Validating);
             // 
             // btn_process
@@ -900,7 +900,8 @@
             this.txt_discount.Name = "txt_discount";
             this.txt_discount.Size = new System.Drawing.Size(263, 28);
             this.txt_discount.TabIndex = 42;
-            this.txt_discount.DropDown += new System.EventHandler(this.txt_discount_DropDown);
+            this.txt_discount.SelectedIndexChanged += new System.EventHandler(this.txt_discount_SelectedIndexChanged);
+            this.txt_discount.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_discount_MouseClick);
             // 
             // frm_invoice
             // 

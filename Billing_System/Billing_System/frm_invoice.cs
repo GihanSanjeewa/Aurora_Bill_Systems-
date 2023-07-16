@@ -152,22 +152,7 @@ namespace Billing_System
 
         private void drp_job_DropDown(object sender, EventArgs e)
         {
-            if(drp_job.Text != null)
-            {
-                connection_class.open_connection();
-                MySqlCommand cmd1 = new MySqlCommand("SELECT `jobPrice` FROM `job` WHERE `jobName` =@jobName", connection_class.con);
-                cmd1.Parameters.AddWithValue("jobName", drp_job.Text);
-
-                MySqlDataReader reader1;
-                reader1 = cmd1.ExecuteReader();
-
-                if (reader1.Read())
-                {
-                    txt_price.Text = reader1["jobPrice"].ToString();
-                }
-                
-                connection_class.close_connection();
-            }
+            
         }
 
 
@@ -292,9 +277,39 @@ namespace Billing_System
         {
             
 
-                int new_Price = Convert.ToInt32(txt_price.Text) - Convert.ToInt32(txt_discount.SelectedItem);
-                lbl_price.Text = new_Price.ToString();
+                
             
+        }
+
+        private void txt_discount_MouseClick(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void txt_discount_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int new_Price = Convert.ToInt32(txt_price.Text) - Convert.ToInt32(txt_discount.SelectedItem);
+            lbl_price.Text = new_Price.ToString();
+        }
+
+        private void drp_job_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (drp_job.Text != null)
+            {
+                connection_class.open_connection();
+                MySqlCommand cmd1 = new MySqlCommand("SELECT `jobPrice` FROM `job` WHERE `jobName` =@jobName", connection_class.con);
+                cmd1.Parameters.AddWithValue("jobName", drp_job.Text);
+
+                MySqlDataReader reader1;
+                reader1 = cmd1.ExecuteReader();
+
+                if (reader1.Read())
+                {
+                    txt_price.Text = reader1["jobPrice"].ToString();
+                }
+
+                connection_class.close_connection();
+            }
         }
     }
 }
