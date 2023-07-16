@@ -26,24 +26,24 @@ namespace Billing_System
             lbl_fuelType.Text = frm_motoCar.setfuelType;
             lbl_address.Text = frm_motoCar.setaddress;
             lbl_regNo.Text = frm_motoCar.setregNo;
-            lbl_odoMeter.Text = frm_motoCar.setodoMeter;
+            lbl_OdoMeter.Text = frm_motoCar.setodoMeter;
             lbl_phoneNumber.Text = frm_motoCar.setphoneNumber;
             lbl_chassisNo.Text = frm_motoCar.setchassisNo;
             lbl_cName.Text = frm_motoCar.setcName;
             lbl_complaints1.Text = frm_motoCar.setcomplaints1;
-            lbl_complaints2.Text = frm_motoCar.setcomplaints2;
+            lbl_complaintsc2.Text = frm_motoCar.setcomplaints2;
             lbl_complaints3.Text = frm_motoCar.setcomplaints3;
             lbl_complaints4.Text = frm_motoCar.setcomplaints4;
             lbl_decision1.Text = frm_motoCar.setdecision1;
             lbl_decision2.Text = frm_motoCar.setdecision2;
             lbl_decision3.Text = frm_motoCar.setdecision3;
             lbl_decision4.Text = frm_motoCar.setdecision4;
-            lbl_remark1.Text = frm_motoCar.setremark1;
+            lbl_remarks.Text = frm_motoCar.setremark1;
             lbl_estimatedCost.Text = frm_motoCar.setestimatedCost;
-            lbl_pDate.Text = frm_motoCar.setpDate;
-            lbl_dtime.Text = frm_motoCar.setdtime;
-            lbl_cInform.Text = frm_motoCar.setcInform;
-            lbl_nDate.Text = DateTime.Now.ToShortDateString();
+            lblPdatec.Text = frm_motoCar.setpDate;
+            lbl_dtimec.Text = frm_motoCar.setdtime;
+            lbl_CInform.Text = frm_motoCar.setcInform;
+            lbl_nDatec.Text = DateTime.Now.ToShortDateString();
             //nothing
         }
     }

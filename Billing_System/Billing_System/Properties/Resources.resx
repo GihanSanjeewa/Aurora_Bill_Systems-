@@ -127,14 +127,17 @@
   <data name="spare-parts" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spare-parts1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jerrycan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jerrycan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="engine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\engine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jerrycan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jerrycan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="oil-spill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oil-spill1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="damper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\damper1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +157,8 @@
   <data name="engine-oil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\engine-oil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="oil-spill" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\oil-spill1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brake1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pc-tower" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pc-tower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -174,6 +177,9 @@
   </data>
   <data name="hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,9 +202,6 @@
   <data name="oil-barrel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oil-barrel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="brake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brake1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="job" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,7 +217,7 @@
   <data name="4qbm5J" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4qbm5J.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jobcard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jobcard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
