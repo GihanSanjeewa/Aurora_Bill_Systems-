@@ -4,6 +4,10 @@
     "\\Billing_System",
     "\\Billing_System\\Billing_System"
   ],
-  "SelectedNode": "\\Billing_System\\Billing_System\\frm_invoice.cs",
+<<<<<<< Updated upstream
+  "SelectedNode": "\\Billing_System\\Billing_System\\frm_motoBicycle.cs",
+=======
+  "SelectedNode": "\\Billing_System\\Billing_System\\motocarJobCard.cs",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }

@@ -48,7 +48,7 @@ namespace Billing_System
             lbl_fuelType.Text = frm_motoBicycle.setfuelType;
             lbl_address.Text = frm_motoBicycle.setaddress;
             lbl_regNo.Text = frm_motoBicycle.setregNo;
-            lbl_odoMeter.Text = frm_motoBicycle.setodoMeter;
+            lbl_odoMeterb.Text = frm_motoBicycle.setodoMeter;
             lbl_phoneNumber.Text = frm_motoBicycle.setphoneNumber;
             lbl_chassisNo.Text = frm_motoBicycle.setchassisNo;
             lbl_cName.Text = frm_motoBicycle.setcName;
@@ -61,11 +61,11 @@ namespace Billing_System
             lbl_decision3.Text = '*'+frm_motoBicycle.setdecision3;
             lbl_decision4.Text = '*'+frm_motoBicycle.setdecision4;
             lbl_remarks.Text = frm_motoBicycle.setremark1;
-            lbl_estimatedCost.Text = frm_motoBicycle.setestimatedCost;
-            lbl_pDate.Text = frm_motoBicycle.setpDate;
-            lbl_dtime.Text = frm_motoBicycle.setdtime;
-            lbl_cInform.Text = frm_motoBicycle.setcInform;
-            lbl_nDate.Text = DateTime.Now.ToShortDateString();
+            lbl_estimatedCostb.Text = frm_motoBicycle.setestimatedCost;
+            lbl_pDateb.Text = frm_motoBicycle.setpDate;
+            lbl_dtimeb.Text = frm_motoBicycle.settime;
+            lbl_cInformb.Text = frm_motoBicycle.setcInform;
+            lbl_nDateb.Text = DateTime.Now.ToShortDateString();
         }
 
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
