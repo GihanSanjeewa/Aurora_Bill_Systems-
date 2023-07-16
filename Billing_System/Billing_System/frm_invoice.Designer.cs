@@ -32,7 +32,6 @@
             this.txt_vehicleNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_vehicleModle = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_km = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_discount = new Guna.UI2.WinForms.Guna2TextBox();
             this.lbl_vehicle_number = new System.Windows.Forms.Label();
             this.lbl_vehicle_model = new System.Windows.Forms.Label();
             this.lbl_fuel = new System.Windows.Forms.Label();
@@ -50,6 +49,34 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_invoice_page = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lbl_fprice5 = new System.Windows.Forms.Label();
+            this.lbl_discount5 = new System.Windows.Forms.Label();
+            this.lbl_price5 = new System.Windows.Forms.Label();
+            this.lbl_job5 = new System.Windows.Forms.Label();
+            this.lbl_fprice4 = new System.Windows.Forms.Label();
+            this.lbl_discount4 = new System.Windows.Forms.Label();
+            this.lbl_price4 = new System.Windows.Forms.Label();
+            this.lbl_job4 = new System.Windows.Forms.Label();
+            this.lbl_fprice3 = new System.Windows.Forms.Label();
+            this.lbl_discount3 = new System.Windows.Forms.Label();
+            this.lbl_price3 = new System.Windows.Forms.Label();
+            this.lbl_job3 = new System.Windows.Forms.Label();
+            this.lbl_fprice2 = new System.Windows.Forms.Label();
+            this.lbl_discount2 = new System.Windows.Forms.Label();
+            this.lbl_price2 = new System.Windows.Forms.Label();
+            this.lbl_job2 = new System.Windows.Forms.Label();
+            this.lbl_fprice1 = new System.Windows.Forms.Label();
+            this.lbl_discount1 = new System.Windows.Forms.Label();
+            this.lbl_price1 = new System.Windows.Forms.Label();
+            this.lbl_job1 = new System.Windows.Forms.Label();
+            this.lbl_total = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btn_remove5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_remove4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_remove3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_remove2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_remove1 = new Guna.UI2.WinForms.Guna2Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -59,34 +86,7 @@
             this.btn_search = new Guna.UI2.WinForms.Guna2Button();
             this.label12 = new System.Windows.Forms.Label();
             this.txt_price = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btn_remove1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove2 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove3 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove4 = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_remove5 = new Guna.UI2.WinForms.Guna2Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.lbl_total = new System.Windows.Forms.Label();
-            this.lbl_job1 = new System.Windows.Forms.Label();
-            this.lbl_job2 = new System.Windows.Forms.Label();
-            this.lbl_job3 = new System.Windows.Forms.Label();
-            this.lbl_job4 = new System.Windows.Forms.Label();
-            this.lbl_job5 = new System.Windows.Forms.Label();
-            this.lbl_price1 = new System.Windows.Forms.Label();
-            this.lbl_price2 = new System.Windows.Forms.Label();
-            this.lbl_price3 = new System.Windows.Forms.Label();
-            this.lbl_price4 = new System.Windows.Forms.Label();
-            this.lbl_price5 = new System.Windows.Forms.Label();
-            this.lbl_discount1 = new System.Windows.Forms.Label();
-            this.lbl_discount2 = new System.Windows.Forms.Label();
-            this.lbl_discount3 = new System.Windows.Forms.Label();
-            this.lbl_discount4 = new System.Windows.Forms.Label();
-            this.lbl_discount5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lbl_fprice1 = new System.Windows.Forms.Label();
-            this.lbl_fprice2 = new System.Windows.Forms.Label();
-            this.lbl_fprice3 = new System.Windows.Forms.Label();
-            this.lbl_fprice4 = new System.Windows.Forms.Label();
-            this.lbl_fprice5 = new System.Windows.Forms.Label();
+            this.txt_discount = new System.Windows.Forms.ComboBox();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -154,27 +154,6 @@
             this.txt_km.Size = new System.Drawing.Size(265, 28);
             this.txt_km.TabIndex = 5;
             this.txt_km.Validating += new System.ComponentModel.CancelEventHandler(this.txt_km_Validating);
-            // 
-            // txt_discount
-            // 
-            this.txt_discount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_discount.DefaultText = "";
-            this.txt_discount.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_discount.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_discount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_discount.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_discount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_discount.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_discount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_discount.Location = new System.Drawing.Point(388, 497);
-            this.txt_discount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_discount.Name = "txt_discount";
-            this.txt_discount.PasswordChar = '\0';
-            this.txt_discount.PlaceholderText = "";
-            this.txt_discount.SelectedText = "";
-            this.txt_discount.Size = new System.Drawing.Size(268, 28);
-            this.txt_discount.TabIndex = 8;
-            this.txt_discount.TextChanged += new System.EventHandler(this.txt_discount_TextChanged);
             // 
             // lbl_vehicle_number
             // 
@@ -293,7 +272,7 @@
             "Petrol 92",
             "Petrol 95"});
             this.drp_fuelType.Location = new System.Drawing.Point(388, 300);
-            this.drp_fuelType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.drp_fuelType.Margin = new System.Windows.Forms.Padding(4);
             this.drp_fuelType.Name = "drp_fuelType";
             this.drp_fuelType.Size = new System.Drawing.Size(264, 28);
             this.drp_fuelType.TabIndex = 21;
@@ -309,7 +288,7 @@
             "Petrol 92",
             "Petrol 95"});
             this.drp_machanicNam.Location = new System.Drawing.Point(-340, 656);
-            this.drp_machanicNam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.drp_machanicNam.Margin = new System.Windows.Forms.Padding(4);
             this.drp_machanicNam.Name = "drp_machanicNam";
             this.drp_machanicNam.Size = new System.Drawing.Size(264, 28);
             this.drp_machanicNam.TabIndex = 22;
@@ -319,7 +298,7 @@
             this.drp_job.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.drp_job.FormattingEnabled = true;
             this.drp_job.Location = new System.Drawing.Point(388, 396);
-            this.drp_job.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.drp_job.Margin = new System.Windows.Forms.Padding(4);
             this.drp_job.Name = "drp_job";
             this.drp_job.Size = new System.Drawing.Size(263, 28);
             this.drp_job.TabIndex = 23;
@@ -336,7 +315,7 @@
             this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_process.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_process.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold);
             this.btn_process.ForeColor = System.Drawing.Color.Black;
             this.btn_process.Location = new System.Drawing.Point(319, 604);
             this.btn_process.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -423,6 +402,370 @@
             this.guna2Panel11.Size = new System.Drawing.Size(905, 780);
             this.guna2Panel11.TabIndex = 36;
             // 
+            // lbl_fprice5
+            // 
+            this.lbl_fprice5.AutoSize = true;
+            this.lbl_fprice5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fprice5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fprice5.ForeColor = System.Drawing.Color.White;
+            this.lbl_fprice5.Location = new System.Drawing.Point(613, 373);
+            this.lbl_fprice5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fprice5.Name = "lbl_fprice5";
+            this.lbl_fprice5.Size = new System.Drawing.Size(0, 25);
+            this.lbl_fprice5.TabIndex = 42;
+            // 
+            // lbl_discount5
+            // 
+            this.lbl_discount5.AutoSize = true;
+            this.lbl_discount5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_discount5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_discount5.ForeColor = System.Drawing.Color.White;
+            this.lbl_discount5.Location = new System.Drawing.Point(452, 373);
+            this.lbl_discount5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_discount5.Name = "lbl_discount5";
+            this.lbl_discount5.Size = new System.Drawing.Size(0, 25);
+            this.lbl_discount5.TabIndex = 42;
+            // 
+            // lbl_price5
+            // 
+            this.lbl_price5.AutoSize = true;
+            this.lbl_price5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_price5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_price5.ForeColor = System.Drawing.Color.White;
+            this.lbl_price5.Location = new System.Drawing.Point(278, 373);
+            this.lbl_price5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_price5.Name = "lbl_price5";
+            this.lbl_price5.Size = new System.Drawing.Size(0, 25);
+            this.lbl_price5.TabIndex = 42;
+            // 
+            // lbl_job5
+            // 
+            this.lbl_job5.AutoSize = true;
+            this.lbl_job5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_job5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job5.ForeColor = System.Drawing.Color.White;
+            this.lbl_job5.Location = new System.Drawing.Point(64, 373);
+            this.lbl_job5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_job5.Name = "lbl_job5";
+            this.lbl_job5.Size = new System.Drawing.Size(0, 25);
+            this.lbl_job5.TabIndex = 42;
+            // 
+            // lbl_fprice4
+            // 
+            this.lbl_fprice4.AutoSize = true;
+            this.lbl_fprice4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fprice4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fprice4.ForeColor = System.Drawing.Color.White;
+            this.lbl_fprice4.Location = new System.Drawing.Point(613, 317);
+            this.lbl_fprice4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fprice4.Name = "lbl_fprice4";
+            this.lbl_fprice4.Size = new System.Drawing.Size(0, 25);
+            this.lbl_fprice4.TabIndex = 42;
+            // 
+            // lbl_discount4
+            // 
+            this.lbl_discount4.AutoSize = true;
+            this.lbl_discount4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_discount4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_discount4.ForeColor = System.Drawing.Color.White;
+            this.lbl_discount4.Location = new System.Drawing.Point(452, 317);
+            this.lbl_discount4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_discount4.Name = "lbl_discount4";
+            this.lbl_discount4.Size = new System.Drawing.Size(0, 25);
+            this.lbl_discount4.TabIndex = 42;
+            // 
+            // lbl_price4
+            // 
+            this.lbl_price4.AutoSize = true;
+            this.lbl_price4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_price4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_price4.ForeColor = System.Drawing.Color.White;
+            this.lbl_price4.Location = new System.Drawing.Point(278, 317);
+            this.lbl_price4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_price4.Name = "lbl_price4";
+            this.lbl_price4.Size = new System.Drawing.Size(0, 25);
+            this.lbl_price4.TabIndex = 42;
+            // 
+            // lbl_job4
+            // 
+            this.lbl_job4.AutoSize = true;
+            this.lbl_job4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_job4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job4.ForeColor = System.Drawing.Color.White;
+            this.lbl_job4.Location = new System.Drawing.Point(64, 317);
+            this.lbl_job4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_job4.Name = "lbl_job4";
+            this.lbl_job4.Size = new System.Drawing.Size(0, 25);
+            this.lbl_job4.TabIndex = 42;
+            // 
+            // lbl_fprice3
+            // 
+            this.lbl_fprice3.AutoSize = true;
+            this.lbl_fprice3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fprice3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fprice3.ForeColor = System.Drawing.Color.White;
+            this.lbl_fprice3.Location = new System.Drawing.Point(613, 260);
+            this.lbl_fprice3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fprice3.Name = "lbl_fprice3";
+            this.lbl_fprice3.Size = new System.Drawing.Size(0, 25);
+            this.lbl_fprice3.TabIndex = 42;
+            // 
+            // lbl_discount3
+            // 
+            this.lbl_discount3.AutoSize = true;
+            this.lbl_discount3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_discount3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_discount3.ForeColor = System.Drawing.Color.White;
+            this.lbl_discount3.Location = new System.Drawing.Point(452, 260);
+            this.lbl_discount3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_discount3.Name = "lbl_discount3";
+            this.lbl_discount3.Size = new System.Drawing.Size(0, 25);
+            this.lbl_discount3.TabIndex = 42;
+            // 
+            // lbl_price3
+            // 
+            this.lbl_price3.AutoSize = true;
+            this.lbl_price3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_price3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_price3.ForeColor = System.Drawing.Color.White;
+            this.lbl_price3.Location = new System.Drawing.Point(278, 260);
+            this.lbl_price3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_price3.Name = "lbl_price3";
+            this.lbl_price3.Size = new System.Drawing.Size(0, 25);
+            this.lbl_price3.TabIndex = 42;
+            // 
+            // lbl_job3
+            // 
+            this.lbl_job3.AutoSize = true;
+            this.lbl_job3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_job3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job3.ForeColor = System.Drawing.Color.White;
+            this.lbl_job3.Location = new System.Drawing.Point(64, 260);
+            this.lbl_job3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_job3.Name = "lbl_job3";
+            this.lbl_job3.Size = new System.Drawing.Size(0, 25);
+            this.lbl_job3.TabIndex = 42;
+            // 
+            // lbl_fprice2
+            // 
+            this.lbl_fprice2.AutoSize = true;
+            this.lbl_fprice2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fprice2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fprice2.ForeColor = System.Drawing.Color.White;
+            this.lbl_fprice2.Location = new System.Drawing.Point(613, 200);
+            this.lbl_fprice2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fprice2.Name = "lbl_fprice2";
+            this.lbl_fprice2.Size = new System.Drawing.Size(0, 25);
+            this.lbl_fprice2.TabIndex = 42;
+            // 
+            // lbl_discount2
+            // 
+            this.lbl_discount2.AutoSize = true;
+            this.lbl_discount2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_discount2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_discount2.ForeColor = System.Drawing.Color.White;
+            this.lbl_discount2.Location = new System.Drawing.Point(452, 200);
+            this.lbl_discount2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_discount2.Name = "lbl_discount2";
+            this.lbl_discount2.Size = new System.Drawing.Size(0, 25);
+            this.lbl_discount2.TabIndex = 42;
+            // 
+            // lbl_price2
+            // 
+            this.lbl_price2.AutoSize = true;
+            this.lbl_price2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_price2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_price2.ForeColor = System.Drawing.Color.White;
+            this.lbl_price2.Location = new System.Drawing.Point(278, 200);
+            this.lbl_price2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_price2.Name = "lbl_price2";
+            this.lbl_price2.Size = new System.Drawing.Size(0, 25);
+            this.lbl_price2.TabIndex = 42;
+            // 
+            // lbl_job2
+            // 
+            this.lbl_job2.AutoSize = true;
+            this.lbl_job2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_job2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job2.ForeColor = System.Drawing.Color.White;
+            this.lbl_job2.Location = new System.Drawing.Point(64, 200);
+            this.lbl_job2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_job2.Name = "lbl_job2";
+            this.lbl_job2.Size = new System.Drawing.Size(0, 25);
+            this.lbl_job2.TabIndex = 42;
+            // 
+            // lbl_fprice1
+            // 
+            this.lbl_fprice1.AutoSize = true;
+            this.lbl_fprice1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fprice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fprice1.ForeColor = System.Drawing.Color.White;
+            this.lbl_fprice1.Location = new System.Drawing.Point(613, 152);
+            this.lbl_fprice1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fprice1.Name = "lbl_fprice1";
+            this.lbl_fprice1.Size = new System.Drawing.Size(0, 25);
+            this.lbl_fprice1.TabIndex = 42;
+            // 
+            // lbl_discount1
+            // 
+            this.lbl_discount1.AutoSize = true;
+            this.lbl_discount1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_discount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_discount1.ForeColor = System.Drawing.Color.White;
+            this.lbl_discount1.Location = new System.Drawing.Point(452, 152);
+            this.lbl_discount1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_discount1.Name = "lbl_discount1";
+            this.lbl_discount1.Size = new System.Drawing.Size(0, 25);
+            this.lbl_discount1.TabIndex = 42;
+            // 
+            // lbl_price1
+            // 
+            this.lbl_price1.AutoSize = true;
+            this.lbl_price1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_price1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_price1.ForeColor = System.Drawing.Color.White;
+            this.lbl_price1.Location = new System.Drawing.Point(278, 152);
+            this.lbl_price1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_price1.Name = "lbl_price1";
+            this.lbl_price1.Size = new System.Drawing.Size(0, 25);
+            this.lbl_price1.TabIndex = 42;
+            // 
+            // lbl_job1
+            // 
+            this.lbl_job1.AutoSize = true;
+            this.lbl_job1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_job1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job1.ForeColor = System.Drawing.Color.White;
+            this.lbl_job1.Location = new System.Drawing.Point(64, 152);
+            this.lbl_job1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_job1.Name = "lbl_job1";
+            this.lbl_job1.Size = new System.Drawing.Size(0, 25);
+            this.lbl_job1.TabIndex = 42;
+            // 
+            // lbl_total
+            // 
+            this.lbl_total.AutoSize = true;
+            this.lbl_total.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_total.ForeColor = System.Drawing.Color.White;
+            this.lbl_total.Location = new System.Drawing.Point(497, 480);
+            this.lbl_total.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_total.Name = "lbl_total";
+            this.lbl_total.Size = new System.Drawing.Size(54, 25);
+            this.lbl_total.TabIndex = 41;
+            this.lbl_total.Text = "0.00";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(321, 480);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(166, 25);
+            this.label13.TabIndex = 40;
+            this.label13.Text = "Total Price : Rs.";
+            // 
+            // btn_remove5
+            // 
+            this.btn_remove5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_remove5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_remove5.FillColor = System.Drawing.Color.Red;
+            this.btn_remove5.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_remove5.ForeColor = System.Drawing.Color.White;
+            this.btn_remove5.Location = new System.Drawing.Point(761, 382);
+            this.btn_remove5.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_remove5.Name = "btn_remove5";
+            this.btn_remove5.Size = new System.Drawing.Size(10, 5);
+            this.btn_remove5.TabIndex = 39;
+            this.btn_remove5.Text = "-";
+            this.btn_remove5.Visible = false;
+            // 
+            // btn_remove4
+            // 
+            this.btn_remove4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_remove4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_remove4.FillColor = System.Drawing.Color.Red;
+            this.btn_remove4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_remove4.ForeColor = System.Drawing.Color.White;
+            this.btn_remove4.Location = new System.Drawing.Point(761, 326);
+            this.btn_remove4.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_remove4.Name = "btn_remove4";
+            this.btn_remove4.Size = new System.Drawing.Size(10, 5);
+            this.btn_remove4.TabIndex = 39;
+            this.btn_remove4.Text = "-";
+            this.btn_remove4.Visible = false;
+            // 
+            // btn_remove3
+            // 
+            this.btn_remove3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_remove3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_remove3.FillColor = System.Drawing.Color.Red;
+            this.btn_remove3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_remove3.ForeColor = System.Drawing.Color.White;
+            this.btn_remove3.Location = new System.Drawing.Point(761, 269);
+            this.btn_remove3.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_remove3.Name = "btn_remove3";
+            this.btn_remove3.Size = new System.Drawing.Size(10, 5);
+            this.btn_remove3.TabIndex = 39;
+            this.btn_remove3.Text = "-";
+            this.btn_remove3.Visible = false;
+            // 
+            // btn_remove2
+            // 
+            this.btn_remove2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_remove2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_remove2.FillColor = System.Drawing.Color.Red;
+            this.btn_remove2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_remove2.ForeColor = System.Drawing.Color.Turquoise;
+            this.btn_remove2.Location = new System.Drawing.Point(761, 216);
+            this.btn_remove2.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_remove2.Name = "btn_remove2";
+            this.btn_remove2.Size = new System.Drawing.Size(10, 5);
+            this.btn_remove2.TabIndex = 39;
+            this.btn_remove2.Text = "-";
+            this.btn_remove2.Visible = false;
+            // 
+            // btn_remove1
+            // 
+            this.btn_remove1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_remove1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_remove1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_remove1.FillColor = System.Drawing.Color.Red;
+            this.btn_remove1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_remove1.ForeColor = System.Drawing.Color.White;
+            this.btn_remove1.Location = new System.Drawing.Point(761, 168);
+            this.btn_remove1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_remove1.Name = "btn_remove1";
+            this.btn_remove1.Size = new System.Drawing.Size(10, 5);
+            this.btn_remove1.TabIndex = 39;
+            this.btn_remove1.Text = "-";
+            this.btn_remove1.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(577, 82);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(126, 25);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Finale Price";
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -487,7 +830,7 @@
             this.btn_add.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_add.ForeColor = System.Drawing.Color.White;
             this.btn_add.Location = new System.Drawing.Point(411, 609);
-            this.btn_add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_add.Margin = new System.Windows.Forms.Padding(4);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(91, 36);
             this.btn_add.TabIndex = 38;
@@ -503,7 +846,7 @@
             this.btn_search.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_search.ForeColor = System.Drawing.Color.White;
             this.btn_search.Location = new System.Drawing.Point(388, 146);
-            this.btn_search.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(91, 36);
             this.btn_search.TabIndex = 39;
@@ -542,384 +885,22 @@
             this.txt_price.Size = new System.Drawing.Size(268, 28);
             this.txt_price.TabIndex = 40;
             // 
-            // btn_remove1
+            // txt_discount
             // 
-            this.btn_remove1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove1.FillColor = System.Drawing.Color.Red;
-            this.btn_remove1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove1.ForeColor = System.Drawing.Color.White;
-            this.btn_remove1.Location = new System.Drawing.Point(753, 168);
-            this.btn_remove1.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove1.Name = "btn_remove1";
-            this.btn_remove1.Size = new System.Drawing.Size(18, 5);
-            this.btn_remove1.TabIndex = 39;
-            this.btn_remove1.Text = "-";
-            this.btn_remove1.Visible = false;
-            // 
-            // btn_remove2
-            // 
-            this.btn_remove2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove2.FillColor = System.Drawing.Color.Red;
-            this.btn_remove2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove2.ForeColor = System.Drawing.Color.Turquoise;
-            this.btn_remove2.Location = new System.Drawing.Point(753, 212);
-            this.btn_remove2.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove2.Name = "btn_remove2";
-            this.btn_remove2.Size = new System.Drawing.Size(18, 5);
-            this.btn_remove2.TabIndex = 39;
-            this.btn_remove2.Text = "-";
-            this.btn_remove2.Visible = false;
-            // 
-            // btn_remove3
-            // 
-            this.btn_remove3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove3.FillColor = System.Drawing.Color.Red;
-            this.btn_remove3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove3.ForeColor = System.Drawing.Color.White;
-            this.btn_remove3.Location = new System.Drawing.Point(753, 273);
-            this.btn_remove3.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove3.Name = "btn_remove3";
-            this.btn_remove3.Size = new System.Drawing.Size(18, 5);
-            this.btn_remove3.TabIndex = 39;
-            this.btn_remove3.Text = "-";
-            this.btn_remove3.Visible = false;
-            // 
-            // btn_remove4
-            // 
-            this.btn_remove4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove4.FillColor = System.Drawing.Color.Red;
-            this.btn_remove4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_remove4.ForeColor = System.Drawing.Color.White;
-            this.btn_remove4.Location = new System.Drawing.Point(753, 328);
-            this.btn_remove4.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove4.Name = "btn_remove4";
-            this.btn_remove4.Size = new System.Drawing.Size(18, 5);
-            this.btn_remove4.TabIndex = 39;
-            this.btn_remove4.Text = "-";
-            this.btn_remove4.Visible = false;
-            // 
-            // btn_remove5
-            // 
-            this.btn_remove5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_remove5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_remove5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_remove5.FillColor = System.Drawing.Color.Red;
-            this.btn_remove5.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_remove5.ForeColor = System.Drawing.Color.White;
-            this.btn_remove5.Location = new System.Drawing.Point(753, 381);
-            this.btn_remove5.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_remove5.Name = "btn_remove5";
-            this.btn_remove5.Size = new System.Drawing.Size(18, 5);
-            this.btn_remove5.TabIndex = 39;
-            this.btn_remove5.Text = "-";
-            this.btn_remove5.Visible = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(321, 480);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(166, 25);
-            this.label13.TabIndex = 40;
-            this.label13.Text = "Total Price : Rs.";
-            // 
-            // lbl_total
-            // 
-            this.lbl_total.AutoSize = true;
-            this.lbl_total.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.ForeColor = System.Drawing.Color.White;
-            this.lbl_total.Location = new System.Drawing.Point(497, 480);
-            this.lbl_total.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(54, 25);
-            this.lbl_total.TabIndex = 41;
-            this.lbl_total.Text = "0.00";
-            // 
-            // lbl_job1
-            // 
-            this.lbl_job1.AutoSize = true;
-            this.lbl_job1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_job1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_job1.ForeColor = System.Drawing.Color.White;
-            this.lbl_job1.Location = new System.Drawing.Point(78, 152);
-            this.lbl_job1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_job1.Name = "lbl_job1";
-            this.lbl_job1.Size = new System.Drawing.Size(0, 25);
-            this.lbl_job1.TabIndex = 42;
-            // 
-            // lbl_job2
-            // 
-            this.lbl_job2.AutoSize = true;
-            this.lbl_job2.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_job2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_job2.ForeColor = System.Drawing.Color.White;
-            this.lbl_job2.Location = new System.Drawing.Point(78, 196);
-            this.lbl_job2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_job2.Name = "lbl_job2";
-            this.lbl_job2.Size = new System.Drawing.Size(0, 25);
-            this.lbl_job2.TabIndex = 42;
-            // 
-            // lbl_job3
-            // 
-            this.lbl_job3.AutoSize = true;
-            this.lbl_job3.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_job3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_job3.ForeColor = System.Drawing.Color.White;
-            this.lbl_job3.Location = new System.Drawing.Point(78, 260);
-            this.lbl_job3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_job3.Name = "lbl_job3";
-            this.lbl_job3.Size = new System.Drawing.Size(0, 25);
-            this.lbl_job3.TabIndex = 42;
-            // 
-            // lbl_job4
-            // 
-            this.lbl_job4.AutoSize = true;
-            this.lbl_job4.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_job4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_job4.ForeColor = System.Drawing.Color.White;
-            this.lbl_job4.Location = new System.Drawing.Point(78, 315);
-            this.lbl_job4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_job4.Name = "lbl_job4";
-            this.lbl_job4.Size = new System.Drawing.Size(0, 25);
-            this.lbl_job4.TabIndex = 42;
-            // 
-            // lbl_job5
-            // 
-            this.lbl_job5.AutoSize = true;
-            this.lbl_job5.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_job5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_job5.ForeColor = System.Drawing.Color.White;
-            this.lbl_job5.Location = new System.Drawing.Point(78, 368);
-            this.lbl_job5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_job5.Name = "lbl_job5";
-            this.lbl_job5.Size = new System.Drawing.Size(0, 25);
-            this.lbl_job5.TabIndex = 42;
-            // 
-            // lbl_price1
-            // 
-            this.lbl_price1.AutoSize = true;
-            this.lbl_price1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_price1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_price1.ForeColor = System.Drawing.Color.White;
-            this.lbl_price1.Location = new System.Drawing.Point(292, 152);
-            this.lbl_price1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_price1.Name = "lbl_price1";
-            this.lbl_price1.Size = new System.Drawing.Size(20, 25);
-            this.lbl_price1.TabIndex = 42;
-            this.lbl_price1.Text = "-";
-            // 
-            // lbl_price2
-            // 
-            this.lbl_price2.AutoSize = true;
-            this.lbl_price2.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_price2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_price2.ForeColor = System.Drawing.Color.White;
-            this.lbl_price2.Location = new System.Drawing.Point(292, 196);
-            this.lbl_price2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_price2.Name = "lbl_price2";
-            this.lbl_price2.Size = new System.Drawing.Size(20, 25);
-            this.lbl_price2.TabIndex = 42;
-            this.lbl_price2.Text = "-";
-            // 
-            // lbl_price3
-            // 
-            this.lbl_price3.AutoSize = true;
-            this.lbl_price3.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_price3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_price3.ForeColor = System.Drawing.Color.White;
-            this.lbl_price3.Location = new System.Drawing.Point(292, 260);
-            this.lbl_price3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_price3.Name = "lbl_price3";
-            this.lbl_price3.Size = new System.Drawing.Size(20, 25);
-            this.lbl_price3.TabIndex = 42;
-            this.lbl_price3.Text = "-";
-            // 
-            // lbl_price4
-            // 
-            this.lbl_price4.AutoSize = true;
-            this.lbl_price4.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_price4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_price4.ForeColor = System.Drawing.Color.White;
-            this.lbl_price4.Location = new System.Drawing.Point(292, 315);
-            this.lbl_price4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_price4.Name = "lbl_price4";
-            this.lbl_price4.Size = new System.Drawing.Size(20, 25);
-            this.lbl_price4.TabIndex = 42;
-            this.lbl_price4.Text = "-";
-            // 
-            // lbl_price5
-            // 
-            this.lbl_price5.AutoSize = true;
-            this.lbl_price5.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_price5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_price5.ForeColor = System.Drawing.Color.White;
-            this.lbl_price5.Location = new System.Drawing.Point(292, 368);
-            this.lbl_price5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_price5.Name = "lbl_price5";
-            this.lbl_price5.Size = new System.Drawing.Size(20, 25);
-            this.lbl_price5.TabIndex = 42;
-            this.lbl_price5.Text = "-";
-            // 
-            // lbl_discount1
-            // 
-            this.lbl_discount1.AutoSize = true;
-            this.lbl_discount1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_discount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_discount1.ForeColor = System.Drawing.Color.White;
-            this.lbl_discount1.Location = new System.Drawing.Point(466, 152);
-            this.lbl_discount1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_discount1.Name = "lbl_discount1";
-            this.lbl_discount1.Size = new System.Drawing.Size(20, 25);
-            this.lbl_discount1.TabIndex = 42;
-            this.lbl_discount1.Text = "-";
-            // 
-            // lbl_discount2
-            // 
-            this.lbl_discount2.AutoSize = true;
-            this.lbl_discount2.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_discount2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_discount2.ForeColor = System.Drawing.Color.White;
-            this.lbl_discount2.Location = new System.Drawing.Point(466, 196);
-            this.lbl_discount2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_discount2.Name = "lbl_discount2";
-            this.lbl_discount2.Size = new System.Drawing.Size(20, 25);
-            this.lbl_discount2.TabIndex = 42;
-            this.lbl_discount2.Text = "-";
-            // 
-            // lbl_discount3
-            // 
-            this.lbl_discount3.AutoSize = true;
-            this.lbl_discount3.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_discount3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_discount3.ForeColor = System.Drawing.Color.White;
-            this.lbl_discount3.Location = new System.Drawing.Point(466, 260);
-            this.lbl_discount3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_discount3.Name = "lbl_discount3";
-            this.lbl_discount3.Size = new System.Drawing.Size(20, 25);
-            this.lbl_discount3.TabIndex = 42;
-            this.lbl_discount3.Text = "-";
-            // 
-            // lbl_discount4
-            // 
-            this.lbl_discount4.AutoSize = true;
-            this.lbl_discount4.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_discount4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_discount4.ForeColor = System.Drawing.Color.White;
-            this.lbl_discount4.Location = new System.Drawing.Point(466, 315);
-            this.lbl_discount4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_discount4.Name = "lbl_discount4";
-            this.lbl_discount4.Size = new System.Drawing.Size(20, 25);
-            this.lbl_discount4.TabIndex = 42;
-            this.lbl_discount4.Text = "-";
-            // 
-            // lbl_discount5
-            // 
-            this.lbl_discount5.AutoSize = true;
-            this.lbl_discount5.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_discount5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_discount5.ForeColor = System.Drawing.Color.White;
-            this.lbl_discount5.Location = new System.Drawing.Point(466, 368);
-            this.lbl_discount5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_discount5.Name = "lbl_discount5";
-            this.lbl_discount5.Size = new System.Drawing.Size(20, 25);
-            this.lbl_discount5.TabIndex = 42;
-            this.lbl_discount5.Text = "-";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(577, 82);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 25);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Finale Price";
-            // 
-            // lbl_fprice1
-            // 
-            this.lbl_fprice1.AutoSize = true;
-            this.lbl_fprice1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_fprice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fprice1.ForeColor = System.Drawing.Color.White;
-            this.lbl_fprice1.Location = new System.Drawing.Point(627, 152);
-            this.lbl_fprice1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_fprice1.Name = "lbl_fprice1";
-            this.lbl_fprice1.Size = new System.Drawing.Size(20, 25);
-            this.lbl_fprice1.TabIndex = 42;
-            this.lbl_fprice1.Text = "-";
-            // 
-            // lbl_fprice2
-            // 
-            this.lbl_fprice2.AutoSize = true;
-            this.lbl_fprice2.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_fprice2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fprice2.ForeColor = System.Drawing.Color.White;
-            this.lbl_fprice2.Location = new System.Drawing.Point(627, 196);
-            this.lbl_fprice2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_fprice2.Name = "lbl_fprice2";
-            this.lbl_fprice2.Size = new System.Drawing.Size(20, 25);
-            this.lbl_fprice2.TabIndex = 42;
-            this.lbl_fprice2.Text = "-";
-            // 
-            // lbl_fprice3
-            // 
-            this.lbl_fprice3.AutoSize = true;
-            this.lbl_fprice3.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_fprice3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fprice3.ForeColor = System.Drawing.Color.White;
-            this.lbl_fprice3.Location = new System.Drawing.Point(627, 260);
-            this.lbl_fprice3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_fprice3.Name = "lbl_fprice3";
-            this.lbl_fprice3.Size = new System.Drawing.Size(20, 25);
-            this.lbl_fprice3.TabIndex = 42;
-            this.lbl_fprice3.Text = "-";
-            // 
-            // lbl_fprice4
-            // 
-            this.lbl_fprice4.AutoSize = true;
-            this.lbl_fprice4.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_fprice4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fprice4.ForeColor = System.Drawing.Color.White;
-            this.lbl_fprice4.Location = new System.Drawing.Point(627, 315);
-            this.lbl_fprice4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_fprice4.Name = "lbl_fprice4";
-            this.lbl_fprice4.Size = new System.Drawing.Size(20, 25);
-            this.lbl_fprice4.TabIndex = 42;
-            this.lbl_fprice4.Text = "-";
-            // 
-            // lbl_fprice5
-            // 
-            this.lbl_fprice5.AutoSize = true;
-            this.lbl_fprice5.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_fprice5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fprice5.ForeColor = System.Drawing.Color.White;
-            this.lbl_fprice5.Location = new System.Drawing.Point(627, 368);
-            this.lbl_fprice5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_fprice5.Name = "lbl_fprice5";
-            this.lbl_fprice5.Size = new System.Drawing.Size(20, 25);
-            this.lbl_fprice5.TabIndex = 42;
-            this.lbl_fprice5.Text = "-";
+            this.txt_discount.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_discount.FormattingEnabled = true;
+            this.txt_discount.Items.AddRange(new object[] {
+            "100",
+            "500",
+            "1000",
+            "1500",
+            "2000"});
+            this.txt_discount.Location = new System.Drawing.Point(388, 497);
+            this.txt_discount.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_discount.Name = "txt_discount";
+            this.txt_discount.Size = new System.Drawing.Size(263, 28);
+            this.txt_discount.TabIndex = 42;
+            this.txt_discount.DropDown += new System.EventHandler(this.txt_discount_DropDown);
             // 
             // frm_invoice
             // 
@@ -927,6 +908,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1581, 853);
+            this.Controls.Add(this.txt_discount);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txt_price);
             this.Controls.Add(this.btn_search);
@@ -945,11 +927,10 @@
             this.Controls.Add(this.lbl_fuel);
             this.Controls.Add(this.lbl_vehicle_model);
             this.Controls.Add(this.lbl_vehicle_number);
-            this.Controls.Add(this.txt_discount);
             this.Controls.Add(this.txt_km);
             this.Controls.Add(this.txt_vehicleModle);
             this.Controls.Add(this.txt_vehicleNumber);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_invoice";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_invoice";
@@ -969,7 +950,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txt_vehicleNumber;
         private Guna.UI2.WinForms.Guna2TextBox txt_vehicleModle;
         private Guna.UI2.WinForms.Guna2TextBox txt_km;
-        private Guna.UI2.WinForms.Guna2TextBox txt_discount;
         private System.Windows.Forms.Label lbl_vehicle_number;
         private System.Windows.Forms.Label lbl_vehicle_model;
         private System.Windows.Forms.Label lbl_fuel;
@@ -1024,5 +1004,6 @@
         private System.Windows.Forms.Label lbl_fprice2;
         private System.Windows.Forms.Label lbl_fprice1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox txt_discount;
     }
 }

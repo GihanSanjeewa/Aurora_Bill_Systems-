@@ -165,21 +165,11 @@ namespace Billing_System
                 {
                     txt_price.Text = reader1["jobPrice"].ToString();
                 }
-                else
-                {
-                    MessageBox.Show("No data found");
-                }
+                
                 connection_class.close_connection();
             }
         }
 
-
-
-        private void txt_discount_TextChanged(object sender, EventArgs e)
-        {
-            int new_Price = Convert.ToInt32(txt_price.Text)-Convert.ToInt32(txt_discount.Text);
-            lbl_price.Text = new_Price.ToString();
-        }
 
         private void btn_process_Click(object sender, EventArgs e)
         {
@@ -198,7 +188,7 @@ namespace Billing_System
 
             int total = (Convert.ToInt32(lbl_fprice1.Text));
             lbl_total.Text = total.ToString();
-            //txt_discount.Text = "";
+            txt_discount.Text = "0";
             //txt_price.Text = "";
             //drp_job.Text = "";
             //lbl_price.Text = "0.00";
@@ -277,34 +267,34 @@ namespace Billing_System
                 {
                     process2();
                     btn_remove2.Visible = true;
-
-
-
                 }
 
                 else if (lbl_job3.Text == "")
                 {
                     process3();
                     btn_remove3.Visible = true;
-
-
-
                 }
 
                 else if (lbl_job4.Text == "")
                 {
                     process4();
                     btn_remove4.Visible = true;
-
                 }
                 else
                 {
                     process5();
                     btn_remove5.Visible = true;
-
-
                 }
             }
+        }
+
+        private void txt_discount_DropDown(object sender, EventArgs e)
+        {
+            
+
+                int new_Price = Convert.ToInt32(txt_price.Text) - Convert.ToInt32(txt_discount.SelectedItem);
+                lbl_price.Text = new_Price.ToString();
+            
         }
     }
 }
