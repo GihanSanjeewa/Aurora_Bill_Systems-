@@ -39,6 +39,11 @@ namespace Billing_System
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbl_dtimeb = new System.Windows.Forms.Label();
+            this.lbl_nDateb = new System.Windows.Forms.Label();
+            this.lbl_odoMeterb = new System.Windows.Forms.Label();
+            this.lbl_pDateb = new System.Windows.Forms.Label();
+            this.lbl_estimatedCostb = new System.Windows.Forms.Label();
             this.lbl_cName = new System.Windows.Forms.Label();
             this.lbl_odoMeter = new System.Windows.Forms.Label();
             this.lbl_fuelType = new System.Windows.Forms.Label();
@@ -60,11 +65,6 @@ namespace Billing_System
             this.lbl_regNo = new System.Windows.Forms.Label();
             this.lbl_vehicleModel = new System.Windows.Forms.Label();
             this.lbl_customerName = new System.Windows.Forms.Label();
-            this.lbl_estimatedCostb = new System.Windows.Forms.Label();
-            this.lbl_pDateb = new System.Windows.Forms.Label();
-            this.lbl_odoMeterb = new System.Windows.Forms.Label();
-            this.lbl_nDateb = new System.Windows.Forms.Label();
-            this.lbl_dtimeb = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,7 +136,7 @@ namespace Billing_System
             this.btn_print.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_print.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_print.ForeColor = System.Drawing.Color.White;
-            this.btn_print.Location = new System.Drawing.Point(12, 10);
+            this.btn_print.Location = new System.Drawing.Point(94, 10);
             this.btn_print.Name = "btn_print";
             this.btn_print.Size = new System.Drawing.Size(595, 32);
             this.btn_print.TabIndex = 5;
@@ -187,11 +187,61 @@ namespace Billing_System
             this.panel1.Controls.Add(this.lbl_regNo);
             this.panel1.Controls.Add(this.lbl_vehicleModel);
             this.panel1.Controls.Add(this.lbl_customerName);
-            this.panel1.Location = new System.Drawing.Point(2, 48);
+            this.panel1.Location = new System.Drawing.Point(-2, 48);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(616, 604);
+            this.panel1.Size = new System.Drawing.Size(787, 739);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // lbl_dtimeb
+            // 
+            this.lbl_dtimeb.AutoSize = true;
+            this.lbl_dtimeb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_dtimeb.Location = new System.Drawing.Point(287, 492);
+            this.lbl_dtimeb.Name = "lbl_dtimeb";
+            this.lbl_dtimeb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_dtimeb.TabIndex = 9;
+            this.lbl_dtimeb.Text = "-";
+            // 
+            // lbl_nDateb
+            // 
+            this.lbl_nDateb.AutoSize = true;
+            this.lbl_nDateb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_nDateb.Location = new System.Drawing.Point(223, 493);
+            this.lbl_nDateb.Name = "lbl_nDateb";
+            this.lbl_nDateb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_nDateb.TabIndex = 8;
+            this.lbl_nDateb.Text = "-";
+            // 
+            // lbl_odoMeterb
+            // 
+            this.lbl_odoMeterb.AutoSize = true;
+            this.lbl_odoMeterb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_odoMeterb.Location = new System.Drawing.Point(347, 493);
+            this.lbl_odoMeterb.Name = "lbl_odoMeterb";
+            this.lbl_odoMeterb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_odoMeterb.TabIndex = 7;
+            this.lbl_odoMeterb.Text = "-";
+            // 
+            // lbl_pDateb
+            // 
+            this.lbl_pDateb.AutoSize = true;
+            this.lbl_pDateb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_pDateb.Location = new System.Drawing.Point(131, 493);
+            this.lbl_pDateb.Name = "lbl_pDateb";
+            this.lbl_pDateb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_pDateb.TabIndex = 4;
+            this.lbl_pDateb.Text = "-";
+            // 
+            // lbl_estimatedCostb
+            // 
+            this.lbl_estimatedCostb.AutoSize = true;
+            this.lbl_estimatedCostb.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_estimatedCostb.Location = new System.Drawing.Point(53, 494);
+            this.lbl_estimatedCostb.Name = "lbl_estimatedCostb";
+            this.lbl_estimatedCostb.Size = new System.Drawing.Size(10, 13);
+            this.lbl_estimatedCostb.TabIndex = 3;
+            this.lbl_estimatedCostb.Text = "-";
             // 
             // lbl_cName
             // 
@@ -424,62 +474,12 @@ namespace Billing_System
             this.lbl_customerName.TabIndex = 0;
             this.lbl_customerName.Text = "-";
             // 
-            // lbl_estimatedCostb
-            // 
-            this.lbl_estimatedCostb.AutoSize = true;
-            this.lbl_estimatedCostb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_estimatedCostb.Location = new System.Drawing.Point(53, 494);
-            this.lbl_estimatedCostb.Name = "lbl_estimatedCostb";
-            this.lbl_estimatedCostb.Size = new System.Drawing.Size(10, 13);
-            this.lbl_estimatedCostb.TabIndex = 3;
-            this.lbl_estimatedCostb.Text = "-";
-            // 
-            // lbl_pDateb
-            // 
-            this.lbl_pDateb.AutoSize = true;
-            this.lbl_pDateb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_pDateb.Location = new System.Drawing.Point(131, 493);
-            this.lbl_pDateb.Name = "lbl_pDateb";
-            this.lbl_pDateb.Size = new System.Drawing.Size(10, 13);
-            this.lbl_pDateb.TabIndex = 4;
-            this.lbl_pDateb.Text = "-";
-            // 
-            // lbl_odoMeterb
-            // 
-            this.lbl_odoMeterb.AutoSize = true;
-            this.lbl_odoMeterb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_odoMeterb.Location = new System.Drawing.Point(347, 493);
-            this.lbl_odoMeterb.Name = "lbl_odoMeterb";
-            this.lbl_odoMeterb.Size = new System.Drawing.Size(10, 13);
-            this.lbl_odoMeterb.TabIndex = 7;
-            this.lbl_odoMeterb.Text = "-";
-            // 
-            // lbl_nDateb
-            // 
-            this.lbl_nDateb.AutoSize = true;
-            this.lbl_nDateb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_nDateb.Location = new System.Drawing.Point(223, 493);
-            this.lbl_nDateb.Name = "lbl_nDateb";
-            this.lbl_nDateb.Size = new System.Drawing.Size(10, 13);
-            this.lbl_nDateb.TabIndex = 8;
-            this.lbl_nDateb.Text = "-";
-            // 
-            // lbl_dtimeb
-            // 
-            this.lbl_dtimeb.AutoSize = true;
-            this.lbl_dtimeb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_dtimeb.Location = new System.Drawing.Point(287, 492);
-            this.lbl_dtimeb.Name = "lbl_dtimeb";
-            this.lbl_dtimeb.Size = new System.Drawing.Size(10, 13);
-            this.lbl_dtimeb.TabIndex = 9;
-            this.lbl_dtimeb.Text = "-";
-            // 
             // motobicycleJobCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(619, 638);
+            this.ClientSize = new System.Drawing.Size(801, 749);
             this.Controls.Add(this.btn_print);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_dtime);
