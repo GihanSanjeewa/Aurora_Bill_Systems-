@@ -153,7 +153,7 @@
             // btn_showPassword
             // 
             this.btn_showPassword.BackColor = System.Drawing.Color.Transparent;
-            this.btn_showPassword.BackgroundImage = global::Billing_System.Properties.Resources.hide;
+            this.btn_showPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_showPassword.BackgroundImage")));
             this.btn_showPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_showPassword.BorderColor = System.Drawing.Color.Transparent;
             this.btn_showPassword.BorderRadius = 10;
@@ -164,7 +164,7 @@
             this.btn_showPassword.FillColor = System.Drawing.Color.Transparent;
             this.btn_showPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_showPassword.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_showPassword.Location = new System.Drawing.Point(532, 416);
+            this.btn_showPassword.Location = new System.Drawing.Point(555, 416);
             this.btn_showPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_showPassword.Name = "btn_showPassword";
             this.btn_showPassword.PressedColor = System.Drawing.Color.Transparent;
