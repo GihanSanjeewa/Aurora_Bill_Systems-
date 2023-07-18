@@ -146,18 +146,7 @@ namespace Billing_System
         private void txt_regNo_Validating(object sender, CancelEventArgs e)
         {
 
-            if (string.IsNullOrWhiteSpace(txt_regNo.Text))
-            {
-                e.Cancel = true;
-                txt_regNo.Focus();
-                errorProvider1.SetError(txt_regNo, "Enter the Registration Number ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_regNo, "");
-            }
+           
         }
 
         private void txt_CustomerName_Validating(object sender, CancelEventArgs e)
@@ -172,35 +161,13 @@ namespace Billing_System
 
         private void txt_fuel_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_fuel.Text))
-            {
-                e.Cancel = true;
-                txt_fuel.Focus();
-                errorProvider1.SetError(txt_fuel, "Enter the Fuel Type ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_fuel, "");
-            }
+           
         }
 
         private void txt_address_Validating(object sender, CancelEventArgs e)
         {
 
-            if (string.IsNullOrWhiteSpace(txt_address.Text))
-            {
-                e.Cancel = true;
-                txt_address.Focus();
-                errorProvider1.SetError(txt_address, "Enter the Address ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_address, "");
-            }
+            
         }
 
 
@@ -208,131 +175,41 @@ namespace Billing_System
 
         private void txt_odoMeter_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_odoMeter.Text))
-            {
-                e.Cancel = true;
-                txt_odoMeter.Focus();
-                errorProvider1.SetError(txt_odoMeter, "Enter the OdoMeter No ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_odoMeter, "");
-            }
+           
         }
 
         private void txt_chassisNo_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_chassisNo.Text))
-            {
-                e.Cancel = true;
-                txt_chassisNo.Focus();
-                errorProvider1.SetError(txt_chassisNo, "Enter the chassis No ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_chassisNo, "");
-            }
+           
         }
 
         private void txt_company_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_company.Text))
-            {
-                e.Cancel = true;
-                txt_company.Focus();
-                errorProvider1.SetError(txt_company, "Enter the Company ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_company, "");
-            }
+            
         }
 
         private void txt_phoneNumber_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_phoneNumber.Text))
-            {
-                e.Cancel = true;
-                txt_phoneNumber.Focus();
-                errorProvider1.SetError(txt_phoneNumber, "Enter the PhoneNumber ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_phoneNumber, "");
-            }
+           
         }
 
         private void txt_complain1_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_complain1.Text))
-            {
-                e.Cancel = true;
-                txt_complain1.Focus();
-                errorProvider1.SetError(txt_complain1, "Enter the Complain ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_complain1, "");
-            }
-
+            
         }
 
         private void txt_decision1_Validation(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_decision1.Text))
-            {
-                e.Cancel = true;
-                txt_decision1.Focus();
-                errorProvider1.SetError(txt_decision1, "Enter the Decision ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_decision1, "");
-            }
+           
         }
 
         private void txt_remarks_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_remarks.Text))
-            {
-                e.Cancel = true;
-                txt_remarks.Focus();
-                errorProvider1.SetError(txt_remarks, "Enter the Remarks ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_remarks, "");
-            }
         }
 
         private void txt_estimatedCost_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_estimatedCost.Text))
-            {
-                e.Cancel = true;
-                txt_estimatedCost.Focus();
-                errorProvider1.SetError(txt_estimatedCost, "Enter the Estimate Cost ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_estimatedCost, "");
-            }
+            
         }
     }
 }

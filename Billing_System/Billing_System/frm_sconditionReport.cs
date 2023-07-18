@@ -57,17 +57,6 @@ namespace Billing_System
 
         private void txt_vehicleNmber_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_vehicleNumber.Text))
-            {
-                e.Cancel = true;
-                txt_vehicleNumber.Focus();
-                errorProvider1.SetError(txt_vehicleNumber, "Vehicle number cannot be empty!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_vehicleNumber, "");
-            }
         }
 
         private void txt_vehicleModel_TextChanged(object sender, EventArgs e)
@@ -77,17 +66,7 @@ namespace Billing_System
 
         private void txt_vehicleModel_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_vehicleModel.Text))
-            {
-                e.Cancel = true;
-                txt_vehicleNumber.Focus();
-                errorProvider1.SetError(txt_vehicleModel, "Vehicle model cannot be empty!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_vehicleModel, "");
-            }
+           
         }
 
         private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
@@ -97,17 +76,7 @@ namespace Billing_System
 
         private void txt_km_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_km.Text))
-            {
-                e.Cancel = true;
-                txt_vehicleNumber.Focus();
-                errorProvider1.SetError(txt_km, "km cannot be empty!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_km, "");
-            }
+            
         }
 
 
