@@ -52,33 +52,12 @@ namespace Billing_System
 
         private void txt_jobName_Validating(object sender, CancelEventArgs e)
         {
-            if(string.IsNullOrWhiteSpace(txt_jobName.Text))
-            {
-             
-                errorProvider1.SetError(txt_jobName, "Fill the Job Name ");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_jobName, "");
-            }
+           
         }
 
         private void txt_jobPrice_Validating(object sender, CancelEventArgs e)
         {
 
-            if (string.IsNullOrWhiteSpace(txt_jobPrice.Text))
-            {
-
-                
-                errorProvider1.SetError(txt_jobPrice, "Enter the Job Price ");
-
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_jobPrice, "");
-            }
         }
 
         private void txt_jobName_Validated(object sender, EventArgs e)

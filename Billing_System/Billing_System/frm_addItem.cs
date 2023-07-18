@@ -57,62 +57,22 @@ namespace Billing_System
 
         private void txt_itemName_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_itemName.Text))
-            {
-                e.Cancel = true;
-                txt_itemName.Focus();
-                errorProvider1.SetError(txt_itemName, "Username Should not be Blank!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_itemName, "");
-            }
+            
         }
 
         private void txt_itemPrice_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_itemPrice.Text))
-            {
-                e.Cancel = true;
-                txt_itemPrice.Focus();
-                errorProvider1.SetError(txt_itemPrice, "Username Should not be Blank!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_itemPrice, "");
-            }
+            
         }
 
         private void txt_itemQuantity_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_itemQuantity.Text))
-            {
-                e.Cancel = true;
-                txt_itemQuantity.Focus();
-                errorProvider1.SetError(txt_itemQuantity, "Username Should not be Blank!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_itemQuantity, "");
-            }
+           
         }
 
         private void txt_itemBrandName_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrEmpty(txt_itemBrandName.Text))
-            {
-                e.Cancel = true;
-                txt_itemBrandName.Focus();
-                errorProvider1.SetError(txt_itemBrandName, "Username Should not be Blank!");
-            }
-            else
-            {
-                e.Cancel = false;
-                errorProvider1.SetError(txt_itemBrandName, "");
-            }
+           
         }
     }
 }
