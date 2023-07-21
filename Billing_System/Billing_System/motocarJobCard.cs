@@ -59,13 +59,14 @@ namespace Billing_System
         private void btn_print_Click(object sender, EventArgs e)
         {
             // Create a new PrintDocument
-            PrintDocument printDocument = new PrintDocument();
-
-            // Set the PrintPage event handler
-            printDocument.PrintPage += PrintPage;
-
-            // Start printing
-            printDocument.Print();
+            PrintDocument pd = new PrintDocument();
+            pd.PrintPage += new PrintPageEventHandler(PrintPage);
+            PrintDialog printDialog = new PrintDialog();
+            printDialog.Document = pd;
+            if(printDialog.ShowDialog() == DialogResult.OK)
+            {
+                pd.Print();
+            }
         }
 
         private void PrintPage(object sender, PrintPageEventArgs e)
