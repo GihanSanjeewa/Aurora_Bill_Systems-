@@ -31,21 +31,21 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_login));
             this.btn_login = new Guna.UI2.WinForms.Guna2Button();
-            this.picturebox_logo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txt_username = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_password = new Guna.UI2.WinForms.Guna2TextBox();
             this.user_name = new System.Windows.Forms.Label();
             this.password = new System.Windows.Forms.Label();
             this.btn_showPassword = new Guna.UI2.WinForms.Guna2Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.picturebox_logo = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_logo)).BeginInit();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_login
@@ -67,18 +67,6 @@
             this.btn_login.TabIndex = 0;
             this.btn_login.Text = "Login";
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
-            // 
-            // picturebox_logo
-            // 
-            this.picturebox_logo.Image = ((System.Drawing.Image)(resources.GetObject("picturebox_logo.Image")));
-            this.picturebox_logo.ImageRotate = 0F;
-            this.picturebox_logo.Location = new System.Drawing.Point(-1, -25);
-            this.picturebox_logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picturebox_logo.Name = "picturebox_logo";
-            this.picturebox_logo.Size = new System.Drawing.Size(324, 218);
-            this.picturebox_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturebox_logo.TabIndex = 1;
-            this.picturebox_logo.TabStop = false;
             // 
             // txt_username
             // 
@@ -173,41 +161,21 @@
             this.btn_showPassword.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_showPassword_MouseDown);
             this.btn_showPassword.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_showPassword_MouseUp);
             // 
-            // panel1
+            // errorProvider1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel1.Location = new System.Drawing.Point(-5, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(675, 10);
-            this.panel1.TabIndex = 9;
+            this.errorProvider1.ContainerControl = this;
             // 
-            // panel2
+            // picturebox_logo
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel2.Location = new System.Drawing.Point(621, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(12, 752);
-            this.panel2.TabIndex = 9;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel3.Location = new System.Drawing.Point(-5, 2);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(13, 751);
-            this.panel3.TabIndex = 10;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel4.Location = new System.Drawing.Point(-1, 734);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(635, 18);
-            this.panel4.TabIndex = 11;
+            this.picturebox_logo.Image = ((System.Drawing.Image)(resources.GetObject("picturebox_logo.Image")));
+            this.picturebox_logo.ImageRotate = 0F;
+            this.picturebox_logo.Location = new System.Drawing.Point(-1, -25);
+            this.picturebox_logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picturebox_logo.Name = "picturebox_logo";
+            this.picturebox_logo.Size = new System.Drawing.Size(324, 218);
+            this.picturebox_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturebox_logo.TabIndex = 1;
+            this.picturebox_logo.TabStop = false;
             // 
             // guna2Panel1
             // 
@@ -221,9 +189,41 @@
             this.guna2Panel1.Size = new System.Drawing.Size(349, 164);
             this.guna2Panel1.TabIndex = 12;
             // 
-            // errorProvider1
+            // panel4
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.panel4.Location = new System.Drawing.Point(-1, 734);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(635, 18);
+            this.panel4.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.panel3.Location = new System.Drawing.Point(-5, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(13, 751);
+            this.panel3.TabIndex = 10;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.panel2.Location = new System.Drawing.Point(621, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(12, 752);
+            this.panel2.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.panel1.Location = new System.Drawing.Point(-5, -1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(675, 10);
+            this.panel1.TabIndex = 9;
             // 
             // frm_login
             // 
@@ -247,9 +247,9 @@
             this.Name = "frm_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_login";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_logo)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,17 +258,17 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Button btn_login;
-        private Guna.UI2.WinForms.Guna2PictureBox picturebox_logo;
         private Guna.UI2.WinForms.Guna2TextBox txt_username;
         private Guna.UI2.WinForms.Guna2TextBox txt_password;
         private System.Windows.Forms.Label user_name;
         private System.Windows.Forms.Label password;
         private Guna.UI2.WinForms.Guna2Button btn_showPassword;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2PictureBox picturebox_logo;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
