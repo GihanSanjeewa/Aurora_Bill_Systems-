@@ -20,7 +20,9 @@ namespace Billing_System
 
         private void frm_invoice_Load(object sender, EventArgs e)
         {
-           
+            timer1.Start();
+
+            //job
             MySqlDataAdapter da = new MySqlDataAdapter("select * from job", connection_class.con);
 
             DataTable dt = new DataTable();
@@ -35,9 +37,26 @@ namespace Billing_System
 
             }
 
+            //mechanic
+            MySqlDataAdapter daa = new MySqlDataAdapter("select * from mechanic", connection_class.con);
+
+            DataTable dtt = new DataTable();
+
+            daa.Fill(dtt);
+
+            for (int i = 0; i < dtt.Rows.Count; i++)
+            {
+
+
+                drp_mechanic.Items.Add(dtt.Rows[i]["mechanicName"]);
+
+            }
+
 
             connection_class.close_connection();
         }
+
+        //VALIDATION
 
         private void txt_vehicleNumber_Validating(object sender, CancelEventArgs e)
         {
@@ -105,7 +124,29 @@ namespace Billing_System
 
         private void btn_process_Click(object sender, EventArgs e)
         {
+            connection_class.open_connection();
+            MySqlCommand cmd = new MySqlCommand("INSERT INTO `invoice`( `registerNumber`,`vehicleModel`,`fuelType`,`km`,`mechanicName`,`date`,`job1`,`job2`,`job3`,`job4`,`job5`,`job6`,`job7`,`job8`,`discount`,`price`)  VALUES (@registerNumber,@vehicleModel,@fuelType,@km,@mechanicName,@date,@job1,@job2,@job3,@job4,@job5,@job6,@job7,@job8,@discount,@price)", connection_class.con);
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@registerNumber", txt_vehicleNumber.Text);
+            cmd.Parameters.AddWithValue("@vehicleModel", txt_vehicleModle.Text);
+            cmd.Parameters.AddWithValue("@fuelType", drp_fuelType.Text);
+            cmd.Parameters.AddWithValue("@km", txt_km.Text);
+            cmd.Parameters.AddWithValue("@mechanicName", drp_mechanic.Text);
+            cmd.Parameters.AddWithValue("@date", lbl_date.Text);
+            cmd.Parameters.AddWithValue("@job1", lbl_job1.Text);
+            cmd.Parameters.AddWithValue("@job2", lbl_job2.Text);
+            cmd.Parameters.AddWithValue("@job3", lbl_job3.Text);
+            cmd.Parameters.AddWithValue("@job4", lbl_job4.Text);
+            cmd.Parameters.AddWithValue("@job5", lbl_job5.Text);
+            cmd.Parameters.AddWithValue("@job6", lbl_job6.Text);
+            cmd.Parameters.AddWithValue("@job7", lbl_job7.Text);
+            cmd.Parameters.AddWithValue("@job8", lbl_job8.Text);
+            cmd.Parameters.AddWithValue("@discount", lbl_totDiscount.Text);
+            cmd.Parameters.AddWithValue("@price", lbl_total.Text);
 
+            cmd.ExecuteNonQuery();
+            connection_class.close_connection();
+            MessageBox.Show("Invoice printed !!!");
         }
 
 
@@ -120,7 +161,11 @@ namespace Billing_System
 
             int total = (Convert.ToInt32(lbl_fprice1.Text));
             lbl_total.Text = total.ToString();
-            txt_discount.Text = "0";
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
+            //txt_discount.Text = "0";
             //txt_price.Text = "";
             //drp_job.Text = "";
             //lbl_price.Text = "0.00";
@@ -134,6 +179,10 @@ namespace Billing_System
 
             int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text));
             lbl_total.Text = total.ToString();
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text))+ (Convert.ToInt32(lbl_discount2.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
             //txt_discount.Text = "";
             //txt_price.Text = "";
             //drp_job.Text = "";
@@ -148,6 +197,10 @@ namespace Billing_System
 
             int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text));
             lbl_total.Text = total.ToString();
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text))+ (Convert.ToInt32(lbl_discount3.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
             //txt_discount.Text = "";
             //txt_price.Text = "";
             //drp_job.Text = "";
@@ -162,6 +215,10 @@ namespace Billing_System
 
             int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text));
             lbl_total.Text = total.ToString();
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text))+ (Convert.ToInt32(lbl_discount4.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
             //txt_discount.Text = "";
             //txt_price.Text = "";
             //drp_job.Text = "";
@@ -176,6 +233,68 @@ namespace Billing_System
 
             int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text)) + (Convert.ToInt32(lbl_fprice5.Text));
             lbl_total.Text = total.ToString();
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text))+ (Convert.ToInt32(lbl_discount5.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+
+        private void process6()
+        {
+            lbl_job6.Text = drp_job.Text;
+            lbl_price6.Text = txt_price.Text;
+            lbl_discount6.Text = txt_discount.Text;
+            lbl_fprice6.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text)) + (Convert.ToInt32(lbl_fprice5.Text))+ (Convert.ToInt32(lbl_fprice6.Text));
+            lbl_total.Text = total.ToString();
+
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text))+ (Convert.ToInt32(lbl_discount6.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+
+        private void process7()
+        {
+            lbl_job7.Text = drp_job.Text;
+            lbl_price7.Text = txt_price.Text;
+            lbl_discount7.Text = txt_discount.Text;
+            lbl_fprice7.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text)) + (Convert.ToInt32(lbl_fprice5.Text))+ (Convert.ToInt32(lbl_fprice6.Text))+ (Convert.ToInt32(lbl_fprice7.Text));
+            lbl_total.Text = total.ToString();
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text))+ (Convert.ToInt32(lbl_discount7.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
+            //txt_discount.Text = "";
+            //txt_price.Text = "";
+            //drp_job.Text = "";
+            //lbl_price.Text = "0.00";
+        }
+
+        private void process8()
+        {
+            lbl_job8.Text = drp_job.Text;
+            lbl_price8.Text = txt_price.Text;
+            lbl_discount8.Text = txt_discount.Text;
+            lbl_fprice8.Text = lbl_price.Text;
+
+            int total = (Convert.ToInt32(lbl_fprice1.Text)) + (Convert.ToInt32(lbl_fprice2.Text)) + (Convert.ToInt32(lbl_fprice3.Text)) + (Convert.ToInt32(lbl_fprice4.Text)) + (Convert.ToInt32(lbl_fprice5.Text))+ (Convert.ToInt32(lbl_fprice6.Text))+ (Convert.ToInt32(lbl_fprice7.Text))+ (Convert.ToInt32(lbl_fprice8.Text));
+            lbl_total.Text = total.ToString();
+
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text))+ (Convert.ToInt32(lbl_discount8.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
+
             //txt_discount.Text = "";
             //txt_price.Text = "";
             //drp_job.Text = "";
@@ -212,11 +331,27 @@ namespace Billing_System
                     process4();
                     btn_remove4.Visible = true;
                 }
-                else
+                else if(lbl_job5.Text == "")
                 {
                     process5();
                     btn_remove5.Visible = true;
                 }
+                else if (lbl_job6.Text == "")
+                {
+                    process6();
+                    btn_remove6.Visible = true;
+                }
+                else if (lbl_job7.Text == "")
+                {
+                    process7();
+                    btn_remove7.Visible = true;
+                }
+                else if (lbl_job8.Text == "")
+                {
+                    process8();
+                    btn_remove8.Visible = true;
+                }
+
             }
         }
 
@@ -257,6 +392,22 @@ namespace Billing_System
 
                 connection_class.close_connection();
             }
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            lbl_date.Text = DateTime.Now.ToLongDateString();
+            lbl_time.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void lbl_total_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
