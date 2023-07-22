@@ -50,7 +50,7 @@ namespace Billing_System
             //lbl_CInform.Text = frm_motoCar.setcInform;
             //lbl_nDatec.Text = DateTime.Now.ToShortDateString();
 
-            panel1.BackgroundImage = Image.FromFile("C:\\Users\\Gihan Sanjeewa\\Documents\\GitHub\\Aurora_Bill_Systems-\\Billing_System\\Billing_System\\Resources\\No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com.png");
+            //panel1.BackgroundImage = Image.FromFile("C:\\Users\\Gihan Sanjeewa\\Documents\\GitHub\\Aurora_Bill_Systems-\\Billing_System\\Billing_System\\Resources\\No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com.png");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
 
 
