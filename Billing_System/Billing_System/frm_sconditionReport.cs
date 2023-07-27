@@ -5,15 +5,20 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Billing_System
 {
-    
     public partial class frm_sconditionReport : Form
     {
+
+        public static string setEngineOil = "";
+        
+
+
         String engineOil;
         String gearOil;
         String breakOil;
@@ -30,6 +35,8 @@ namespace Billing_System
         String axel; 
         String mount;
         String oilLeak;
+
+        
 
         public frm_sconditionReport()
         {
@@ -104,6 +111,7 @@ namespace Billing_System
             if (rbtn_engineoilGood.Checked == true)
             {
                 engineOil = "Good";
+                setEngineOil = rbtn_engineoilGood.Text;
             }
             else if (rbtn_engineoilBad.Checked == true)
             {
@@ -299,6 +307,7 @@ namespace Billing_System
             if (rbtn_oilLeakGood.Checked == true)
             {
                 oilLeak = "Good";
+                
             }
             else if (rbtn_oilLeakBad.Checked == true)
             {
@@ -309,9 +318,16 @@ namespace Billing_System
 
             //---------
 
+
+
             cmd.ExecuteNonQuery();
             connection_class.close_connection();
             MessageBox.Show("Saved Successfully!");
+
+            sconditionPrint sc = new sconditionPrint();
+            sc.Show();
+            
+            
 
         }
 
