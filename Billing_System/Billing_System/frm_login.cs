@@ -53,12 +53,15 @@ namespace Billing_System
                 }
                 else
                 {
-                    MessageBox.Show("Invalid login !!!");
+                    MessageBox.Show("Username or password incorrect!!!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
             }
+            
             catch
             {
-                MessageBox.Show("Please try again !!!");
+                MessageBox.Show(" please try agin","Message",MessageBoxButtons.OK,MessageBoxIcon.Error);
+               
             }
         }
 
@@ -82,6 +85,11 @@ namespace Billing_System
         }
 
         private void txt_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frm_login_Load(object sender, EventArgs e)
         {
 
         }
