@@ -114,18 +114,13 @@ namespace Billing_System
             rbtn_mountBad,rbtn_lowarmGood,rbtn_lowarmBad,rbtn_ebeltGood,rbtn_ebeltBad,rbtn_carmGood,rbtn_carmBad,
                 rbtn_breakGood,rbtn_breakBad,rbtn_axelGood,rbtn_axelBad,rbtn_airfilterGood,rbtn_airfilterBad,rbtn_acfilterGood,rbtn_acfilterBad };
 
-            int inti;
+            bool anyRadioButtonChecked = newRadioButtons.Any(radioButton => radioButton.Checked);
 
-            for (inti = 0; inti < newRadioButtons.Length; inti++){
+            if (anyRadioButtonChecked)
+            {
 
-                if(newRadioButtons[inti].Checked == false)
-                {
-                    MessageBox.Show("Please Select All Values");
-                    newRadioButtons[inti].Focus();
-                    return;
-                }
-                else
-                {
+
+                
                     MySqlCommand cmd = new MySqlCommand("INSERT INTO `sconditionreport`( `registerNumber`, `vehicleModel`, `fuelType`, `km`, `mechanicName`,  `date`, `engineOilStatus`, `gearOilStatus`, `breakOilStatus`, `airFilterStatus`,`acFilterStatus`,`breakStatus`,`radiatorCWaterStatus`, `socketStatus`,`rodRackStatus`,`lowBushStatus`,`upperBushStatus`, `cArmStatus`, `eBeltStatus`, `axelStatus`, `mountStatus`, `leakOilStatus`) VALUES( @txt_registerNumber, @txt_vehicleModel, @txt_fuelType, @txt_km, @txt_mechanicName,  @txt_date, @txt_engineOilStatus, @txt_gearOilStatus, @txt_breakOilStatus, @txt_airFilterStatus, @txt_acFilterStatus, @txt_breakStatus, @txt_radiatorCWaterStatus, @txt_socketStatus, @txt_rodRackStatus, @txt_lowBushStatus, @txt_upperBushStatus, @txt_cArmStatus, @txt_eBeltStatus, @txt_axelStatus, @txt_mountStatus, @txt_leakOilStatus )", connection_class.con);
                     cmd.Parameters.Clear();
 
@@ -364,11 +359,27 @@ namespace Billing_System
                     sc.Show();
                 }
 
+              
+            else
+            {
+                // when no radio button is checked
+
+                int inti;
+                for (inti = 0; inti < newRadioButtons.Length; inti++)
+                {
+
+                    if (newRadioButtons[inti].Checked == false)
+                    {
+                        MessageBox.Show("Please Select All Values");
+                        newRadioButtons[inti].Focus();
+                        return;
+                    }
+                }
             }
 
-           
             
-            
+
+     
 
         }
 
