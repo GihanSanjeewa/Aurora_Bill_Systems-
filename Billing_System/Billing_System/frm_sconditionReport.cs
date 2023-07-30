@@ -109,18 +109,18 @@ namespace Billing_System
             
 
             RadioButton[] newRadioButtons = {rbtn_engineoilGood,rbtn_engineoilBad,rbtn_gearoilGood,
-            rbtn_gearoilBad,rbtn_upperarmGood,rbtn_upperarmBad,rbtn_tireGood,rbtn_tireBad,rbtn_socketGood,rbtn_socketBad,rbtn_radiatorGood,
+                rbtn_gearoilBad,rbtn_upperarmGood,rbtn_upperarmBad,rbtn_tireGood,rbtn_tireBad,rbtn_socketGood,rbtn_socketBad,rbtn_radiatorGood,
                 rbtn_radiatorBad,rbtn_oilLeakGood,rbtn_oilLeakBad,rbtn_mountGood,
-            rbtn_mountBad,rbtn_lowarmGood,rbtn_lowarmBad,rbtn_ebeltGood,rbtn_ebeltBad,rbtn_carmGood,rbtn_carmBad,
+                rbtn_mountBad,rbtn_lowarmGood,rbtn_lowarmBad,rbtn_ebeltGood,rbtn_ebeltBad,rbtn_carmGood,rbtn_carmBad,
                 rbtn_breakGood,rbtn_breakBad,rbtn_axelGood,rbtn_axelBad,rbtn_airfilterGood,rbtn_airfilterBad,rbtn_acfilterGood,rbtn_acfilterBad };
 
             bool anyRadioButtonChecked = newRadioButtons.Any(radioButton => radioButton.Checked);
 
             if (anyRadioButtonChecked)
             {
+                try
+                {
 
-
-                
                     MySqlCommand cmd = new MySqlCommand("INSERT INTO `sconditionreport`( `registerNumber`, `vehicleModel`, `fuelType`, `km`, `mechanicName`,  `date`, `engineOilStatus`, `gearOilStatus`, `breakOilStatus`, `airFilterStatus`,`acFilterStatus`,`breakStatus`,`radiatorCWaterStatus`, `socketStatus`,`rodRackStatus`,`lowBushStatus`,`upperBushStatus`, `cArmStatus`, `eBeltStatus`, `axelStatus`, `mountStatus`, `leakOilStatus`) VALUES( @txt_registerNumber, @txt_vehicleModel, @txt_fuelType, @txt_km, @txt_mechanicName,  @txt_date, @txt_engineOilStatus, @txt_gearOilStatus, @txt_breakOilStatus, @txt_airFilterStatus, @txt_acFilterStatus, @txt_breakStatus, @txt_radiatorCWaterStatus, @txt_socketStatus, @txt_rodRackStatus, @txt_lowBushStatus, @txt_upperBushStatus, @txt_cArmStatus, @txt_eBeltStatus, @txt_axelStatus, @txt_mountStatus, @txt_leakOilStatus )", connection_class.con);
                     cmd.Parameters.Clear();
 
@@ -349,14 +349,21 @@ namespace Billing_System
 
                     //---------
 
-
-
                     cmd.ExecuteNonQuery();
                     connection_class.close_connection();
                     MessageBox.Show("Saved Successfully!");
 
                     sconditionPrint sc = new sconditionPrint();
                     sc.Show();
+                }
+                catch
+                {
+                    MessageBox.Show("Please Fill The All Values", "Somthing Wrong !");
+
+                }
+
+
+                    
                 }
 
               
