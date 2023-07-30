@@ -37,6 +37,7 @@ namespace Billing_System
         public static string setpDate = "";
         public static string setdtime = "";
         public static string setcInform = "";
+
         public frm_motoCar()
         {
             InitializeComponent();
