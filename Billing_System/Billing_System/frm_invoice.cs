@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Billing_System
 {
@@ -16,6 +17,26 @@ namespace Billing_System
         public frm_invoice()
         {
             InitializeComponent();
+        }
+
+        //Validation functions 
+        private bool IsValidNumericInput(string input)
+        {
+            // Regular expression pattern to check for only numbers
+            string pattern = @"^\d+$";
+            return Regex.IsMatch(input, pattern);
+        }
+
+        private bool IsValidStringInput(string input)
+        {
+            // Regular expression pattern to check for only string values
+            string pattern = @"^[a-zA-Z]+$";
+            return Regex.IsMatch(input, pattern);
+        }
+
+        private void ClearAllTextBoxesExceptNumeric()
+        {
+            
         }
 
         private void frm_invoice_Load(object sender, EventArgs e)
@@ -303,6 +324,15 @@ namespace Billing_System
 
         private void btn_add_Click(object sender, EventArgs e)
         {
+            String ValidateVNumber = txt_vehicleNumber.Text;
+
+
+            if (!IsValidStringInput(ValidateVNumber))
+            {
+                MessageBox.Show("Invalid input !!! Please enter Correct Vehicle Number.");
+                ClearAllTextBoxesExceptNumeric();
+                return;
+            }
             if (drp_job.Text == "")
             {
                 MessageBox.Show("Enter the job type !!!");
@@ -331,7 +361,7 @@ namespace Billing_System
                     process4();
                     btn_remove4.Visible = true;
                 }
-                else if(lbl_job5.Text == "")
+                else if (lbl_job5.Text == "")
                 {
                     process5();
                     btn_remove5.Visible = true;
@@ -353,6 +383,8 @@ namespace Billing_System
                 }
 
             }
+
+
         }
 
         private void txt_discount_SelectedIndexChanged(object sender, EventArgs e)
