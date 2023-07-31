@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Billing_System
 {
@@ -16,6 +17,26 @@ namespace Billing_System
         public frm_invoice()
         {
             InitializeComponent();
+        }
+
+        //Validation functions 
+        private bool IsValidNumericInput(string input)
+        {
+            // Regular expression pattern to check for only numbers
+            string pattern = @"^\d+$";
+            return Regex.IsMatch(input, pattern);
+        }
+
+        private bool IsValidStringInput(string input)
+        {
+            // Regular expression pattern to check for only string values
+            string pattern = @"^[a-zA-Z]+$";
+            return Regex.IsMatch(input, pattern);
+        }
+
+        private void ClearAllTextBoxesExceptNumeric()
+        {
+            
         }
 
         private void frm_invoice_Load(object sender, EventArgs e)
@@ -303,57 +324,79 @@ namespace Billing_System
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            if (drp_job.Text == "")
+            string ValidateVNumber = txt_vehicleNumber.Text;
+            string ValidateJob = drp_job.Text;
+            string ValidateDiscount = txt_discount.Text;
+            string ValidateMechanic = drp_mechanic.Text;
+
+           
+            if (string.IsNullOrWhiteSpace(ValidateVNumber))
             {
-                MessageBox.Show("Enter the job type !!!");
+                MessageBox.Show("Please enter a vehicle number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; 
             }
-            else
+
+            
+            if (string.IsNullOrEmpty(ValidateJob))
             {
-                if (lbl_job1.Text == "")
-                {
-                    process1();
-                    btn_remove1.Visible = true;
-                }
-                else if (lbl_job2.Text == "")
-                {
-                    process2();
-                    btn_remove2.Visible = true;
-                }
+                MessageBox.Show("Please select a job.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-                else if (lbl_job3.Text == "")
-                {
-                    process3();
-                    btn_remove3.Visible = true;
-                }
+            if (string.IsNullOrEmpty(ValidateDiscount))
+            {
+                MessageBox.Show("Please select a discount amount.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-                else if (lbl_job4.Text == "")
-                {
-                    process4();
-                    btn_remove4.Visible = true;
-                }
-                else if(lbl_job5.Text == "")
-                {
-                    process5();
-                    btn_remove5.Visible = true;
-                }
-                else if (lbl_job6.Text == "")
-                {
-                    process6();
-                    btn_remove6.Visible = true;
-                }
-                else if (lbl_job7.Text == "")
-                {
-                    process7();
-                    btn_remove7.Visible = true;
-                }
-                else if (lbl_job8.Text == "")
-                {
-                    process8();
-                    btn_remove8.Visible = true;
-                }
-
+            if (string.IsNullOrEmpty(ValidateMechanic))
+            {
+                MessageBox.Show("Please select a mechanic.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; 
+            }
+            
+            if (lbl_job1.Text == "")
+            {
+                process1();
+                btn_remove1.Visible = true;
+            }
+            else if (lbl_job2.Text == "")
+            {
+                process2();
+                btn_remove2.Visible = true;
+            }
+            else if (lbl_job3.Text == "")
+            {
+                process3();
+                btn_remove3.Visible = true;
+            }
+            else if (lbl_job4.Text == "")
+            {
+                process4();
+                btn_remove4.Visible = true;
+            }
+            else if (lbl_job5.Text == "")
+            {
+                process5();
+                btn_remove5.Visible = true;
+            }
+            else if (lbl_job6.Text == "")
+            {
+                process6();
+                btn_remove6.Visible = true;
+            }
+            else if (lbl_job7.Text == "")
+            {
+                process7();
+                btn_remove7.Visible = true;
+            }
+            else if (lbl_job8.Text == "")
+            {
+                process8();
+                btn_remove8.Visible = true;
             }
         }
+
 
         private void txt_discount_SelectedIndexChanged(object sender, EventArgs e)
         {
