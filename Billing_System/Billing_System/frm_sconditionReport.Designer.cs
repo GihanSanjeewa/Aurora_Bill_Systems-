@@ -180,8 +180,10 @@ namespace Billing_System
             this.txt_vehicleModel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txt_vehicleModel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_vehicleModel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_vehicleModel.Enabled = false;
             this.txt_vehicleModel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_vehicleModel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_vehicleModel.ForeColor = System.Drawing.Color.Black;
             this.txt_vehicleModel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_vehicleModel.Location = new System.Drawing.Point(99, 168);
             this.txt_vehicleModel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -202,8 +204,10 @@ namespace Billing_System
             this.txt_km.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txt_km.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_km.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_km.Enabled = false;
             this.txt_km.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_km.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_km.ForeColor = System.Drawing.Color.Black;
             this.txt_km.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_km.Location = new System.Drawing.Point(99, 386);
             this.txt_km.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -303,7 +307,7 @@ namespace Billing_System
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.label7.Location = new System.Drawing.Point(469, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(616, 49);
+            this.label7.Size = new System.Drawing.Size(616, 50);
             this.label7.TabIndex = 3;
             this.label7.Text = "Suspension Condition Report";
             // 
@@ -346,7 +350,7 @@ namespace Billing_System
             this.lbl_date.ForeColor = System.Drawing.Color.White;
             this.lbl_date.Location = new System.Drawing.Point(94, 612);
             this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(21, 24);
+            this.lbl_date.Size = new System.Drawing.Size(23, 25);
             this.lbl_date.TabIndex = 45;
             this.lbl_date.Text = "-";
             // 
@@ -397,8 +401,10 @@ namespace Billing_System
             this.txt_fuelType.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txt_fuelType.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_fuelType.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_fuelType.Enabled = false;
             this.txt_fuelType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_fuelType.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_fuelType.ForeColor = System.Drawing.Color.Black;
             this.txt_fuelType.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_fuelType.Location = new System.Drawing.Point(99, 285);
             this.txt_fuelType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
