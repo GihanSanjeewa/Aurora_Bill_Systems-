@@ -68,6 +68,13 @@
       <DependentUpon>addMechanic.cs</DependentUpon>
     </Compile>
     <Compile Include="connection_class.cs" />
+    <Compile Include=".cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_addCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
