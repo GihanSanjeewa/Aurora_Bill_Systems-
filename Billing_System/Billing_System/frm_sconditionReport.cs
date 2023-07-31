@@ -96,6 +96,28 @@ namespace Billing_System
             
         }
 
+        //private bool IsValidNumericInput(string input)
+        //{
+        //    // Regular expression pattern to check for only numbers
+        //    string pattern = @"^\d+$";
+        //    return Regex.IsMatch(input, pattern);
+        //}
+
+        //private bool IsValidStringInput(string input)
+        //{
+        //    // Regular expression pattern to check for only string values
+        //    string pattern = @"^[a-zA-Z]+$";
+        //    return Regex.IsMatch(input, pattern);
+        //}
+
+        //private void ClearAllTextBoxesExceptNumeric()
+        //{
+        //    txt_vehicleNumber.Clear();
+        //    txt_vehicleModel.Clear();
+        //    txt_km.Clear();
+        //    txt_fuelType.Clear();
+        //}
+
         private bool IsValidNumericInput(string input)
         {
             // Regular expression pattern to check for only numbers
@@ -121,9 +143,19 @@ namespace Billing_System
         private void btn_process_Click(object sender, EventArgs e)
         {
             connection_class.open_connection();
-            
+
+            //String ValidateVNumber = txt_vehicleNumber.Text;
+
+
+            //if (!IsValidStringInput(ValidateVNumber))
+            //{
+            //    MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+            //    ClearAllTextBoxesExceptNumeric();
+            //    return;
+            //}
+
             String ValidateVNumber = txt_vehicleNumber.Text;
-            
+
 
             if (!IsValidStringInput(ValidateVNumber))
             {
@@ -131,7 +163,7 @@ namespace Billing_System
                 ClearAllTextBoxesExceptNumeric();
                 return;
             }
-            
+
 
 
 

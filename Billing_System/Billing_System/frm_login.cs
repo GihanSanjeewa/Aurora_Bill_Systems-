@@ -26,6 +26,13 @@ namespace Billing_System
             txt_password.UseSystemPasswordChar = true;
         }
 
+        //private bool IsValidStringInput(string input)
+        //{
+        //    // Regular expression pattern to check for only string values
+        //    string pattern = @"^[a-zA-Z]+$";
+        //    return Regex.IsMatch(input, pattern);
+        //}
+
         private bool IsValidStringInput(string input)
         {
             // Regular expression pattern to check for only string values
@@ -42,8 +49,15 @@ namespace Billing_System
             username = txt_username.Text;
             password = txt_password.Text;
 
-            
 
+
+
+            //if (!IsValidStringInput(username) && !IsValidStringInput(password))
+            //{
+            //    txt_password.Clear();
+            //    txt_username.Clear();
+            //    return;
+            //}
 
             if (!IsValidStringInput(username) && !IsValidStringInput(password))
             {
