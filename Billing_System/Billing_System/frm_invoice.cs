@@ -337,6 +337,13 @@ namespace Billing_System
             }
 
             
+            if (!int.TryParse(ValidateVNumber, out _))
+            {
+                MessageBox.Show("Vehicle number should not contain only numeric values !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+
             if (string.IsNullOrEmpty(ValidateJob))
             {
                 MessageBox.Show("Please select a job.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -431,12 +438,38 @@ namespace Billing_System
         }
 
         //remove button
+        private void clear8()
+        {
+            lbl_job8.Text = "";
+            lbl_price8.Text = "";
+            lbl_discount8.Text = "";
+            lbl_fprice8.Text = "";
+            btn_remove8.Visible = false;
+        }
+
+        private void clear7()
+        {
+            lbl_job7.Text = "";
+            lbl_price7.Text = "";
+            lbl_discount7.Text = "";
+            lbl_fprice7.Text = "";
+            btn_remove7.Visible = false;
+        }
+
+        private void clear6()
+        {
+            lbl_job6.Text = "";
+            lbl_price6.Text = "";
+            lbl_discount6.Text = "";
+            lbl_fprice6.Text = "";
+            btn_remove6.Visible = false;
+        }
 
         private void clear5()
         {
             lbl_job5.Text = "";
             lbl_price5.Text = "";
-            lbl_discount7.Text = "";
+            lbl_discount5.Text = "";
             lbl_fprice5.Text = "";
             btn_remove5.Visible = false;
         }
@@ -476,15 +509,40 @@ namespace Billing_System
             btn_remove1.Visible = false;
         }
 
-        private void btn_remove5_Click(object sender, EventArgs e)
+        private void btn_remove8_Click(object sender, EventArgs e)
         {
-            clear5();
+            clear8();
 
 
-            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
 
 
         }
+
+        private void btn_remove7_Click(object sender, EventArgs e)
+        {
+
+
+
+            clear8();
+
+
+            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+
+
+        }
+
+        private void btn_remove5_Click(object sender, EventArgs e)
+        {
+            clear8();
+
+
+            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+
+
+        }
+
+
 
         private void btn_remove4_Click(object sender, EventArgs e)
         {
