@@ -48,6 +48,7 @@ namespace Billing_System
         {
             InitializeComponent();
         }
+
         private bool IsValidNumericInput(string input)
         {
             // Regular expression pattern to check for only numbers
@@ -62,71 +63,85 @@ namespace Billing_System
             return Regex.IsMatch(input, pattern);
         }
 
-        private void ValidateInputs()
-        {
-            if (!IsValidStringInput(txt_regNo.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_regNo.Clear();
-                return;
-            }
+        //private void ValidateInputs()
+        //{
+        //    if (!IsValidStringInput(txt_regNo.Text))
+        //    {
+        //        MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //        txt_regNo.Clear();
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        if (!IsValidStringInput(txt_customerName.Text))
+        //        {
+        //            MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //            txt_customerName.Clear();
+        //            return;
+        //        }
+        //        else
+        //        {
+        //            if (!IsValidStringInput(txt_fuel.Text))
+        //            {
+        //                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //                txt_fuel.Clear();
+        //                return;
+        //            }
+        //            else
+        //            {
+        //                if (!IsValidStringInput(txt_address.Text))
+        //                {
+        //                    MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //                    txt_address.Clear();
+        //                    return;
+        //                }
+        //                else
+        //                {
+        //                    if (!IsValidStringInput(txt_odoMeter.Text))
+        //                    {
+        //                        MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //                        txt_odoMeter.Clear();
+        //                        return;
+        //                    }
+        //                    else
+        //                    {
 
-            if (!IsValidStringInput(txt_customerName.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_customerName.Clear();
-                return;
-            }
+        //                        if (!IsValidStringInput(txt_chassisNo.Text))
+        //                        {
+        //                            MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //                            txt_chassisNo.Clear();
+        //                            return;
+        //                        }
+        //                        else
+        //                        {
+        //                            if (!IsValidStringInput(txt_company.Text))
+        //                            {
+        //                                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //                                txt_company.Clear();
+        //                                return;
+        //                            }
+        //                            else
+        //                            {
 
-            if (!IsValidStringInput(txt_fuel.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_fuel.Clear();
-                return;
-            }
+        //                                if (!IsValidStringInput(txt_phoneNumber.Text))
+        //                                {
+        //                                    MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+        //                                    txt_phoneNumber.Clear();
+        //                                    return;
+        //                                }
+        //                            }
+        //                        }
+        //                    }
+        //                }
+        //            }
+        //        }
+        //    }
 
-            if (!IsValidStringInput(txt_address.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_address.Clear();
-                return;
-            }
 
-            if (!IsValidStringInput(txt_odoMeter.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_odoMeter.Clear();
-                return;
-            }
-
-            if (!IsValidStringInput(txt_chassisNo.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_chassisNo.Clear();
-                return;
-            }
-
-            if (!IsValidStringInput(txt_company.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_company.Clear();
-                return;
-            }
-
-            if (!IsValidStringInput(txt_phoneNumber.Text))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                txt_phoneNumber.Clear();
-                return;
-            }
-
-        }
+        //}
         private void btn_process_Click(object sender, EventArgs e)
         {
-
-            
-            ValidateInputs();
-
+           
 
             connection_class.open_connection();
             MySqlCommand cmd = new MySqlCommand("INSERT INTO `jobcard`( `registerNumber`, `customerName`, `vehicleModel`, `fuelType`, `customerAddress`, `dateReceived`,  `odoMeter`, `chassisNumber`, `companyName`, `phoneNumber`, `complaints1`,`complaints2`,`complaints3`,`complaints4`, `decision1`,`decision2`,`decision3`,`decision4`, `estimatedCost`, `dateProposed`, `customerInformed`, `remarks`) VALUES( @txt_registrationNo, @txt_customerName, @cmb_vehicleModel,  @txt_fuelType,  @txt_address, @date_Received, @txt_odoMoter, @txt_chassisNo, @txt_company, @txt_phoneNumber, @txt_complain1, @txt_complain2, @txt_complain3, @txt_complain4, @txt_decision1, @txt_decision2, @txt_decision3, @txt_decision4,  @txt_estimatedCost, @date_Proposed, @cmb_cInform, @txt_remarks )", connection_class.con);
