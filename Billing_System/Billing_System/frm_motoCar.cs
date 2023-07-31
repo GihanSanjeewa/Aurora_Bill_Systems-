@@ -45,6 +45,7 @@ namespace Billing_System
 
         private void btn_process_Click(object sender, EventArgs e)
         {
+            try {
             connection_class.open_connection();
             MySqlCommand cmd = new MySqlCommand("INSERT INTO `jobcard`( `registerNumber`, `customerName`, `vehicleModel`, `fuelType`, `customerAddress`, `dateReceived`,  `odoMeter`, `chassisNumber`, `companyName`, `phoneNumber`, `complaints1`,`complaints2`,`complaints3`,`complaints4`, `decision1`,`decision2`,`decision3`,`decision4`, `estimatedCost`, `dateProposed`, `customerInformed`, `remarks`) VALUES( @txt_registrationNo, @txt_customerName, @cmb_vehicleModel,  @txt_fuelType,  @txt_address, @date_Received, @txt_odoMoter, @txt_chassisNo, @txt_company, @txt_phoneNumber, @txt_complain1, @txt_complain2, @txt_complain3, @txt_complain4, @txt_decision1, @txt_decision2, @txt_decision3, @txt_decision4,  @txt_estimatedCost, @date_Proposed, @cmb_cInform, @txt_remarks )", connection_class.con);
             cmd.Parameters.Clear();
@@ -87,7 +88,7 @@ namespace Billing_System
             setCustomerName = txt_customerName.Text;
             setvehicleModel = cmb_vehicleModel.Text;
             setdateReceived = date_Received.Text;
-            settime = DateTime.Now.ToString("hh:mm:ss tt");
+            settime = DateTime.Now.ToString("hh:mm ");
             setfuelType = txt_fuel.Text;
             setaddress = txt_address.Text;
             setregNo = txt_regNo.Text;
@@ -113,6 +114,11 @@ namespace Billing_System
             MessageBox.Show("Saved Successfully!");
             motocarJobCard mccard = new motocarJobCard();
             mccard.Show();
+            }
+            catch
+            {
+                MessageBox.Show("Somthing Wrong !");
+            }
         }
 
         private void btn_search_Click(object sender, EventArgs e)

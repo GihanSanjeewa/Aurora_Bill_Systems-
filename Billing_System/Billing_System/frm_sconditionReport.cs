@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -95,18 +96,45 @@ namespace Billing_System
             
         }
 
+        private bool IsValidNumericInput(string input)
+        {
+            // Regular expression pattern to check for only numbers
+            string pattern = @"^\d+$";
+            return Regex.IsMatch(input, pattern);
+        }
+
+        private bool IsValidStringInput(string input)
+        {
+            // Regular expression pattern to check for only string values
+            string pattern = @"^[a-zA-Z]+$";
+            return Regex.IsMatch(input, pattern);
+        }
+
+        private void ClearAllTextBoxesExceptNumeric()
+        {
+            txt_vehicleNumber.Clear();
+            txt_vehicleModel.Clear();
+            txt_km.Clear();
+            txt_fuelType.Clear();
+        }
 
         private void btn_process_Click(object sender, EventArgs e)
         {
-            try
+            connection_class.open_connection();
+            
+            String ValidateVNumber = txt_vehicleNumber.Text;
+            
+
+            if (!IsValidStringInput(ValidateVNumber))
             {
-                connection_class.open_connection();
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show("DataBase Connection Is Disconnected " + ex);
+                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
+                ClearAllTextBoxesExceptNumeric();
+                return;
             }
             
+
+
+
 
             RadioButton[] newRadioButtons = {rbtn_engineoilGood,rbtn_engineoilBad,rbtn_gearoilGood,
                 rbtn_gearoilBad,rbtn_upperarmGood,rbtn_upperarmBad,rbtn_tireGood,rbtn_tireBad,rbtn_socketGood,rbtn_socketBad,rbtn_radiatorGood,

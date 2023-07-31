@@ -7,6 +7,7 @@ using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
@@ -25,6 +26,12 @@ namespace Billing_System
             txt_password.UseSystemPasswordChar = true;
         }
 
+        private bool IsValidStringInput(string input)
+        {
+            // Regular expression pattern to check for only string values
+            string pattern = @"^[a-zA-Z]+$";
+            return Regex.IsMatch(input, pattern);
+        }
 
         private void btn_login_Click(object sender, EventArgs e)
         {
@@ -34,6 +41,16 @@ namespace Billing_System
 
             username = txt_username.Text;
             password = txt_password.Text;
+
+            
+
+
+            if (!IsValidStringInput(username) && !IsValidStringInput(password))
+            {
+                txt_password.Clear();
+                txt_username.Clear();
+                return;
+            }
 
             try
             {
