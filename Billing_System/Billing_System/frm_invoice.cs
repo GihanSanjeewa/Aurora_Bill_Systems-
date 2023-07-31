@@ -355,19 +355,6 @@ namespace Billing_System
             }
         }
 
-        private void txt_discount_DropDown(object sender, EventArgs e)
-        {
-            
-
-                
-            
-        }
-
-        private void txt_discount_MouseClick(object sender, MouseEventArgs e)
-        {
-            
-        }
-
         private void txt_discount_SelectedIndexChanged(object sender, EventArgs e)
         {
             int new_Price = Convert.ToInt32(txt_price.Text) - Convert.ToInt32(txt_discount.SelectedItem);
@@ -400,14 +387,265 @@ namespace Billing_System
             lbl_time.Text = DateTime.Now.ToLongTimeString();
         }
 
-        private void lbl_total_Click(object sender, EventArgs e)
+        //remove button
+
+        private void clear5()
         {
+            lbl_job5.Text = "";
+            lbl_price5.Text = "";
+            lbl_discount7.Text = "";
+            lbl_fprice5.Text = "";
+            btn_remove5.Visible = false;
+        }
+        private void clear4()
+        {
+            lbl_job4.Text = "";
+            lbl_price4.Text = "";
+            lbl_discount4.Text = "";
+            lbl_fprice4.Text = "";
+            btn_remove4.Visible = false;
+        }
+        private void clear3()
+        {
+            lbl_job3.Text = "";
+            lbl_price3.Text = "";
+            lbl_discount3.Text = "";
+            lbl_fprice3.Text = "";
+            btn_remove3.Visible = false;
+
+        }
+        private void clear2()
+        {
+
+            lbl_job2.Text = "";
+            lbl_price2.Text = "";
+            lbl_discount2.Text = "";
+            lbl_fprice2.Text = "";
+            btn_remove2.Visible = false;
+
+        }
+        private void clear1()
+        {
+            lbl_job1.Text = "";
+            lbl_price1.Text = "";
+            lbl_discount1.Text = "";
+            lbl_fprice1.Text = "";
+            btn_remove1.Visible = false;
+        }
+
+        private void btn_remove5_Click(object sender, EventArgs e)
+        {
+            clear5();
+
+
+            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+
 
         }
 
-        private void label13_Click(object sender, EventArgs e)
+        private void btn_remove4_Click(object sender, EventArgs e)
         {
 
+
+            if (lbl_job5.Text != "")
+            {
+                //shift by 1 raw
+                lbl_job4.Text = lbl_job5.Text;
+                lbl_price4.Text = lbl_price5.Text;
+                lbl_discount4.Text = lbl_discount5.Text;
+                lbl_fprice4.Text = lbl_fprice4.Text;
+                btn_remove5.Visible = false;
+
+                //clear raw 5
+
+                clear5();
+
+                lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+
+
+            }
+            else
+            {
+
+                clear4();
+                lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+
+
+            }
+        }
+
+        private void btn_remove3_Click(object sender, EventArgs e)
+        {
+
+
+            if (lbl_job4.Text != "")
+            {
+                //shift by 1 raw
+                lbl_job3.Text = lbl_job4.Text;
+                lbl_price3.Text = lbl_price4.Text;
+                lbl_discount3.Text = lbl_discount4.Text;
+                lbl_fprice3.Text = lbl_fprice4.Text;
+
+                clear4();
+
+                if (lbl_job5.Text != "")
+                {
+                    //shift by 1 raw
+                    lbl_job4.Text = lbl_job5.Text;
+                    lbl_price4.Text = lbl_price5.Text;
+                    lbl_discount4.Text = lbl_discount5.Text;
+                    lbl_fprice4.Text = lbl_fprice5.Text;
+                    btn_remove5.Visible = false;
+
+                    //clear raw 5
+
+                    clear5();
+                    lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                }
+                else
+                {
+                    clear4();
+                    lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                }
+            }
+            else
+            {
+                clear3();
+                lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text)).ToString();
+            }
+        }
+
+        private void btn_remove2_Click(object sender, EventArgs e)
+        {
+
+
+            if (lbl_job3.Text != "")
+            {
+                //shift by 1 raw
+                lbl_job2.Text = lbl_job3.Text;
+                lbl_price2.Text = lbl_price3.Text;
+                lbl_discount2.Text = lbl_discount3.Text;
+                lbl_fprice2.Text = lbl_fprice3.Text;
+
+                clear3();
+
+                if (lbl_job4.Text != "")
+                {
+                    //shift by 1 raw
+                    lbl_job3.Text = lbl_job4.Text;
+                    lbl_price3.Text = lbl_price4.Text;
+                    lbl_discount3.Text = lbl_discount4.Text;
+                    lbl_fprice3.Text = lbl_fprice4.Text;
+                    btn_remove3.Visible = false;
+
+                    if (lbl_job5.Text != "")
+                    {
+                        //shift by 1 raw
+                        lbl_job4.Text = lbl_job5.Text;
+                        lbl_price4.Text = lbl_price5.Text;
+                        lbl_discount4.Text = lbl_discount5.Text;
+                        lbl_fprice4.Text = lbl_fprice5.Text;
+                        btn_remove5.Visible = false;
+
+                        //clear raw 5
+
+                        clear5();
+
+                        lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                    }
+                    else
+                    {
+                        clear4();
+                        lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                    }
+                }
+                else
+                {
+                    clear3();
+                    lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text)).ToString();
+                }
+
+            }
+            else
+            {
+                clear2();
+                lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text)).ToString();
+            }
+        }
+
+        private void btn_remove1_Click(object sender, EventArgs e)
+        {
+
+
+
+            if (lbl_job2.Text != "")
+            {
+                //shift by 1 raw
+                lbl_job1.Text = lbl_job2.Text;
+                lbl_price1.Text = lbl_price2.Text;
+                lbl_discount1.Text = lbl_discount2.Text;
+                lbl_fprice1.Text = lbl_fprice2.Text;
+
+                clear2();
+
+                if (lbl_job3.Text != "")
+                {
+                    //shift by 1 raw
+                    lbl_job2.Text = lbl_job3.Text;
+                    lbl_price2.Text = lbl_price3.Text;
+                    lbl_discount2.Text = lbl_discount3.Text;
+                    lbl_fprice2.Text = lbl_fprice3.Text;
+                    btn_remove3.Visible = false;
+
+                    if (lbl_job4.Text != "")
+                    {
+                        //shift by 1 raw
+                        lbl_job3.Text = lbl_job4.Text;
+                        lbl_price3.Text = lbl_price4.Text;
+                        lbl_discount3.Text = lbl_discount4.Text;
+                        lbl_fprice3.Text = lbl_fprice4.Text;
+                        btn_remove3.Visible = false;
+
+                        if (lbl_job5.Text != "")
+                        {
+                            //shift by 1 raw
+                            lbl_job4.Text = lbl_job5.Text;
+                            lbl_price4.Text = lbl_price5.Text;
+                            lbl_discount4.Text = lbl_discount5.Text;
+                            lbl_fprice4.Text = lbl_fprice5.Text;
+                            btn_remove5.Visible = false;
+
+                            //clear raw 5
+
+                            clear5();
+
+                            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                        }
+                        else
+                        {
+                            clear4();
+                            lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                        }
+                    }
+                    else
+                    {
+                        clear3();
+                        lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text)).ToString();
+                    }
+
+                }
+                else
+                {
+                    clear2();
+                    lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text)).ToString();
+                }
+            }
+            else
+            {
+                clear1();
+                lbl_total.Text = "0";
+
+            }
         }
     }
 }

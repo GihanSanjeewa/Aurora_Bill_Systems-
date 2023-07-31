@@ -48,6 +48,8 @@
             this.lbl_time = new System.Windows.Forms.Label();
             this.lbl_invoice_page = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lbl_totDiscount = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.lbl_fprice8 = new System.Windows.Forms.Label();
             this.lbl_fprice7 = new System.Windows.Forms.Label();
             this.lbl_fprice6 = new System.Windows.Forms.Label();
@@ -96,7 +98,7 @@
             this.btn_remove3 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_remove2 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_remove1 = new Guna.UI2.WinForms.Guna2Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbl13 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -113,8 +115,6 @@
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.drp_mechanic = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.lbl_totDiscount = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -433,7 +433,7 @@
             this.guna2Panel11.Controls.Add(this.btn_remove3);
             this.guna2Panel11.Controls.Add(this.btn_remove2);
             this.guna2Panel11.Controls.Add(this.btn_remove1);
-            this.guna2Panel11.Controls.Add(this.label3);
+            this.guna2Panel11.Controls.Add(this.lbl13);
             this.guna2Panel11.Controls.Add(this.label6);
             this.guna2Panel11.Controls.Add(this.label5);
             this.guna2Panel11.Controls.Add(this.label4);
@@ -443,6 +443,32 @@
             this.guna2Panel11.Name = "guna2Panel11";
             this.guna2Panel11.Size = new System.Drawing.Size(1600, 900);
             this.guna2Panel11.TabIndex = 36;
+            // 
+            // lbl_totDiscount
+            // 
+            this.lbl_totDiscount.AutoSize = true;
+            this.lbl_totDiscount.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_totDiscount.Font = new System.Drawing.Font("Malgun Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_totDiscount.ForeColor = System.Drawing.Color.White;
+            this.lbl_totDiscount.Location = new System.Drawing.Point(713, 587);
+            this.lbl_totDiscount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_totDiscount.Name = "lbl_totDiscount";
+            this.lbl_totDiscount.Size = new System.Drawing.Size(63, 32);
+            this.lbl_totDiscount.TabIndex = 63;
+            this.lbl_totDiscount.Text = "0.00";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Malgun Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(479, 586);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(238, 32);
+            this.label9.TabIndex = 62;
+            this.label9.Text = "Total Discount : Rs.";
             // 
             // lbl_fprice8
             // 
@@ -927,7 +953,6 @@
             this.lbl_total.Size = new System.Drawing.Size(63, 32);
             this.lbl_total.TabIndex = 41;
             this.lbl_total.Text = "0.00";
-            this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
             // 
             // label13
             // 
@@ -941,7 +966,6 @@
             this.label13.Size = new System.Drawing.Size(192, 32);
             this.label13.TabIndex = 40;
             this.label13.Text = "Total Price : Rs.";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // btn_remove5
             // 
@@ -959,6 +983,7 @@
             this.btn_remove5.TabIndex = 39;
             this.btn_remove5.Text = "-";
             this.btn_remove5.Visible = false;
+            this.btn_remove5.Click += new System.EventHandler(this.btn_remove5_Click);
             // 
             // btn_remove4
             // 
@@ -976,6 +1001,7 @@
             this.btn_remove4.TabIndex = 39;
             this.btn_remove4.Text = "-";
             this.btn_remove4.Visible = false;
+            this.btn_remove4.Click += new System.EventHandler(this.btn_remove4_Click);
             // 
             // btn_remove3
             // 
@@ -993,6 +1019,7 @@
             this.btn_remove3.TabIndex = 39;
             this.btn_remove3.Text = "-";
             this.btn_remove3.Visible = false;
+            this.btn_remove3.Click += new System.EventHandler(this.btn_remove3_Click);
             // 
             // btn_remove2
             // 
@@ -1010,6 +1037,7 @@
             this.btn_remove2.TabIndex = 39;
             this.btn_remove2.Text = "-";
             this.btn_remove2.Visible = false;
+            this.btn_remove2.Click += new System.EventHandler(this.btn_remove2_Click);
             // 
             // btn_remove1
             // 
@@ -1027,19 +1055,20 @@
             this.btn_remove1.TabIndex = 39;
             this.btn_remove1.Text = "-";
             this.btn_remove1.Visible = false;
+            this.btn_remove1.Click += new System.EventHandler(this.btn_remove1_Click);
             // 
-            // label3
+            // lbl13
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.label3.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(577, 41);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 28);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Finale Price";
+            this.lbl13.AutoSize = true;
+            this.lbl13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.lbl13.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl13.ForeColor = System.Drawing.Color.White;
+            this.lbl13.Location = new System.Drawing.Point(577, 41);
+            this.lbl13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl13.Name = "lbl13";
+            this.lbl13.Size = new System.Drawing.Size(119, 28);
+            this.lbl13.TabIndex = 11;
+            this.lbl13.Text = "Finale Price";
             // 
             // label6
             // 
@@ -1184,7 +1213,6 @@
             this.txt_discount.Size = new System.Drawing.Size(263, 31);
             this.txt_discount.TabIndex = 42;
             this.txt_discount.SelectedIndexChanged += new System.EventHandler(this.txt_discount_SelectedIndexChanged);
-            this.txt_discount.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_discount_MouseClick);
             // 
             // timer1
             // 
@@ -1255,32 +1283,6 @@
             this.label7.Size = new System.Drawing.Size(165, 28);
             this.label7.TabIndex = 51;
             this.label7.Text = "Mechanic Name";
-            // 
-            // lbl_totDiscount
-            // 
-            this.lbl_totDiscount.AutoSize = true;
-            this.lbl_totDiscount.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_totDiscount.Font = new System.Drawing.Font("Malgun Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_totDiscount.ForeColor = System.Drawing.Color.White;
-            this.lbl_totDiscount.Location = new System.Drawing.Point(713, 587);
-            this.lbl_totDiscount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_totDiscount.Name = "lbl_totDiscount";
-            this.lbl_totDiscount.Size = new System.Drawing.Size(63, 32);
-            this.lbl_totDiscount.TabIndex = 63;
-            this.lbl_totDiscount.Text = "0.00";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Malgun Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(479, 586);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(238, 32);
-            this.label9.TabIndex = 62;
-            this.label9.Text = "Total Discount : Rs.";
             // 
             // frm_invoice
             // 
@@ -1384,7 +1386,7 @@
         private System.Windows.Forms.Label lbl_fprice3;
         private System.Windows.Forms.Label lbl_fprice2;
         private System.Windows.Forms.Label lbl_fprice1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl13;
         private System.Windows.Forms.ComboBox txt_discount;
         private System.Windows.Forms.Label lbl_date;
         private System.Windows.Forms.Label lbl_time;
