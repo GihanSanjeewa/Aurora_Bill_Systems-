@@ -515,6 +515,8 @@ namespace Billing_System
 
 
             lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+            lbl_totDiscount.Text = tot_discount.ToString();
 
 
         }
@@ -531,13 +533,15 @@ namespace Billing_System
                 lbl_price7.Text = lbl_price8.Text;
                 lbl_discount7.Text = lbl_discount8.Text;
                 lbl_fprice7.Text = lbl_fprice8.Text;
-                btn_remove8.Visible = false;
+                //btn_remove8.Visible = false;
 
                 //clear raw 8
 
                 clear8();
 
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
 
 
             }
@@ -546,7 +550,8 @@ namespace Billing_System
 
                 clear7();
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text)).ToString();
-
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
 
             }
 
@@ -565,7 +570,7 @@ namespace Billing_System
                 lbl_discount6.Text = lbl_discount7.Text;
                 lbl_fprice6.Text = lbl_fprice7.Text;
 
-                clear7();
+                //clear7();
 
                 if (lbl_job8.Text != "")
                 {
@@ -574,23 +579,29 @@ namespace Billing_System
                     lbl_price7.Text = lbl_price8.Text;
                     lbl_discount7.Text = lbl_discount8.Text;
                     lbl_fprice7.Text = lbl_fprice8.Text;
-                    btn_remove8.Visible = false;
+                   // btn_remove8.Visible = false;
 
                     //clear raw 8
 
                     clear8();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
                 else
                 {
                     clear7();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) ).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
             }
             else
             {
                 clear6();
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text)).ToString();
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
             }
         }
 
@@ -607,7 +618,7 @@ namespace Billing_System
                 lbl_discount5.Text = lbl_discount6.Text;
                 lbl_fprice5.Text = lbl_fprice6.Text;
 
-                clear6();
+                //clear6();
 
                 if (lbl_job7.Text != "")
                 {
@@ -616,7 +627,7 @@ namespace Billing_System
                     lbl_price6.Text = lbl_price7.Text;
                     lbl_discount6.Text = lbl_discount7.Text;
                     lbl_fprice6.Text = lbl_fprice7.Text;
-                    btn_remove7.Visible = false;
+                   // btn_remove7.Visible = false;
 
                     if (lbl_job8.Text != "")
                     {
@@ -625,24 +636,30 @@ namespace Billing_System
                         lbl_price7.Text = lbl_price8.Text;
                         lbl_discount7.Text = lbl_discount8.Text;
                         lbl_fprice7.Text = lbl_fprice8.Text;
-                        btn_remove8.Visible = false;
+                       // btn_remove8.Visible = false;
 
                         //clear raw 8
 
                         clear8();
 
                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                        lbl_totDiscount.Text = tot_discount.ToString();
                     }
                     else
                     {
                         clear7();
                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text)).ToString();
+                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                        lbl_totDiscount.Text = tot_discount.ToString();
                     }
                 }
                 else
                 {
                     clear6();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text)).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text));
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
 
             }
@@ -650,6 +667,8 @@ namespace Billing_System
             {
                 clear5();
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
             }
         }
 
@@ -663,8 +682,8 @@ namespace Billing_System
                 lbl_price4.Text = lbl_price5.Text;
                 lbl_discount4.Text = lbl_discount5.Text;
                 lbl_fprice4.Text = lbl_fprice5.Text;
-                btn_remove5.Visible = false;
-                clear5();
+                
+                //clear5();
 
 
                 if (lbl_job6.Text != "")
@@ -674,7 +693,7 @@ namespace Billing_System
                     lbl_price5.Text = lbl_price6.Text;
                     lbl_discount5.Text = lbl_discount6.Text;
                     lbl_fprice5.Text = lbl_fprice6.Text;
-                    btn_remove6.Visible = false;
+                    //btn_remove6.Visible = false;
                     
 
                     if (lbl_job7.Text != "")
@@ -684,7 +703,7 @@ namespace Billing_System
                         lbl_price6.Text = lbl_price7.Text;
                         lbl_discount6.Text = lbl_discount7.Text;
                         lbl_fprice6.Text = lbl_fprice7.Text;
-                        btn_remove7.Visible = false;
+                        ///btn_remove7.Visible = false;
 
                         if (lbl_job8.Text != "")
                         {
@@ -693,24 +712,30 @@ namespace Billing_System
                             lbl_price7.Text = lbl_price8.Text;
                             lbl_discount7.Text = lbl_discount8.Text;
                             lbl_fprice7.Text = lbl_fprice8.Text;
-                            btn_remove8.Visible = false;
+                            //btn_remove8.Visible = false;
 
                             //clear raw 8
 
                             clear8();
 
                             lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                            lbl_totDiscount.Text = tot_discount.ToString();
                         }
                         else
                         {
                             clear7();
                             lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text)).ToString();
+                            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                            lbl_totDiscount.Text = tot_discount.ToString();
                         }
                     }
                     else
                     {
                         clear6();
                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text)).ToString();
+                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text));
+                        lbl_totDiscount.Text = tot_discount.ToString();
                     }
 
                 }
@@ -718,6 +743,8 @@ namespace Billing_System
                 {
                     clear5();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text));
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
                
             }
@@ -725,6 +752,8 @@ namespace Billing_System
             {
                 clear4();
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
             }
 
         }
@@ -738,9 +767,9 @@ namespace Billing_System
                 lbl_price3.Text = lbl_price4.Text;
                 lbl_discount3.Text = lbl_discount4.Text;
                 lbl_fprice3.Text = lbl_fprice4.Text;
-                btn_remove3.Visible = false;
+                
 
-                clear4();
+                //clear4();
 
                 if (lbl_job5.Text != "")
                 {
@@ -749,7 +778,7 @@ namespace Billing_System
                     lbl_price4.Text = lbl_price5.Text;
                     lbl_discount4.Text = lbl_discount5.Text;
                     lbl_fprice4.Text = lbl_fprice5.Text;
-                    btn_remove5.Visible = false;
+                    ///btn_remove5.Visible = false;
 
 
                     
@@ -762,7 +791,7 @@ namespace Billing_System
                         lbl_price5.Text = lbl_price6.Text;
                         lbl_discount5.Text = lbl_discount6.Text;
                         lbl_fprice5.Text = lbl_fprice6.Text;
-                        btn_remove6.Visible = false;
+                        //btn_remove6.Visible = false;
                         
 
                         if (lbl_job7.Text != "")
@@ -772,7 +801,7 @@ namespace Billing_System
                             lbl_price6.Text = lbl_price7.Text;
                             lbl_discount6.Text = lbl_discount7.Text;
                             lbl_fprice6.Text = lbl_fprice7.Text;
-                            btn_remove7.Visible = false;
+                            //btn_remove7.Visible = false;
 
                             if (lbl_job8.Text != "")
                             {
@@ -781,24 +810,30 @@ namespace Billing_System
                                 lbl_price7.Text = lbl_price8.Text;
                                 lbl_discount7.Text = lbl_discount8.Text;
                                 lbl_fprice7.Text = lbl_fprice8.Text;
-                                btn_remove8.Visible = false;
+                                //btn_remove8.Visible = false;
 
                                 //clear raw 8
 
                                 clear8();
 
                                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                                lbl_totDiscount.Text = tot_discount.ToString();
                             }
                             else
                             {
                                 clear7();
                                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text)).ToString();
+                                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                                lbl_totDiscount.Text = tot_discount.ToString();
                             }
                         }
                         else
                         {
                             clear6();
                             lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text)).ToString();
+                            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text));
+                            lbl_totDiscount.Text = tot_discount.ToString();
                         }
 
                     }
@@ -806,6 +841,8 @@ namespace Billing_System
                     {
                         clear5();
                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text));
+                        lbl_totDiscount.Text = tot_discount.ToString();
                     }
 
                 }
@@ -813,6 +850,8 @@ namespace Billing_System
                 {
                     clear4();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text));
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
             }
 
@@ -820,6 +859,8 @@ namespace Billing_System
             {
                 clear3();
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) ).ToString();
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
             }
 
         }
@@ -835,7 +876,7 @@ namespace Billing_System
                 lbl_discount2.Text = lbl_discount3.Text;
                 lbl_fprice2.Text = lbl_fprice3.Text;
 
-                clear3();
+                //clear3();
 
 
                 if (lbl_job4.Text != "")
@@ -846,7 +887,7 @@ namespace Billing_System
                     lbl_discount3.Text = lbl_discount4.Text;
                     lbl_fprice3.Text = lbl_fprice4.Text;
 
-                    btn_remove4.Visible = false;
+                   // btn_remove4.Visible = false;
 
 
                     if (lbl_job5.Text != "")
@@ -857,7 +898,7 @@ namespace Billing_System
                         lbl_discount4.Text = lbl_discount5.Text;
                         lbl_fprice4.Text = lbl_fprice5.Text;
 
-                        btn_remove5.Visible = false;
+                        //btn_remove5.Visible = false;
 
                         if (lbl_job6.Text != "")
                         {
@@ -867,7 +908,7 @@ namespace Billing_System
                             lbl_discount5.Text = lbl_discount6.Text;
                             lbl_fprice5.Text = lbl_fprice6.Text;
 
-                            btn_remove6.Visible = false;
+                            //btn_remove6.Visible = false;
 
                             if (lbl_job7.Text != "")
                             {
@@ -876,7 +917,7 @@ namespace Billing_System
                                 lbl_price6.Text = lbl_price7.Text;
                                 lbl_discount6.Text = lbl_discount7.Text;
                                 lbl_fprice6.Text = lbl_fprice7.Text;
-                                btn_remove7.Visible = false;
+                                //btn_remove7.Visible = false;
 
                                 if (lbl_job8.Text != "")
                                 {
@@ -885,24 +926,30 @@ namespace Billing_System
                                     lbl_price7.Text = lbl_price8.Text;
                                     lbl_discount7.Text = lbl_discount8.Text;
                                     lbl_fprice7.Text = lbl_fprice8.Text;
-                                    btn_remove8.Visible = false;
+                                    //btn_remove8.Visible = false;
 
                                     //clear raw 8
 
                                     clear8();
 
                                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                                    lbl_totDiscount.Text = tot_discount.ToString();
                                 }
                                 else
                                 {
                                     clear7();
                                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text)).ToString();
+                                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                                    lbl_totDiscount.Text = tot_discount.ToString();
                                 }
                             }
                             else
                             {
                                 clear6();
                                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text)).ToString();
+                                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text));
+                                lbl_totDiscount.Text = tot_discount.ToString();
                             }
 
                         }
@@ -910,6 +957,8 @@ namespace Billing_System
                         {
                             clear5();
                             lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text));
+                            lbl_totDiscount.Text = tot_discount.ToString();
                         }
 
                     }
@@ -917,6 +966,8 @@ namespace Billing_System
                     {
                         clear4();
                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text));
+                        lbl_totDiscount.Text = tot_discount.ToString();
                     }
                 }
 
@@ -924,6 +975,8 @@ namespace Billing_System
                 {
                     clear3();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text)).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text));
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
             }
 
@@ -931,6 +984,8 @@ namespace Billing_System
             {
                 clear2();
                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) ).ToString();
+                int tot_discount = (Convert.ToInt32(lbl_discount1.Text));
+                lbl_totDiscount.Text = tot_discount.ToString();
             }
         }
 
@@ -944,7 +999,7 @@ namespace Billing_System
                 lbl_price1.Text = lbl_price2.Text;
                 lbl_discount1.Text = lbl_discount2.Text;
                 lbl_fprice1.Text = lbl_fprice2.Text;
-                clear2();
+                //clear2();
 
                 if (lbl_job3.Text != "")
                 {
@@ -953,7 +1008,7 @@ namespace Billing_System
                     lbl_price2.Text = lbl_price3.Text;
                     lbl_discount2.Text = lbl_discount3.Text;
                     lbl_fprice2.Text = lbl_fprice3.Text;
-                    
+                    //btn_remove3.Visible = false;
 
 
                     if (lbl_job4.Text != "")
@@ -963,9 +1018,9 @@ namespace Billing_System
                         lbl_price3.Text = lbl_price4.Text;
                         lbl_discount3.Text = lbl_discount4.Text;
                         lbl_fprice3.Text = lbl_fprice4.Text;
-                       
+                        //btn_remove4.Visible = false;
 
-                        
+
 
                         if (lbl_job5.Text != "")
                         {
@@ -974,10 +1029,10 @@ namespace Billing_System
                             lbl_price4.Text = lbl_price5.Text;
                             lbl_discount4.Text = lbl_discount5.Text;
                             lbl_fprice4.Text = lbl_fprice5.Text;
-                            
+                            //btn_remove5.Visible = false;
 
 
-                            
+
 
 
                             if (lbl_job6.Text != "")
@@ -987,8 +1042,8 @@ namespace Billing_System
                                 lbl_price5.Text = lbl_price6.Text;
                                 lbl_discount5.Text = lbl_discount6.Text;
                                 lbl_fprice5.Text = lbl_fprice6.Text;
-                               
-                                
+                                //btn_remove6.Visible = false;
+
 
                                 if (lbl_job7.Text != "")
                                 {
@@ -997,7 +1052,7 @@ namespace Billing_System
                                     lbl_price6.Text = lbl_price7.Text;
                                     lbl_discount6.Text = lbl_discount7.Text;
                                     lbl_fprice6.Text = lbl_fprice7.Text;
-                                   
+                                    //btn_remove7.Visible = false;
 
                                     if (lbl_job8.Text != "")
                                     {
@@ -1006,24 +1061,30 @@ namespace Billing_System
                                         lbl_price7.Text = lbl_price8.Text;
                                         lbl_discount7.Text = lbl_discount8.Text;
                                         lbl_fprice7.Text = lbl_fprice8.Text;
-                                        btn_remove8.Visible = false;
+                                        //btn_remove8.Visible = false;
 
                                         //clear raw 8
 
                                         clear8();
 
                                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text) + Convert.ToInt32(lbl_fprice7.Text)).ToString();
+                                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text)) + (Convert.ToInt32(lbl_discount7.Text));
+                                        lbl_totDiscount.Text = tot_discount.ToString();
                                     }
                                     else
                                     {
                                         clear7();
                                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text) + Convert.ToInt32(lbl_fprice6.Text)).ToString();
+                                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text)) + (Convert.ToInt32(lbl_discount6.Text));
+                                        lbl_totDiscount.Text = tot_discount.ToString();
                                     }
                                 }
                                 else
                                 {
                                     clear6();
                                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text) + Convert.ToInt32(lbl_fprice5.Text)).ToString();
+                                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text)) + (Convert.ToInt32(lbl_discount5.Text));
+                                    lbl_totDiscount.Text = tot_discount.ToString();
                                 }
 
                             }
@@ -1031,6 +1092,8 @@ namespace Billing_System
                             {
                                 clear5();
                                 lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text) + Convert.ToInt32(lbl_fprice4.Text)).ToString();
+                                int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text)) + (Convert.ToInt32(lbl_discount4.Text));
+                                lbl_totDiscount.Text = tot_discount.ToString();
                             }
 
                         }
@@ -1038,6 +1101,8 @@ namespace Billing_System
                         {
                             clear4();
                             lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text) + Convert.ToInt32(lbl_fprice3.Text)).ToString();
+                            int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text)) + (Convert.ToInt32(lbl_discount3.Text));
+                            lbl_totDiscount.Text = tot_discount.ToString();
                         }
                     }
 
@@ -1045,6 +1110,8 @@ namespace Billing_System
                     {
                         clear3();
                         lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text) + Convert.ToInt32(lbl_fprice2.Text)).ToString();
+                        int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) + (Convert.ToInt32(lbl_discount2.Text));
+                        lbl_totDiscount.Text = tot_discount.ToString();
                     }
                 }
 
@@ -1052,12 +1119,15 @@ namespace Billing_System
                 {
                     clear2();
                     lbl_total.Text = (Convert.ToInt32(lbl_fprice1.Text)).ToString();
+                    int tot_discount = (Convert.ToInt32(lbl_discount1.Text)) ;
+                    lbl_totDiscount.Text = tot_discount.ToString();
                 }
             }
 
             else
             {
                 clear1();
+                lbl_total.Text = "0";
                 lbl_total.Text = "0";
             }
         }
