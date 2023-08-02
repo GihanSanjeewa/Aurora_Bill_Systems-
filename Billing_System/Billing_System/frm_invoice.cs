@@ -337,11 +337,7 @@ namespace Billing_System
             }
 
             
-            if (!int.TryParse(ValidateVNumber, out _))
-            {
-                MessageBox.Show("Vehicle number should not contain only numeric values !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+           
 
 
             if (string.IsNullOrEmpty(ValidateJob))

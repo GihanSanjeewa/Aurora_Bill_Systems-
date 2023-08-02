@@ -37,10 +37,18 @@ namespace Billing_System
         public static string setpDate = "";
         public static string setdtime = "";
         public static string setcInform = "";
+        public static string setResultRemark = "";
+        public static string setDate_purposed = "";
 
         public frm_motoCar()
         {
             InitializeComponent();
+
+            date_Received.Format = DateTimePickerFormat.Custom;
+            date_Received.CustomFormat = "yyyy-MM-dd";
+
+            date_Proposed.Format = DateTimePickerFormat.Custom;
+            date_Proposed.CustomFormat = "yyyy-MM-dd";
         }
 
         private void btn_process_Click(object sender, EventArgs e)
@@ -104,14 +112,25 @@ namespace Billing_System
             setdecision2 = txt_decision2.Text;
             setdecision3 = txt_decision3.Text;
             setdecision4 = txt_decision4.Text;
-            setremark1 = txt_remarks.Text;
+            setremark1 = txt_remarks.Text.Trim();
             setestimatedCost = txt_estimatedCost.Text;
             setpDate = date_Proposed.Text;
             setdtime = "";
             setcInform = cmb_cInform.Text;
+            
 
+                string[] words = setremark1.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-            MessageBox.Show("Saved Successfully!");
+                // Divide the words into groups of 5
+                var groupsOfFiveWords = words.Select((word, index) => new { word, index })
+                                            .GroupBy(item => item.index / 5, item => item.word);
+
+                // Combine each group of 5 words with spaces to form lines
+                string resultRemark = string.Join(Environment.NewLine, groupsOfFiveWords.Select(group => string.Join(" ", group)));
+
+                setResultRemark = resultRemark.Trim();
+
+                MessageBox.Show("Saved Successfully!");
             motocarJobCard mccard = new motocarJobCard();
             mccard.Show();
             }

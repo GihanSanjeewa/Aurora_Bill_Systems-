@@ -91,13 +91,13 @@
             this.txt_customerName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_customerName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_customerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_customerName.Location = new System.Drawing.Point(13, 102);
-            this.txt_customerName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_customerName.Location = new System.Drawing.Point(17, 126);
+            this.txt_customerName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_customerName.Name = "txt_customerName";
             this.txt_customerName.PasswordChar = '\0';
             this.txt_customerName.PlaceholderText = "";
             this.txt_customerName.SelectedText = "";
-            this.txt_customerName.Size = new System.Drawing.Size(199, 29);
+            this.txt_customerName.Size = new System.Drawing.Size(265, 36);
             this.txt_customerName.TabIndex = 1;
             this.txt_customerName.Validating += new System.ComponentModel.CancelEventHandler(this.txt_search_Validating_1);
             // 
@@ -113,9 +113,10 @@
             this.cmb_vehicleModel.ItemHeight = 30;
             this.cmb_vehicleModel.Items.AddRange(new object[] {
             "Bike"});
-            this.cmb_vehicleModel.Location = new System.Drawing.Point(243, 103);
+            this.cmb_vehicleModel.Location = new System.Drawing.Point(324, 127);
+            this.cmb_vehicleModel.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_vehicleModel.Name = "cmb_vehicleModel";
-            this.cmb_vehicleModel.Size = new System.Drawing.Size(200, 36);
+            this.cmb_vehicleModel.Size = new System.Drawing.Size(265, 36);
             this.cmb_vehicleModel.TabIndex = 2;
             // 
             // date_Received
@@ -126,13 +127,14 @@
             this.date_Received.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.date_Received.ForeColor = System.Drawing.Color.White;
             this.date_Received.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.date_Received.Location = new System.Drawing.Point(473, 104);
+            this.date_Received.Location = new System.Drawing.Point(631, 128);
+            this.date_Received.Margin = new System.Windows.Forms.Padding(4);
             this.date_Received.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date_Received.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date_Received.Name = "date_Received";
-            this.date_Received.Size = new System.Drawing.Size(200, 36);
+            this.date_Received.Size = new System.Drawing.Size(267, 44);
             this.date_Received.TabIndex = 3;
-            this.date_Received.Value = new System.DateTime(2023, 5, 21, 0, 31, 37, 356);
+            this.date_Received.Value = new System.DateTime(2023, 5, 21, 0, 0, 0, 0);
             // 
             // txt_fuel
             // 
@@ -146,13 +148,13 @@
             this.txt_fuel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_fuel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_fuel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_fuel.Location = new System.Drawing.Point(709, 104);
-            this.txt_fuel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_fuel.Location = new System.Drawing.Point(945, 128);
+            this.txt_fuel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_fuel.Name = "txt_fuel";
             this.txt_fuel.PasswordChar = '\0';
             this.txt_fuel.PlaceholderText = "";
             this.txt_fuel.SelectedText = "";
-            this.txt_fuel.Size = new System.Drawing.Size(199, 29);
+            this.txt_fuel.Size = new System.Drawing.Size(265, 36);
             this.txt_fuel.TabIndex = 1;
             // 
             // txt_address
@@ -167,13 +169,13 @@
             this.txt_address.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_address.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_address.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_address.Location = new System.Drawing.Point(943, 104);
-            this.txt_address.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_address.Location = new System.Drawing.Point(1257, 128);
+            this.txt_address.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_address.Name = "txt_address";
             this.txt_address.PasswordChar = '\0';
             this.txt_address.PlaceholderText = "";
             this.txt_address.SelectedText = "";
-            this.txt_address.Size = new System.Drawing.Size(199, 29);
+            this.txt_address.Size = new System.Drawing.Size(265, 36);
             this.txt_address.TabIndex = 1;
             // 
             // txt_regNo
@@ -188,13 +190,13 @@
             this.txt_regNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_regNo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_regNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_regNo.Location = new System.Drawing.Point(13, 168);
-            this.txt_regNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_regNo.Location = new System.Drawing.Point(17, 207);
+            this.txt_regNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_regNo.Name = "txt_regNo";
             this.txt_regNo.PasswordChar = '\0';
             this.txt_regNo.PlaceholderText = "";
             this.txt_regNo.SelectedText = "";
-            this.txt_regNo.Size = new System.Drawing.Size(199, 29);
+            this.txt_regNo.Size = new System.Drawing.Size(265, 36);
             this.txt_regNo.TabIndex = 1;
             this.txt_regNo.Validating += new System.ComponentModel.CancelEventHandler(this.txt_search_Validating_1);
             // 
@@ -210,13 +212,13 @@
             this.txt_odoMeter.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_odoMeter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_odoMeter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_odoMeter.Location = new System.Drawing.Point(242, 168);
-            this.txt_odoMeter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_odoMeter.Location = new System.Drawing.Point(323, 207);
+            this.txt_odoMeter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_odoMeter.Name = "txt_odoMeter";
             this.txt_odoMeter.PasswordChar = '\0';
             this.txt_odoMeter.PlaceholderText = "";
             this.txt_odoMeter.SelectedText = "";
-            this.txt_odoMeter.Size = new System.Drawing.Size(199, 29);
+            this.txt_odoMeter.Size = new System.Drawing.Size(265, 36);
             this.txt_odoMeter.TabIndex = 1;
             // 
             // txt_chassisNo
@@ -231,13 +233,13 @@
             this.txt_chassisNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_chassisNo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_chassisNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_chassisNo.Location = new System.Drawing.Point(474, 167);
-            this.txt_chassisNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_chassisNo.Location = new System.Drawing.Point(632, 206);
+            this.txt_chassisNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_chassisNo.Name = "txt_chassisNo";
             this.txt_chassisNo.PasswordChar = '\0';
             this.txt_chassisNo.PlaceholderText = "";
             this.txt_chassisNo.SelectedText = "";
-            this.txt_chassisNo.Size = new System.Drawing.Size(199, 29);
+            this.txt_chassisNo.Size = new System.Drawing.Size(265, 36);
             this.txt_chassisNo.TabIndex = 1;
             // 
             // txt_company
@@ -252,13 +254,13 @@
             this.txt_company.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_company.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_company.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_company.Location = new System.Drawing.Point(711, 167);
-            this.txt_company.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_company.Location = new System.Drawing.Point(948, 206);
+            this.txt_company.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_company.Name = "txt_company";
             this.txt_company.PasswordChar = '\0';
             this.txt_company.PlaceholderText = "";
             this.txt_company.SelectedText = "";
-            this.txt_company.Size = new System.Drawing.Size(199, 29);
+            this.txt_company.Size = new System.Drawing.Size(265, 36);
             this.txt_company.TabIndex = 1;
             // 
             // txt_phoneNumber
@@ -273,17 +275,18 @@
             this.txt_phoneNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_phoneNumber.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_phoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_phoneNumber.Location = new System.Drawing.Point(943, 167);
-            this.txt_phoneNumber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_phoneNumber.Location = new System.Drawing.Point(1257, 206);
+            this.txt_phoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_phoneNumber.Name = "txt_phoneNumber";
             this.txt_phoneNumber.PasswordChar = '\0';
             this.txt_phoneNumber.PlaceholderText = "";
             this.txt_phoneNumber.SelectedText = "";
-            this.txt_phoneNumber.Size = new System.Drawing.Size(199, 29);
+            this.txt_phoneNumber.Size = new System.Drawing.Size(265, 36);
             this.txt_phoneNumber.TabIndex = 1;
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.AutoScroll = true;
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel1.Controls.Add(this.label12);
             this.guna2Panel1.Controls.Add(this.txt_complain4);
@@ -291,10 +294,12 @@
             this.guna2Panel1.Controls.Add(this.txt_complain2);
             this.guna2Panel1.Controls.Add(this.txt_complain1);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(17, 218);
+            this.guna2Panel1.Location = new System.Drawing.Point(23, 268);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(541, 237);
+            this.guna2Panel1.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel1.TabIndex = 4;
+            this.guna2Panel1.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.guna2Panel1_ControlAdded);
             // 
             // label12
             // 
@@ -302,10 +307,9 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(188, 4);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(251, 5);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(144, 29);
+            this.label12.Size = new System.Drawing.Size(173, 36);
             this.label12.TabIndex = 18;
             this.label12.Text = "Complaints";
             // 
@@ -321,14 +325,14 @@
             this.txt_complain4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_complain4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain4.Location = new System.Drawing.Point(0, 186);
-            this.txt_complain4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_complain4.Location = new System.Drawing.Point(0, 229);
+            this.txt_complain4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain4.Multiline = true;
             this.txt_complain4.Name = "txt_complain4";
             this.txt_complain4.PasswordChar = '\0';
             this.txt_complain4.PlaceholderText = "";
             this.txt_complain4.SelectedText = "";
-            this.txt_complain4.Size = new System.Drawing.Size(541, 40);
+            this.txt_complain4.Size = new System.Drawing.Size(721, 49);
             this.txt_complain4.TabIndex = 0;
             // 
             // txt_complain3
@@ -343,14 +347,14 @@
             this.txt_complain3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_complain3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain3.Location = new System.Drawing.Point(0, 141);
-            this.txt_complain3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_complain3.Location = new System.Drawing.Point(0, 174);
+            this.txt_complain3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain3.Multiline = true;
             this.txt_complain3.Name = "txt_complain3";
             this.txt_complain3.PasswordChar = '\0';
             this.txt_complain3.PlaceholderText = "";
             this.txt_complain3.SelectedText = "";
-            this.txt_complain3.Size = new System.Drawing.Size(541, 40);
+            this.txt_complain3.Size = new System.Drawing.Size(721, 49);
             this.txt_complain3.TabIndex = 0;
             // 
             // txt_complain2
@@ -365,14 +369,14 @@
             this.txt_complain2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_complain2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain2.Location = new System.Drawing.Point(0, 94);
-            this.txt_complain2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_complain2.Location = new System.Drawing.Point(0, 116);
+            this.txt_complain2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain2.Multiline = true;
             this.txt_complain2.Name = "txt_complain2";
             this.txt_complain2.PasswordChar = '\0';
             this.txt_complain2.PlaceholderText = "";
             this.txt_complain2.SelectedText = "";
-            this.txt_complain2.Size = new System.Drawing.Size(541, 40);
+            this.txt_complain2.Size = new System.Drawing.Size(721, 49);
             this.txt_complain2.TabIndex = 0;
             // 
             // txt_complain1
@@ -387,14 +391,14 @@
             this.txt_complain1.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.txt_complain1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_complain1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_complain1.Location = new System.Drawing.Point(0, 48);
-            this.txt_complain1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_complain1.Location = new System.Drawing.Point(0, 59);
+            this.txt_complain1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_complain1.Multiline = true;
             this.txt_complain1.Name = "txt_complain1";
             this.txt_complain1.PasswordChar = '\0';
             this.txt_complain1.PlaceholderText = "";
             this.txt_complain1.SelectedText = "";
-            this.txt_complain1.Size = new System.Drawing.Size(541, 40);
+            this.txt_complain1.Size = new System.Drawing.Size(721, 49);
             this.txt_complain1.TabIndex = 0;
             // 
             // guna2Panel3
@@ -406,9 +410,10 @@
             this.guna2Panel3.Controls.Add(this.txt_decision1);
             this.guna2Panel3.Controls.Add(this.txt_decision3);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(599, 218);
+            this.guna2Panel3.Location = new System.Drawing.Point(799, 268);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(541, 237);
+            this.guna2Panel3.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel3.TabIndex = 6;
             // 
             // label14
@@ -417,10 +422,9 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(207, 5);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(276, 6);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(115, 29);
+            this.label14.Size = new System.Drawing.Size(138, 36);
             this.label14.TabIndex = 19;
             this.label14.Text = "Decision";
             // 
@@ -436,14 +440,14 @@
             this.txt_decision4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_decision4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision4.Location = new System.Drawing.Point(1, 186);
-            this.txt_decision4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_decision4.Location = new System.Drawing.Point(1, 229);
+            this.txt_decision4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision4.Multiline = true;
             this.txt_decision4.Name = "txt_decision4";
             this.txt_decision4.PasswordChar = '\0';
             this.txt_decision4.PlaceholderText = "";
             this.txt_decision4.SelectedText = "";
-            this.txt_decision4.Size = new System.Drawing.Size(541, 40);
+            this.txt_decision4.Size = new System.Drawing.Size(721, 49);
             this.txt_decision4.TabIndex = 0;
             // 
             // txt_decision2
@@ -458,14 +462,14 @@
             this.txt_decision2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_decision2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision2.Location = new System.Drawing.Point(1, 95);
-            this.txt_decision2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_decision2.Location = new System.Drawing.Point(1, 118);
+            this.txt_decision2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision2.Multiline = true;
             this.txt_decision2.Name = "txt_decision2";
             this.txt_decision2.PasswordChar = '\0';
             this.txt_decision2.PlaceholderText = "";
             this.txt_decision2.SelectedText = "";
-            this.txt_decision2.Size = new System.Drawing.Size(541, 40);
+            this.txt_decision2.Size = new System.Drawing.Size(721, 49);
             this.txt_decision2.TabIndex = 0;
             // 
             // txt_decision1
@@ -480,14 +484,14 @@
             this.txt_decision1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_decision1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision1.Location = new System.Drawing.Point(1, 50);
-            this.txt_decision1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_decision1.Location = new System.Drawing.Point(1, 62);
+            this.txt_decision1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision1.Multiline = true;
             this.txt_decision1.Name = "txt_decision1";
             this.txt_decision1.PasswordChar = '\0';
             this.txt_decision1.PlaceholderText = "";
             this.txt_decision1.SelectedText = "";
-            this.txt_decision1.Size = new System.Drawing.Size(541, 40);
+            this.txt_decision1.Size = new System.Drawing.Size(721, 49);
             this.txt_decision1.TabIndex = 0;
             // 
             // txt_decision3
@@ -502,24 +506,25 @@
             this.txt_decision3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_decision3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_decision3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_decision3.Location = new System.Drawing.Point(1, 141);
-            this.txt_decision3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_decision3.Location = new System.Drawing.Point(1, 174);
+            this.txt_decision3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_decision3.Multiline = true;
             this.txt_decision3.Name = "txt_decision3";
             this.txt_decision3.PasswordChar = '\0';
             this.txt_decision3.PlaceholderText = "";
             this.txt_decision3.SelectedText = "";
-            this.txt_decision3.Size = new System.Drawing.Size(541, 40);
+            this.txt_decision3.Size = new System.Drawing.Size(721, 49);
             this.txt_decision3.TabIndex = 0;
             // 
             // guna2HtmlLabel13
             // 
             this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(32, 455);
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(23, 613);
+            this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(120, 31);
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(136, 33);
             this.guna2HtmlLabel13.TabIndex = 0;
             this.guna2HtmlLabel13.Text = "Remarks :";
             // 
@@ -536,14 +541,14 @@
             this.txt_remarks.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.txt_remarks.ForeColor = System.Drawing.Color.White;
             this.txt_remarks.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_remarks.Location = new System.Drawing.Point(28, 496);
-            this.txt_remarks.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_remarks.Location = new System.Drawing.Point(13, 655);
+            this.txt_remarks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_remarks.Multiline = true;
             this.txt_remarks.Name = "txt_remarks";
             this.txt_remarks.PasswordChar = '\0';
             this.txt_remarks.PlaceholderText = "";
             this.txt_remarks.SelectedText = "";
-            this.txt_remarks.Size = new System.Drawing.Size(326, 168);
+            this.txt_remarks.Size = new System.Drawing.Size(455, 180);
             this.txt_remarks.TabIndex = 7;
             // 
             // date_Proposed
@@ -553,13 +558,14 @@
             this.date_Proposed.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.date_Proposed.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.date_Proposed.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.date_Proposed.Location = new System.Drawing.Point(666, 630);
+            this.date_Proposed.Location = new System.Drawing.Point(888, 775);
+            this.date_Proposed.Margin = new System.Windows.Forms.Padding(4);
             this.date_Proposed.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date_Proposed.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date_Proposed.Name = "date_Proposed";
-            this.date_Proposed.Size = new System.Drawing.Size(227, 36);
+            this.date_Proposed.Size = new System.Drawing.Size(303, 44);
             this.date_Proposed.TabIndex = 13;
-            this.date_Proposed.Value = new System.DateTime(2023, 5, 21, 0, 31, 37, 356);
+            this.date_Proposed.Value = new System.DateTime(2023, 5, 21, 0, 0, 0, 0);
             // 
             // cmb_cInform
             // 
@@ -574,9 +580,10 @@
             this.cmb_cInform.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmb_cInform.Location = new System.Drawing.Point(666, 566);
+            this.cmb_cInform.Location = new System.Drawing.Point(888, 697);
+            this.cmb_cInform.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_cInform.Name = "cmb_cInform";
-            this.cmb_cInform.Size = new System.Drawing.Size(228, 36);
+            this.cmb_cInform.Size = new System.Drawing.Size(303, 36);
             this.cmb_cInform.TabIndex = 12;
             // 
             // txt_estimatedCost
@@ -591,13 +598,13 @@
             this.txt_estimatedCost.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.txt_estimatedCost.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_estimatedCost.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_estimatedCost.Location = new System.Drawing.Point(666, 506);
-            this.txt_estimatedCost.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_estimatedCost.Location = new System.Drawing.Point(888, 623);
+            this.txt_estimatedCost.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_estimatedCost.Name = "txt_estimatedCost";
             this.txt_estimatedCost.PasswordChar = '\0';
             this.txt_estimatedCost.PlaceholderText = "";
             this.txt_estimatedCost.SelectedText = "";
-            this.txt_estimatedCost.Size = new System.Drawing.Size(227, 29);
+            this.txt_estimatedCost.Size = new System.Drawing.Size(303, 36);
             this.txt_estimatedCost.TabIndex = 11;
             // 
             // btn_process
@@ -614,9 +621,10 @@
             this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btn_process.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_process.ForeColor = System.Drawing.Color.White;
-            this.btn_process.Location = new System.Drawing.Point(922, 506);
+            this.btn_process.Location = new System.Drawing.Point(1229, 623);
+            this.btn_process.Margin = new System.Windows.Forms.Padding(4);
             this.btn_process.Name = "btn_process";
-            this.btn_process.Size = new System.Drawing.Size(214, 155);
+            this.btn_process.Size = new System.Drawing.Size(285, 191);
             this.btn_process.TabIndex = 14;
             this.btn_process.Text = "Process";
             this.btn_process.Click += new System.EventHandler(this.btn_process_Click);
@@ -626,10 +634,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(9, 73);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(12, 90);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(137, 20);
+            this.label5.Size = new System.Drawing.Size(167, 25);
             this.label5.TabIndex = 15;
             this.label5.Text = "Customer Name";
             // 
@@ -638,10 +645,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(242, 74);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(323, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 20);
+            this.label1.Size = new System.Drawing.Size(205, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "Vehicle Type/Model";
             // 
@@ -650,10 +656,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(472, 74);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(629, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 20);
+            this.label2.Size = new System.Drawing.Size(181, 25);
             this.label2.TabIndex = 15;
             this.label2.Text = "Date Of Received";
             // 
@@ -662,10 +667,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(947, 141);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(1263, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 20);
+            this.label3.Size = new System.Drawing.Size(155, 25);
             this.label3.TabIndex = 15;
             this.label3.Text = "Phone Number";
             // 
@@ -674,10 +678,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(9, 142);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(12, 175);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 20);
+            this.label4.Size = new System.Drawing.Size(94, 25);
             this.label4.TabIndex = 15;
             this.label4.Text = "REG NO";
             // 
@@ -686,10 +689,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(707, 141);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(943, 174);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 20);
+            this.label6.Size = new System.Drawing.Size(104, 25);
             this.label6.TabIndex = 15;
             this.label6.Text = "Company";
             // 
@@ -698,10 +700,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(240, 142);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(320, 175);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(171, 20);
+            this.label7.Size = new System.Drawing.Size(207, 25);
             this.label7.TabIndex = 15;
             this.label7.Text = "ODO Meter Reading";
             // 
@@ -710,10 +711,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(476, 141);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(635, 174);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(93, 20);
+            this.label8.Size = new System.Drawing.Size(117, 25);
             this.label8.TabIndex = 15;
             this.label8.Text = "Chasis NO";
             // 
@@ -722,10 +722,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(710, 76);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(947, 94);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 20);
+            this.label9.Size = new System.Drawing.Size(54, 25);
             this.label9.TabIndex = 15;
             this.label9.Text = "Fuel";
             // 
@@ -734,10 +733,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(945, 73);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(1260, 90);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 20);
+            this.label10.Size = new System.Drawing.Size(92, 25);
             this.label10.TabIndex = 15;
             this.label10.Text = "Address";
             // 
@@ -749,9 +747,9 @@
             this.guna2Panel4.Controls.Add(this.label18);
             this.guna2Panel4.Controls.Add(this.txt_search);
             this.guna2Panel4.Location = new System.Drawing.Point(-1, -2);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(1371, 73);
+            this.guna2Panel4.Size = new System.Drawing.Size(1828, 90);
             this.guna2Panel4.TabIndex = 17;
             // 
             // guna2Button1
@@ -770,9 +768,10 @@
             this.guna2Button1.FillColor = System.Drawing.Color.SlateBlue;
             this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(554, 9);
+            this.guna2Button1.Location = new System.Drawing.Point(739, 11);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(400, 56);
+            this.guna2Button1.Size = new System.Drawing.Size(533, 69);
             this.guna2Button1.TabIndex = 19;
             this.guna2Button1.Text = "Job Card Motorbike";
             // 
@@ -791,9 +790,10 @@
             this.btn_search.FillColor = System.Drawing.Color.Empty;
             this.btn_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_search.ForeColor = System.Drawing.Color.Black;
-            this.btn_search.Location = new System.Drawing.Point(227, 28);
+            this.btn_search.Location = new System.Drawing.Point(303, 34);
+            this.btn_search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_search.Name = "btn_search";
-            this.btn_search.Size = new System.Drawing.Size(40, 41);
+            this.btn_search.Size = new System.Drawing.Size(53, 50);
             this.btn_search.TabIndex = 44;
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
@@ -803,10 +803,9 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(10, 10);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(13, 12);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(78, 20);
+            this.label18.Size = new System.Drawing.Size(94, 25);
             this.label18.TabIndex = 18;
             this.label18.Text = "REG NO";
             // 
@@ -822,13 +821,13 @@
             this.txt_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_search.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_search.Location = new System.Drawing.Point(14, 36);
-            this.txt_search.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_search.Location = new System.Drawing.Point(19, 44);
+            this.txt_search.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_search.Name = "txt_search";
             this.txt_search.PasswordChar = '\0';
             this.txt_search.PlaceholderText = "";
             this.txt_search.SelectedText = "";
-            this.txt_search.Size = new System.Drawing.Size(199, 29);
+            this.txt_search.Size = new System.Drawing.Size(265, 36);
             this.txt_search.TabIndex = 17;
             this.txt_search.Validating += new System.ComponentModel.CancelEventHandler(this.txt_search_Validating_1);
             // 
@@ -837,10 +836,9 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(662, 473);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(883, 582);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(132, 20);
+            this.label15.Size = new System.Drawing.Size(158, 25);
             this.label15.TabIndex = 18;
             this.label15.Text = "Estimated Cost";
             // 
@@ -849,10 +847,9 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(662, 541);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(883, 666);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(191, 20);
+            this.label16.Size = new System.Drawing.Size(230, 25);
             this.label16.TabIndex = 18;
             this.label16.Text = "Customer Informed On";
             // 
@@ -861,19 +858,18 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(662, 605);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(883, 745);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(218, 20);
+            this.label17.Size = new System.Drawing.Size(263, 25);
             this.label17.TabIndex = 18;
             this.label17.Text = "Proposed Date of Delivery";
             // 
             // frm_motoBicycle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1184, 690);
+            this.ClientSize = new System.Drawing.Size(1579, 849);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -908,6 +904,7 @@
             this.Controls.Add(this.txt_customerName);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_motoBicycle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_motoBicycle";
@@ -934,10 +931,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txt_company;
         private Guna.UI2.WinForms.Guna2TextBox txt_phoneNumber;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2TextBox txt_complain4;
-        private Guna.UI2.WinForms.Guna2TextBox txt_complain3;
-        private Guna.UI2.WinForms.Guna2TextBox txt_complain2;
-        private Guna.UI2.WinForms.Guna2TextBox txt_complain1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision4;
         private Guna.UI2.WinForms.Guna2TextBox txt_decision2;
@@ -969,5 +962,9 @@
         private Guna.UI2.WinForms.Guna2TextBox txt_search;
         private Guna.UI2.WinForms.Guna2Button btn_search;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_complain4;
+        private Guna.UI2.WinForms.Guna2TextBox txt_complain3;
+        private Guna.UI2.WinForms.Guna2TextBox txt_complain2;
+        private Guna.UI2.WinForms.Guna2TextBox txt_complain1;
     }
 }

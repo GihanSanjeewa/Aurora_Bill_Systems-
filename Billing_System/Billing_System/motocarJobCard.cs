@@ -43,17 +43,17 @@ namespace Billing_System
             lbl_decision2.Text = frm_motoCar.setdecision2;
             lbl_decision3.Text = frm_motoCar.setdecision3;
             lbl_decision4.Text = frm_motoCar.setdecision4;
-            lbl_remarks.Text = frm_motoCar.setremark1;
+            lbl_remarks.Text = frm_motoCar.setResultRemark;
             lbl_estimatedCost.Text = frm_motoCar.setestimatedCost;
             lblPdatec.Text = frm_motoCar.setpDate;
-            lbl_dtimec.Text = frm_motoCar.setdtime;
+            lbl_OdoMeter2.Text = frm_motoCar.setodoMeter;
+            lbl_ddate.Text = frm_motoCar.setpDate;
             lbl_CInform.Text = frm_motoCar.setcInform;
-        
-            lbl_ddate.Text = DateTime.Now.ToShortDateString();
+
+            lbl_dtimec.Text = DateTime.Now.ToString("hh:mm");
 
             //panel1.BackgroundImage = Image.FromFile("C:\\Users\\Gihan Sanjeewa\\Documents\\GitHub\\Aurora_Bill_Systems-\\Billing_System\\Billing_System\\Resources\\No.10, Galapitamulla, Hindagolla 076-1558383 auroraautocare1st@gmail.com www.Aurora autocare.facebook.com.png");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-
 
         }
 

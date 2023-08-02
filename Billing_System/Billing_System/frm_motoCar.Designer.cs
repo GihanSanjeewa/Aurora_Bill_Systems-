@@ -542,6 +542,7 @@ namespace Billing_System
             this.txt_remarks.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_remarks.Location = new System.Drawing.Point(38, 612);
             this.txt_remarks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_remarks.Multiline = true;
             this.txt_remarks.Name = "txt_remarks";
             this.txt_remarks.PasswordChar = '\0';
             this.txt_remarks.PlaceholderText = "";
