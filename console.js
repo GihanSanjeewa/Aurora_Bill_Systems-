@@ -1,8 +1,7 @@
 //this is a comment
 console.log("Hello Aurora")
 console.log("Hello Aurora Auto Service") // 2nd time 
-console.log("Hello Aurora Auto Service") // 3rd time 
-//bla bla 
+
 
 function main(){
   return null;
