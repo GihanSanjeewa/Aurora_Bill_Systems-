@@ -105,7 +105,7 @@ namespace Billing_System
             this.lbl_cName.AutoSize = true;
             this.lbl_cName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cName.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cName.Location = new System.Drawing.Point(696, 279);
+            this.lbl_cName.Location = new System.Drawing.Point(724, 277);
             this.lbl_cName.Name = "lbl_cName";
             this.lbl_cName.Size = new System.Drawing.Size(55, 23);
             this.lbl_cName.TabIndex = 0;
@@ -127,7 +127,7 @@ namespace Billing_System
             this.lbl_CInform.AutoSize = true;
             this.lbl_CInform.BackColor = System.Drawing.Color.Transparent;
             this.lbl_CInform.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_CInform.Location = new System.Drawing.Point(863, 804);
+            this.lbl_CInform.Location = new System.Drawing.Point(909, 802);
             this.lbl_CInform.Name = "lbl_CInform";
             this.lbl_CInform.Size = new System.Drawing.Size(55, 23);
             this.lbl_CInform.TabIndex = 0;
@@ -138,7 +138,7 @@ namespace Billing_System
             this.lbl_OdoMeter2.AutoSize = true;
             this.lbl_OdoMeter2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_OdoMeter2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_OdoMeter2.Location = new System.Drawing.Point(638, 803);
+            this.lbl_OdoMeter2.Location = new System.Drawing.Point(702, 801);
             this.lbl_OdoMeter2.Name = "lbl_OdoMeter2";
             this.lbl_OdoMeter2.Size = new System.Drawing.Size(55, 23);
             this.lbl_OdoMeter2.TabIndex = 0;
@@ -149,7 +149,7 @@ namespace Billing_System
             this.lbl_dtimec.AutoSize = true;
             this.lbl_dtimec.BackColor = System.Drawing.Color.Transparent;
             this.lbl_dtimec.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dtimec.Location = new System.Drawing.Point(520, 803);
+            this.lbl_dtimec.Location = new System.Drawing.Point(534, 801);
             this.lbl_dtimec.Name = "lbl_dtimec";
             this.lbl_dtimec.Size = new System.Drawing.Size(55, 23);
             this.lbl_dtimec.TabIndex = 0;
@@ -160,7 +160,7 @@ namespace Billing_System
             this.lbl_ddate.AutoSize = true;
             this.lbl_ddate.BackColor = System.Drawing.Color.Transparent;
             this.lbl_ddate.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ddate.Location = new System.Drawing.Point(407, 804);
+            this.lbl_ddate.Location = new System.Drawing.Point(431, 802);
             this.lbl_ddate.Name = "lbl_ddate";
             this.lbl_ddate.Size = new System.Drawing.Size(55, 23);
             this.lbl_ddate.TabIndex = 0;
@@ -171,7 +171,7 @@ namespace Billing_System
             this.lblPdatec.AutoSize = true;
             this.lblPdatec.BackColor = System.Drawing.Color.Transparent;
             this.lblPdatec.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPdatec.Location = new System.Drawing.Point(231, 804);
+            this.lblPdatec.Location = new System.Drawing.Point(283, 801);
             this.lblPdatec.Name = "lblPdatec";
             this.lblPdatec.Size = new System.Drawing.Size(55, 23);
             this.lblPdatec.TabIndex = 0;
@@ -182,7 +182,7 @@ namespace Billing_System
             this.lbl_estimatedCost.AutoSize = true;
             this.lbl_estimatedCost.BackColor = System.Drawing.Color.Transparent;
             this.lbl_estimatedCost.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estimatedCost.Location = new System.Drawing.Point(86, 803);
+            this.lbl_estimatedCost.Location = new System.Drawing.Point(89, 796);
             this.lbl_estimatedCost.Name = "lbl_estimatedCost";
             this.lbl_estimatedCost.Size = new System.Drawing.Size(55, 23);
             this.lbl_estimatedCost.TabIndex = 0;
@@ -281,7 +281,7 @@ namespace Billing_System
             this.lbl_chassisNo.AutoSize = true;
             this.lbl_chassisNo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_chassisNo.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_chassisNo.Location = new System.Drawing.Point(395, 280);
+            this.lbl_chassisNo.Location = new System.Drawing.Point(392, 278);
             this.lbl_chassisNo.Name = "lbl_chassisNo";
             this.lbl_chassisNo.Size = new System.Drawing.Size(55, 23);
             this.lbl_chassisNo.TabIndex = 0;
@@ -292,7 +292,7 @@ namespace Billing_System
             this.lbl_phoneNumber.AutoSize = true;
             this.lbl_phoneNumber.BackColor = System.Drawing.Color.Transparent;
             this.lbl_phoneNumber.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_phoneNumber.Location = new System.Drawing.Point(86, 280);
+            this.lbl_phoneNumber.Location = new System.Drawing.Point(86, 278);
             this.lbl_phoneNumber.Name = "lbl_phoneNumber";
             this.lbl_phoneNumber.Size = new System.Drawing.Size(55, 23);
             this.lbl_phoneNumber.TabIndex = 0;
@@ -303,7 +303,7 @@ namespace Billing_System
             this.lbl_OdoMeter.AutoSize = true;
             this.lbl_OdoMeter.BackColor = System.Drawing.Color.Transparent;
             this.lbl_OdoMeter.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_OdoMeter.Location = new System.Drawing.Point(696, 232);
+            this.lbl_OdoMeter.Location = new System.Drawing.Point(725, 231);
             this.lbl_OdoMeter.Name = "lbl_OdoMeter";
             this.lbl_OdoMeter.Size = new System.Drawing.Size(55, 23);
             this.lbl_OdoMeter.TabIndex = 0;
@@ -314,7 +314,7 @@ namespace Billing_System
             this.lbl_regNo.AutoSize = true;
             this.lbl_regNo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_regNo.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_regNo.Location = new System.Drawing.Point(383, 231);
+            this.lbl_regNo.Location = new System.Drawing.Point(392, 229);
             this.lbl_regNo.Name = "lbl_regNo";
             this.lbl_regNo.Size = new System.Drawing.Size(55, 23);
             this.lbl_regNo.TabIndex = 0;
@@ -325,7 +325,7 @@ namespace Billing_System
             this.lbl_address.AutoSize = true;
             this.lbl_address.BackColor = System.Drawing.Color.Transparent;
             this.lbl_address.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_address.Location = new System.Drawing.Point(86, 231);
+            this.lbl_address.Location = new System.Drawing.Point(86, 226);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(55, 23);
             this.lbl_address.TabIndex = 0;
@@ -336,7 +336,7 @@ namespace Billing_System
             this.lbl_fuelType.AutoSize = true;
             this.lbl_fuelType.BackColor = System.Drawing.Color.Transparent;
             this.lbl_fuelType.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fuelType.Location = new System.Drawing.Point(956, 183);
+            this.lbl_fuelType.Location = new System.Drawing.Point(970, 183);
             this.lbl_fuelType.Name = "lbl_fuelType";
             this.lbl_fuelType.Size = new System.Drawing.Size(55, 23);
             this.lbl_fuelType.TabIndex = 0;
@@ -348,7 +348,7 @@ namespace Billing_System
             this.lbl_time.BackColor = System.Drawing.Color.Transparent;
             this.lbl_time.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_time.ForeColor = System.Drawing.Color.Black;
-            this.lbl_time.Location = new System.Drawing.Point(851, 183);
+            this.lbl_time.Location = new System.Drawing.Point(865, 184);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(55, 23);
             this.lbl_time.TabIndex = 0;
@@ -359,7 +359,7 @@ namespace Billing_System
             this.lbl_dateReceived.AutoSize = true;
             this.lbl_dateReceived.BackColor = System.Drawing.Color.Transparent;
             this.lbl_dateReceived.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dateReceived.Location = new System.Drawing.Point(696, 187);
+            this.lbl_dateReceived.Location = new System.Drawing.Point(727, 185);
             this.lbl_dateReceived.Name = "lbl_dateReceived";
             this.lbl_dateReceived.Size = new System.Drawing.Size(55, 23);
             this.lbl_dateReceived.TabIndex = 0;
@@ -370,7 +370,7 @@ namespace Billing_System
             this.lbl_vehicleModel.AutoSize = true;
             this.lbl_vehicleModel.BackColor = System.Drawing.Color.Transparent;
             this.lbl_vehicleModel.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vehicleModel.Location = new System.Drawing.Point(383, 185);
+            this.lbl_vehicleModel.Location = new System.Drawing.Point(394, 182);
             this.lbl_vehicleModel.Name = "lbl_vehicleModel";
             this.lbl_vehicleModel.Size = new System.Drawing.Size(55, 23);
             this.lbl_vehicleModel.TabIndex = 0;
@@ -381,7 +381,7 @@ namespace Billing_System
             this.lbl_customerName.AutoSize = true;
             this.lbl_customerName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_customerName.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_customerName.Location = new System.Drawing.Point(86, 186);
+            this.lbl_customerName.Location = new System.Drawing.Point(86, 181);
             this.lbl_customerName.Name = "lbl_customerName";
             this.lbl_customerName.Size = new System.Drawing.Size(55, 23);
             this.lbl_customerName.TabIndex = 0;
