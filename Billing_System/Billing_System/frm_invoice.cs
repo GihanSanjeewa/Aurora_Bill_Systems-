@@ -1128,7 +1128,7 @@ namespace Billing_System
             {
                 clear1();
                 lbl_total.Text = "0";
-                lbl_total.Text = "0";
+                lbl_totDiscount.Text = "0";
             }
         }
     }
