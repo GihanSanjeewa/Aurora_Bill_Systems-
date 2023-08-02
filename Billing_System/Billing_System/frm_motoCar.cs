@@ -136,37 +136,45 @@ namespace Billing_System
             }
             catch
             {
-                MessageBox.Show("Somthing Wrong !");
+                MessageBox.Show("Somthing Wrong !", "Contact Developers", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void btn_search_Click(object sender, EventArgs e)
         {
-            connection_class.open_connection();
-            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`,`km`,`address`,`phoneNumber`,`Company` FROM `customer` WHERE registerNumber =@registerNumber", connection_class.con);
-            cmd1.Parameters.AddWithValue("registerNumber", txt_search.Text);
-
-            MySqlDataReader reader1;
-            reader1 = cmd1.ExecuteReader();
-
-            if (reader1.Read())
+            try
             {
-                txt_regNo.Text = reader1["registerNumber"].ToString();
-                txt_customerName.Text = reader1["customerName"].ToString();
-                cmb_vehicleModel.Text = reader1["vehicleModel"].ToString();
-                txt_chassisNo.Text = reader1["chassisNumber"].ToString();
-                txt_fuel.Text = reader1["fuelType"].ToString();
-                txt_odoMeter.Text = reader1["km"].ToString();
-                txt_company.Text = reader1["Company"].ToString();
-                txt_address.Text = reader1["address"].ToString();
-                txt_phoneNumber.Text = reader1["phoneNumber"].ToString();
+                connection_class.open_connection();
+                MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `customerName`, `vehicleModel`, `chassisNumber`, `fuelType`,`km`,`address`,`phoneNumber`,`Company` FROM `customer` WHERE registerNumber =@registerNumber", connection_class.con);
+                cmd1.Parameters.AddWithValue("registerNumber", txt_search.Text);
 
+                MySqlDataReader reader1;
+                reader1 = cmd1.ExecuteReader();
+
+                if (reader1.Read())
+                {
+                    txt_regNo.Text = reader1["registerNumber"].ToString();
+                    txt_customerName.Text = reader1["customerName"].ToString();
+                    cmb_vehicleModel.Text = reader1["vehicleModel"].ToString();
+                    txt_chassisNo.Text = reader1["chassisNumber"].ToString();
+                    txt_fuel.Text = reader1["fuelType"].ToString();
+                    txt_odoMeter.Text = reader1["km"].ToString();
+                    txt_company.Text = reader1["Company"].ToString();
+                    txt_address.Text = reader1["address"].ToString();
+                    txt_phoneNumber.Text = reader1["phoneNumber"].ToString();
+
+                }
+                else
+                {
+                    MessageBox.Show("No data found");
+                }
+                connection_class.close_connection();
             }
-            else
+            catch 
             {
-                MessageBox.Show("No data found");
+                MessageBox.Show("Somthing Wrong in Your DataBase !","Contact Developers",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
-            connection_class.close_connection();
+           
         }
 
         private void txt_regNo_Validating(object sender, CancelEventArgs e)

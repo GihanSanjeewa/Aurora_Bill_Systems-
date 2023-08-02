@@ -1241,7 +1241,7 @@
             this.btn_remove6.Text = "-";
             this.btn_remove6.UseVisualStyleBackColor = false;
             this.btn_remove6.Visible = false;
-            this.btn_remove6.Click += new System.EventHandler(this.btn_remove6_Click);
+           // this.btn_remove6.Click += new System.EventHandler(this.btn_remove6_Click);
             // 
             // btn_remove7
             // 

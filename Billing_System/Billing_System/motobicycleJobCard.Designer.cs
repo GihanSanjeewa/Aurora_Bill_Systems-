@@ -131,10 +131,10 @@ namespace Billing_System
             this.btn_print.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_print.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_print.ForeColor = System.Drawing.Color.White;
-            this.btn_print.Location = new System.Drawing.Point(16, 12);
-            this.btn_print.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_print.Location = new System.Drawing.Point(0, -4);
+            this.btn_print.Margin = new System.Windows.Forms.Padding(4);
             this.btn_print.Name = "btn_print";
-            this.btn_print.Size = new System.Drawing.Size(793, 39);
+            this.btn_print.Size = new System.Drawing.Size(1123, 55);
             this.btn_print.TabIndex = 5;
             this.btn_print.Text = "Print";
             this.btn_print.Click += new System.EventHandler(this.btn_print_Click);
@@ -183,10 +183,10 @@ namespace Billing_System
             this.panel1.Controls.Add(this.lbl_regNo);
             this.panel1.Controls.Add(this.lbl_vehicleModel);
             this.panel1.Controls.Add(this.lbl_customerName);
-            this.panel1.Location = new System.Drawing.Point(3, 59);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(3, -53);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(821, 743);
+            this.panel1.Size = new System.Drawing.Size(1123, 978);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -194,7 +194,7 @@ namespace Billing_System
             // 
             this.lbl_dtimeb.AutoSize = true;
             this.lbl_dtimeb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_dtimeb.Location = new System.Drawing.Point(383, 608);
+            this.lbl_dtimeb.Location = new System.Drawing.Point(528, 812);
             this.lbl_dtimeb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_dtimeb.Name = "lbl_dtimeb";
             this.lbl_dtimeb.Size = new System.Drawing.Size(11, 16);
@@ -205,7 +205,7 @@ namespace Billing_System
             // 
             this.lbl_nDateb.AutoSize = true;
             this.lbl_nDateb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_nDateb.Location = new System.Drawing.Point(297, 611);
+            this.lbl_nDateb.Location = new System.Drawing.Point(406, 812);
             this.lbl_nDateb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nDateb.Name = "lbl_nDateb";
             this.lbl_nDateb.Size = new System.Drawing.Size(11, 16);
@@ -216,7 +216,7 @@ namespace Billing_System
             // 
             this.lbl_odoMeterb.AutoSize = true;
             this.lbl_odoMeterb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_odoMeterb.Location = new System.Drawing.Point(463, 607);
+            this.lbl_odoMeterb.Location = new System.Drawing.Point(664, 812);
             this.lbl_odoMeterb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_odoMeterb.Name = "lbl_odoMeterb";
             this.lbl_odoMeterb.Size = new System.Drawing.Size(11, 16);
@@ -227,7 +227,7 @@ namespace Billing_System
             // 
             this.lbl_pDateb.AutoSize = true;
             this.lbl_pDateb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_pDateb.Location = new System.Drawing.Point(175, 612);
+            this.lbl_pDateb.Location = new System.Drawing.Point(246, 812);
             this.lbl_pDateb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_pDateb.Name = "lbl_pDateb";
             this.lbl_pDateb.Size = new System.Drawing.Size(11, 16);
@@ -238,7 +238,7 @@ namespace Billing_System
             // 
             this.lbl_estimatedCostb.AutoSize = true;
             this.lbl_estimatedCostb.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_estimatedCostb.Location = new System.Drawing.Point(71, 612);
+            this.lbl_estimatedCostb.Location = new System.Drawing.Point(87, 812);
             this.lbl_estimatedCostb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_estimatedCostb.Name = "lbl_estimatedCostb";
             this.lbl_estimatedCostb.Size = new System.Drawing.Size(11, 16);
@@ -250,7 +250,7 @@ namespace Billing_System
             this.lbl_cName.AutoSize = true;
             this.lbl_cName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cName.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cName.Location = new System.Drawing.Point(516, 213);
+            this.lbl_cName.Location = new System.Drawing.Point(699, 287);
             this.lbl_cName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_cName.Name = "lbl_cName";
             this.lbl_cName.Size = new System.Drawing.Size(12, 16);
@@ -262,7 +262,7 @@ namespace Billing_System
             this.lbl_odoMeter.AutoSize = true;
             this.lbl_odoMeter.BackColor = System.Drawing.Color.Transparent;
             this.lbl_odoMeter.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_odoMeter.Location = new System.Drawing.Point(516, 175);
+            this.lbl_odoMeter.Location = new System.Drawing.Point(699, 242);
             this.lbl_odoMeter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_odoMeter.Name = "lbl_odoMeter";
             this.lbl_odoMeter.Size = new System.Drawing.Size(12, 16);
@@ -274,7 +274,7 @@ namespace Billing_System
             this.lbl_fuelType.AutoSize = true;
             this.lbl_fuelType.BackColor = System.Drawing.Color.Transparent;
             this.lbl_fuelType.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fuelType.Location = new System.Drawing.Point(699, 139);
+            this.lbl_fuelType.Location = new System.Drawing.Point(951, 195);
             this.lbl_fuelType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_fuelType.Name = "lbl_fuelType";
             this.lbl_fuelType.Size = new System.Drawing.Size(12, 16);
@@ -286,7 +286,7 @@ namespace Billing_System
             this.lbl_time.AutoSize = true;
             this.lbl_time.BackColor = System.Drawing.Color.Transparent;
             this.lbl_time.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_time.Location = new System.Drawing.Point(621, 139);
+            this.lbl_time.Location = new System.Drawing.Point(850, 195);
             this.lbl_time.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(12, 16);
@@ -298,7 +298,7 @@ namespace Billing_System
             this.lbl_dateReceived.AutoSize = true;
             this.lbl_dateReceived.BackColor = System.Drawing.Color.Transparent;
             this.lbl_dateReceived.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dateReceived.Location = new System.Drawing.Point(516, 143);
+            this.lbl_dateReceived.Location = new System.Drawing.Point(699, 195);
             this.lbl_dateReceived.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_dateReceived.Name = "lbl_dateReceived";
             this.lbl_dateReceived.Size = new System.Drawing.Size(12, 16);
@@ -310,7 +310,7 @@ namespace Billing_System
             this.lbl_phoneNumber.AutoSize = true;
             this.lbl_phoneNumber.BackColor = System.Drawing.Color.Transparent;
             this.lbl_phoneNumber.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_phoneNumber.Location = new System.Drawing.Point(71, 213);
+            this.lbl_phoneNumber.Location = new System.Drawing.Point(86, 287);
             this.lbl_phoneNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_phoneNumber.Name = "lbl_phoneNumber";
             this.lbl_phoneNumber.Size = new System.Drawing.Size(12, 16);
@@ -322,7 +322,7 @@ namespace Billing_System
             this.lbl_address.AutoSize = true;
             this.lbl_address.BackColor = System.Drawing.Color.Transparent;
             this.lbl_address.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_address.Location = new System.Drawing.Point(71, 175);
+            this.lbl_address.Location = new System.Drawing.Point(87, 242);
             this.lbl_address.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(12, 16);
@@ -334,7 +334,7 @@ namespace Billing_System
             this.lbl_cInformb.AutoSize = true;
             this.lbl_cInformb.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cInformb.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cInformb.Location = new System.Drawing.Point(648, 609);
+            this.lbl_cInformb.Location = new System.Drawing.Point(869, 812);
             this.lbl_cInformb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_cInformb.Name = "lbl_cInformb";
             this.lbl_cInformb.Size = new System.Drawing.Size(12, 16);
@@ -346,7 +346,7 @@ namespace Billing_System
             this.lbl_remarks.AutoSize = true;
             this.lbl_remarks.BackColor = System.Drawing.Color.Transparent;
             this.lbl_remarks.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_remarks.Location = new System.Drawing.Point(124, 505);
+            this.lbl_remarks.Location = new System.Drawing.Point(169, 664);
             this.lbl_remarks.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_remarks.Name = "lbl_remarks";
             this.lbl_remarks.Size = new System.Drawing.Size(12, 16);
@@ -358,7 +358,7 @@ namespace Billing_System
             this.lbl_decision4.AutoSize = true;
             this.lbl_decision4.BackColor = System.Drawing.Color.Transparent;
             this.lbl_decision4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_decision4.Location = new System.Drawing.Point(463, 388);
+            this.lbl_decision4.Location = new System.Drawing.Point(636, 563);
             this.lbl_decision4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision4.Name = "lbl_decision4";
             this.lbl_decision4.Size = new System.Drawing.Size(12, 16);
@@ -370,7 +370,7 @@ namespace Billing_System
             this.lbl_decision3.AutoSize = true;
             this.lbl_decision3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_decision3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_decision3.Location = new System.Drawing.Point(463, 350);
+            this.lbl_decision3.Location = new System.Drawing.Point(636, 487);
             this.lbl_decision3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision3.Name = "lbl_decision3";
             this.lbl_decision3.Size = new System.Drawing.Size(12, 16);
@@ -382,7 +382,7 @@ namespace Billing_System
             this.lbl_complain4.AutoSize = true;
             this.lbl_complain4.BackColor = System.Drawing.Color.Transparent;
             this.lbl_complain4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_complain4.Location = new System.Drawing.Point(129, 388);
+            this.lbl_complain4.Location = new System.Drawing.Point(166, 563);
             this.lbl_complain4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain4.Name = "lbl_complain4";
             this.lbl_complain4.Size = new System.Drawing.Size(12, 16);
@@ -394,7 +394,7 @@ namespace Billing_System
             this.lbl_decision2.AutoSize = true;
             this.lbl_decision2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_decision2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_decision2.Location = new System.Drawing.Point(463, 310);
+            this.lbl_decision2.Location = new System.Drawing.Point(636, 418);
             this.lbl_decision2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision2.Name = "lbl_decision2";
             this.lbl_decision2.Size = new System.Drawing.Size(12, 16);
@@ -406,7 +406,7 @@ namespace Billing_System
             this.lbl_complain3.AutoSize = true;
             this.lbl_complain3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_complain3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_complain3.Location = new System.Drawing.Point(129, 350);
+            this.lbl_complain3.Location = new System.Drawing.Point(166, 487);
             this.lbl_complain3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain3.Name = "lbl_complain3";
             this.lbl_complain3.Size = new System.Drawing.Size(12, 16);
@@ -418,7 +418,7 @@ namespace Billing_System
             this.lbl_decision1.AutoSize = true;
             this.lbl_decision1.BackColor = System.Drawing.Color.Transparent;
             this.lbl_decision1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_decision1.Location = new System.Drawing.Point(463, 271);
+            this.lbl_decision1.Location = new System.Drawing.Point(636, 361);
             this.lbl_decision1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision1.Name = "lbl_decision1";
             this.lbl_decision1.Size = new System.Drawing.Size(12, 16);
@@ -430,7 +430,7 @@ namespace Billing_System
             this.lbl_complain2.AutoSize = true;
             this.lbl_complain2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_complain2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_complain2.Location = new System.Drawing.Point(129, 310);
+            this.lbl_complain2.Location = new System.Drawing.Point(166, 418);
             this.lbl_complain2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain2.Name = "lbl_complain2";
             this.lbl_complain2.Size = new System.Drawing.Size(12, 16);
@@ -442,7 +442,7 @@ namespace Billing_System
             this.lbl_complain1.AutoSize = true;
             this.lbl_complain1.BackColor = System.Drawing.Color.Transparent;
             this.lbl_complain1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_complain1.Location = new System.Drawing.Point(129, 271);
+            this.lbl_complain1.Location = new System.Drawing.Point(166, 361);
             this.lbl_complain1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain1.Name = "lbl_complain1";
             this.lbl_complain1.Size = new System.Drawing.Size(12, 16);
@@ -454,7 +454,7 @@ namespace Billing_System
             this.lbl_chassisNo.AutoSize = true;
             this.lbl_chassisNo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_chassisNo.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_chassisNo.Location = new System.Drawing.Point(283, 213);
+            this.lbl_chassisNo.Location = new System.Drawing.Point(382, 287);
             this.lbl_chassisNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_chassisNo.Name = "lbl_chassisNo";
             this.lbl_chassisNo.Size = new System.Drawing.Size(12, 16);
@@ -466,7 +466,7 @@ namespace Billing_System
             this.lbl_regNo.AutoSize = true;
             this.lbl_regNo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_regNo.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_regNo.Location = new System.Drawing.Point(283, 175);
+            this.lbl_regNo.Location = new System.Drawing.Point(382, 242);
             this.lbl_regNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_regNo.Name = "lbl_regNo";
             this.lbl_regNo.Size = new System.Drawing.Size(12, 16);
@@ -478,7 +478,7 @@ namespace Billing_System
             this.lbl_vehicleModel.AutoSize = true;
             this.lbl_vehicleModel.BackColor = System.Drawing.Color.Transparent;
             this.lbl_vehicleModel.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vehicleModel.Location = new System.Drawing.Point(283, 139);
+            this.lbl_vehicleModel.Location = new System.Drawing.Point(382, 195);
             this.lbl_vehicleModel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_vehicleModel.Name = "lbl_vehicleModel";
             this.lbl_vehicleModel.Size = new System.Drawing.Size(12, 16);
@@ -490,7 +490,7 @@ namespace Billing_System
             this.lbl_customerName.AutoSize = true;
             this.lbl_customerName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_customerName.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_customerName.Location = new System.Drawing.Point(71, 139);
+            this.lbl_customerName.Location = new System.Drawing.Point(87, 195);
             this.lbl_customerName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_customerName.Name = "lbl_customerName";
             this.lbl_customerName.Size = new System.Drawing.Size(12, 16);
@@ -502,7 +502,7 @@ namespace Billing_System
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(825, 785);
+            this.ClientSize = new System.Drawing.Size(1121, 922);
             this.Controls.Add(this.btn_print);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_dtime);
