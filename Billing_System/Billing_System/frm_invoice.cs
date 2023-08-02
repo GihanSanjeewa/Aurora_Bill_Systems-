@@ -145,29 +145,41 @@ namespace Billing_System
 
         private void btn_process_Click(object sender, EventArgs e)
         {
-            connection_class.open_connection();
-            MySqlCommand cmd = new MySqlCommand("INSERT INTO `invoice`( `registerNumber`,`vehicleModel`,`fuelType`,`km`,`mechanicName`,`date`,`job1`,`job2`,`job3`,`job4`,`job5`,`job6`,`job7`,`job8`,`discount`,`price`)  VALUES (@registerNumber,@vehicleModel,@fuelType,@km,@mechanicName,@date,@job1,@job2,@job3,@job4,@job5,@job6,@job7,@job8,@discount,@price)", connection_class.con);
-            cmd.Parameters.Clear();
-            cmd.Parameters.AddWithValue("@registerNumber", txt_vehicleNumber.Text);
-            cmd.Parameters.AddWithValue("@vehicleModel", txt_vehicleModle.Text);
-            cmd.Parameters.AddWithValue("@fuelType", drp_fuelType.Text);
-            cmd.Parameters.AddWithValue("@km", txt_km.Text);
-            cmd.Parameters.AddWithValue("@mechanicName", drp_mechanic.Text);
-            cmd.Parameters.AddWithValue("@date", lbl_date.Text);
-            cmd.Parameters.AddWithValue("@job1", lbl_job1.Text);
-            cmd.Parameters.AddWithValue("@job2", lbl_job2.Text);
-            cmd.Parameters.AddWithValue("@job3", lbl_job3.Text);
-            cmd.Parameters.AddWithValue("@job4", lbl_job4.Text);
-            cmd.Parameters.AddWithValue("@job5", lbl_job5.Text);
-            cmd.Parameters.AddWithValue("@job6", lbl_job6.Text);
-            cmd.Parameters.AddWithValue("@job7", lbl_job7.Text);
-            cmd.Parameters.AddWithValue("@job8", lbl_job8.Text);
-            cmd.Parameters.AddWithValue("@discount", lbl_totDiscount.Text);
-            cmd.Parameters.AddWithValue("@price", lbl_total.Text);
+            try
+            {
+                connection_class.open_connection();
+                MySqlCommand cmd = new MySqlCommand("INSERT INTO `invoice`( `registerNumber`,`vehicleModel`,`fuelType`,`km`,`mechanicName`,`date`,`job1`,`job2`,`job3`,`job4`,`job5`,`job6`,`job7`,`job8`,`discount`,`price`)  VALUES (@registerNumber,@vehicleModel,@fuelType,@km,@mechanicName,@date,@job1,@job2,@job3,@job4,@job5,@job6,@job7,@job8,@discount,@price)", connection_class.con);
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@registerNumber", txt_vehicleNumber.Text);
+                cmd.Parameters.AddWithValue("@vehicleModel", txt_vehicleModle.Text);
+                cmd.Parameters.AddWithValue("@fuelType", drp_fuelType.Text);
+                cmd.Parameters.AddWithValue("@km", txt_km.Text);
+                cmd.Parameters.AddWithValue("@mechanicName", drp_mechanic.Text);
+                cmd.Parameters.AddWithValue("@date", lbl_date.Text);
+                cmd.Parameters.AddWithValue("@job1", lbl_job1.Text);
+                cmd.Parameters.AddWithValue("@job2", lbl_job2.Text);
+                cmd.Parameters.AddWithValue("@job3", lbl_job3.Text);
+                cmd.Parameters.AddWithValue("@job4", lbl_job4.Text);
+                cmd.Parameters.AddWithValue("@job5", lbl_job5.Text);
+                cmd.Parameters.AddWithValue("@job6", lbl_job6.Text);
+                cmd.Parameters.AddWithValue("@job7", lbl_job7.Text);
+                cmd.Parameters.AddWithValue("@job8", lbl_job8.Text);
+                cmd.Parameters.AddWithValue("@discount", lbl_totDiscount.Text);
+                cmd.Parameters.AddWithValue("@price", lbl_total.Text);
 
-            cmd.ExecuteNonQuery();
-            connection_class.close_connection();
-            MessageBox.Show("Invoice printed !!!");
+                cmd.ExecuteNonQuery();
+                connection_class.close_connection();
+                MessageBox.Show("Invoice printed !!!");
+
+                invoice_Print invp = new invoice_Print();
+                invp.ShowDialog();
+
+            }
+            catch
+            {
+                MessageBox.Show("Somthing Wrong !", "Contact Developers", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
         }
 
 

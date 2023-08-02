@@ -171,6 +171,12 @@
     <Compile Include="frm_sconditionReport.Designer.cs">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="invoice_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invoice_Print.Designer.cs">
+      <DependentUpon>invoice_Print.cs</DependentUpon>
+    </Compile>
     <Compile Include="motobicycleJobCard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_sconditionReport.resx">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoice_Print.resx">
+      <DependentUpon>invoice_Print.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="motobicycleJobCard.resx">
       <DependentUpon>motobicycleJobCard.cs</DependentUpon>
