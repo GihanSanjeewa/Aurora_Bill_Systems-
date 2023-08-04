@@ -147,8 +147,7 @@ namespace Billing_System
 
             if (anyRadioButtonChecked)
             {
-                try
-                {
+               
 
                     MySqlCommand cmd = new MySqlCommand("INSERT INTO `sconditionreport`( `registerNumber`, `vehicleModel`, `fuelType`, `km`, `mechanicName`,  `date`, `engineOilStatus`, `gearOilStatus`, `breakOilStatus`, `airFilterStatus`,`acFilterStatus`,`breakStatus`,`radiatorCWaterStatus`, `socketStatus`,`rodRackStatus`,`lowBushStatus`,`upperBushStatus`, `cArmStatus`, `eBeltStatus`, `axelStatus`, `mountStatus`, `leakOilStatus`) VALUES( @txt_registerNumber, @txt_vehicleModel, @txt_fuelType, @txt_km, @txt_mechanicName,  @txt_date, @txt_engineOilStatus, @txt_gearOilStatus, @txt_breakOilStatus, @txt_airFilterStatus, @txt_acFilterStatus, @txt_breakStatus, @txt_radiatorCWaterStatus, @txt_socketStatus, @txt_rodRackStatus, @txt_lowBushStatus, @txt_upperBushStatus, @txt_cArmStatus, @txt_eBeltStatus, @txt_axelStatus, @txt_mountStatus, @txt_leakOilStatus )", connection_class.con);
                     cmd.Parameters.Clear();
@@ -384,12 +383,9 @@ namespace Billing_System
 
                     sconditionPrint sc = new sconditionPrint();
                     sc.Show();
-                }
-                catch
-                {
-                    MessageBox.Show("Please Fill The All Values", "Somthing Wrong !");
-
-                }
+                    
+                
+                MessageBox.Show("Please Fill The All Values", "Somthing Wrong !");
 
 
                     
