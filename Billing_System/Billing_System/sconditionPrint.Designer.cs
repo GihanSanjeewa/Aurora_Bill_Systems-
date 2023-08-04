@@ -69,6 +69,12 @@
             this.lbl_vNo = new System.Windows.Forms.Label();
             this.btn_print = new Guna.UI2.WinForms.Guna2Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,6 +82,12 @@
             // 
             this.panel1.BackgroundImage = global::Billing_System.Properties.Resources.SCondition_report;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.label38);
+            this.panel1.Controls.Add(this.label37);
+            this.panel1.Controls.Add(this.label36);
+            this.panel1.Controls.Add(this.label35);
+            this.panel1.Controls.Add(this.label34);
+            this.panel1.Controls.Add(this.label33);
             this.panel1.Controls.Add(this.label32);
             this.panel1.Controls.Add(this.label31);
             this.panel1.Controls.Add(this.label30);
@@ -527,6 +539,60 @@
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(300, 124);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(51, 16);
+            this.label33.TabIndex = 39;
+            this.label33.Text = "label33";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(300, 167);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(51, 16);
+            this.label34.TabIndex = 39;
+            this.label34.Text = "label33";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(356, 212);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(51, 16);
+            this.label35.TabIndex = 39;
+            this.label35.Text = "label33";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(908, 124);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(51, 16);
+            this.label36.TabIndex = 39;
+            this.label36.Text = "label33";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(908, 167);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(51, 16);
+            this.label37.TabIndex = 39;
+            this.label37.Text = "label33";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(908, 212);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(51, 16);
+            this.label38.TabIndex = 39;
+            this.label38.Text = "label33";
+            // 
             // sconditionPrint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -586,5 +652,11 @@
         private System.Windows.Forms.Label lbl_Mechanic;
         private System.Windows.Forms.Label lbl_vMod;
         private System.Windows.Forms.Label lbl_vNo;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
     }
 }
