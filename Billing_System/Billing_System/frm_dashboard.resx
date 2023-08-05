@@ -121,7 +121,7 @@
   <data name="btn_jobcardMotorcar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEPzSURBVHhe7Z0H
+        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEPzSURBVHhe7Z0H
         tCRFvYfZnHPOGTYnlg0su2yGDcASREBAEfApShKVKIKKRMk5yAKSg8ACS1CSBJEgklUyJsSI2aevXv0H
         rw6X3723ezr3fN853+Gwd6a6uqa6cldtBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -418,7 +418,7 @@
   <data name="btn_backup.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAI5gSURBVHhe7d0H
+        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAI5gSURBVHhe7d0H
         dFTV9j/wf3ohhIQEAgFSCCWEHlqAACEJJLTQQgm9995CCaH3jhSpCoiAICDYRRAEFewNe3v6fNg7Kjzd
         /7Ovv/gQNnCn3bkz891rfdZ6zwkzd+bOnL3vuaf8PwQCgUAgEAgEAoFAIBAIBMJ0EaSEK/FKRaWuUk9J
         VzKVLko3ZZAyTJmk5CvzlaXXWaVsuYndyn3XuEeR/m6Fcv3z8mvxa7KRCh9HD4WPi48xQ+FjrqPwe4hR
@@ -1032,7 +1032,7 @@
   <data name="btn_inventory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFa9SURBVHhe7d0J
+        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFa9SURBVHhe7d0J
         vF5Vfe//JwMZT8JgAoQhBCGJXBQVxCqDCqIVBUVmkCEE4yyOVUGxaB1ARKBq1Qo4oyCjQiAJ0PZexdoq
         ivPApLb23+HaWuVE+2+77lrnNHqS80myvud5ztrT9/t6vV++7q3+svbea/3WOfvZZz89x3Ecx3Ecx3Ec
         x3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ecx3Ec
@@ -1967,7 +1967,7 @@
   <data name="btn_suspensionCondition.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFgTSURBVHhe7d0H
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFgTSURBVHhe7d0H
         nB1luT/w7b33XrLZzbZke2/ZbLYnIZAESEJ6RS/iVS9YryBiwQIKIopXRLBxLfxFbMgFUVEEBKQLqOD1
         YkWkS3v/z7M5C/POPtnslHPOnHN+z+fz5UMmmzkz78zO+zvnzLxvlFIKAAAAloBqGdlLPkouIVeSq8mP
         yC/IPeT35K/k1+Qqcg7ZTjpImrTeYBAXAgAAgNbhf5E8SnihU/9LrifvIpXS6waCuBAAACASUcWQE4ib
@@ -2349,7 +2349,7 @@
   <data name="btn_invoice.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        0wAADdMBvdUcagAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFnBSURBVHhe7d0H
+        0AAADdABEGw9BwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFnBSURBVHhe7d0H
         eFxXmTdwjaaqy2qWLdmyLFldlqxmdXdb7k4hIYVUUkghHadh0nsnjVTSuxOSAAFCwpZvYb9d2F1gF9iP
         /XZZ4KNsAxZYSuB8551IzvjqHWnOnHNm7r3zf5/nx7O5a925Z2buff8zc++5eUIIcDFZVdIJ0k3SU9Lb
         0j9Kv5ToHwCAu/xK+gvpbmmPlM/t2wDZxi6E7JK1XDpf+hPpHSnx4AIA3kL78XJuXwfIJnYhZIesHumz
@@ -2739,7 +2739,7 @@
   <data name="btn_jobcardMotorbike.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFyQSURBVHhe7Z0H
+        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFyQSURBVHhe7Z0H
         eB1Xmb+JrWZblmTLkiVbXbIsWd2yqnvviePEaU4jjYSQAiEQQkKABAgEQmhOISwQSkKAwAIpJKGEFtou
         LGVZlmVZ/pSFLSzLsrssLHv+329AIJRPunNmzrR7f+/zvM8Dse6ZcufOmTnn+77zNEIIIYQQQgghhBBC
         CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
@@ -3138,4 +3138,7 @@
         RU5ErkJggg==
 </value>
   </data>
+  <metadata name="performanceCounter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
