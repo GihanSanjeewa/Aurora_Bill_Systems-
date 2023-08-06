@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -64,15 +68,12 @@
             this.lbl_invoice_page = new System.Windows.Forms.Label();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.guna2Panel4);
             this.panel1.Controls.Add(this.guna2Panel3);
             this.panel1.Controls.Add(this.guna2Panel2);
@@ -114,6 +115,38 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1120, 919);
             this.panel1.TabIndex = 0;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel4.Location = new System.Drawing.Point(478, 43);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(100, 3);
+            this.guna2Panel4.TabIndex = 54;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel3.Location = new System.Drawing.Point(471, 893);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(200, 2);
+            this.guna2Panel3.TabIndex = 53;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel2.Location = new System.Drawing.Point(471, 890);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(200, 2);
+            this.guna2Panel2.TabIndex = 52;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel1.Location = new System.Drawing.Point(471, 842);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(200, 2);
+            this.guna2Panel1.TabIndex = 51;
             // 
             // guna2Panel7
             // 
@@ -482,38 +515,6 @@
             // printDialog1
             // 
             this.printDialog1.UseEXDialog = true;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel1.Location = new System.Drawing.Point(471, 842);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(200, 2);
-            this.guna2Panel1.TabIndex = 51;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel2.Location = new System.Drawing.Point(471, 890);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(200, 2);
-            this.guna2Panel2.TabIndex = 52;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel3.Location = new System.Drawing.Point(471, 893);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(200, 2);
-            this.guna2Panel3.TabIndex = 53;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel4.Location = new System.Drawing.Point(478, 43);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(100, 3);
-            this.guna2Panel4.TabIndex = 54;
             // 
             // invoice_Print
             // 

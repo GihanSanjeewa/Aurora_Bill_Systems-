@@ -381,11 +381,6 @@ namespace Billing_System
                     sconditionPrint sc = new sconditionPrint();
                     sc.Show();
                     
-                
-                
-
-
-                    
             }
 
               
@@ -417,14 +412,14 @@ namespace Billing_System
 
             if (reader1.Read())
             {
-               
-                
-                vehicle_number = reader1["registerNumber"].ToString();
-                VehicleModel = reader1["vehicleModel"].ToString();
-                MachanicName = reader1["mechanicName"].ToString();
-                fuel = reader1["fuelType"].ToString();
-                km = reader1["km"].ToString();
-                date = reader1["date"].ToString();
+
+
+                vehicle_number = txt_vehicleNumber.Text;
+                VehicleModel = txt_vehicleModel.Text;
+                MachanicName = cmb_mName.Text;
+                fuel = txt_fuelType.Text;
+                km = txt_km.Text;
+                date = lbl_date.Text;
                 engineOil = reader1["engineOilStatus"].ToString();
                 gearOil = reader1["gearOilStatus"].ToString();
                 breakOil = reader1["breakOilStatus"].ToString();
@@ -482,6 +477,7 @@ namespace Billing_System
         private void frm_sconditionReport_Load(object sender, EventArgs e)
         {
             mechanicName();
+            
         }
 
     }
