@@ -17,25 +17,33 @@ namespace Billing_System
     {
 
         public static string setEngineOil = "";
-        
 
 
-        String engineOil;
-        String gearOil;
-        String breakOil;
-        String acFilter;
-        String breaks;
-        String radiator; 
-        String socket;
-        String airFilter;
-        String tire;
-        String larm;
-        String uarm;
-        String carm; 
-        String ebelt;
-        String axel; 
-        String mount;
-        String oilLeak;
+        public static string  vehicle_number;
+        public static string VehicleModel;
+        public static string MachanicName;
+        public static string fuel;
+        public static string km;
+        public static string date;
+        public static string engineOil;
+        public static string gearOil;
+        public static string breakOil;
+        public static string acFilter;
+        public static string breaks;
+        public static string radiator; 
+        public static string socket;
+        public static string airFilter;
+        public static string tire;
+        public static string larm;
+        public static string uarm;
+        public static string carm; 
+        public static string ebelt;
+        public static string axel; 
+        public static string mount;
+        public static string rodrack;
+        public static string lowbush;
+        public static string upperbush;
+        public static string oilLeak;
 
         
 
@@ -123,15 +131,6 @@ namespace Billing_System
         {
             connection_class.open_connection();
 
-            String ValidateVNumber = txt_vehicleNumber.Text;
-
-
-            if (!IsValidStringInput(ValidateVNumber))
-            {
-                MessageBox.Show("Invalid input! Please enter Correct Vehical Number.");
-                ClearAllTextBoxesExceptNumeric();
-                return;
-            }
 
 
 
@@ -371,10 +370,11 @@ namespace Billing_System
                     }
 
                     cmd.Parameters.Add("@txt_leakOilStatus", MySqlDbType.VarChar).Value = oilLeak;
+                
 
-                    //---------
+                //---------
 
-                    cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
                     connection_class.close_connection();
                     MessageBox.Show("Saved Successfully!");
 
@@ -382,11 +382,11 @@ namespace Billing_System
                     sc.Show();
                     
                 
-                MessageBox.Show("Please Fill The All Values", "Somthing Wrong !");
+                
 
 
                     
-                }
+            }
 
               
             else
@@ -406,9 +406,50 @@ namespace Billing_System
                 }
             }
 
-            
 
-     
+            // Create a new PrintDocument
+            connection_class.open_connection();
+            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `vehicleModel`, `fuelType`, `km`, `mechanicName`, `date`, `engineOilStatus`, `gearOilStatus`, `breakOilStatus`, `airFilterStatus`, `acFilterStatus`, `breakStatus`, `radiatorCWaterStatus`, `socketStatus`, `rodRackStatus`, `lowBushStatus`, `upperBushStatus`, `cArmStatus`, `eBeltStatus`, `axelStatus`, `mountStatus`, `leakOilStatus` FROM `sconditionreport` WHERE registerNumber =@registerNumber", connection_class.con);
+            cmd1.Parameters.AddWithValue("registerNumber", txt_vehicleNumber.Text);
+
+            MySqlDataReader reader1;
+            reader1 = cmd1.ExecuteReader();
+
+            if (reader1.Read())
+            {
+               
+                
+                vehicle_number = reader1["registerNumber"].ToString();
+                VehicleModel = reader1["vehicleModel"].ToString();
+                MachanicName = reader1["mechanicName"].ToString();
+                fuel = reader1["fuelType"].ToString();
+                km = reader1["km"].ToString();
+                date = reader1["date"].ToString();
+                engineOil = reader1["engineOilStatus"].ToString();
+                gearOil = reader1["gearOilStatus"].ToString();
+                breakOil = reader1["breakOilStatus"].ToString();
+                airFilter = reader1["airFilterStatus"].ToString();
+                acFilter = reader1["acFilterStatus"].ToString();
+                breaks = reader1["breakStatus"].ToString();
+                radiator = reader1["radiatorCWaterStatus"].ToString();
+                socket = reader1["socketStatus"].ToString();
+                rodrack = reader1["rodRackStatus"].ToString();
+                lowbush = reader1["lowBushStatus"].ToString();
+                upperbush = reader1["upperBushStatus"].ToString();
+                carm = reader1["cArmStatus"].ToString();
+                ebelt = reader1["eBeltStatus"].ToString();
+                axel = reader1["axelStatus"].ToString() ;
+                mount = reader1["mountStatus"].ToString();
+                oilLeak = reader1["leakOilStatus"].ToString();
+
+
+                
+
+            }
+
+
+
+
 
         }
 
