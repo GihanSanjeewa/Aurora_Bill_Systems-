@@ -14,7 +14,7 @@ namespace Billing_System
 {
     public partial class sconditionPrint : Form
     {
-        private Bitmap panelImage;
+        
         public sconditionPrint()
         {
             InitializeComponent();
@@ -52,19 +52,29 @@ namespace Billing_System
 
         private void sconditionPrint_Load(object sender, EventArgs e)
         {
-            s1good.Text = frm_sconditionReport.engineOil;
-            s2good.Text = frm_sconditionReport.gearOil;
-            s3good.Text = frm_sconditionReport.breakOil;
-            s4good.Text = frm_sconditionReport.airFilter;
-            s5good.Text = frm_sconditionReport.acFilter;
-            s6good.Text = frm_sconditionReport.breaks;
-            s7good.Text = frm_sconditionReport.radiator;
-            s8good.Text = frm_sconditionReport.tire;
-            s9good.Text = frm_sconditionReport.larm;
-            s10good.Text = frm_sconditionReport.uarm;
+            lbl_vNumber.Text = frm_sconditionReport.vehicle_number;
+            lbl_vModel.Text = frm_sconditionReport.VehicleModel;
+            lbl_nMachanic.Text = frm_sconditionReport.MachanicName;
+            lbl_fuel.Text = frm_sconditionReport.fuel;
+            lbl_km.Text = frm_sconditionReport.km;
+            lbl_Date.Text = frm_sconditionReport.date;
+
+            s0good.Text = frm_sconditionReport.engineOil;
+            s1good.Text = frm_sconditionReport.gearOil;
+            s2good.Text = frm_sconditionReport.breakOil;
+            s3good.Text = frm_sconditionReport.airFilter;
+            s4good.Text = frm_sconditionReport.acFilter;
+            s5good.Text = frm_sconditionReport.breaks;
+            s6good.Text = frm_sconditionReport.radiator;
+            s7good.Text = frm_sconditionReport.socket;
+            s8good.Text = frm_sconditionReport.rodrack;
+            s9good.Text = frm_sconditionReport.lowbush;
+            s10good.Text = frm_sconditionReport.upperbush;
             s11good.Text = frm_sconditionReport.carm;
             s12good.Text = frm_sconditionReport.ebelt;
             s13good.Text = frm_sconditionReport.axel;
+            s14good.Text = frm_sconditionReport.mount;
+            s15good.Text = frm_sconditionReport.oilLeak;
             
 
         }
