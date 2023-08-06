@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,35 +22,24 @@ namespace Billing_System
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
+            // Get the panel's content to print
+            Bitmap panelBitmap = new Bitmap(panel1.Width, panel1.Height);
+            panel1.DrawToBitmap(panelBitmap, new Rectangle(0, 0, panel1.Width, panel1.Height));
 
-            // Calculate the target print size in pixels (A4 size at 96 dpi)
-            int printWidth = (int)(8.27f * e.PageSettings.PrinterResolution.X);
-            int printHeight = (int)(11.69f * e.PageSettings.PrinterResolution.Y);
+            // Calculate the position to center the panel horizontally on the page
+            int xPosition = (e.PageBounds.Width - panelBitmap.Width) / 2;
 
-            // Calculate the aspect ratio of the panel
-            float aspectRatio = (float)panel1.Width / (float)panel1.Height;
+            // Calculate the position to center the panel vertically on the page
+            int yPosition = (e.PageBounds.Height - panelBitmap.Height) / 2;
 
-            // Calculate the new width and height while maintaining the aspect ratio
-            int newWidth = printWidth;
-            int newHeight = (int)(printWidth / aspectRatio);
-
-            if (newHeight > printHeight)
-            {
-                newHeight = printHeight;
-                newWidth = (int)(printHeight * aspectRatio);
-            }
-
-            // Create a bitmap to store the panel content
-            panelImage = new Bitmap(newWidth, newHeight);
-            panel1.DrawToBitmap(panelImage, new Rectangle(0, 0, newWidth, newHeight));
-
-            // Draw the panel content on the print document
-            e.Graphics.DrawImage(panelImage, 0, 0, printWidth, printHeight);
+            // Draw the panel's content onto the print page at the adjusted position
+            e.Graphics.DrawImage(panelBitmap, new Point(xPosition, yPosition));
         }
 
         private void btn_print_Click(object sender, EventArgs e)
         {
-            // Create a new PrintDocument
+            
+
             PrintDocument pd = new PrintDocument();
             pd.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
             PrintDialog printDialog = new PrintDialog();
@@ -62,7 +52,21 @@ namespace Billing_System
 
         private void sconditionPrint_Load(object sender, EventArgs e)
         {
-            label1.Text = frm_sconditionReport.setEngineOil;
+            s1good.Text = frm_sconditionReport.engineOil;
+            s2good.Text = frm_sconditionReport.gearOil;
+            s3good.Text = frm_sconditionReport.breakOil;
+            s4good.Text = frm_sconditionReport.airFilter;
+            s5good.Text = frm_sconditionReport.acFilter;
+            s6good.Text = frm_sconditionReport.breaks;
+            s7good.Text = frm_sconditionReport.radiator;
+            s8good.Text = frm_sconditionReport.tire;
+            s9good.Text = frm_sconditionReport.larm;
+            s10good.Text = frm_sconditionReport.uarm;
+            s11good.Text = frm_sconditionReport.carm;
+            s12good.Text = frm_sconditionReport.ebelt;
+            s13good.Text = frm_sconditionReport.axel;
+            
+
         }
     }
 }
