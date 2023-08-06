@@ -46,11 +46,11 @@ namespace Billing_System
             // 
             this.lbl_jcCar.AutoSize = true;
             this.lbl_jcCar.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_jcCar.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_jcCar.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.lbl_jcCar.ForeColor = System.Drawing.Color.White;
             this.lbl_jcCar.Location = new System.Drawing.Point(1157, 507);
             this.lbl_jcCar.Name = "lbl_jcCar";
-            this.lbl_jcCar.Size = new System.Drawing.Size(96, 27);
+            this.lbl_jcCar.Size = new System.Drawing.Size(90, 28);
             this.lbl_jcCar.TabIndex = 5;
             this.lbl_jcCar.Text = "Add job";
             // 
@@ -58,11 +58,11 @@ namespace Billing_System
             // 
             this.lbl_invoice.AutoSize = true;
             this.lbl_invoice.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_invoice.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_invoice.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.lbl_invoice.ForeColor = System.Drawing.Color.White;
             this.lbl_invoice.Location = new System.Drawing.Point(563, 507);
             this.lbl_invoice.Name = "lbl_invoice";
-            this.lbl_invoice.Size = new System.Drawing.Size(156, 27);
+            this.lbl_invoice.Size = new System.Drawing.Size(147, 28);
             this.lbl_invoice.TabIndex = 6;
             this.lbl_invoice.Text = "Add customer";
             // 
@@ -70,11 +70,11 @@ namespace Billing_System
             // 
             this.lbl_jcBike.AutoSize = true;
             this.lbl_jcBike.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_jcBike.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_jcBike.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.lbl_jcBike.ForeColor = System.Drawing.Color.White;
             this.lbl_jcBike.Location = new System.Drawing.Point(279, 504);
             this.lbl_jcBike.Name = "lbl_jcBike";
-            this.lbl_jcBike.Size = new System.Drawing.Size(108, 27);
+            this.lbl_jcBike.Size = new System.Drawing.Size(101, 28);
             this.lbl_jcBike.TabIndex = 7;
             this.lbl_jcBike.Text = "Add item";
             // 
@@ -154,11 +154,11 @@ namespace Billing_System
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label7.Location = new System.Drawing.Point(873, 18);
+            this.label7.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(873, 24);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 50);
+            this.label7.Size = new System.Drawing.Size(73, 38);
             this.label7.TabIndex = 3;
             this.label7.Text = "Add";
             // 
@@ -187,11 +187,11 @@ namespace Billing_System
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(844, 507);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 27);
+            this.label1.Size = new System.Drawing.Size(148, 28);
             this.label1.TabIndex = 5;
             this.label1.Text = "Add mechanic";
             // 

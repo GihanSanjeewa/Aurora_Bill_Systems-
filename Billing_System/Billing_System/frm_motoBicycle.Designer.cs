@@ -114,7 +114,7 @@
             this.cmb_vehicleModel.Items.AddRange(new object[] {
             "Bike"});
             this.cmb_vehicleModel.Location = new System.Drawing.Point(324, 127);
-            this.cmb_vehicleModel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmb_vehicleModel.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_vehicleModel.Name = "cmb_vehicleModel";
             this.cmb_vehicleModel.Size = new System.Drawing.Size(265, 36);
             this.cmb_vehicleModel.TabIndex = 2;
@@ -128,7 +128,7 @@
             this.date_Received.ForeColor = System.Drawing.Color.White;
             this.date_Received.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.date_Received.Location = new System.Drawing.Point(631, 128);
-            this.date_Received.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.date_Received.Margin = new System.Windows.Forms.Padding(4);
             this.date_Received.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date_Received.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date_Received.Name = "date_Received";
@@ -295,7 +295,7 @@
             this.guna2Panel1.Controls.Add(this.txt_complain1);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel1.Location = new System.Drawing.Point(23, 268);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel1.TabIndex = 4;
@@ -411,7 +411,7 @@
             this.guna2Panel3.Controls.Add(this.txt_decision3);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
             this.guna2Panel3.Location = new System.Drawing.Point(799, 268);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(721, 292);
             this.guna2Panel3.TabIndex = 6;
@@ -522,7 +522,7 @@
             this.guna2HtmlLabel13.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel13.Location = new System.Drawing.Point(24, 582);
-            this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
             this.guna2HtmlLabel13.Size = new System.Drawing.Size(130, 39);
             this.guna2HtmlLabel13.TabIndex = 0;
@@ -559,7 +559,7 @@
             this.date_Proposed.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.date_Proposed.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.date_Proposed.Location = new System.Drawing.Point(1217, 661);
-            this.date_Proposed.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.date_Proposed.Margin = new System.Windows.Forms.Padding(4);
             this.date_Proposed.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date_Proposed.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date_Proposed.Name = "date_Proposed";
@@ -581,7 +581,7 @@
             "Yes",
             "No"});
             this.cmb_cInform.Location = new System.Drawing.Point(800, 661);
-            this.cmb_cInform.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmb_cInform.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_cInform.Name = "cmb_cInform";
             this.cmb_cInform.Size = new System.Drawing.Size(303, 36);
             this.cmb_cInform.TabIndex = 12;
@@ -623,7 +623,7 @@
             this.btn_process.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_process.ForeColor = System.Drawing.Color.Black;
             this.btn_process.Location = new System.Drawing.Point(1217, 736);
-            this.btn_process.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_process.Margin = new System.Windows.Forms.Padding(4);
             this.btn_process.Name = "btn_process";
             this.btn_process.Size = new System.Drawing.Size(303, 78);
             this.btn_process.TabIndex = 14;
@@ -770,8 +770,9 @@
             this.guna2Button1.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(739, 11);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.PressedColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Size = new System.Drawing.Size(533, 69);
             this.guna2Button1.TabIndex = 19;
             this.guna2Button1.Text = "Job Card Motorbike";
@@ -792,7 +793,7 @@
             this.btn_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_search.ForeColor = System.Drawing.Color.Black;
             this.btn_search.Location = new System.Drawing.Point(303, 34);
-            this.btn_search.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(53, 50);
             this.btn_search.TabIndex = 44;
@@ -905,7 +906,7 @@
             this.Controls.Add(this.txt_customerName);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_motoBicycle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_motoBicycle";
