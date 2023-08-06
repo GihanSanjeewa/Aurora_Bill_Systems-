@@ -313,6 +313,7 @@ namespace Billing_System
             this.guna2Button1.Location = new System.Drawing.Point(733, 11);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.PressedColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Size = new System.Drawing.Size(534, 69);
             this.guna2Button1.TabIndex = 20;
             this.guna2Button1.Text = "Job Card Motorcar";

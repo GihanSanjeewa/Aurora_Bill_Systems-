@@ -222,66 +222,66 @@ namespace Billing_System
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(94, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 27);
+            this.label1.Size = new System.Drawing.Size(192, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Vehicle Number    ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(88, 127);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(228, 27);
+            this.label2.Size = new System.Drawing.Size(181, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Vehicle Model     ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(94, 235);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 27);
+            this.label3.Size = new System.Drawing.Size(142, 28);
             this.label3.TabIndex = 1;
             this.label3.Text = "Fuel type      ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(94, 355);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(228, 27);
+            this.label4.Size = new System.Drawing.Size(155, 28);
             this.label4.TabIndex = 1;
             this.label4.Text = "Km                ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(88, 475);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(228, 27);
+            this.label5.Size = new System.Drawing.Size(201, 28);
             this.label5.TabIndex = 1;
             this.label5.Text = "Machanic\'s Name   ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(94, 582);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(228, 27);
+            this.label6.Size = new System.Drawing.Size(155, 28);
             this.label6.TabIndex = 1;
             this.label6.Text = "Date              ";
             // 
@@ -303,11 +303,11 @@ namespace Billing_System
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label7.Location = new System.Drawing.Point(469, 18);
+            this.label7.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(26, 26);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(616, 50);
+            this.label7.Size = new System.Drawing.Size(409, 38);
             this.label7.TabIndex = 3;
             this.label7.Text = "Suspension Condition Report";
             // 
@@ -377,18 +377,19 @@ namespace Billing_System
             // 
             // btn_process
             // 
+            this.btn_process.BorderColor = System.Drawing.Color.Transparent;
             this.btn_process.BorderRadius = 10;
             this.btn_process.BorderThickness = 2;
             this.btn_process.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_process.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_process.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_process.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_process.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_process.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_process.FillColor = System.Drawing.Color.LimeGreen;
+            this.btn_process.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold);
             this.btn_process.ForeColor = System.Drawing.Color.Black;
-            this.btn_process.Location = new System.Drawing.Point(88, 679);
+            this.btn_process.Location = new System.Drawing.Point(88, 667);
             this.btn_process.Name = "btn_process";
-            this.btn_process.Size = new System.Drawing.Size(240, 64);
+            this.btn_process.Size = new System.Drawing.Size(240, 78);
             this.btn_process.TabIndex = 5;
             this.btn_process.Text = "Process";
             this.btn_process.Click += new System.EventHandler(this.btn_process_Click);
@@ -875,7 +876,7 @@ namespace Billing_System
             this.guna2GroupBox1.Controls.Add(this.rbtn_engineoilGood);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox1.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox1.Location = new System.Drawing.Point(117, 6);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
@@ -886,6 +887,7 @@ namespace Billing_System
             // rbtn_engineoilBad
             // 
             this.rbtn_engineoilBad.AutoSize = true;
+            this.rbtn_engineoilBad.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_engineoilBad.Location = new System.Drawing.Point(260, 46);
             this.rbtn_engineoilBad.Name = "rbtn_engineoilBad";
             this.rbtn_engineoilBad.Size = new System.Drawing.Size(62, 27);
@@ -896,9 +898,10 @@ namespace Billing_System
             // rbtn_engineoilGood
             // 
             this.rbtn_engineoilGood.AutoSize = true;
+            this.rbtn_engineoilGood.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_engineoilGood.Location = new System.Drawing.Point(100, 46);
             this.rbtn_engineoilGood.Name = "rbtn_engineoilGood";
-            this.rbtn_engineoilGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_engineoilGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_engineoilGood.TabIndex = 4;
             this.rbtn_engineoilGood.Text = "Good";
             this.rbtn_engineoilGood.UseVisualStyleBackColor = true;
@@ -910,7 +913,7 @@ namespace Billing_System
             this.guna2GroupBox2.Controls.Add(this.rbtn_gearoilGood);
             this.guna2GroupBox2.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox2.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox2.Location = new System.Drawing.Point(117, 94);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
@@ -921,6 +924,7 @@ namespace Billing_System
             // rbtn_gearoilBad
             // 
             this.rbtn_gearoilBad.AutoSize = true;
+            this.rbtn_gearoilBad.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_gearoilBad.Location = new System.Drawing.Point(260, 42);
             this.rbtn_gearoilBad.Name = "rbtn_gearoilBad";
             this.rbtn_gearoilBad.Size = new System.Drawing.Size(62, 27);
@@ -932,9 +936,10 @@ namespace Billing_System
             // rbtn_gearoilGood
             // 
             this.rbtn_gearoilGood.AutoSize = true;
+            this.rbtn_gearoilGood.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_gearoilGood.Location = new System.Drawing.Point(99, 42);
             this.rbtn_gearoilGood.Name = "rbtn_gearoilGood";
-            this.rbtn_gearoilGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_gearoilGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_gearoilGood.TabIndex = 4;
             this.rbtn_gearoilGood.TabStop = true;
             this.rbtn_gearoilGood.Text = "Good";
@@ -947,7 +952,7 @@ namespace Billing_System
             this.guna2GroupBox3.Controls.Add(this.rbtn_breakoilGood);
             this.guna2GroupBox3.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox3.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox3.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox3.Location = new System.Drawing.Point(117, 182);
             this.guna2GroupBox3.Name = "guna2GroupBox3";
@@ -958,6 +963,7 @@ namespace Billing_System
             // rbtn_breakoilBad
             // 
             this.rbtn_breakoilBad.AutoSize = true;
+            this.rbtn_breakoilBad.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_breakoilBad.Location = new System.Drawing.Point(260, 43);
             this.rbtn_breakoilBad.Name = "rbtn_breakoilBad";
             this.rbtn_breakoilBad.Size = new System.Drawing.Size(62, 27);
@@ -969,9 +975,10 @@ namespace Billing_System
             // rbtn_breakoilGood
             // 
             this.rbtn_breakoilGood.AutoSize = true;
+            this.rbtn_breakoilGood.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_breakoilGood.Location = new System.Drawing.Point(100, 43);
             this.rbtn_breakoilGood.Name = "rbtn_breakoilGood";
-            this.rbtn_breakoilGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_breakoilGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_breakoilGood.TabIndex = 4;
             this.rbtn_breakoilGood.TabStop = true;
             this.rbtn_breakoilGood.Text = "Good";
@@ -984,7 +991,7 @@ namespace Billing_System
             this.guna2GroupBox4.Controls.Add(this.rbtn_acfilterGood);
             this.guna2GroupBox4.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox4.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox4.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox4.Location = new System.Drawing.Point(117, 276);
             this.guna2GroupBox4.Name = "guna2GroupBox4";
@@ -1006,9 +1013,10 @@ namespace Billing_System
             // rbtn_acfilterGood
             // 
             this.rbtn_acfilterGood.AutoSize = true;
+            this.rbtn_acfilterGood.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_acfilterGood.Location = new System.Drawing.Point(99, 43);
             this.rbtn_acfilterGood.Name = "rbtn_acfilterGood";
-            this.rbtn_acfilterGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_acfilterGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_acfilterGood.TabIndex = 4;
             this.rbtn_acfilterGood.TabStop = true;
             this.rbtn_acfilterGood.Text = "Good";
@@ -1021,7 +1029,7 @@ namespace Billing_System
             this.guna2GroupBox5.Controls.Add(this.rbtn_breakGood);
             this.guna2GroupBox5.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox5.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox5.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox5.Location = new System.Drawing.Point(117, 373);
             this.guna2GroupBox5.Name = "guna2GroupBox5";
@@ -1045,7 +1053,7 @@ namespace Billing_System
             this.rbtn_breakGood.AutoSize = true;
             this.rbtn_breakGood.Location = new System.Drawing.Point(99, 55);
             this.rbtn_breakGood.Name = "rbtn_breakGood";
-            this.rbtn_breakGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_breakGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_breakGood.TabIndex = 4;
             this.rbtn_breakGood.TabStop = true;
             this.rbtn_breakGood.Text = "Good";
@@ -1058,7 +1066,7 @@ namespace Billing_System
             this.guna2GroupBox6.Controls.Add(this.rbtn_radiatorGood);
             this.guna2GroupBox6.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox6.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox6.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox6.Location = new System.Drawing.Point(117, 476);
             this.guna2GroupBox6.Name = "guna2GroupBox6";
@@ -1082,7 +1090,7 @@ namespace Billing_System
             this.rbtn_radiatorGood.AutoSize = true;
             this.rbtn_radiatorGood.Location = new System.Drawing.Point(99, 51);
             this.rbtn_radiatorGood.Name = "rbtn_radiatorGood";
-            this.rbtn_radiatorGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_radiatorGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_radiatorGood.TabIndex = 4;
             this.rbtn_radiatorGood.TabStop = true;
             this.rbtn_radiatorGood.Text = "Good";
@@ -1095,7 +1103,7 @@ namespace Billing_System
             this.guna2GroupBox7.Controls.Add(this.rbtn_socketGood);
             this.guna2GroupBox7.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox7.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox7.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox7.Location = new System.Drawing.Point(117, 570);
             this.guna2GroupBox7.Name = "guna2GroupBox7";
@@ -1119,7 +1127,7 @@ namespace Billing_System
             this.rbtn_socketGood.AutoSize = true;
             this.rbtn_socketGood.Location = new System.Drawing.Point(99, 52);
             this.rbtn_socketGood.Name = "rbtn_socketGood";
-            this.rbtn_socketGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_socketGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_socketGood.TabIndex = 4;
             this.rbtn_socketGood.TabStop = true;
             this.rbtn_socketGood.Text = "Good";
@@ -1132,7 +1140,7 @@ namespace Billing_System
             this.guna2GroupBox8.Controls.Add(this.rbtn_airfilterGood);
             this.guna2GroupBox8.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox8.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox8.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox8.Location = new System.Drawing.Point(117, 666);
             this.guna2GroupBox8.Name = "guna2GroupBox8";
@@ -1156,7 +1164,7 @@ namespace Billing_System
             this.rbtn_airfilterGood.AutoSize = true;
             this.rbtn_airfilterGood.Location = new System.Drawing.Point(99, 50);
             this.rbtn_airfilterGood.Name = "rbtn_airfilterGood";
-            this.rbtn_airfilterGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_airfilterGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_airfilterGood.TabIndex = 4;
             this.rbtn_airfilterGood.TabStop = true;
             this.rbtn_airfilterGood.Text = "Good";
@@ -1222,7 +1230,7 @@ namespace Billing_System
             this.guna2GroupBox17.Controls.Add(this.rbtn_oilLeakGood);
             this.guna2GroupBox17.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox17.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox17.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox17.Location = new System.Drawing.Point(636, 670);
             this.guna2GroupBox17.Name = "guna2GroupBox17";
@@ -1261,7 +1269,7 @@ namespace Billing_System
             this.guna2GroupBox16.Controls.Add(this.rbtn_mountGood);
             this.guna2GroupBox16.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox16.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox16.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox16.Location = new System.Drawing.Point(690, 573);
             this.guna2GroupBox16.Name = "guna2GroupBox16";
@@ -1285,7 +1293,7 @@ namespace Billing_System
             this.rbtn_mountGood.AutoSize = true;
             this.rbtn_mountGood.Location = new System.Drawing.Point(103, 49);
             this.rbtn_mountGood.Name = "rbtn_mountGood";
-            this.rbtn_mountGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_mountGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_mountGood.TabIndex = 4;
             this.rbtn_mountGood.TabStop = true;
             this.rbtn_mountGood.Text = "Good";
@@ -1298,7 +1306,7 @@ namespace Billing_System
             this.guna2GroupBox15.Controls.Add(this.rbtn_axelGood);
             this.guna2GroupBox15.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox15.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox15.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox15.Location = new System.Drawing.Point(690, 475);
             this.guna2GroupBox15.Name = "guna2GroupBox15";
@@ -1322,7 +1330,7 @@ namespace Billing_System
             this.rbtn_axelGood.AutoSize = true;
             this.rbtn_axelGood.Location = new System.Drawing.Point(103, 52);
             this.rbtn_axelGood.Name = "rbtn_axelGood";
-            this.rbtn_axelGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_axelGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_axelGood.TabIndex = 4;
             this.rbtn_axelGood.TabStop = true;
             this.rbtn_axelGood.Text = "Good";
@@ -1335,7 +1343,7 @@ namespace Billing_System
             this.guna2GroupBox14.Controls.Add(this.rbtn_ebeltGood);
             this.guna2GroupBox14.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox14.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox14.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox14.Location = new System.Drawing.Point(693, 380);
             this.guna2GroupBox14.Name = "guna2GroupBox14";
@@ -1359,7 +1367,7 @@ namespace Billing_System
             this.rbtn_ebeltGood.AutoSize = true;
             this.rbtn_ebeltGood.Location = new System.Drawing.Point(100, 46);
             this.rbtn_ebeltGood.Name = "rbtn_ebeltGood";
-            this.rbtn_ebeltGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_ebeltGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_ebeltGood.TabIndex = 4;
             this.rbtn_ebeltGood.TabStop = true;
             this.rbtn_ebeltGood.Text = "Good";
@@ -1372,7 +1380,7 @@ namespace Billing_System
             this.guna2GroupBox13.Controls.Add(this.rbtn_carmGood);
             this.guna2GroupBox13.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox13.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox13.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox13.Location = new System.Drawing.Point(690, 278);
             this.guna2GroupBox13.Name = "guna2GroupBox13";
@@ -1394,9 +1402,10 @@ namespace Billing_System
             // rbtn_carmGood
             // 
             this.rbtn_carmGood.AutoSize = true;
+            this.rbtn_carmGood.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.rbtn_carmGood.Location = new System.Drawing.Point(103, 41);
             this.rbtn_carmGood.Name = "rbtn_carmGood";
-            this.rbtn_carmGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_carmGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_carmGood.TabIndex = 4;
             this.rbtn_carmGood.TabStop = true;
             this.rbtn_carmGood.Text = "Good";
@@ -1409,7 +1418,7 @@ namespace Billing_System
             this.guna2GroupBox12.Controls.Add(this.rbtn_upperarmGood);
             this.guna2GroupBox12.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox12.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox12.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox12.Location = new System.Drawing.Point(690, 182);
             this.guna2GroupBox12.Name = "guna2GroupBox12";
@@ -1433,7 +1442,7 @@ namespace Billing_System
             this.rbtn_upperarmGood.AutoSize = true;
             this.rbtn_upperarmGood.Location = new System.Drawing.Point(103, 43);
             this.rbtn_upperarmGood.Name = "rbtn_upperarmGood";
-            this.rbtn_upperarmGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_upperarmGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_upperarmGood.TabIndex = 4;
             this.rbtn_upperarmGood.TabStop = true;
             this.rbtn_upperarmGood.Text = "Good";
@@ -1446,7 +1455,7 @@ namespace Billing_System
             this.guna2GroupBox11.Controls.Add(this.rbtn_lowarmGood);
             this.guna2GroupBox11.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox11.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox11.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox11.Location = new System.Drawing.Point(690, 92);
             this.guna2GroupBox11.Name = "guna2GroupBox11";
@@ -1470,7 +1479,7 @@ namespace Billing_System
             this.rbtn_lowarmGood.AutoSize = true;
             this.rbtn_lowarmGood.Location = new System.Drawing.Point(103, 43);
             this.rbtn_lowarmGood.Name = "rbtn_lowarmGood";
-            this.rbtn_lowarmGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_lowarmGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_lowarmGood.TabIndex = 4;
             this.rbtn_lowarmGood.TabStop = true;
             this.rbtn_lowarmGood.Text = "Good";
@@ -1483,7 +1492,7 @@ namespace Billing_System
             this.guna2GroupBox10.Controls.Add(this.rbtn_tireGood);
             this.guna2GroupBox10.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.guna2GroupBox10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.guna2GroupBox10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox10.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox10.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox10.Location = new System.Drawing.Point(690, 7);
             this.guna2GroupBox10.Name = "guna2GroupBox10";
@@ -1507,7 +1516,7 @@ namespace Billing_System
             this.rbtn_tireGood.AutoSize = true;
             this.rbtn_tireGood.Location = new System.Drawing.Point(103, 42);
             this.rbtn_tireGood.Name = "rbtn_tireGood";
-            this.rbtn_tireGood.Size = new System.Drawing.Size(74, 27);
+            this.rbtn_tireGood.Size = new System.Drawing.Size(76, 27);
             this.rbtn_tireGood.TabIndex = 4;
             this.rbtn_tireGood.TabStop = true;
             this.rbtn_tireGood.Text = "Good";
