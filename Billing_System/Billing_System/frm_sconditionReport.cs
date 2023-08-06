@@ -402,16 +402,13 @@ namespace Billing_System
             }
 
 
-            // Create a new PrintDocument
-            connection_class.open_connection();
-            MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `vehicleModel`, `fuelType`, `km`, `mechanicName`, `date`, `engineOilStatus`, `gearOilStatus`, `breakOilStatus`, `airFilterStatus`, `acFilterStatus`, `breakStatus`, `radiatorCWaterStatus`, `socketStatus`, `rodRackStatus`, `lowBushStatus`, `upperBushStatus`, `cArmStatus`, `eBeltStatus`, `axelStatus`, `mountStatus`, `leakOilStatus` FROM `sconditionreport` WHERE registerNumber =@registerNumber", connection_class.con);
-            cmd1.Parameters.AddWithValue("registerNumber", txt_vehicleNumber.Text);
+           
+                connection_class.open_connection();
+                MySqlCommand cmd1 = new MySqlCommand("SELECT `registerNumber`, `vehicleModel`, `fuelType`, `km`, `mechanicName`, `date`, `engineOilStatus`, `gearOilStatus`, `breakOilStatus`, `airFilterStatus`, `acFilterStatus`, `breakStatus`, `radiatorCWaterStatus`, `socketStatus`, `rodRackStatus`, `lowBushStatus`, `upperBushStatus`, `cArmStatus`, `eBeltStatus`, `axelStatus`, `mountStatus`, `leakOilStatus` FROM `sconditionreport` WHERE registerNumber =@registerNumber", connection_class.con);
+                cmd1.Parameters.AddWithValue("registerNumber", txt_vehicleNumber.Text);
 
-            MySqlDataReader reader1;
-            reader1 = cmd1.ExecuteReader();
-
-            if (reader1.Read())
-            {
+                MySqlDataReader reader1;
+                reader1 = cmd1.ExecuteReader();
 
 
                 vehicle_number = txt_vehicleNumber.Text;
@@ -437,15 +434,6 @@ namespace Billing_System
                 axel = reader1["axelStatus"].ToString() ;
                 mount = reader1["mountStatus"].ToString();
                 oilLeak = reader1["leakOilStatus"].ToString();
-
-
-                
-
-            }
-
-
-
-
 
         }
 
