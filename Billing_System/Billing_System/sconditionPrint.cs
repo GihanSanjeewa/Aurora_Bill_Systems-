@@ -57,6 +57,7 @@ namespace Billing_System
             lbl_nMachanic.Text = frm_sconditionReport.MachanicName;
             lbl_fuel.Text = frm_sconditionReport.fuel;
             lbl_km.Text = frm_sconditionReport.km;
+
             lbl_Date.Text = frm_sconditionReport.date;
 
             s0good.Text = frm_sconditionReport.engineOil;
@@ -67,9 +68,9 @@ namespace Billing_System
             s5good.Text = frm_sconditionReport.breaks;
             s6good.Text = frm_sconditionReport.radiator;
             s7good.Text = frm_sconditionReport.socket;
-            s8good.Text = frm_sconditionReport.rodrack;
-            s9good.Text = frm_sconditionReport.lowbush;
-            s10good.Text = frm_sconditionReport.upperbush;
+            track.Text = frm_sconditionReport.rod;
+            lower.Text = frm_sconditionReport.low;
+            upper.Text = frm_sconditionReport.upper;
             s11good.Text = frm_sconditionReport.carm;
             s12good.Text = frm_sconditionReport.ebelt;
             s13good.Text = frm_sconditionReport.axel;
