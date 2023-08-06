@@ -416,10 +416,11 @@ namespace Billing_System
 
                 vehicle_number = txt_vehicleNumber.Text;
                 VehicleModel = txt_vehicleModel.Text;
+
                 MachanicName = cmb_mName.Text;
                 fuel = txt_fuelType.Text;
                 km = txt_km.Text;
-                date = lbl_date.Text;
+                date = reader1["date"].ToString();
                 engineOil = reader1["engineOilStatus"].ToString();
                 gearOil = reader1["gearOilStatus"].ToString();
                 breakOil = reader1["breakOilStatus"].ToString();
@@ -477,7 +478,6 @@ namespace Billing_System
         private void frm_sconditionReport_Load(object sender, EventArgs e)
         {
             mechanicName();
-            
         }
 
     }
