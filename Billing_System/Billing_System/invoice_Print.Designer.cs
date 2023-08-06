@@ -43,27 +43,27 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
+            this.lbl_fType = new System.Windows.Forms.Label();
+            this.lbl_date = new System.Windows.Forms.Label();
+            this.lbl_km = new System.Windows.Forms.Label();
+            this.lbl_job2discount = new System.Windows.Forms.Label();
+            this.lbl_job2price = new System.Windows.Forms.Label();
+            this.lbl_job2dprice = new System.Windows.Forms.Label();
+            this.lbl_job1dprice = new System.Windows.Forms.Label();
+            this.lbl_job1discount = new System.Windows.Forms.Label();
+            this.lbl_fServiceStatus2 = new System.Windows.Forms.Label();
+            this.lbl_totalAmount = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.lbl_fService2 = new System.Windows.Forms.Label();
+            this.lbl_fServiceStatus1 = new System.Windows.Forms.Label();
+            this.lbl_fService1 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_job2 = new System.Windows.Forms.Label();
+            this.lbl_job1price = new System.Windows.Forms.Label();
+            this.lbl_job1 = new System.Windows.Forms.Label();
+            this.lbl_mName = new System.Windows.Forms.Label();
+            this.lbl_vModel = new System.Windows.Forms.Label();
+            this.lbl_vNumber = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_invoice_page = new System.Windows.Forms.Label();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
@@ -88,27 +88,27 @@
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label22);
-            this.panel1.Controls.Add(this.label20);
-            this.panel1.Controls.Add(this.label24);
-            this.panel1.Controls.Add(this.label23);
-            this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.label31);
-            this.panel1.Controls.Add(this.label29);
+            this.panel1.Controls.Add(this.lbl_fType);
+            this.panel1.Controls.Add(this.lbl_date);
+            this.panel1.Controls.Add(this.lbl_km);
+            this.panel1.Controls.Add(this.lbl_job2discount);
+            this.panel1.Controls.Add(this.lbl_job2price);
+            this.panel1.Controls.Add(this.lbl_job2dprice);
+            this.panel1.Controls.Add(this.lbl_job1dprice);
+            this.panel1.Controls.Add(this.lbl_job1discount);
+            this.panel1.Controls.Add(this.lbl_fServiceStatus2);
+            this.panel1.Controls.Add(this.lbl_totalAmount);
             this.panel1.Controls.Add(this.label28);
-            this.panel1.Controls.Add(this.label27);
-            this.panel1.Controls.Add(this.label30);
-            this.panel1.Controls.Add(this.label26);
+            this.panel1.Controls.Add(this.lbl_fService2);
+            this.panel1.Controls.Add(this.lbl_fServiceStatus1);
+            this.panel1.Controls.Add(this.lbl_fService1);
             this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.lbl_job2);
+            this.panel1.Controls.Add(this.lbl_job1price);
+            this.panel1.Controls.Add(this.lbl_job1);
+            this.panel1.Controls.Add(this.lbl_mName);
+            this.panel1.Controls.Add(this.lbl_vModel);
+            this.panel1.Controls.Add(this.lbl_vNumber);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lbl_invoice_page);
             this.panel1.Location = new System.Drawing.Point(0, 2);
@@ -255,115 +255,115 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "Fuel :";
             // 
-            // label7
+            // lbl_fType
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(742, 87);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 25);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Petrol";
+            this.lbl_fType.AutoSize = true;
+            this.lbl_fType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fType.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fType.Location = new System.Drawing.Point(742, 87);
+            this.lbl_fType.Name = "lbl_fType";
+            this.lbl_fType.Size = new System.Drawing.Size(62, 25);
+            this.lbl_fType.TabIndex = 18;
+            this.lbl_fType.Text = "Petrol";
             // 
-            // label12
+            // lbl_date
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(742, 193);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(114, 25);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "2023-08-06";
+            this.lbl_date.AutoSize = true;
+            this.lbl_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_date.ForeColor = System.Drawing.Color.Black;
+            this.lbl_date.Location = new System.Drawing.Point(742, 193);
+            this.lbl_date.Name = "lbl_date";
+            this.lbl_date.Size = new System.Drawing.Size(114, 25);
+            this.lbl_date.TabIndex = 18;
+            this.lbl_date.Text = "2023-08-06";
             // 
-            // label11
+            // lbl_km
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(742, 138);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 25);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "----";
+            this.lbl_km.AutoSize = true;
+            this.lbl_km.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_km.ForeColor = System.Drawing.Color.Black;
+            this.lbl_km.Location = new System.Drawing.Point(742, 138);
+            this.lbl_km.Name = "lbl_km";
+            this.lbl_km.Size = new System.Drawing.Size(40, 25);
+            this.lbl_km.TabIndex = 18;
+            this.lbl_km.Text = "----";
             // 
-            // label22
+            // lbl_job2discount
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(739, 444);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(61, 25);
-            this.label22.TabIndex = 18;
-            this.label22.Text = "50.00";
+            this.lbl_job2discount.AutoSize = true;
+            this.lbl_job2discount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job2discount.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job2discount.Location = new System.Drawing.Point(739, 444);
+            this.lbl_job2discount.Name = "lbl_job2discount";
+            this.lbl_job2discount.Size = new System.Drawing.Size(61, 25);
+            this.lbl_job2discount.TabIndex = 18;
+            this.lbl_job2discount.Text = "50.00";
             // 
-            // label20
+            // lbl_job2price
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(459, 444);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(72, 25);
-            this.label20.TabIndex = 18;
-            this.label20.Text = "350.00";
+            this.lbl_job2price.AutoSize = true;
+            this.lbl_job2price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job2price.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job2price.Location = new System.Drawing.Point(459, 444);
+            this.lbl_job2price.Name = "lbl_job2price";
+            this.lbl_job2price.Size = new System.Drawing.Size(72, 25);
+            this.lbl_job2price.TabIndex = 18;
+            this.lbl_job2price.Text = "350.00";
             // 
-            // label24
+            // lbl_job2dprice
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Black;
-            this.label24.Location = new System.Drawing.Point(916, 444);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(72, 25);
-            this.label24.TabIndex = 18;
-            this.label24.Text = "300.00";
+            this.lbl_job2dprice.AutoSize = true;
+            this.lbl_job2dprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job2dprice.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job2dprice.Location = new System.Drawing.Point(916, 444);
+            this.lbl_job2dprice.Name = "lbl_job2dprice";
+            this.lbl_job2dprice.Size = new System.Drawing.Size(72, 25);
+            this.lbl_job2dprice.TabIndex = 18;
+            this.lbl_job2dprice.Text = "300.00";
             // 
-            // label23
+            // lbl_job1dprice
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(916, 387);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(83, 25);
-            this.label23.TabIndex = 18;
-            this.label23.Text = "6000.00";
+            this.lbl_job1dprice.AutoSize = true;
+            this.lbl_job1dprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job1dprice.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job1dprice.Location = new System.Drawing.Point(916, 387);
+            this.lbl_job1dprice.Name = "lbl_job1dprice";
+            this.lbl_job1dprice.Size = new System.Drawing.Size(83, 25);
+            this.lbl_job1dprice.TabIndex = 18;
+            this.lbl_job1dprice.Text = "6000.00";
             // 
-            // label21
+            // lbl_job1discount
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(739, 387);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(83, 25);
-            this.label21.TabIndex = 18;
-            this.label21.Text = "1000.00";
+            this.lbl_job1discount.AutoSize = true;
+            this.lbl_job1discount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job1discount.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job1discount.Location = new System.Drawing.Point(739, 387);
+            this.lbl_job1discount.Name = "lbl_job1discount";
+            this.lbl_job1discount.Size = new System.Drawing.Size(83, 25);
+            this.lbl_job1discount.TabIndex = 18;
+            this.lbl_job1discount.Text = "1000.00";
             // 
-            // label31
+            // lbl_fServiceStatus2
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(547, 728);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(52, 25);
-            this.label31.TabIndex = 18;
-            this.label31.Text = "Free";
+            this.lbl_fServiceStatus2.AutoSize = true;
+            this.lbl_fServiceStatus2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fServiceStatus2.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fServiceStatus2.Location = new System.Drawing.Point(547, 728);
+            this.lbl_fServiceStatus2.Name = "lbl_fServiceStatus2";
+            this.lbl_fServiceStatus2.Size = new System.Drawing.Size(52, 25);
+            this.lbl_fServiceStatus2.TabIndex = 18;
+            this.lbl_fServiceStatus2.Text = "Free";
             // 
-            // label29
+            // lbl_totalAmount
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Black;
-            this.label29.Location = new System.Drawing.Point(525, 853);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(83, 25);
-            this.label29.TabIndex = 18;
-            this.label29.Text = "6300.00";
+            this.lbl_totalAmount.AutoSize = true;
+            this.lbl_totalAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_totalAmount.ForeColor = System.Drawing.Color.Black;
+            this.lbl_totalAmount.Location = new System.Drawing.Point(525, 853);
+            this.lbl_totalAmount.Name = "lbl_totalAmount";
+            this.lbl_totalAmount.Size = new System.Drawing.Size(83, 25);
+            this.lbl_totalAmount.TabIndex = 18;
+            this.lbl_totalAmount.Text = "6300.00";
             // 
             // label28
             // 
@@ -376,38 +376,38 @@
             this.label28.TabIndex = 18;
             this.label28.Text = "Total Amount";
             // 
-            // label27
+            // lbl_fService2
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.Black;
-            this.label27.Location = new System.Drawing.Point(68, 728);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(239, 25);
-            this.label27.TabIndex = 18;
-            this.label27.Text = "-  Break light bracket fixing";
+            this.lbl_fService2.AutoSize = true;
+            this.lbl_fService2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fService2.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fService2.Location = new System.Drawing.Point(68, 728);
+            this.lbl_fService2.Name = "lbl_fService2";
+            this.lbl_fService2.Size = new System.Drawing.Size(239, 25);
+            this.lbl_fService2.TabIndex = 18;
+            this.lbl_fService2.Text = "-  Break light bracket fixing";
             // 
-            // label30
+            // lbl_fServiceStatus1
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(547, 659);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(52, 25);
-            this.label30.TabIndex = 18;
-            this.label30.Text = "Free";
+            this.lbl_fServiceStatus1.AutoSize = true;
+            this.lbl_fServiceStatus1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fServiceStatus1.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fServiceStatus1.Location = new System.Drawing.Point(547, 659);
+            this.lbl_fServiceStatus1.Name = "lbl_fServiceStatus1";
+            this.lbl_fServiceStatus1.Size = new System.Drawing.Size(52, 25);
+            this.lbl_fServiceStatus1.TabIndex = 18;
+            this.lbl_fServiceStatus1.Text = "Free";
             // 
-            // label26
+            // lbl_fService1
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(68, 659);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(156, 25);
-            this.label26.TabIndex = 18;
-            this.label26.Text = "-  Hutt rack fixing";
+            this.lbl_fService1.AutoSize = true;
+            this.lbl_fService1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fService1.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fService1.Location = new System.Drawing.Point(68, 659);
+            this.lbl_fService1.Name = "lbl_fService1";
+            this.lbl_fService1.Size = new System.Drawing.Size(156, 25);
+            this.lbl_fService1.TabIndex = 18;
+            this.lbl_fService1.Text = "-  Hutt rack fixing";
             // 
             // label25
             // 
@@ -420,71 +420,71 @@
             this.label25.TabIndex = 18;
             this.label25.Text = "Full Services";
             // 
-            // label18
+            // lbl_job2
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(68, 444);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(131, 25);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "-  Body Wash";
+            this.lbl_job2.AutoSize = true;
+            this.lbl_job2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job2.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job2.Location = new System.Drawing.Point(68, 444);
+            this.lbl_job2.Name = "lbl_job2";
+            this.lbl_job2.Size = new System.Drawing.Size(131, 25);
+            this.lbl_job2.TabIndex = 18;
+            this.lbl_job2.Text = "-  Body Wash";
             // 
-            // label19
+            // lbl_job1price
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.Location = new System.Drawing.Point(459, 387);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(83, 25);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "7000.00";
+            this.lbl_job1price.AutoSize = true;
+            this.lbl_job1price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job1price.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job1price.Location = new System.Drawing.Point(459, 387);
+            this.lbl_job1price.Name = "lbl_job1price";
+            this.lbl_job1price.Size = new System.Drawing.Size(83, 25);
+            this.lbl_job1price.TabIndex = 18;
+            this.lbl_job1price.Text = "7000.00";
             // 
-            // label17
+            // lbl_job1
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(68, 387);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(121, 25);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "-  Full Wiring";
+            this.lbl_job1.AutoSize = true;
+            this.lbl_job1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_job1.ForeColor = System.Drawing.Color.Black;
+            this.lbl_job1.Location = new System.Drawing.Point(68, 387);
+            this.lbl_job1.Name = "lbl_job1";
+            this.lbl_job1.Size = new System.Drawing.Size(121, 25);
+            this.lbl_job1.TabIndex = 18;
+            this.lbl_job1.Text = "-  Full Wiring";
             // 
-            // label10
+            // lbl_mName
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(245, 189);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(87, 25);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Mr.Milan";
+            this.lbl_mName.AutoSize = true;
+            this.lbl_mName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_mName.ForeColor = System.Drawing.Color.Black;
+            this.lbl_mName.Location = new System.Drawing.Point(245, 189);
+            this.lbl_mName.Name = "lbl_mName";
+            this.lbl_mName.Size = new System.Drawing.Size(87, 25);
+            this.lbl_mName.TabIndex = 18;
+            this.lbl_mName.Text = "Mr.Milan";
             // 
-            // label9
+            // lbl_vModel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(245, 138);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(189, 25);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Hero Honda CD 100";
+            this.lbl_vModel.AutoSize = true;
+            this.lbl_vModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_vModel.ForeColor = System.Drawing.Color.Black;
+            this.lbl_vModel.Location = new System.Drawing.Point(245, 138);
+            this.lbl_vModel.Name = "lbl_vModel";
+            this.lbl_vModel.Size = new System.Drawing.Size(189, 25);
+            this.lbl_vModel.TabIndex = 18;
+            this.lbl_vModel.Text = "Hero Honda CD 100";
             // 
-            // label8
+            // lbl_vNumber
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(245, 87);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 25);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "1451006";
+            this.lbl_vNumber.AutoSize = true;
+            this.lbl_vNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_vNumber.ForeColor = System.Drawing.Color.Black;
+            this.lbl_vNumber.Location = new System.Drawing.Point(245, 87);
+            this.lbl_vNumber.Name = "lbl_vNumber";
+            this.lbl_vNumber.Size = new System.Drawing.Size(89, 25);
+            this.lbl_vNumber.TabIndex = 18;
+            this.lbl_vNumber.Text = "1451006";
             // 
             // label1
             // 
@@ -542,32 +542,32 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lbl_vNumber;
+        private System.Windows.Forms.Label lbl_date;
+        private System.Windows.Forms.Label lbl_km;
+        private System.Windows.Forms.Label lbl_mName;
+        private System.Windows.Forms.Label lbl_vModel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbl_fType;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label lbl_job2discount;
+        private System.Windows.Forms.Label lbl_job2price;
+        private System.Windows.Forms.Label lbl_job2dprice;
+        private System.Windows.Forms.Label lbl_job1dprice;
+        private System.Windows.Forms.Label lbl_job1discount;
+        private System.Windows.Forms.Label lbl_fServiceStatus2;
+        private System.Windows.Forms.Label lbl_totalAmount;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label lbl_fService2;
+        private System.Windows.Forms.Label lbl_fServiceStatus1;
+        private System.Windows.Forms.Label lbl_fService1;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lbl_job2;
+        private System.Windows.Forms.Label lbl_job1price;
+        private System.Windows.Forms.Label lbl_job1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
