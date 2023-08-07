@@ -163,13 +163,22 @@ namespace Billing_System
                 MessageBox.Show("Saved Successfully!");
                 motobicycleJobCard mbcard = new motobicycleJobCard();
                 mbcard.Show();
+                mbcard.Hide();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("!"+ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            
 
+            motobicycleJobCard clickPrint = Application.OpenForms["motobicycleJobCard"] as motobicycleJobCard;
+            if (clickPrint != null)
+            {
+                clickPrint.btn_print.PerformClick();
+
+                /*motocarJobCard printFn = new motocarJobCard();
+                PrintPageEventArgs args = new PrintPageEventArgs(null , new Rectangle(), new Rectangle(), new PageSettings());
+                printFn.PrintPage(this, args);*/
+            }
 
         }
 
