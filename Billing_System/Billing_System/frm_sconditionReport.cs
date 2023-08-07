@@ -19,31 +19,31 @@ namespace Billing_System
         public static string setEngineOil = "";
 
 
-        public static string  vehicle_number;
-        public static string VehicleModel;
-        public static string MachanicName;
-        public static string fuel;
-        public static string km;
-        public static string date;
-        public static string engineOil;
-        public static string gearOil;
-        public static string breakOil;
-        public static string acFilter;
-        public static string breaks;
-        public static string radiator; 
-        public static string socket;
-        public static string airFilter;
-        public static string tire;
-        public static string larm;
-        public static string uarm;
-        public static string carm; 
-        public static string ebelt;
-        public static string axel; 
-        public static string mount;
-        public static string rodrack;
-        public static string lowbush;
-        public static string upperbush;
-        public static string oilLeak;
+        public static string  vehicle_number="";
+        public static string VehicleModel="";
+        public static string MachanicName="";
+        public static string fuel="";
+        public static string km="";
+        public static string date="";
+        public static string engineOil="";
+        public static string gearOil="";
+        public static string breakOil="";
+        public static string acFilter="";
+        public static string breaks="";
+        public static string radiator=""; 
+        public static string socket="";
+        public static string airFilter="";
+        public static string tire="";
+        public static string larm="";
+        public static string uarm="";
+        public static string carm=""; 
+        public static string ebelt="";
+        public static string axel=""; 
+        public static string mount="";
+        public static string rod="";
+        public static string low="";
+        public static string upper="";
+        public static string oilLeak="";
 
         
 
@@ -167,6 +167,7 @@ namespace Billing_System
                     {
                         engineOil = "Good";
                         setEngineOil = rbtn_engineoilGood.Text;
+                        
                     }
                     else if (rbtn_engineoilBad.Checked == true)
                     {
@@ -267,40 +268,46 @@ namespace Billing_System
 
                     cmd.Parameters.Add("@txt_socketStatus", MySqlDbType.VarChar).Value = socket;
 
-                    //---------
+                    //---------Direct send tire rod
 
                     if (rbtn_tireGood.Checked == true)
                     {
                         tire = "Good";
+                        rod = tire;
                     }
                     else if (rbtn_tireBad.Checked == true)
                     {
                         tire = "Bad";
+                        rod = tire;
                     }
 
                     cmd.Parameters.Add("@txt_rodRackStatus", MySqlDbType.VarChar).Value = tire;
 
-                    //---------
+                    //---------Direct send lower
                     if (rbtn_lowarmGood.Checked == true)
                     {
                         larm = "Good";
+                        low = larm;
                     }
                     else if (rbtn_lowarmBad.Checked == true)
                     {
                         larm = "Bad";
+                        low = larm;
                     }
 
                     cmd.Parameters.Add("@txt_lowBushStatus", MySqlDbType.VarChar).Value = larm;
 
-                    //---------
+                    //---------Direct send upper
 
                     if (rbtn_upperarmGood.Checked == true)
                     {
                         uarm = "Good";
+                        upper = uarm;
                     }
                     else if (rbtn_upperarmBad.Checked == true)
                     {
                         uarm = "Bad";
+                        upper = uarm;
                     }
 
                     cmd.Parameters.Add("@txt_upperBushStatus", MySqlDbType.VarChar).Value = uarm;
@@ -417,6 +424,9 @@ namespace Billing_System
                 MachanicName = cmb_mName.Text;
                 fuel = txt_fuelType.Text;
                 km = txt_km.Text;
+                date = DateTime.Now.ToString("hh:mm");
+            while (reader1.Read())
+            {
                 date = reader1["date"].ToString();
                 engineOil = reader1["engineOilStatus"].ToString();
                 gearOil = reader1["gearOilStatus"].ToString();
@@ -426,14 +436,18 @@ namespace Billing_System
                 breaks = reader1["breakStatus"].ToString();
                 radiator = reader1["radiatorCWaterStatus"].ToString();
                 socket = reader1["socketStatus"].ToString();
-                rodrack = reader1["rodRackStatus"].ToString();
-                lowbush = reader1["lowBushStatus"].ToString();
-                upperbush = reader1["upperBushStatus"].ToString();
+
+                //These three values cannot send using database (Have to find)
+                /*rod = reader1["rodRackStatus"].ToString();
+                low = reader1["lowBushStatus"].ToString();
+                upper = reader1["upperBushStatus"].ToString();*/
+
                 carm = reader1["cArmStatus"].ToString();
                 ebelt = reader1["eBeltStatus"].ToString();
-                axel = reader1["axelStatus"].ToString() ;
+                axel = reader1["axelStatus"].ToString();
                 mount = reader1["mountStatus"].ToString();
                 oilLeak = reader1["leakOilStatus"].ToString();
+            }
 
         }
 

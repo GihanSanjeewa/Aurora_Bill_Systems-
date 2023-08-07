@@ -31,14 +31,17 @@
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.btn_print = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.guna2Panel46 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel47 = new Guna.UI2.WinForms.Guna2Panel();
             this.s15good = new System.Windows.Forms.Label();
             this.s14good = new System.Windows.Forms.Label();
             this.s13good = new System.Windows.Forms.Label();
             this.s12good = new System.Windows.Forms.Label();
             this.s11good = new System.Windows.Forms.Label();
-            this.s10good = new System.Windows.Forms.Label();
-            this.s9good = new System.Windows.Forms.Label();
-            this.s8good = new System.Windows.Forms.Label();
+            this.upper = new System.Windows.Forms.Label();
+            this.lower = new System.Windows.Forms.Label();
+            this.track = new System.Windows.Forms.Label();
             this.s7good = new System.Windows.Forms.Label();
             this.s6good = new System.Windows.Forms.Label();
             this.s5good = new System.Windows.Forms.Label();
@@ -51,6 +54,7 @@
             this.lbl_nMachanic = new System.Windows.Forms.Label();
             this.lbl_vModel = new System.Windows.Forms.Label();
             this.lbl_vNumber = new System.Windows.Forms.Label();
+            this.s0good = new System.Windows.Forms.Label();
             this.s1good = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
@@ -70,6 +74,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2Panel44 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel45 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel42 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel43 = new Guna.UI2.WinForms.Guna2Panel();
@@ -121,14 +127,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lable2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel46 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel47 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.s0good = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.guna2Panel46.SuspendLayout();
             this.guna2Panel44.SuspendLayout();
+            this.guna2Panel5.SuspendLayout();
             this.guna2Panel42.SuspendLayout();
             this.guna2Panel37.SuspendLayout();
             this.guna2Panel35.SuspendLayout();
@@ -147,8 +149,6 @@
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
-            this.guna2Panel5.SuspendLayout();
-            this.guna2Panel46.SuspendLayout();
             this.SuspendLayout();
             // 
             // printDocument1
@@ -182,9 +182,9 @@
             this.panel1.Controls.Add(this.s13good);
             this.panel1.Controls.Add(this.s12good);
             this.panel1.Controls.Add(this.s11good);
-            this.panel1.Controls.Add(this.s10good);
-            this.panel1.Controls.Add(this.s9good);
-            this.panel1.Controls.Add(this.s8good);
+            this.panel1.Controls.Add(this.upper);
+            this.panel1.Controls.Add(this.lower);
+            this.panel1.Controls.Add(this.track);
             this.panel1.Controls.Add(this.s7good);
             this.panel1.Controls.Add(this.s6good);
             this.panel1.Controls.Add(this.s5good);
@@ -252,6 +252,33 @@
             this.panel1.Size = new System.Drawing.Size(1109, 1188);
             this.panel1.TabIndex = 0;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(54, 915);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(132, 20);
+            this.label9.TabIndex = 28;
+            this.label9.Text = "Axel @ CV Joint";
+            // 
+            // guna2Panel46
+            // 
+            this.guna2Panel46.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel46.Controls.Add(this.guna2Panel47);
+            this.guna2Panel46.Location = new System.Drawing.Point(37, 1025);
+            this.guna2Panel46.Name = "guna2Panel46";
+            this.guna2Panel46.Size = new System.Drawing.Size(1003, 3);
+            this.guna2Panel46.TabIndex = 23;
+            // 
+            // guna2Panel47
+            // 
+            this.guna2Panel47.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel47.Location = new System.Drawing.Point(0, 48);
+            this.guna2Panel47.Name = "guna2Panel47";
+            this.guna2Panel47.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel47.TabIndex = 7;
+            // 
             // s15good
             // 
             this.s15good.AutoSize = true;
@@ -259,7 +286,7 @@
             this.s15good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s15good.Location = new System.Drawing.Point(833, 1000);
             this.s15good.Name = "s15good";
-            this.s15good.Size = new System.Drawing.Size(16, 22);
+            this.s15good.Size = new System.Drawing.Size(16, 24);
             this.s15good.TabIndex = 27;
             this.s15good.Text = "-";
             // 
@@ -270,7 +297,7 @@
             this.s14good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s14good.Location = new System.Drawing.Point(833, 961);
             this.s14good.Name = "s14good";
-            this.s14good.Size = new System.Drawing.Size(16, 22);
+            this.s14good.Size = new System.Drawing.Size(16, 24);
             this.s14good.TabIndex = 27;
             this.s14good.Text = "-";
             // 
@@ -281,7 +308,7 @@
             this.s13good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s13good.Location = new System.Drawing.Point(833, 913);
             this.s13good.Name = "s13good";
-            this.s13good.Size = new System.Drawing.Size(16, 22);
+            this.s13good.Size = new System.Drawing.Size(16, 24);
             this.s13good.TabIndex = 27;
             this.s13good.Text = "-";
             // 
@@ -292,7 +319,7 @@
             this.s12good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s12good.Location = new System.Drawing.Point(833, 868);
             this.s12good.Name = "s12good";
-            this.s12good.Size = new System.Drawing.Size(16, 22);
+            this.s12good.Size = new System.Drawing.Size(16, 24);
             this.s12good.TabIndex = 27;
             this.s12good.Text = "-";
             // 
@@ -303,42 +330,42 @@
             this.s11good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s11good.Location = new System.Drawing.Point(833, 829);
             this.s11good.Name = "s11good";
-            this.s11good.Size = new System.Drawing.Size(16, 22);
+            this.s11good.Size = new System.Drawing.Size(16, 24);
             this.s11good.TabIndex = 27;
             this.s11good.Text = "-";
             // 
-            // s10good
+            // upper
             // 
-            this.s10good.AutoSize = true;
-            this.s10good.BackColor = System.Drawing.Color.Transparent;
-            this.s10good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s10good.Location = new System.Drawing.Point(833, 790);
-            this.s10good.Name = "s10good";
-            this.s10good.Size = new System.Drawing.Size(16, 22);
-            this.s10good.TabIndex = 27;
-            this.s10good.Text = "-";
+            this.upper.AutoSize = true;
+            this.upper.BackColor = System.Drawing.Color.Transparent;
+            this.upper.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.upper.Location = new System.Drawing.Point(833, 790);
+            this.upper.Name = "upper";
+            this.upper.Size = new System.Drawing.Size(16, 24);
+            this.upper.TabIndex = 27;
+            this.upper.Text = "-";
             // 
-            // s9good
+            // lower
             // 
-            this.s9good.AutoSize = true;
-            this.s9good.BackColor = System.Drawing.Color.Transparent;
-            this.s9good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s9good.Location = new System.Drawing.Point(833, 745);
-            this.s9good.Name = "s9good";
-            this.s9good.Size = new System.Drawing.Size(16, 22);
-            this.s9good.TabIndex = 27;
-            this.s9good.Text = "-";
+            this.lower.AutoSize = true;
+            this.lower.BackColor = System.Drawing.Color.Transparent;
+            this.lower.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lower.Location = new System.Drawing.Point(833, 745);
+            this.lower.Name = "lower";
+            this.lower.Size = new System.Drawing.Size(16, 24);
+            this.lower.TabIndex = 27;
+            this.lower.Text = "-";
             // 
-            // s8good
+            // track
             // 
-            this.s8good.AutoSize = true;
-            this.s8good.BackColor = System.Drawing.Color.Transparent;
-            this.s8good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s8good.Location = new System.Drawing.Point(833, 700);
-            this.s8good.Name = "s8good";
-            this.s8good.Size = new System.Drawing.Size(16, 22);
-            this.s8good.TabIndex = 27;
-            this.s8good.Text = "-";
+            this.track.AutoSize = true;
+            this.track.BackColor = System.Drawing.Color.Transparent;
+            this.track.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.track.Location = new System.Drawing.Point(833, 700);
+            this.track.Name = "track";
+            this.track.Size = new System.Drawing.Size(16, 24);
+            this.track.TabIndex = 27;
+            this.track.Text = "-";
             // 
             // s7good
             // 
@@ -347,7 +374,7 @@
             this.s7good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s7good.Location = new System.Drawing.Point(833, 655);
             this.s7good.Name = "s7good";
-            this.s7good.Size = new System.Drawing.Size(16, 22);
+            this.s7good.Size = new System.Drawing.Size(16, 24);
             this.s7good.TabIndex = 27;
             this.s7good.Text = "-";
             // 
@@ -358,7 +385,7 @@
             this.s6good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s6good.Location = new System.Drawing.Point(833, 610);
             this.s6good.Name = "s6good";
-            this.s6good.Size = new System.Drawing.Size(16, 22);
+            this.s6good.Size = new System.Drawing.Size(16, 24);
             this.s6good.TabIndex = 27;
             this.s6good.Text = "-";
             // 
@@ -369,7 +396,7 @@
             this.s5good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s5good.Location = new System.Drawing.Point(833, 565);
             this.s5good.Name = "s5good";
-            this.s5good.Size = new System.Drawing.Size(16, 22);
+            this.s5good.Size = new System.Drawing.Size(16, 24);
             this.s5good.TabIndex = 27;
             this.s5good.Text = "-";
             // 
@@ -380,7 +407,7 @@
             this.s4good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s4good.Location = new System.Drawing.Point(833, 526);
             this.s4good.Name = "s4good";
-            this.s4good.Size = new System.Drawing.Size(16, 22);
+            this.s4good.Size = new System.Drawing.Size(16, 24);
             this.s4good.TabIndex = 27;
             this.s4good.Text = "-";
             // 
@@ -391,7 +418,7 @@
             this.s3good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s3good.Location = new System.Drawing.Point(833, 483);
             this.s3good.Name = "s3good";
-            this.s3good.Size = new System.Drawing.Size(16, 22);
+            this.s3good.Size = new System.Drawing.Size(16, 24);
             this.s3good.TabIndex = 27;
             this.s3good.Text = "-";
             // 
@@ -402,7 +429,7 @@
             this.s2good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s2good.Location = new System.Drawing.Point(833, 442);
             this.s2good.Name = "s2good";
-            this.s2good.Size = new System.Drawing.Size(16, 22);
+            this.s2good.Size = new System.Drawing.Size(16, 24);
             this.s2good.TabIndex = 27;
             this.s2good.Text = "-";
             // 
@@ -413,7 +440,7 @@
             this.lbl_Date.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Date.Location = new System.Drawing.Point(750, 210);
             this.lbl_Date.Name = "lbl_Date";
-            this.lbl_Date.Size = new System.Drawing.Size(16, 22);
+            this.lbl_Date.Size = new System.Drawing.Size(16, 24);
             this.lbl_Date.TabIndex = 27;
             this.lbl_Date.Text = "-";
             // 
@@ -424,7 +451,7 @@
             this.lbl_km.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_km.Location = new System.Drawing.Point(739, 142);
             this.lbl_km.Name = "lbl_km";
-            this.lbl_km.Size = new System.Drawing.Size(16, 22);
+            this.lbl_km.Size = new System.Drawing.Size(16, 24);
             this.lbl_km.TabIndex = 27;
             this.lbl_km.Text = "-";
             // 
@@ -435,7 +462,7 @@
             this.lbl_fuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fuel.Location = new System.Drawing.Point(746, 78);
             this.lbl_fuel.Name = "lbl_fuel";
-            this.lbl_fuel.Size = new System.Drawing.Size(16, 22);
+            this.lbl_fuel.Size = new System.Drawing.Size(16, 24);
             this.lbl_fuel.TabIndex = 27;
             this.lbl_fuel.Text = "-";
             // 
@@ -446,7 +473,7 @@
             this.lbl_nMachanic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nMachanic.Location = new System.Drawing.Point(328, 210);
             this.lbl_nMachanic.Name = "lbl_nMachanic";
-            this.lbl_nMachanic.Size = new System.Drawing.Size(16, 22);
+            this.lbl_nMachanic.Size = new System.Drawing.Size(16, 24);
             this.lbl_nMachanic.TabIndex = 27;
             this.lbl_nMachanic.Text = "-";
             // 
@@ -457,7 +484,7 @@
             this.lbl_vModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_vModel.Location = new System.Drawing.Point(265, 142);
             this.lbl_vModel.Name = "lbl_vModel";
-            this.lbl_vModel.Size = new System.Drawing.Size(16, 22);
+            this.lbl_vModel.Size = new System.Drawing.Size(16, 24);
             this.lbl_vModel.TabIndex = 27;
             this.lbl_vModel.Text = "-";
             // 
@@ -468,9 +495,20 @@
             this.lbl_vNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_vNumber.Location = new System.Drawing.Point(279, 80);
             this.lbl_vNumber.Name = "lbl_vNumber";
-            this.lbl_vNumber.Size = new System.Drawing.Size(16, 22);
+            this.lbl_vNumber.Size = new System.Drawing.Size(16, 24);
             this.lbl_vNumber.TabIndex = 27;
             this.lbl_vNumber.Text = "-";
+            // 
+            // s0good
+            // 
+            this.s0good.AutoSize = true;
+            this.s0good.BackColor = System.Drawing.Color.Transparent;
+            this.s0good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.s0good.Location = new System.Drawing.Point(833, 360);
+            this.s0good.Name = "s0good";
+            this.s0good.Size = new System.Drawing.Size(16, 24);
+            this.s0good.TabIndex = 27;
+            this.s0good.Text = "-";
             // 
             // s1good
             // 
@@ -479,7 +517,7 @@
             this.s1good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.s1good.Location = new System.Drawing.Point(833, 398);
             this.s1good.Name = "s1good";
-            this.s1good.Size = new System.Drawing.Size(16, 22);
+            this.s1good.Size = new System.Drawing.Size(16, 24);
             this.s1good.TabIndex = 27;
             this.s1good.Text = "-";
             // 
@@ -661,6 +699,23 @@
             this.guna2Panel44.Name = "guna2Panel44";
             this.guna2Panel44.Size = new System.Drawing.Size(1004, 3);
             this.guna2Panel44.TabIndex = 23;
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel5.Controls.Add(this.guna2Panel6);
+            this.guna2Panel5.Location = new System.Drawing.Point(0, 17);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(1004, 3);
+            this.guna2Panel5.TabIndex = 24;
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel6.Location = new System.Drawing.Point(0, 48);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel6.TabIndex = 7;
             // 
             // guna2Panel45
             // 
@@ -1111,61 +1166,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Suspention Condition Report";
             // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel5.Controls.Add(this.guna2Panel6);
-            this.guna2Panel5.Location = new System.Drawing.Point(0, 17);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(1004, 3);
-            this.guna2Panel5.TabIndex = 24;
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel6.Location = new System.Drawing.Point(0, 48);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel6.TabIndex = 7;
-            // 
-            // guna2Panel46
-            // 
-            this.guna2Panel46.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel46.Controls.Add(this.guna2Panel47);
-            this.guna2Panel46.Location = new System.Drawing.Point(37, 1025);
-            this.guna2Panel46.Name = "guna2Panel46";
-            this.guna2Panel46.Size = new System.Drawing.Size(1003, 3);
-            this.guna2Panel46.TabIndex = 23;
-            // 
-            // guna2Panel47
-            // 
-            this.guna2Panel47.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel47.Location = new System.Drawing.Point(0, 48);
-            this.guna2Panel47.Name = "guna2Panel47";
-            this.guna2Panel47.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel47.TabIndex = 7;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(54, 915);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(132, 20);
-            this.label9.TabIndex = 28;
-            this.label9.Text = "Axel @ CV Joint";
-            // 
-            // s0good
-            // 
-            this.s0good.AutoSize = true;
-            this.s0good.BackColor = System.Drawing.Color.Transparent;
-            this.s0good.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.s0good.Location = new System.Drawing.Point(833, 360);
-            this.s0good.Name = "s0good";
-            this.s0good.Size = new System.Drawing.Size(16, 22);
-            this.s0good.TabIndex = 27;
-            this.s0good.Text = "-";
-            // 
             // sconditionPrint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1178,7 +1178,9 @@
             this.Load += new System.EventHandler(this.sconditionPrint_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.guna2Panel46.ResumeLayout(false);
             this.guna2Panel44.ResumeLayout(false);
+            this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel42.ResumeLayout(false);
             this.guna2Panel37.ResumeLayout(false);
             this.guna2Panel35.ResumeLayout(false);
@@ -1197,8 +1199,6 @@
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel46.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1280,9 +1280,9 @@
         private System.Windows.Forms.Label s13good;
         private System.Windows.Forms.Label s12good;
         private System.Windows.Forms.Label s11good;
-        private System.Windows.Forms.Label s10good;
-        private System.Windows.Forms.Label s9good;
-        private System.Windows.Forms.Label s8good;
+        private System.Windows.Forms.Label upper;
+        private System.Windows.Forms.Label lower;
+        private System.Windows.Forms.Label track;
         private System.Windows.Forms.Label s7good;
         private System.Windows.Forms.Label s6good;
         private System.Windows.Forms.Label s5good;
