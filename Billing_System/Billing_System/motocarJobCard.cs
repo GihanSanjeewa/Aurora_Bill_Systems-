@@ -70,7 +70,7 @@ namespace Billing_System
             }
         }
 
-        private void PrintPage(object sender, PrintPageEventArgs e)
+        public void PrintPage(object sender, PrintPageEventArgs e)
         {
             // Calculate the target print size in pixels (A4 size at 96 dpi)
             int printWidth = (int)(8.27f * e.PageSettings.PrinterResolution.X);

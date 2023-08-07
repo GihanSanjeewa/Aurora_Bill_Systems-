@@ -444,7 +444,6 @@ namespace Billing_System
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button btn_print;
         private System.Windows.Forms.PrintDialog printDialog1;
         private System.Drawing.Printing.PrintDocument printDocument;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
@@ -474,5 +473,6 @@ namespace Billing_System
         private System.Windows.Forms.Label lbl_dateReceived;
         private System.Windows.Forms.Label lbl_vehicleModel;
         private System.Windows.Forms.Label lbl_customerName;
+        internal Guna.UI2.WinForms.Guna2Button btn_print;
     }
 }

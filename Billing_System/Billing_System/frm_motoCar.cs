@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -131,12 +132,24 @@ namespace Billing_System
                 setResultRemark = resultRemark.Trim();
 
                 MessageBox.Show("Saved Successfully!");
-            motocarJobCard mccard = new motocarJobCard();
-            mccard.Show();
+                motocarJobCard mccard = new motocarJobCard();
+                mccard.Show();
+                mccard.Hide();
             }
             catch
             {
                 MessageBox.Show("Somthing Wrong !", "Contact Developers", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            //new part
+            motocarJobCard clickPrint = Application.OpenForms["motocarJobCard"] as motocarJobCard;
+            if (clickPrint != null)
+            {
+                clickPrint.btn_print.PerformClick();
+
+                /*motocarJobCard printFn = new motocarJobCard();
+                PrintPageEventArgs args = new PrintPageEventArgs(null , new Rectangle(), new Rectangle(), new PageSettings());
+                printFn.PrintPage(this, args);*/
             }
         }
 
@@ -174,6 +187,8 @@ namespace Billing_System
             {
                 MessageBox.Show("Somthing Wrong in Your DataBase !","Contact Developers",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
+
+            
            
         }
 
