@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,64 @@ namespace Billing_System
 {
     public partial class frm_dashboard : Form
     {
+
+        private PerformanceCounter cpuCounter;
+        private Timer updateTimer;
+
         public frm_dashboard()
         {
             InitializeComponent();
+            InitializePerformanceCounter();
+            InitializeTimer();
         }
+
+        private void InitializePerformanceCounter()
+        {
+            string categoryName = "Processor"; // Change this to the appropriate category name
+            string counterName = "% Processor Time";
+            string instanceName = "_Total";
+
+            if (PerformanceCounterCategory.Exists(categoryName))
+            {
+                cpuCounter = new PerformanceCounter(categoryName, counterName, instanceName);
+            }
+            else
+            {
+                MessageBox.Show($"The category '{categoryName}' does not exist on this system.", "Category Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Handle the situation where the category doesn't exist
+            }
+        }
+
+        private void InitializeTimer()
+        {
+            // Initialize and start the timer
+            updateTimer = new Timer();
+            updateTimer.Interval = 1000; // Update every 1 second
+            updateTimer.Tick += UpdatePerformanceMetrics;
+            updateTimer.Start();
+        }
+
+        private void UpdatePerformanceMetrics(object sender, EventArgs e)
+        {
+            // Get the current CPU usage
+            float cpuUsage = cpuCounter.NextValue();
+
+            // Update the UI with CPU usage information
+            cpuUsageLabel.Text = $"CPU Usage: {cpuUsage:F2}%";
+
+            DateTime currentDateTime = DateTime.Now;
+            dateTimeLabel.Text = $"{currentDateTime}";
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Clean up resources when the form is closing
+            cpuCounter.Dispose();
+            updateTimer.Stop();
+            updateTimer.Dispose();
+        }
+    
+    
 
         private void btn_jobcardMotorbike_Click(object sender, EventArgs e)
         {

@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Billing_System
 {
@@ -16,14 +17,21 @@ namespace Billing_System
 
         public static void open_connection()
         {
-            if (con.State == ConnectionState.Closed)
-            {
-                con.Open();
+            try {
+
+                if (con.State == ConnectionState.Closed)
+                {
+                    con.Open();
+                }
+                else
+                {
+                    return;
+                }
+
+            } catch {
+                MessageBox.Show("DataBase Connection Is Disconnected ");
             }
-            else
-            {
-                return;
-            }
+
 
         }
         public static void close_connection()

@@ -39,6 +39,7 @@
             this.lbl_backup = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.cpuUsageLabel = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_logout = new System.Windows.Forms.Label();
@@ -51,8 +52,12 @@
             this.btn_suspensionCondition = new Guna.UI2.WinForms.Guna2Button();
             this.btn_invoice = new Guna.UI2.WinForms.Guna2Button();
             this.btn_jobcardMotorbike = new Guna.UI2.WinForms.Guna2Button();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dateTimeLabel = new System.Windows.Forms.Label();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_jcBike
@@ -100,11 +105,11 @@
             this.lbl_suspensionConditionRepair.BackColor = System.Drawing.Color.Transparent;
             this.lbl_suspensionConditionRepair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_suspensionConditionRepair.ForeColor = System.Drawing.Color.White;
-            this.lbl_suspensionConditionRepair.Location = new System.Drawing.Point(437, 617);
+            this.lbl_suspensionConditionRepair.Location = new System.Drawing.Point(507, 617);
             this.lbl_suspensionConditionRepair.Name = "lbl_suspensionConditionRepair";
-            this.lbl_suspensionConditionRepair.Size = new System.Drawing.Size(292, 25);
+            this.lbl_suspensionConditionRepair.Size = new System.Drawing.Size(230, 25);
             this.lbl_suspensionConditionRepair.TabIndex = 1;
-            this.lbl_suspensionConditionRepair.Text = "Suspension Condition Repair";
+            this.lbl_suspensionConditionRepair.Text = "Suspension Condition ";
             // 
             // lbl_sales
             // 
@@ -161,13 +166,15 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(182)))));
             this.label7.Location = new System.Drawing.Point(688, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(540, 44);
+            this.label7.Size = new System.Drawing.Size(532, 42);
             this.label7.TabIndex = 3;
             this.label7.Text = "Suspension Condition Report";
             // 
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.guna2GradientPanel1.Controls.Add(this.label2);
+            this.guna2GradientPanel1.Controls.Add(this.cpuUsageLabel);
             this.guna2GradientPanel1.Controls.Add(this.label7);
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -175,10 +182,22 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(2356, 90);
             this.guna2GradientPanel1.TabIndex = 6;
             // 
+            // cpuUsageLabel
+            // 
+            this.cpuUsageLabel.AutoSize = true;
+            this.cpuUsageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpuUsageLabel.ForeColor = System.Drawing.SystemColors.Info;
+            this.cpuUsageLabel.Location = new System.Drawing.Point(25, 30);
+            this.cpuUsageLabel.Name = "cpuUsageLabel";
+            this.cpuUsageLabel.Size = new System.Drawing.Size(17, 22);
+            this.cpuUsageLabel.TabIndex = 4;
+            this.cpuUsageLabel.Text = "-";
+            // 
             // guna2GradientPanel2
             // 
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.guna2GradientPanel2.Controls.Add(this.label1);
+            this.guna2GradientPanel2.Controls.Add(this.dateTimeLabel);
             this.guna2GradientPanel2.Location = new System.Drawing.Point(417, 0);
             this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
@@ -189,10 +208,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(516, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 44);
+            this.label1.Size = new System.Drawing.Size(211, 42);
             this.label1.TabIndex = 3;
             this.label1.Text = "Dashboard";
             // 
@@ -401,10 +420,32 @@
             this.btn_jobcardMotorbike.Location = new System.Drawing.Point(520, 161);
             this.btn_jobcardMotorbike.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_jobcardMotorbike.Name = "btn_jobcardMotorbike";
-            this.btn_jobcardMotorbike.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btn_jobcardMotorbike.Padding = new System.Windows.Forms.Padding(5);
             this.btn_jobcardMotorbike.Size = new System.Drawing.Size(160, 150);
             this.btn_jobcardMotorbike.TabIndex = 0;
             this.btn_jobcardMotorbike.Click += new System.EventHandler(this.btn_jobcardMotorbike_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Info;
+            this.label2.Location = new System.Drawing.Point(1170, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(17, 22);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "-";
+            // 
+            // dateTimeLabel
+            // 
+            this.dateTimeLabel.AutoSize = true;
+            this.dateTimeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimeLabel.ForeColor = System.Drawing.SystemColors.Info;
+            this.dateTimeLabel.Location = new System.Drawing.Point(12, 30);
+            this.dateTimeLabel.Name = "dateTimeLabel";
+            this.dateTimeLabel.Size = new System.Drawing.Size(17, 22);
+            this.dateTimeLabel.TabIndex = 4;
+            this.dateTimeLabel.Text = "-";
             // 
             // frm_dashboard
             // 
@@ -472,5 +513,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbl_logout;
         private Guna.UI2.WinForms.Guna2Button btn_logOut;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
+        private System.Windows.Forms.Label cpuUsageLabel;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label dateTimeLabel;
     }
 }

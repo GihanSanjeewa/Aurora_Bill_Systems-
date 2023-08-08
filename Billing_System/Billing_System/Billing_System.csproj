@@ -68,11 +68,12 @@
       <DependentUpon>addMechanic.cs</DependentUpon>
     </Compile>
     <Compile Include="connection_class.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include=".cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_addCustomer.cs">
       <SubType>Form</SubType>
@@ -170,6 +171,12 @@
     <Compile Include="frm_sconditionReport.Designer.cs">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="invoice_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invoice_Print.Designer.cs">
+      <DependentUpon>invoice_Print.cs</DependentUpon>
+    </Compile>
     <Compile Include="motobicycleJobCard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +191,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sconditionPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sconditionPrint.Designer.cs">
+      <DependentUpon>sconditionPrint.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="add.resx">
       <DependentUpon>add.cs</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +251,9 @@
     <EmbeddedResource Include="frm_sconditionReport.resx">
       <DependentUpon>frm_sconditionReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="invoice_Print.resx">
+      <DependentUpon>invoice_Print.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="motobicycleJobCard.resx">
       <DependentUpon>motobicycleJobCard.cs</DependentUpon>
     </EmbeddedResource>
@@ -254,6 +270,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="sconditionPrint.resx">
+      <DependentUpon>sconditionPrint.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -363,6 +382,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\jobcard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-19 .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SCondition report.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

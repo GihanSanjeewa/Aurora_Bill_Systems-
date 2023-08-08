@@ -19,7 +19,7 @@ namespace Billing_System.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -344,6 +344,16 @@ namespace Billing_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SCondition_report {
+            get {
+                object obj = ResourceManager.GetObject("SCondition report", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2023_05_26_at_17_21_35 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2023-05-26 at 17.21.35", resourceCulture);
@@ -397,6 +407,16 @@ namespace Billing_System.Properties {
         internal static System.Drawing.Bitmap wallpaper2you_137177 {
             get {
                 object obj = ResourceManager.GetObject("wallpaper2you_137177", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_05_19_ {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-05-19 ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
