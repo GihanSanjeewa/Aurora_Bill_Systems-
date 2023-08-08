@@ -27,13 +27,18 @@ namespace Billing_System
             MySqlCommand cmd = new MySqlCommand(MysqlQry, connection_class.con);
 
             cmd.ExecuteNonQuery();
-
-            MessageBox.Show("Done!!");
+            MessageBox.Show("update successfully!!!", "Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             connection_class.close_connection();
 
 
             fndataLoad();
+
+            txt_itemName.Text = "";
+            txt_itemBrandName.Text = "";
+            txt_itemPrice.Text = "";
+            txt_itemQuantity.Text = "";
+            txt_itemId.Text = "";
         }
 
        
@@ -44,11 +49,6 @@ namespace Billing_System
             da.Fill(ds, "dgv_item");
             dgv_item.DataSource = ds.Tables["dgv_item"].DefaultView;
 
-        }
-
-        private void frm_editItem_Load(object sender, EventArgs e)
-        {
-            fndataLoad();
         }
 
         private void btn_search_Click(object sender, EventArgs e)
@@ -71,7 +71,7 @@ namespace Billing_System
             }
             else
             {
-                MessageBox.Show("No data found");
+                MessageBox.Show("No data found", "unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             connection_class.close_connection();
         }
@@ -86,12 +86,19 @@ namespace Billing_System
 
             cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Done!!");
+            MessageBox.Show("Delete successfully!!", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             connection_class.close_connection();
 
 
             fndataLoad();
+
+            txt_itemName.Text = "";
+            txt_itemBrandName.Text = "";
+            txt_itemPrice.Text = "";
+            txt_itemQuantity.Text = "";
+            txt_itemId.Text = "";
+
         }
 
         private void dgv_item_CellClick_1(object sender, DataGridViewCellEventArgs e)

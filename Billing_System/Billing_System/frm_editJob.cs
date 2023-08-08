@@ -36,7 +36,7 @@ namespace Billing_System
             }
             else
             {
-                MessageBox.Show("No data found !!!");
+                MessageBox.Show("No data found", "unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             connection_class.close_connection();
         }
@@ -51,12 +51,16 @@ namespace Billing_System
 
             cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Job updated successfully !!!");
+            MessageBox.Show("update successfully!!!", "Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             connection_class.close_connection();
 
 
             fndataLoad();
+
+            txt_jobId.Text = "";
+            txt_jobName.Text = "";
+            txt_jobPrice.Text = "";
         }
 
         public void fndataLoad()
@@ -78,12 +82,16 @@ namespace Billing_System
 
             cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Job deleted successfully !!!");
+            MessageBox.Show("Delete successfully!!", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             connection_class.close_connection();
 
 
             fndataLoad();
+
+            txt_jobId.Text = "";
+            txt_jobName.Text = "";
+            txt_jobPrice.Text = "";
         }
 
         private void dgv_item_CellClick(object sender, DataGridViewCellEventArgs e)

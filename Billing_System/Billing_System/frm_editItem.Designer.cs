@@ -33,11 +33,11 @@ namespace Billing_System
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txt_search = new Guna.UI2.WinForms.Guna2TextBox();
             this.btn_search = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label11 = new System.Windows.Forms.Label();
             this.dgv_item = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btn_update = new Guna.UI2.WinForms.Guna2Button();
             this.txt_itemBrandName = new Guna.UI2.WinForms.Guna2TextBox();
@@ -59,24 +59,41 @@ namespace Billing_System
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(66)))));
-            this.guna2GradientPanel1.Controls.Add(this.label5);
-            this.guna2GradientPanel1.Controls.Add(this.txt_search);
-            this.guna2GradientPanel1.Controls.Add(this.btn_search);
             this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel1.Controls.Add(this.label11);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(-123, -1);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(-123, 1);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1828, 90);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(2356, 90);
             this.guna2GradientPanel1.TabIndex = 45;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel1.Location = new System.Drawing.Point(556, 98);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
+            this.guna2Panel1.TabIndex = 22;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(126, 10);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(150, 38);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Edit Item ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(202, 4);
+            this.label5.Location = new System.Drawing.Point(17, 122);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 27);
+            this.label5.Size = new System.Drawing.Size(136, 28);
             this.label5.TabIndex = 42;
             this.label5.Text = "Search item :";
             // 
@@ -91,13 +108,13 @@ namespace Billing_System
             this.txt_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_search.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_search.Location = new System.Drawing.Point(207, 36);
+            this.txt_search.Location = new System.Drawing.Point(22, 154);
             this.txt_search.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_search.Name = "txt_search";
             this.txt_search.PasswordChar = '\0';
             this.txt_search.PlaceholderText = "";
             this.txt_search.SelectedText = "";
-            this.txt_search.Size = new System.Drawing.Size(265, 36);
+            this.txt_search.Size = new System.Drawing.Size(342, 36);
             this.txt_search.TabIndex = 41;
             // 
             // btn_search
@@ -112,34 +129,14 @@ namespace Billing_System
             this.btn_search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_search.FillColor = System.Drawing.Color.Empty;
-            this.btn_search.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_search.ForeColor = System.Drawing.Color.Black;
-            this.btn_search.Location = new System.Drawing.Point(480, 27);
+            this.btn_search.Location = new System.Drawing.Point(372, 140);
             this.btn_search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(54, 50);
             this.btn_search.TabIndex = 43;
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel1.Location = new System.Drawing.Point(556, 87);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1435, 3);
-            this.guna2Panel1.TabIndex = 22;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Cascadia Mono", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label11.Location = new System.Drawing.Point(1047, 12);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(242, 50);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Edit Item ";
             // 
             // dgv_item
             // 
@@ -165,12 +162,12 @@ namespace Billing_System
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgv_item.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_item.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgv_item.Location = new System.Drawing.Point(435, 89);
+            this.dgv_item.Location = new System.Drawing.Point(433, 90);
             this.dgv_item.Margin = new System.Windows.Forms.Padding(4);
             this.dgv_item.Name = "dgv_item";
             this.dgv_item.RowHeadersVisible = false;
             this.dgv_item.RowHeadersWidth = 51;
-            this.dgv_item.Size = new System.Drawing.Size(1103, 765);
+            this.dgv_item.Size = new System.Drawing.Size(1620, 765);
             this.dgv_item.TabIndex = 44;
             this.dgv_item.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgv_item.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -203,10 +200,10 @@ namespace Billing_System
             this.btn_update.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_update.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_update.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_update.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_update.Font = new System.Drawing.Font("Cascadia Mono", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_update.ForeColor = System.Drawing.Color.White;
-            this.btn_update.Location = new System.Drawing.Point(84, 741);
+            this.btn_update.FillColor = System.Drawing.Color.LimeGreen;
+            this.btn_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_update.ForeColor = System.Drawing.Color.Black;
+            this.btn_update.Location = new System.Drawing.Point(82, 895);
             this.btn_update.Margin = new System.Windows.Forms.Padding(4);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(125, 58);
@@ -225,7 +222,7 @@ namespace Billing_System
             this.txt_itemBrandName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_itemBrandName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_itemBrandName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_itemBrandName.Location = new System.Drawing.Point(84, 663);
+            this.txt_itemBrandName.Location = new System.Drawing.Point(82, 776);
             this.txt_itemBrandName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_itemBrandName.Name = "txt_itemBrandName";
             this.txt_itemBrandName.PasswordChar = '\0';
@@ -245,7 +242,7 @@ namespace Billing_System
             this.txt_itemQuantity.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_itemQuantity.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_itemQuantity.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_itemQuantity.Location = new System.Drawing.Point(84, 536);
+            this.txt_itemQuantity.Location = new System.Drawing.Point(82, 649);
             this.txt_itemQuantity.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_itemQuantity.Name = "txt_itemQuantity";
             this.txt_itemQuantity.PasswordChar = '\0';
@@ -265,7 +262,7 @@ namespace Billing_System
             this.txt_itemPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_itemPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_itemPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_itemPrice.Location = new System.Drawing.Point(84, 416);
+            this.txt_itemPrice.Location = new System.Drawing.Point(82, 529);
             this.txt_itemPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_itemPrice.Name = "txt_itemPrice";
             this.txt_itemPrice.PasswordChar = '\0';
@@ -285,7 +282,7 @@ namespace Billing_System
             this.txt_itemName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_itemName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_itemName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_itemName.Location = new System.Drawing.Point(84, 291);
+            this.txt_itemName.Location = new System.Drawing.Point(82, 404);
             this.txt_itemName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_itemName.Name = "txt_itemName";
             this.txt_itemName.PasswordChar = '\0';
@@ -297,48 +294,48 @@ namespace Billing_System
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(79, 604);
+            this.label4.Location = new System.Drawing.Point(77, 747);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(216, 27);
+            this.label4.Size = new System.Drawing.Size(194, 28);
             this.label4.TabIndex = 35;
             this.label4.Text = "Item Brand Name :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(79, 482);
+            this.label3.Location = new System.Drawing.Point(77, 617);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 27);
+            this.label3.Size = new System.Drawing.Size(157, 28);
             this.label3.TabIndex = 36;
             this.label3.Text = "Item Quantity :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(79, 361);
+            this.label2.Location = new System.Drawing.Point(77, 498);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 27);
+            this.label2.Size = new System.Drawing.Size(120, 28);
             this.label2.TabIndex = 37;
             this.label2.Text = "Item Price :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(79, 238);
+            this.label1.Location = new System.Drawing.Point(77, 371);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 27);
+            this.label1.Size = new System.Drawing.Size(130, 28);
             this.label1.TabIndex = 38;
             this.label1.Text = "Item Name :";
             // 
@@ -361,7 +358,7 @@ namespace Billing_System
             this.txt_itemId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_itemId.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_itemId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_itemId.Location = new System.Drawing.Point(84, 170);
+            this.txt_itemId.Location = new System.Drawing.Point(82, 283);
             this.txt_itemId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_itemId.Name = "txt_itemId";
             this.txt_itemId.PasswordChar = '\0';
@@ -373,12 +370,12 @@ namespace Billing_System
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(79, 122);
+            this.label6.Location = new System.Drawing.Point(77, 251);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(120, 27);
+            this.label6.Size = new System.Drawing.Size(93, 28);
             this.label6.TabIndex = 47;
             this.label6.Text = "Item Id :";
             // 
@@ -390,10 +387,10 @@ namespace Billing_System
             this.btn_delete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_delete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_delete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_delete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_delete.Font = new System.Drawing.Font("Cascadia Mono", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_delete.ForeColor = System.Drawing.Color.White;
-            this.btn_delete.Location = new System.Drawing.Point(226, 741);
+            this.btn_delete.FillColor = System.Drawing.Color.LimeGreen;
+            this.btn_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_delete.ForeColor = System.Drawing.Color.Black;
+            this.btn_delete.Location = new System.Drawing.Point(224, 895);
             this.btn_delete.Margin = new System.Windows.Forms.Padding(4);
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Size = new System.Drawing.Size(125, 58);
@@ -406,9 +403,12 @@ namespace Billing_System
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1582, 853);
+            this.ClientSize = new System.Drawing.Size(1903, 1033);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_delete);
+            this.Controls.Add(this.txt_search);
             this.Controls.Add(this.txt_itemId);
+            this.Controls.Add(this.btn_search);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dgv_item);
@@ -422,10 +422,11 @@ namespace Billing_System
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Panel11);
+            this.MinimumSize = new System.Drawing.Size(1918, 1078);
             this.Name = "frm_editItem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit Item";
-            this.Load += new System.EventHandler(this.frm_editItem_Load);
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_item)).EndInit();

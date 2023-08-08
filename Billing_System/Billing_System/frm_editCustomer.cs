@@ -41,7 +41,7 @@ namespace Billing_System
             }
             else
             {
-                MessageBox.Show("No data found !!!");
+                MessageBox.Show("No data found", "unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             connection_class.close_connection();
         }
@@ -63,12 +63,23 @@ namespace Billing_System
 
             cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Customer updated successfully !!!");
+            MessageBox.Show("update successfully!!!", "Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             connection_class.close_connection();
 
 
             fndataLoad();
+
+            txt_registrationNo.Text = "";
+            txt_customerName.Text = "";
+            cmb_vehicleModel.Text = "";
+            txt_chassisNo.Text = "";
+            cmb_fuelType.Text = "";
+            txt_km.Text = "";
+            txt_address.Text = "";
+            txt_company.Text = "";
+            txt_phoneNumber.Text = "";
+
         }
 
         public void fndataLoad()
@@ -90,12 +101,23 @@ namespace Billing_System
 
             cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Customer deleted successfully !!!");
+            MessageBox.Show("Delete successfully!!", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             connection_class.close_connection();
 
 
             fndataLoad();
+
+            txt_registrationNo.Text = "";
+            txt_customerName.Text = "";
+            cmb_vehicleModel.Text = "";
+            txt_chassisNo.Text = "";
+            cmb_fuelType.Text = "";
+            txt_km.Text = "";
+            txt_address.Text = "";
+            txt_company.Text = "";
+            txt_phoneNumber.Text = "";
+
         }
 
         private void dgv_customer_CellClick_1(object sender, DataGridViewCellEventArgs e)

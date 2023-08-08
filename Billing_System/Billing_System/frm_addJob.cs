@@ -20,6 +20,11 @@ namespace Billing_System
 
         private void btn_addJob_Click(object sender, EventArgs e)
         {
+
+            if (!ValidateJobName() || !ValidateJobPrice())
+
+                return;
+
                 connection_class.open_connection();
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO `job`( `jobName`, `jobPrice`) VALUES( @txt_jobName, @txt_jobPrice)", connection_class.con);
                 cmd.Parameters.Clear();
@@ -28,11 +33,41 @@ namespace Billing_System
                 cmd.Parameters.AddWithValue("@txt_jobPrice", txt_jobPrice.Text);
 
                 cmd.ExecuteNonQuery();
-                connection_class.close_connection();    
+                connection_class.close_connection();
+
             //for check 
 
-            MessageBox.Show("Job Added Successfully!");
+            MessageBox.Show("Job Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             fndataLoad();
+
+            txt_jobName.Text = "";
+            txt_jobPrice.Text = "";
+
+
+        }
+
+        //validation for job name
+        private bool ValidateJobName()
+        {
+            if(string.IsNullOrEmpty(txt_jobName.Text))
+            {
+                MessageBox.Show("Please enter the Job name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_jobName.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        //validation for job price
+        private bool ValidateJobPrice()
+        {
+            if (string.IsNullOrEmpty(txt_jobPrice.Text))
+            {
+                MessageBox.Show("Please enter the Job price", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_jobPrice.Focus();
+                return false;
+            }
+            return true;
         }
 
         public void fndataLoad()
@@ -63,6 +98,12 @@ namespace Billing_System
         private void txt_jobName_Validated(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            frm_editJob editJob = new frm_editJob();
+            editJob.Show();
         }
     }
 }
