@@ -75,7 +75,7 @@ namespace Billing_System
             this.lbl_estimatedCost.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_estimatedCost.Location = new System.Drawing.Point(60, 838);
             this.lbl_estimatedCost.Name = "lbl_estimatedCost";
-            this.lbl_estimatedCost.Size = new System.Drawing.Size(13, 17);
+            this.lbl_estimatedCost.Size = new System.Drawing.Size(15, 19);
             this.lbl_estimatedCost.TabIndex = 1;
             this.lbl_estimatedCost.Text = "-";
             // 
@@ -197,7 +197,7 @@ namespace Billing_System
             this.lbl_dtimeb.Location = new System.Drawing.Point(528, 809);
             this.lbl_dtimeb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_dtimeb.Name = "lbl_dtimeb";
-            this.lbl_dtimeb.Size = new System.Drawing.Size(11, 16);
+            this.lbl_dtimeb.Size = new System.Drawing.Size(13, 17);
             this.lbl_dtimeb.TabIndex = 9;
             this.lbl_dtimeb.Text = "-";
             // 
@@ -208,7 +208,7 @@ namespace Billing_System
             this.lbl_nDateb.Location = new System.Drawing.Point(406, 809);
             this.lbl_nDateb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nDateb.Name = "lbl_nDateb";
-            this.lbl_nDateb.Size = new System.Drawing.Size(11, 16);
+            this.lbl_nDateb.Size = new System.Drawing.Size(13, 17);
             this.lbl_nDateb.TabIndex = 8;
             this.lbl_nDateb.Text = "-";
             // 
@@ -219,7 +219,7 @@ namespace Billing_System
             this.lbl_odoMeterb.Location = new System.Drawing.Point(664, 809);
             this.lbl_odoMeterb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_odoMeterb.Name = "lbl_odoMeterb";
-            this.lbl_odoMeterb.Size = new System.Drawing.Size(11, 16);
+            this.lbl_odoMeterb.Size = new System.Drawing.Size(13, 17);
             this.lbl_odoMeterb.TabIndex = 7;
             this.lbl_odoMeterb.Text = "-";
             // 
@@ -230,7 +230,7 @@ namespace Billing_System
             this.lbl_pDateb.Location = new System.Drawing.Point(246, 809);
             this.lbl_pDateb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_pDateb.Name = "lbl_pDateb";
-            this.lbl_pDateb.Size = new System.Drawing.Size(11, 16);
+            this.lbl_pDateb.Size = new System.Drawing.Size(13, 17);
             this.lbl_pDateb.TabIndex = 4;
             this.lbl_pDateb.Text = "-";
             // 
@@ -241,7 +241,7 @@ namespace Billing_System
             this.lbl_estimatedCostb.Location = new System.Drawing.Point(87, 809);
             this.lbl_estimatedCostb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_estimatedCostb.Name = "lbl_estimatedCostb";
-            this.lbl_estimatedCostb.Size = new System.Drawing.Size(11, 16);
+            this.lbl_estimatedCostb.Size = new System.Drawing.Size(13, 17);
             this.lbl_estimatedCostb.TabIndex = 3;
             this.lbl_estimatedCostb.Text = "-";
             // 
@@ -253,7 +253,7 @@ namespace Billing_System
             this.lbl_cName.Location = new System.Drawing.Point(699, 286);
             this.lbl_cName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_cName.Name = "lbl_cName";
-            this.lbl_cName.Size = new System.Drawing.Size(12, 16);
+            this.lbl_cName.Size = new System.Drawing.Size(13, 16);
             this.lbl_cName.TabIndex = 2;
             this.lbl_cName.Text = "-";
             // 
@@ -265,7 +265,7 @@ namespace Billing_System
             this.lbl_odoMeter.Location = new System.Drawing.Point(699, 238);
             this.lbl_odoMeter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_odoMeter.Name = "lbl_odoMeter";
-            this.lbl_odoMeter.Size = new System.Drawing.Size(12, 16);
+            this.lbl_odoMeter.Size = new System.Drawing.Size(13, 16);
             this.lbl_odoMeter.TabIndex = 2;
             this.lbl_odoMeter.Text = "-";
             // 
@@ -277,7 +277,7 @@ namespace Billing_System
             this.lbl_fuelType.Location = new System.Drawing.Point(951, 193);
             this.lbl_fuelType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_fuelType.Name = "lbl_fuelType";
-            this.lbl_fuelType.Size = new System.Drawing.Size(12, 16);
+            this.lbl_fuelType.Size = new System.Drawing.Size(13, 16);
             this.lbl_fuelType.TabIndex = 2;
             this.lbl_fuelType.Text = "-";
             // 
@@ -289,7 +289,7 @@ namespace Billing_System
             this.lbl_time.Location = new System.Drawing.Point(856, 193);
             this.lbl_time.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_time.Name = "lbl_time";
-            this.lbl_time.Size = new System.Drawing.Size(12, 16);
+            this.lbl_time.Size = new System.Drawing.Size(13, 16);
             this.lbl_time.TabIndex = 2;
             this.lbl_time.Text = "-";
             // 
@@ -301,7 +301,7 @@ namespace Billing_System
             this.lbl_dateReceived.Location = new System.Drawing.Point(699, 193);
             this.lbl_dateReceived.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_dateReceived.Name = "lbl_dateReceived";
-            this.lbl_dateReceived.Size = new System.Drawing.Size(12, 16);
+            this.lbl_dateReceived.Size = new System.Drawing.Size(13, 16);
             this.lbl_dateReceived.TabIndex = 2;
             this.lbl_dateReceived.Text = "-";
             // 
@@ -313,7 +313,7 @@ namespace Billing_System
             this.lbl_phoneNumber.Location = new System.Drawing.Point(86, 286);
             this.lbl_phoneNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_phoneNumber.Name = "lbl_phoneNumber";
-            this.lbl_phoneNumber.Size = new System.Drawing.Size(12, 16);
+            this.lbl_phoneNumber.Size = new System.Drawing.Size(13, 16);
             this.lbl_phoneNumber.TabIndex = 0;
             this.lbl_phoneNumber.Text = "-";
             // 
@@ -325,7 +325,7 @@ namespace Billing_System
             this.lbl_address.Location = new System.Drawing.Point(87, 238);
             this.lbl_address.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_address.Name = "lbl_address";
-            this.lbl_address.Size = new System.Drawing.Size(12, 16);
+            this.lbl_address.Size = new System.Drawing.Size(13, 16);
             this.lbl_address.TabIndex = 0;
             this.lbl_address.Text = "-";
             // 
@@ -337,7 +337,7 @@ namespace Billing_System
             this.lbl_cInformb.Location = new System.Drawing.Point(869, 809);
             this.lbl_cInformb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_cInformb.Name = "lbl_cInformb";
-            this.lbl_cInformb.Size = new System.Drawing.Size(12, 16);
+            this.lbl_cInformb.Size = new System.Drawing.Size(13, 16);
             this.lbl_cInformb.TabIndex = 1;
             this.lbl_cInformb.Text = "-";
             // 
@@ -349,7 +349,7 @@ namespace Billing_System
             this.lbl_remarks.Location = new System.Drawing.Point(171, 665);
             this.lbl_remarks.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_remarks.Name = "lbl_remarks";
-            this.lbl_remarks.Size = new System.Drawing.Size(12, 16);
+            this.lbl_remarks.Size = new System.Drawing.Size(13, 16);
             this.lbl_remarks.TabIndex = 1;
             this.lbl_remarks.Text = "-";
             // 
@@ -361,7 +361,7 @@ namespace Billing_System
             this.lbl_decision4.Location = new System.Drawing.Point(636, 563);
             this.lbl_decision4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision4.Name = "lbl_decision4";
-            this.lbl_decision4.Size = new System.Drawing.Size(12, 16);
+            this.lbl_decision4.Size = new System.Drawing.Size(13, 16);
             this.lbl_decision4.TabIndex = 1;
             this.lbl_decision4.Text = "-";
             // 
@@ -373,7 +373,7 @@ namespace Billing_System
             this.lbl_decision3.Location = new System.Drawing.Point(636, 487);
             this.lbl_decision3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision3.Name = "lbl_decision3";
-            this.lbl_decision3.Size = new System.Drawing.Size(12, 16);
+            this.lbl_decision3.Size = new System.Drawing.Size(13, 16);
             this.lbl_decision3.TabIndex = 1;
             this.lbl_decision3.Text = "-";
             // 
@@ -385,7 +385,7 @@ namespace Billing_System
             this.lbl_complain4.Location = new System.Drawing.Point(166, 563);
             this.lbl_complain4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain4.Name = "lbl_complain4";
-            this.lbl_complain4.Size = new System.Drawing.Size(12, 16);
+            this.lbl_complain4.Size = new System.Drawing.Size(13, 16);
             this.lbl_complain4.TabIndex = 1;
             this.lbl_complain4.Text = "-";
             // 
@@ -397,7 +397,7 @@ namespace Billing_System
             this.lbl_decision2.Location = new System.Drawing.Point(636, 418);
             this.lbl_decision2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision2.Name = "lbl_decision2";
-            this.lbl_decision2.Size = new System.Drawing.Size(12, 16);
+            this.lbl_decision2.Size = new System.Drawing.Size(13, 16);
             this.lbl_decision2.TabIndex = 1;
             this.lbl_decision2.Text = "-";
             // 
@@ -409,7 +409,7 @@ namespace Billing_System
             this.lbl_complain3.Location = new System.Drawing.Point(166, 487);
             this.lbl_complain3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain3.Name = "lbl_complain3";
-            this.lbl_complain3.Size = new System.Drawing.Size(12, 16);
+            this.lbl_complain3.Size = new System.Drawing.Size(13, 16);
             this.lbl_complain3.TabIndex = 1;
             this.lbl_complain3.Text = "-";
             // 
@@ -421,7 +421,7 @@ namespace Billing_System
             this.lbl_decision1.Location = new System.Drawing.Point(636, 361);
             this.lbl_decision1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_decision1.Name = "lbl_decision1";
-            this.lbl_decision1.Size = new System.Drawing.Size(12, 16);
+            this.lbl_decision1.Size = new System.Drawing.Size(13, 16);
             this.lbl_decision1.TabIndex = 1;
             this.lbl_decision1.Text = "-";
             // 
@@ -433,7 +433,7 @@ namespace Billing_System
             this.lbl_complain2.Location = new System.Drawing.Point(166, 418);
             this.lbl_complain2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain2.Name = "lbl_complain2";
-            this.lbl_complain2.Size = new System.Drawing.Size(12, 16);
+            this.lbl_complain2.Size = new System.Drawing.Size(13, 16);
             this.lbl_complain2.TabIndex = 1;
             this.lbl_complain2.Text = "-";
             // 
@@ -445,7 +445,7 @@ namespace Billing_System
             this.lbl_complain1.Location = new System.Drawing.Point(166, 361);
             this.lbl_complain1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_complain1.Name = "lbl_complain1";
-            this.lbl_complain1.Size = new System.Drawing.Size(12, 16);
+            this.lbl_complain1.Size = new System.Drawing.Size(13, 16);
             this.lbl_complain1.TabIndex = 1;
             this.lbl_complain1.Text = "-";
             // 
@@ -457,7 +457,7 @@ namespace Billing_System
             this.lbl_chassisNo.Location = new System.Drawing.Point(382, 286);
             this.lbl_chassisNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_chassisNo.Name = "lbl_chassisNo";
-            this.lbl_chassisNo.Size = new System.Drawing.Size(12, 16);
+            this.lbl_chassisNo.Size = new System.Drawing.Size(13, 16);
             this.lbl_chassisNo.TabIndex = 1;
             this.lbl_chassisNo.Text = "-";
             // 
@@ -469,7 +469,7 @@ namespace Billing_System
             this.lbl_regNo.Location = new System.Drawing.Point(382, 238);
             this.lbl_regNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_regNo.Name = "lbl_regNo";
-            this.lbl_regNo.Size = new System.Drawing.Size(12, 16);
+            this.lbl_regNo.Size = new System.Drawing.Size(13, 16);
             this.lbl_regNo.TabIndex = 1;
             this.lbl_regNo.Text = "-";
             // 
@@ -481,7 +481,7 @@ namespace Billing_System
             this.lbl_vehicleModel.Location = new System.Drawing.Point(382, 193);
             this.lbl_vehicleModel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_vehicleModel.Name = "lbl_vehicleModel";
-            this.lbl_vehicleModel.Size = new System.Drawing.Size(12, 16);
+            this.lbl_vehicleModel.Size = new System.Drawing.Size(13, 16);
             this.lbl_vehicleModel.TabIndex = 1;
             this.lbl_vehicleModel.Text = "-";
             // 
@@ -493,7 +493,7 @@ namespace Billing_System
             this.lbl_customerName.Location = new System.Drawing.Point(87, 193);
             this.lbl_customerName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_customerName.Name = "lbl_customerName";
-            this.lbl_customerName.Size = new System.Drawing.Size(12, 16);
+            this.lbl_customerName.Size = new System.Drawing.Size(13, 16);
             this.lbl_customerName.TabIndex = 0;
             this.lbl_customerName.Text = "-";
             // 
@@ -530,7 +530,6 @@ namespace Billing_System
         private System.Windows.Forms.Label lbl_dtime;
         private System.Windows.Forms.Label lbl_nDate;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button btn_print;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Windows.Forms.Label lbl_cName;
@@ -559,5 +558,6 @@ namespace Billing_System
         private System.Windows.Forms.Label lbl_odoMeterb;
         private System.Windows.Forms.Label lbl_nDateb;
         private System.Windows.Forms.Label lbl_dtimeb;
+        internal Guna.UI2.WinForms.Guna2Button btn_print;
     }
 }
